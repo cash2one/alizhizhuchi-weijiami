@@ -1,0 +1,18 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-size:12px;
+   
+  }
+  
+#top{width:1200px;height:120px;margin:auto;background:#ffffff;}
+ul{margin-left:10px;font-size:10px;line-height:149%;}
+h4 a{color: #FF0000}
+#yema a{color: #FF0000}
+#two2 ul li a{color: #FF0000}
+#two1{float:left;width:800px;height:1755px;font-size: 13px;overflow:hidden;color: #f000000; line-height:22px;}
+#two2{float:right;background:#ffffff;width:395px;height:1750px;overflow:hidden;}
+#two{width:1200px;height:1755px;margin:auto;margin-top:5px;}
+.weibo{width:900px;height:130px;background:#ffffff;}
+#yema{width:1200px;height:60px;margin:auto;margin-top:5px;background:#ffffff;}
+#foot{width:1200px;height:120px;margin:auto;margin-top:5px;background:#ffffff;}

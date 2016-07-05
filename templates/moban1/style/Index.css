@@ -1,0 +1,176 @@
+﻿/*-----------------------------全局定义样式-----------------------------*/
+*{margin:0; padding:0;}html, body{color: #333;font-family:Arial, SimSun, 宋体,Microsoft YaHei,微软雅黑;font-weight:100;font-size: 12px;line-height: 160%;background-color: #DBD5C5;background-image: url(images/body-bg-lusongsong.gif);background-repeat: repeat-x;background-position: top;}a{color:#333;text-decoration:none;}a:hover{color:#F00;text-decoration: underline;}li{margin:0 0 0 0;padding:0 0 0 0;}ol,ul{list-style-position : outside;margin:0 0 0 0;padding:0 0 0 0;}img, a img{border:0;}
+/*html, body{color: #333;font-family:small,Microsoft YaHei,Arial, Helvetica, sans-serif;font-size: 12px;line-height: 160%;background-color: #172331;background-image: url(style/images/bg.jpg);background-repeat: repeat-x;background-position: top;background-attachment: fixed;}*/
+/* -----------------------------主体框架部分----------------------------- */
+#wrapper{width: 950px; margin: 0 auto;}
+#header{height: 142px; overflow: hidden;}
+#logo{float: left;text-align: left;text-indent: -999em;background-image: url(..style/images/logo.gif);background-repeat: no-repeat;background-position: 5px 10px;}
+#logo h1 a,#logo h2 a{width: 229px;height:75px;display: block;margin-left: 5px;}
+#topbar{height: 100px;text-align: right;}
+#toptool{margin-left:246px;text-align: left;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}
+/*-----------------------------导航-----------------------------*/
+#menu{background: url(images/menu-bg-lusongsong.jpg) no-repeat;width: 950px;font-family:Arial,Microsoft YaHei, 微软雅黑,SimSun,宋体;} 
+#menu ul{height: 42px; padding:0 10px;font-weight: normal;} 
+#menu ul,  #menu, #menu li{ line-height: 32px; *line-height: 33px;}
+#menu li{float: left;text-align: center;line-height: 42px;list-style-type: none;} 
+#menu li a{color: #FFF;font-size: 15px;font-weight: bold;line-height: 42px; padding: 0 15px;display: block;}
+#menu li a:hover, #menuON,#menu a:hover{color: #FFFF73;text-decoration: underline;} 
+#menu li span{line-height: 42px;}
+#menu li.page_right{color: #FDFCBC;text-align: center;line-height: 42px;padding: 0 8px;}
+#menu li.page_right a{font-size: 13px;padding: 0;display: block;color: #FDFCBC;display: block;line-height: 42px;font-weight: normal;}
+#gnew{background-image: url(images/gnew1.gif);background-repeat: no-repeat;background-position: right top;padding-top: 10px;}
+#hot{background-image: url(images/hot.gif);background-repeat: no-repeat;background-position: right top;padding-top: 10px;}
+/*-----------------------------文章框架-----------------------------*/ 
+#container{overflow: hidden; height: 100%; background: url(images/container-bg-Lusongsong.png) repeat-y 0 0 #F7F3ED;} 
+#content{float: left;width: 670px;} #content-inner{padding: 8px 0 8px 10px;} 
+/* -----------------------------首页公告----------------------------- */
+#notice{padding-left: 35px;margin: 8px 0;line-height:35px;border: 1px dashed #B9AB9E;background-color: #FCFAF7;background-image: url(images/gnew2.gif);background-repeat: no-repeat;background-position: 10px 12px;}
+#notice h3{font-size: 14px;line-height: 35px;}
+#notice h3 a{font-weight: normal;}
+#notice li {list-style-type: none;}
+/*-----------------------------文章列表部分-----------------------------*/
+.post-list{padding-bottom: 10px;} .post-list dl{padding: 10px 0 15px; margin-bottom: 10px; background: url(images/space-line-lusongsong.png) no-repeat 50% 100%;} .post-list dt, .topic-content dt{background: url(images/line-bg-lusongsong.png) repeat-x 0 100%;padding-bottom: 8px;overflow: hidden;height: 100%;} .post-date{width: 38px; height:40px; float: left; text-align: center; background: url(images/post-date-bg-lusongsong.gif) no-repeat 0 0;margin-top: 10px;} .post-date small{color :#FFFFFF;line-height: 16px;font-weight: bold;} .post-date span{display: block; font-size: 14px; padding-top: 2px;} 
+.post-list li {overflow:visible;text-indent: 0;list-style-type: none;}
+.post-list li p{text-indent:0em;}
+.post-list-img {float: right;padding: 0px;padding: 0px;overflow:hidden;clear:both;}.post-list-info{padding: 12px 0;line-height: 30px;text-align: justify;text-justify: inter-ideograph;font-size: 14px;color: #333;} .post-list-info p{text-indent:3em;} .post-list-info a.more-link{font-weight: bold;} .the-comment-tags span{float: left;background-position: 0 -48px;padding-left: 20px;margin-right: 10px;} .the-comment-tags em{background-position: 0 -48px; padding: 0 20px;}.topic-content{padding: 8px 0 25px; background: url(images/space-line-lusongsong.png) no-repeat 50% 100%;} .topic-content .the-comment-tags{text-align: left;} .topic-content .article-date {display: none;}
+.archive-list{padding-top: 5px;} .archive-list h3{line-height: 27px; background: url(images/line-bg-lusongsong.png) repeat-x 0 100%; color: #333333; font-size: 14px;} .archive-list-topic{padding: 15px 0;} .archive-list-topic .topic-title, .archive-list-taotao h4{font-weight: bold; color: #333333; border-bottom: 1px solid #CFC3BA; height:27px; line-height:27px; background: #EBE8E4;} .archive-list-topic .topic-list{padding: 8px 0; background: url(images/line-bg-lusongsong.png) repeat-x 0 100% #F7F3ED;} .archive-list-topic .topic-list:hover{background: url(images/line-bg-lusongsong.png) repeat-x 0 100% #FCFAF7;} .archive-list-topic .num{float: left; width: 50px; text-align: center;} .archive-list-topic .title{margin: 0 60px 0 50px; padding-left: 20px;} .archive-list-topic .title small{padding-left: 15px; color: #999999;} .archive-list-topic .view{float: right; width: 60px; text-align: center;} 
+/*-----------------------------首页 列表快讯-----------------------------*/
+#post-list-news{padding: 8px 0 8px; background: url(images/space-line-lusongsong.png) no-repeat 50% 100%;} 
+#post-list-news {width:660px;height: 90px;text-align: left;text-indent:-3mm;}
+#post-list-news li{float: left;width: 310px;font-size: 14px;padding-right: 8px;padding-left: 8px;overflow: hidden;list-style-type: square;}
+#post-list-news li a{line-height: 28px;text-decoration: underline;}
+/*-----------------------------文章标题部分-----------------------------*/
+.post-title-list{margin-left: 50px;margin-top: 10px;}
+.post-title{margin-top: 10px;padding-left: 10px;border-left-width: 6px;border-left-style: solid;border-left-color: #BF0101;} 
+.post-title-list h2{font-size:21px;line-height:21px;font-family:Microsoft YaHei,small;font-weight: normal;padding-bottom: 4px;margin-bottom: 4px;} 
+.post-title h1{font-size:26px;line-height:40px;font-family:Microsoft YaHei,small;font-weight: normal;padding-bottom: 4px;margin-bottom: 4px;} 
+.post-title-list h2 a:hover,.post-title h1 a:hover{color :#F00;text-decoration: underline;}
+/*.post-title h4{font-size: 12px;float: right;font-weight: normal;color: #999;}*/
+.post-title-list h6, .post-title-list h6 a, .post-title h6, .post-title h6 a{font-size: 12px;font-weight: normal;color: #999;}
+/*社会化分享*/
+#ckepop{float: right;}
+#ckepop img{filter:Gray;-webkit-filter: grayscale(100%);}
+.post-title span{padding-right:12px;} .post-title span.comments{ float:right;}.post-title span.comments em{ font-size:20px;color: #999;}
+/*-----------------------------文章内容部分-----------------------------*/
+.post-info{padding: 26px 0;line-height: 1.8em;font-size: 16px;text-align: justify;} 
+.post-info p{text-indent:2em;margin-bottom: 24px;}
+.post-info strong{font-weight: bold;}
+.post-info h3{font-weight: bold;text-indent:2em;border-top-width: 1px;border-bottom-width: 1px;border-top-style: dashed;border-bottom-style: dashed;border-top-color: #CCC;border-bottom-color: #CCC;font-size: 18px;margin-top: 26px;margin-bottom: 26px;padding-top: 4px;padding-bottom: 4px;}
+.post-info a{color: #4E0A13;text-decoration: underline;}
+.post-info a:hover{color:#F00;}
+/*文章中引用code*/
+.post-info img{max-width:600px;width: expression(this.width > 600 ? 600: true);   /*IE6*/ height: auto;margin-bottom: 2px;}
+dd.post-info ul,dd.post-inf ol{}
+dd.post-info li {overflow:visible;text-indent: 0;/*margin-left:3.5em;*/}
+dd.post-info li p{text-indent:0em;}
+dd.post-info table {border-collapse: collapse;background:#ffffff;line-height:140%;}
+dd.post-info td,th{margin:0;padding:3px;text-indent:0.25em;}
+blockquote{padding:8px 12px 8px 36px; background: url(images/quote-bg.png) no-repeat 10px 10px #FCFAF7;border:1px dashed #CCC;margin:10px 0;}
+dd.post-info blockquote p{margin-bottom: 0px;}
+dd.post-info code{width: 93%;padding:5px;background:#f8f8f8;border:1px #F4F4F4 solid;}
+dd.post-info center{width: 100%;margin-right: auto;margin-left: auto;}
+/*广告样式*/
+#ads{float:left;clear:right;padding-top: 5px;margin-right: 4px;}
+#ads-banner{padding-top: 2px;padding-bottom: 20px;}
+/*翻页与标签*/
+.post-tag, .post-nav {width:100%;font-size: 16px;float: left;line-height: 30px;padding-bottom: 4px;}
+.post-tag a,.post-nav a{text-decoration: none;color: #FFF;background-color: #A70000;padding: 6px;}
+.post-tag a:hover,.post-nav a:hover{background-color: #F00;color: #FFF;text-decoration: underline;}
+.post-nav .l{float:left;}
+.post-nav .r{float:right;}
+/* designer_detail */
+a.prev,a.next{display:block;width:108px;height:282px;position:fixed;left:50%;top:50%;margin-top:-141px;background:url("images/arrow.png") no-repeat;}
+a.prev{margin-left:-585px;background-position:0 0;}
+a.next{margin-left:476px;background-position:0 -300px;}
+a.prev:hover,a.next:hover{background-color:#F7F3ED;}
+/*相关文章*/
+.related-post{margin-top: 15px;} .related-post h3{color: #333333; font-size: 14px; padding:0 10px; border-bottom: 1px solid #CFC3BA; height:27px; line-height:27px; background: #EBE8E4;}.related-post h3 a{color: #FF0000;} .related-post li{padding: 8px 10px;color: #999999;overflow: hidden;height: 100%;background: url(images/line-bg-lusongsong.png) repeat-x 0 100% #F7F3ED;} .related-post li a{font-size: 13px;padding-left: 18px;background-position: 0 -97px;display: block;} .related-post li:hover{background-color: #FFFF99;background-image: url(images/line-bg-lusongsong.png);background-repeat: repeat-x;background-position: 0 100%;} .related-post li span{float: right; font-size: 12px;}
+/*-----------------------------评论部分-----------------------------*/ 
+#comments,.comment-title{margin-top: 15px;margin-bottom: 10px;} 
+.comment-title h3{font-size: 14px; padding:0 10px; height: 100%; overflow: hidden; line-height:34px; background:url(images/line-bg2-lusongsong.png) repeat-x 0 100% #EBE8E4;}
+.comment-title h3 span{padding-right: 10px;} 
+/*.comment-title ul{float: left;} */
+.comment-title li{float: left;line-height:24px;font-weight: 100;cursor: pointer;list-style-type: none;margin-top: 10px;margin-right: 0;margin-bottom: 0;margin-left: 10px;padding-top: 0;padding-right: 20px;padding-bottom: 0;padding-left: 20px;} 
+.comment-title li.current{border: 1px solid #CFC3BA; border-bottom: 0; background: #F7F3ED;} 
+#comment-list ul, #comment-list li{overflow: hidden; height: 100%;}
+#comment-list li:hover{background-color:#FFFFCC;}
+/*评论列表*/ 
+.depth-1{padding: 15px 0 10px; background: url(images/line-bg-lusongsong.png) repeat-x 0 100%;}
+#comment-list ul.parents li.depth-1 dl{overflow: hidden; height: 100%;} 
+#comment-list ul.parents li.depth-1 dl dd{margin-left: 10px;line-height: 26px;} 
+#comment-list ul.parents li.depth-1 dl dd {font-weight: 100; font-size: 14px;} 
+#comment-list ul.parents li.depth-1 dl dd span.num a{color: #A70000;text-decoration: underline;}
+#comment-list ul.parents li.depth-1 dl dd cite, #comment-list ul.parents li.depth-1 dl dd h3 cite a{font-size: 14px;font-weight: normal;} 
+#comment-list ul.parents li.depth-1 dl dd cite{padding: 0 10px;} 
+cite{list-style:none; font-style:normal;}
+#comment-list ul.parents li.depth-1 dl dd span a{text-decoration: underline; color: #999;font-size: 13px;}
+#comment-list ul.parents li.depth-1 dl dd span a:hover{text-decoration: underline;color: #f00;}
+#comment-list ul.parents li.depth-1 dl dd span.comment-reply-link{background-position: 0 0; padding:0 8px 0 18px;} 
+#comment-list ul.parents li.depth-1 dl dd #post{font-size: 11px; font-weight: 100; padding-bottom: 10px; color: #999; line-height:120%;} 
+#comment-list ul.parents .depth-1 .msgarticle .depth-1 .dot { display:none;}
+#comment-list ul.parents .depth-1 .msgarticle .depth-1 {padding:8px 12px 8px 12px; background: url(images/quote-bg.png) no-repeat 10px 10px #FCFAF7;border:1px dashed #CCC;margin:10px 0;}
+li.msgarticle{list-style-position : outside;padding:10px;margin:0;line-height:26px;padding-left:55px;border-bottom:1px solid #eaeaea;}
+li.msg li.msg li.msgarticle{padding-bottom:0px;}
+.nodis{display:none;}
+/*评论、头像CSS列表*/
+#comment-list ul.parents li.depth-1 dl dd h3 span.comment-reply-link, #comment-list ul.parents li.depth-1 dl dd h3 span.comment-ajax-edit-link, #comment-list ul.parents li.depth-1 dl dd h3 span.comment-admin-edit-link { background-position: 0 2px;  *background-position: 0 0;}
+#comment-list ul.parents li.depth-1 dl dt{float: left; width: 56px; height: 51px; margin-top:5px; background: url(images/comment-user-bg-lusongsong.png) no-repeat 0 0;}
+#comment-list ul.parents li.depth-1 dl dt img{padding: 4px 7px 7px 4px;} 
+/*-----------------------------评论发表用的样式-----------------------------*/
+#divCommentPost{width:94%;margin:0 0 0 0;padding:5px 1% 15px 1%;}
+#divCommentPost p{margin-top:10px;}
+#divCommentPost label{margin-top:5px;}
+#divCommentPost p.posttop{padding-bottom:10px;border-bottom:1px solid #dbe0e6;font-size: 14px;font-weight: 600;}
+#divCommentPost img{margin-bottom:-0.5em;}
+#cancel-reply{float:right;margin-right: 2em;}
+div.reply-frm{background:#f0f0f0;box-shadow: 0 0 15px #666;margin:1em 1% !important;padding:.3em .8em !important;min-width:330px;}
+input.text{border:1px solid #d7d7d7;line-height:20px;height:24px;padding:2px 5px 2px 5px;}
+#txaArticle{padding:5px;width:95%;height:150px;border:1px solid #d7d7d7;}
+input.button {color:#FFFFFF; font-size:14px; width:100px; height:32px; background:#3a6ea5; border:1px solid #3399CC;cursor: pointer;}
+#commentnavi{margin-top: 15px; font-size:12px; height: 30px; line-height: 30px; text-align: right; color: #656565;} #commentnavi em{padding:2px 5px;height:16px;line-height:16px;float: left; border: 1px solid #D4D4D4;background: #FCFAF7;font-weight:bold;} #commentnavi a{padding:1px 5px;border:1px solid #F7F3ED;margin:0 3px;} #commentnavi span.current{border: 1px solid #D4D4D4;background: #FCFAF7; padding:1px 5px;} #commentnavi a:hover{border: 1px solid #A10000; color: #FFFFCC; background: #990000;}
+.post-comment{margin-top:15px;} #post-comment-title{color: #333333; font-size: 12px; padding:0 10px; border-bottom: 1px solid #CFC3BA; height:27px; line-height:27px; background: #EBE8E4;} #post-comment-title #comment-reply{float:left; font-weight:bold;} #post-comment-title #cancel-comment-reply{float:right;} #post-comment-body{padding:10px 0;} .login-title{padding-left:2px; padding-bottom:5px;} .user-info ul{padding-left:2px;} .user-info li{padding-bottom:5px; border:0;list-style-type: none;}
+/*-----------------------------评论窗口特效-----------------------------*/
+.input_on{padding:2px 8px 0pt 3px;height:18px;border:1px solid #999;background-color:#FFFFCC;}
+.input_off{padding:2px 8px 0pt 3px;height:18px;border:1px solid #CCC;background-color:#FFF;}
+.input_move{padding:2px 8px 0pt 3px;height:18px;border:1px solid #999;background-color:#FFFFCC;}.input_out{/*height:16px;默认高度*/padding:2px 8px 0pt 3px;height:18px;border:1px solid #CCC;background-color:#FFF;}
+#post-comment-text textarea{padding:2px 1px;border: 1px solid #ccc;font-size: 16px;} 
+#post-comment-text{padding-left:2px; padding-bottom:5px;}
+#post-comment-text textarea:hover{border:1px solid #999;background-color:#FFFFCC;} 
+#post-comment-text textarea{width:99%;overflow:auto;background-image: url(../images/comment-text-lusongsong.gif);background-repeat: no-repeat;background-position: center center;} #submit-box{padding:0px 3px; overflow:hidden; height:100%;} 
+#submit-box span{float:right;} 
+.post-comment-button{width:109px;height: 32px;line-height:32px;color: #FFF6AD;background: url(images/postcomment-submit-lusongsong.gif) no-repeat;cursor: pointer;border: 0;font-size: 15px;}
+.page-post{padding-top: 5px;} .page-post h3{line-height: 27px; background: url(images/line-bg-lusongsong.png) repeat-x 0 100%; color: #333333; font-size: 14px;} .page-post .page-text{padding: 10px 0;}
+/*-隐藏评论后出现的内容-*/
+.error-tip{font-size: 14px;line-height: 26px;margin-top: 10px;margin-bottom: 10px;}
+/*-----------------------------侧栏-----------------------------*/ 
+#sidebar{float: right;width: 270px;background: url(images/sidebar-bg-lusongsong.png) no-repeat 0 0;overflow: hidden;} #sidebar-inner{padding: 0 15px;} 
+.widget{margin-top: 15px;}
+.widget h3{font-size: 15px;background: url(images/widget-title-bg-lusongsong.png) no-repeat 50% 100%;padding-bottom:6px;font-weight: bold;} 
+.widget ul{padding: 8px 0;} 
+.recent-posts li{background: url(images/ico-lusongsong.png) no-repeat;list-style-type: none;}
+.recent-posts li{line-height: 24px;height: 24px;overflow: hidden;padding-left: 18px;background-position: 0 -95px;} 
+.recent-posts li a{background-position: 0 -97px;} 
+.recent-posts li:hover{text-decoration: underline;}
+#divMisc li {padding-bottom: 16px;background-image: none;} 
+#divTags ul,#divLinkage ul{overflow: hidden;height: 100%;text-indent: 2em;} #divTags li,#divLinkage li{float: left;width: 46%;margin: 1px;padding: 1px;} 
+/*-----------------------------日历-----------------------------*/
+#tbCalendar{width:100%}
+#divCalendar{width:100%;padding:0 0 0 0;}
+#divCalendar div{width:225px;margin:0 0 0 0;padding:5px 0 5px 5px;float:left;}
+#divCalendar table{width:96%;padding:0 2% 0 2%;}
+/*-----------------------------页底部分-----------------------------*/
+#footer{background: url(images/footer-bg-lusongsong.gif) no-repeat 0 0; height: 63px; clear: both;color: #333;}
+#footer a{color: #333;}
+#footer ul{overflow: hidden;height: 100%;padding-top: 15px;padding-right: 0;padding-bottom: 0;padding-left: 0;float: right;width: 350px;}
+#footer li{padding-left: 10px;padding-top: 6px;float: right;list-style-type: none;}
+#copyright{width: 600px;float: left;}
+#copyright h3,h4{font-size: 12px;font-weight: normal;padding-top: 0;padding-right: 10px;padding-bottom: 0;padding-left: 10px;padding-top: 8px;}
+/*-----------------------------单页部分-----------------------------*/
+#DY-container{overflow: hidden; height: 100%; background: url(images/DY-bg-Lusongsong.png) repeat-y 0 0 #F7F3ED;} #DY-content{float: left;width: 920px;} #DY-content-inner{padding: 8px 0 8px 10px;}
+#DY-post-title h1,#DY-post-title h2{font-size:30px;line-height:30px;font-family:Microsoft YaHei,small;font-weight: normal;padding-bottom: 10px;padding-top: 10px;text-align: center;border-bottom-width: 1px;border-bottom-style: dashed;border-bottom-color: #CCC;} .DY-post-title h1 a{color :#450A11;} 
+/*-----------------------------留言本页-----------------------------*/
+#guestbook{line-height: 28px;font-size: 14px;}#guestbook h4{font-size: 14px;font-weight: bold;}#guestbook img{padding: 0px;border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;vertical-align: middle;}
+/*分页条*/
+.pagenavi{text-align: right;font-size: 14px;TEXT-ALIGN: center;PADDING-BOTTOM: 5px;LINE-HEIGHT: 100%;MARGIN: 5px 0px;PADDING-LEFT: 0px;PADDING-RIGHT: 0px;HEIGHT: 20px;PADDING-TOP: 5px}.pagenavi a{border:1px solid #bebdbe;padding:5px;margin:2px;color:#000;}.pagenavi a:hover{BORDER-BOTTOM: #bebdbe 1px solid; BORDER-LEFT: #bebdbe 1px solid; BACKGROUND: #dddddd; COLOR: #666; BORDER-TOP: #bebdbe 1px solid; BORDER-RIGHT: #bebdbe 1px solid}.pagenavi span .now-page{border: 1px solid #bebdbe;padding:5px;margin: 2px;background-color: #bebdbe;color: #BA0001;font-weight: 600;}span.now-page{color:#666;font-weight:bolder;padding:2px 5px 2px 5px;margin:5px;border:1px solid #666;}
+/*-----------------------------侧栏跟随-----------------------------*/
+#box{float:left;position:relative;width:250px;}.div1{width:250px;}.div2{position:fixed;_position:absolute;top:0;z-index:250;}
