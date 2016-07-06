@@ -24,7 +24,7 @@ switch($act){
 switch($action){
 	case "add":
 		$data=isset($_POST['title'])?$_POST['title']:"";
-		if(!empty(trim($act))&&!empty(trim($data))){
+		if(!empty($act)&&!empty($data)){
 			info_add($act,$data);
 		}
 		break;
@@ -34,13 +34,13 @@ switch($action){
 	case "save":
 		$data=isset($_POST['title'])?$_POST['title']:"";
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
-		if(!empty(trim($act))&&!empty(trim($data))&&!empty($id)&&is_numeric($id)) {
+		if(!empty($act)&&!empty($data)&&!empty($id)&&is_numeric($id)) {
 			info_save($act, $data, $page,$id);
 		}
 		break;
 	case "del":
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
-		if(!empty(trim($act))&&!empty($id)&&is_numeric($id)) {
+		if(!empty($act)&&!empty($id)&&is_numeric($id)) {
 			info_del($act,$page,$id);
 		}
 		break;
@@ -91,10 +91,9 @@ switch($action){
 							foreach(list_data($act,$page) as $row){
 								if (isset($id)&&$id == $row['id']&&$action=="edit") {
 									?>
-									<tr height="40px" bgcolor="#999">
-									<form action='?act=<?= $act ?>&action=save&page=<?= $page ?>&id=<?= $id ?>'
-										  method='post'>
-										<td><?= $row['id'] ?></td>
+									<tr bgcolor="#999">
+									<form action='?act=<?= $act ?>&action=save&page=<?= $page ?>&id=<?= $id ?>' method='post'>
+										<td height="40px"><?= $row['id'] ?></td>
 										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="<?= $row['title'] ?>"/>
 										</td>
 										<td>
@@ -104,8 +103,8 @@ switch($action){
 									<?php
 								}else {
 									?>
-									<tr height="40px">
-									<td><?= $row['id'] ?></td>
+									<tr>
+									<td height="40px"><?= $row['id'] ?></td>
 									<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
 									<td>
 										<a href="?act=<?= $act ?>&action=edit&page=<?= $page ?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?act=<?=$act?>&action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>

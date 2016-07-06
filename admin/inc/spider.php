@@ -42,9 +42,9 @@ class spider
     {
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         $spider=get_naps_bot();
-        //if($spider){
+        if($spider){
             $this->writeLog($spider, $agent);
-        //}
+        }
     }
 }
 $spider = new spider();
