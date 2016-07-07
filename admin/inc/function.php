@@ -110,7 +110,7 @@ function moban($moban){
     for ($sp=0; $sp<$shipin; $sp++)
     {
         $shipin = $mysqli->query("SELECT title FROM shipin order by rand() limit 1")->fetch_object()->title;
-        $moban = preg_replace('/<随机视频>/', trim($shipin), $moban, 1);
+        $moban = preg_replace('/<随机视频>/', $shipin, $moban, 1);
     }
     $keyword=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
     $moban = str_replace( "<主关键词>", $keyword, $moban );
@@ -123,12 +123,12 @@ function moban($moban){
     $wk = count(explode('<随机关键词>', $moban)) - 1;
     $result=$mysqli->query("select title from keywords order by rand() limit $wk");
     while($row=$result->fetch_assoc()){
-        $moban = preg_replace('/<随机关键词>/', trim($row['title']), $moban, 1);
+        $moban = preg_replace('/<随机关键词>/', $row['title'], $moban, 1);
     }
     $wk = count(explode('<句子>', $moban)) - 1;
     $result=$mysqli->query("select title from juzi order by rand() limit $wk");
     while($row=$result->fetch_assoc()){
-        $moban = preg_replace('/<句子>/', trim($row['title']), $moban, 1);
+        $moban = preg_replace('/<句子>/', $row['title'], $moban, 1);
     }
     $dk = count(explode('<随机端口>', $moban)) - 1;
     for ($di=0; $di<$dk; $di++)
@@ -163,13 +163,13 @@ function moban($moban){
     {
         $spider = $mysqli->query("SELECT title FROM domains order by rand() limit 1")->fetch_object()->title;
         $spider ="http://".mt_rand(10000, 99999).".".$spider;
-        $moban = preg_replace('/<随机泛域名>/', trim($spider), $moban, 1);
+        $moban = preg_replace('/<随机泛域名>/', $spider, $moban, 1);
     }
     $wk = count(explode('<随机页面>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
         $yemian="/".randKey(5).".html";
-        $moban = preg_replace('/<随机页面>/', trim($yemian), $moban, 1);
+        $moban = preg_replace('/<随机页面>/', $yemian, $moban, 1);
     }
     $wk = count(explode('<随机人名>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
