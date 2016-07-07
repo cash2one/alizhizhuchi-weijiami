@@ -68,7 +68,7 @@ if($act=="out"){
 			</div>
 			<div class="logC">
 				<button>登 录</button>
-				<a href="#">注 册</a>
+<!--				<a href="#">注 册</a>-->
 			</div>
 			</form>
 		</div>

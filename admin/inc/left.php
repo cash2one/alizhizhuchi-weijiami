@@ -26,7 +26,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			<dl class="system_log">
 				<dt>
 					<img class="icon1" src="../img/coin03.png" /><img class="icon2"
-						src="../img/coin04.png" /> 信息管理<img class="icon3"
+						src="../img/coin04.png" /> 系统设置<img class="icon3"
 						src="../img/coin19.png" /><img class="icon4"
 						src="../img/coin20.png" />
 				</dt>
@@ -37,7 +37,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=domains" target="main">域名管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
-					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=ips" target="main">IP管理</a><img class="icon5" src="../img/coin21.png" />
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=url" target="main">外推链接</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=juzi" target="main">句子管理</a><img class="icon5" src="../img/coin21.png" />
@@ -48,15 +48,13 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</dl>
 			<dl class="system_log">
 				<dt>
-					<img class="icon1" src="../img/coin05.png" /><img class="icon2"
-						src="../img/coin06.png" /> 蜘蛛记录<img class="icon3"
-						src="../img/coin19.png" /><img class="icon4"
-						src="../img/coin20.png" />
+					<img class="icon1" src="../img/coin05.png" /><img class="icon2" src="../img/coin06.png" /> 蜘蛛管理<img class="icon3"  src="../img/coin19.png" /><img class="icon4" src="../img/coin20.png" />
 				</dt>
 				<dd>
-					<img class="coin11" src="../img/coin111.png" /><img class="coin22"
-						src="../img/coin222.png" /><a class="cks" href="../spider.php"
-						target="main">蜘蛛日志</a><img class="icon5" src="../img/coin21.png" />
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../spider.php" target="main">蜘蛛日志</a><img class="icon5" src="../img/coin21.png" />
+				</dd>
+				<dd>
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../spiderset.php" target="main">蜘蛛设置</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 			</dl>
 			<dl class="system_log">

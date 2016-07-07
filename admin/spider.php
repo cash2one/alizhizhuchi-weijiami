@@ -5,6 +5,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 	header("Location: log.php");
 }
 $act=isset($_GET['act'])?$_GET['act']:"";
+$type=isset($_GET['type'])?$_GET['type']:"";
 $page=isset($_GET['page'])?$_GET['page']:1;
 if($act=="ip_update"){
 	$err=ip_update($page);
@@ -42,7 +43,7 @@ if($act=="del_all"){
 		<div class="page">
 			<div class="connoisseur">
 				<div class="conShow">
-					今日(<?=data_num('spider',1)?>) | 7日(<?=data_num('spider',7)?>) | 30日(<?=data_num('spider',30)?>)
+					今日(<?=data_num('spider',1)?>) | 7日(<?=data_num('spider',7)?>) | 30日(<?=data_num('spider',30)?>) | <?=spider_type_list()?>
 					<span style="float:right">合计(<?=data_num('spider','all')?>)<a class="userbtn" href="?act=del_all">删除所有数据</a></span>
 					
 					<table border="1" cellspacing="0" cellpadding="0" width="100%">
@@ -55,8 +56,8 @@ if($act=="del_all"){
 							<td width="130px" class="tdColor">IP地址(<a href="?act=ip_update&page=<?=$page?>">更新</a>)</td>
 						</tr>
 						<?php
-						if(list_data('spider',$page)){
-							foreach(list_data('spider',$page) as $row){
+						if(list_data('spider',$page,$type)){
+							foreach(list_data('spider',$page,$type) as $row){
 								?>
 								<tr height="40px" title="<?=$row['age']?>">
 								<td><?= $row['id'] ?></td>
@@ -74,7 +75,7 @@ if($act=="del_all"){
 					
 					<div class="paging">
 						<div id="pageGro" class="cb clear">
-							<?=list_page('spider',$page)?>
+							<?=list_page('spider',$page,$type)?>
 						</div>
 					</div>
 				</div>

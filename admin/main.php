@@ -18,6 +18,16 @@ if(is_numeric($act)&&$act>0){
 		$seriesdata.=",'".data_num('spider','',date('Y-m-d',time()-$i*24*3600))."'";
 	}
 }
+//['百度','谷歌','Bing','雅虎','搜搜','搜狗','有道','360']
+$sql="select title from spiderset where ok=1 order by id asc";
+$result=$mysqli->query($sql);
+$str="";
+while($row=$result->fetch_assoc()) {
+	$option2[]="'".$row['title']."'";
+	$series[]="{value:".data_num('spider','','',$row['title']).", name:'".$row['title']."'}";
+}
+$option2_data=implode(',',$option2);
+$series_data=implode(',',$series);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -34,7 +44,7 @@ if(is_numeric($act)&&$act>0){
 		<div class="page">
 			<div class="title">蜘蛛访问量<span>今日(<?=data_num('spider',1)?>) <a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>
-			<div class="title">蜘蛛来源<span>百度(<?=data_num('spider','','','Baidu')?>) 谷歌(<?=data_num('spider','','','Google')?>)Bing(<?=data_num('spider','','','Bing')?>) 雅虎(<?=data_num('spider','','','Yahoo')?>) 搜搜(<?=data_num('spider','','','Soso')?>) 搜狗(<?=data_num('spider','','','Sogou')?>) 有道(<?=data_num('spider','','','Yodao')?>) 360(<?=data_num('spider','','','360')?>)</span></div>
+			<div class="title">蜘蛛来源<span><?=spider_type_list()?></span></div>
 			<div id="main2" style="width: 800px;height:500px;"></div>
 		</div>
 	</div>
@@ -92,7 +102,7 @@ if(is_numeric($act)&&$act>0){
 			legend: {
 				orient: 'vertical',
 				left: 'right',
-				data: ['百度','谷歌','Bing','雅虎','搜搜','搜狗','有道','360']
+				data: [<?=$option2_data?>]
 			},
 			series : [
 				{
@@ -100,16 +110,7 @@ if(is_numeric($act)&&$act>0){
 					type: 'pie',
 					radius : '75%',
 					center: ['50%', '40%'],
-					data:[
-						{value:<?=data_num('spider','','','Baidu')?>, name:"百度"},
-						{value:<?=data_num('spider','','','Google')?>, name:"谷歌"},
-						{value:<?=data_num('spider','','','Bing')?>, name:"Bing"},
-						{value:<?=data_num('spider','','','Yahoo')?>, name:"雅虎"},
-						{value:<?=data_num('spider','','','Soso')?>, name:"搜搜"},
-						{value:<?=data_num('spider','','','Sogou')?>, name:"搜狗"},
-						{value:<?=data_num('spider','','','Yodao')?>, name:"有道"},
-						{value:<?=data_num('spider','','','360')?>, name:"360"}
-					],
+					data:[<?=$series_data?>],
 					itemStyle: {
 						emphasis: {
 							shadowBlur: 10,

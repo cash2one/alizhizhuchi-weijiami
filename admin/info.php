@@ -12,8 +12,8 @@ switch($act){
 		$title="关键词管理";break;
 	case "domains":
 		$title="域名管理";break;
-	case "ips":
-		$title="IP管理";break;
+	case "url":
+		$title="外推链接";break;
 	case "juzi":
 		$title="句子管理";break;
 	case "shipin":
@@ -68,15 +68,21 @@ switch($action){
 
 		<div class="page">
 			<div class="connoisseur">
-				<div class="conform">
-					<form action="?act=<?=$act?>&action=add" method="post">
+				<div class="conform clear">
 						<div class="cfD">
+							<form action="?act=<?=$act?>&action=add" method="post">
 							添加新数据:
 							<input class="userinput vpr" type="text" name="title" />
 							<button class="userbtn">添加</button>
 <!--							<a class="userbtn" href="?act=--><?//=$act?><!--&action=del_all">删除所有数据</a>-->
+							</form>
 						</div>
-					</form>
+						<div class="upload">
+							<form action="import.php?act=<?=$act?>" method="post" enctype="multipart/form-data">
+								<input type="file" name="file">
+								<input type="submit" value="导入txt(<1M)" class="userbtn">
+							</form>
+						</div>
 				</div>
 				<div class="conShow">
 					<span style="float:right">合计(<?=data_num($act)?>)</span>
@@ -84,6 +90,11 @@ switch($action){
 						<tr>
 							<td width="66px" class="tdColor tdC">序号</td>
 							<td class="tdColor">内容</td>
+							<?php
+							if($act=="url"){
+								echo "<td class=\"tdColor\" width='100px'>引蜘蛛数</td>";
+							}
+							?>
 							<td width="130px" class="tdColor">操作</td>
 						</tr>
 						<?php
@@ -96,6 +107,11 @@ switch($action){
 										<td height="40px"><?= $row['id'] ?></td>
 										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="<?= $row['title'] ?>"/>
 										</td>
+										<?php
+										if($act=="url"){
+											echo "<td>".$row['count']."</td>";
+										}
+										?>
 										<td>
 											<button><img src="img/ok.png"></button><a href="?act=<?= $act ?>&page=<?= $page ?>"><img src="img/no.png"></a></td>
 									</form>
@@ -106,6 +122,11 @@ switch($action){
 									<tr>
 									<td height="40px"><?= $row['id'] ?></td>
 									<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
+										<?php
+										if($act=="url"){
+											echo "<td>".$row['count']."</td>";
+										}
+										?>
 									<td>
 										<a href="?act=<?= $act ?>&action=edit&page=<?= $page ?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?act=<?=$act?>&action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
 									</tr>

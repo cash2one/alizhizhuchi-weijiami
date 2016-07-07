@@ -86,62 +86,20 @@ function nowtime()
 }
 function get_naps_bot()
 {
+    global $mysqli;
     $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);
-    if (stripos($useragent, 'googlebot') !== false){
-        return 'Google';
-    }
-    if (stripos($useragent, 'baiduspider') !== false){
-        return 'Baidu';
-    }
-    if (stripos($useragent, 'msnbot') !== false){
-        return 'Bing';
-    }
-    if (stripos($useragent, 'slurp') !== false){
-        return 'Yahoo';
-    }
-    if (stripos($useragent, 'sosospider') !== false){
-        return 'Soso';
-    }
-    if (stripos($useragent, 'sogou spider') !== false){
-        return 'Sogou';
-    }
-    if (stripos($useragent, 'yodaobot') !== false){
-        return 'Yodao';
-    }
-    if (stripos($useragent, 'HaoSouSpider') !== false || stripos($useragent, '360spider') !== false){
-        return '360';
+    $sql="select * from spiderset where ok=1 order by id asc";
+    $result=$mysqli->query($sql);
+    while($row=$result->fetch_assoc()){
+        if (stripos($useragent, $row['age']) !== false){
+            return $row['title'];
+        }
     }
     return false;
 }
-function getnewi($ip){
-    $ipn=explode('.',$ip);
-    $tc='000000000000000000000000';
-    $newip=array();
-    for($i=0;$i<4;$i++){
-        $mt=mt_rand(1,1000);
-
-        if($mt<200){
-            $newip[$i]=substr($tc,0,mt_rand(1,strlen($tc))).decoct($ipn[$i]);
-        }elseif($mt>=200&&$mt<300){
-            $newip[$i]=$ipn[$i];
-        }else{
-            $newip[$i]='0x'.substr($tc,0,mt_rand(1,strlen($tc))).dechex($ipn[$i]);
-        }
-    }
-    return $newip[0].'.'.$newip[1].'.'.$newip[2].'.'.$newip[3];
-}
 function moban($moban){
     global $mysqli;
-    $h=explode('.',$_SERVER['HTTP_HOST']);
-    if(count($h)==4&&is_numeric($h[0])&&is_numeric($h[1])&&is_numeric($h[2])&&is_numeric($h[3])){
-        $isip=true;
-    }else{
-        $isip=false;
-    }
 
-    if(stripos($_SERVER["HTTP_USER_AGENT"],'spider')){
-        $isip=true;
-    }
     $image_list = get_folder_files(DIR . '/pics/');
     $duankou=$_SERVER["SERVER_PORT"];
     $yuming=$_SERVER['HTTP_HOST'];
@@ -154,12 +112,14 @@ function moban($moban){
         $shipin = $mysqli->query("SELECT title FROM shipin order by rand() limit 1")->fetch_object()->title;
         $moban = preg_replace('/<随机视频>/', trim($shipin), $moban, 1);
     }
-    $result=$mysqli->query("select title from keywords order by rand() limit 6");
-    $i=1;
-    while($row=$result->fetch_assoc()){
-        $moban = str_replace( "<关键词$i>", $row['title'], $moban );
-        $i++;
-    }
+    $keyword=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
+    $moban = str_replace( "<主关键词>", $keyword, $moban );
+    //外推链接
+    $result=$mysqli->query("select * from url order by rand() limit 1");
+    $row=$result->fetch_assoc();
+    $moban = str_replace( "<外推链接>", $row['title'], $moban );
+    $mysqli->query("update url set count=count+1 where id=".$row['id']);
+    //随机关键词
     $wk = count(explode('<随机关键词>', $moban)) - 1;
     $result=$mysqli->query("select title from keywords order by rand() limit $wk");
     while($row=$result->fetch_assoc()){
@@ -175,22 +135,12 @@ function moban($moban){
     {
         $moban = preg_replace('/<随机端口>/', rand(100,20000), $moban, 1);
     }
-    $vi = count( explode( "<随机外链>", $moban ) ) - 1;
-    for ($li=0; $li<$vi; $li++)
-    {
-        $domains=$mysqli->query("select title from domains order by rand() limit 1")->fetch_object()->title;
-        $moban = preg_replace('/<随机外链>/', $domains, $moban, 1);
-    }
-    if($isip){$moban=preg_replace('/<当前域名>/','<随机IP>', $moban);}
-    $viw = count( explode( "<随机IP>", $moban ) ) - 1;
-    for ($liq=0; $liq<$viw; $liq++)
-    {
-        $sip=$mysqli->query("select title from ips order by rand() limit 1")->fetch_object()->title;
-        if($sip){
-            $sip=getnewi($sip);
-        }
-        $moban = preg_replace('/<随机IP>/', $sip, $moban, 1);
-    }
+//    $vi = count( explode( "<随机外链>", $moban ) ) - 1;
+//    for ($li=0; $li<$vi; $li++)
+//    {
+//        $domains=$mysqli->query("select title from domains order by rand() limit 1")->fetch_object()->title;
+//        $moban = preg_replace('/<随机外链>/', $domains, $moban, 1);
+//    }
     $zf1 = count(explode('<随机字符>', $moban)) - 1;
     for ($ii=0; $ii<$zf1; $ii++)
     {
@@ -203,7 +153,7 @@ function moban($moban){
     }
     $moban = str_replace( "<当前域名>", $yuming, $moban );
     $moban = str_replace( "<顶级域名>", $yumi, $moban );
-    $moban = str_replace( "<当前域名1>", $_SERVER['HTTP_HOST'], $moban );
+    //$moban = str_replace( "<当前域名1>", $_SERVER['HTTP_HOST'], $moban );
     $tupian5 = count(explode('<随机图片>', $moban)) - 1;
     for ($tui=0; $tui<$tupian5; $tui++)
     {
@@ -211,49 +161,52 @@ function moban($moban){
     }
     $moban = str_replace( "<年>", date( "y" ), $moban );
     $moban = str_replace( "<发布时间>", date( "m-d" ), $moban );
-    $moban = str_replace( "<发布时间1>", date( "m-d",strtotime("-1 day")), $moban );
-    $moban = str_replace( "<发布时间2>", date( "m-d",strtotime("-2 day")), $moban );
-    $moban = str_replace( "<发布时间3>", date( "m-d",strtotime("-3 day")), $moban );
-    $moban = str_replace( "<发布时间4>", date( "m-d",strtotime("-4 day")), $moban );
-    $moban = str_replace( "<发布时间5>", date( "m-d",strtotime("-5 day")), $moban );
-    $moban = str_replace( "<发布时间6>", date( "m-d",strtotime("-6 day")), $moban );
-    $moban = str_replace( "<发布时间7>", date( "m-d",strtotime("-7 day")), $moban );
-    $moban = str_replace( "<发布时间8>", date( "m-d",strtotime("-8 day")), $moban );
-    $moban = str_replace( "<发布时间9>", date( "m-d",strtotime("-9 day")), $moban );
-    $moban = str_replace( "<发布时间10>", date( "m-d",strtotime("-10 day")), $moban );
-    $moban = str_replace( "<发布时间11>", date( "m-d",strtotime("-11 day")), $moban );
-    $moban = str_replace( "<发布时间12>", date( "m-d",strtotime("-12 day")), $moban );
-    $moban = str_replace( "<发布时间13>", date( "m-d",strtotime("-13 day")), $moban );
-    $moban = str_replace( "<发布时间14>", date( "m-d",strtotime("-14 day")), $moban );
-    $moban = str_replace( "<发布时间15>", date( "m-d",strtotime("-15 day")), $moban );
-    $moban = str_replace( "<发布时间16>", date( "m-d",strtotime("-16 day")), $moban );
-    $moban = str_replace( "<发布时间17>", date( "m-d",strtotime("-17 day")), $moban );
-    $moban = str_replace( "<发布时间18>", date( "m-d",strtotime("-18 day")), $moban );
-    $moban = str_replace( "<发布时间19>", date( "m-d",strtotime("-19 day")), $moban );
-    $moban = str_replace( "<发布时间20>", date( "m-d",strtotime("-20 day")), $moban );
-    $zf1 = count(explode('<动态随机字符>', $moban)) - 1;
-    for ($ii=0; $ii<$zf1; $ii++)
-    {
-        $moban = preg_replace('/<动态随机字符>/', randKey(5), $moban, 1);
+    for($i=1;$i<30;$i++){
+        $moban = str_replace( "<发布时间$i>", date( "m-d",strtotime("-$i day")), $moban );
     }
-    $ri5 = count(explode('<动态随机数字>', $moban)) - 1;
-    for ($i=0; $i<$ri5; $i++)
-    {
-        $moban = preg_replace('/<动态随机数字>/', mt_rand(10000, 99999), $moban, 1);
-    }
-    $moban = str_replace( "<动态当天时间>", date( "Y-m-d" ), $moban );
-    $ci = count(explode('<动态随机关键词>', $moban)) - 1;
-    for ($ii=0; $ii<$ci; $ii++)
-    {
-        $keywords=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
-        $moban = preg_replace('/<动态随机关键词>/', trim($keywords), $moban, 1);
-    }
-    $wk = count(explode('<动态句子>', $moban)) - 1;
-    for ($wi=0; $wi<$wk; $wi++)
-    {
-        $juzi=$mysqli->query("select title from juzi order by rand() limit 1")->fetch_object()->title;
-        $moban = preg_replace('/<动态句子>/', trim($juzi), $moban, 1);
-    }
+
+//    $moban = str_replace( "<发布时间2>", date( "m-d",strtotime("-2 day")), $moban );
+//    $moban = str_replace( "<发布时间3>", date( "m-d",strtotime("-3 day")), $moban );
+//    $moban = str_replace( "<发布时间4>", date( "m-d",strtotime("-4 day")), $moban );
+//    $moban = str_replace( "<发布时间5>", date( "m-d",strtotime("-5 day")), $moban );
+//    $moban = str_replace( "<发布时间6>", date( "m-d",strtotime("-6 day")), $moban );
+//    $moban = str_replace( "<发布时间7>", date( "m-d",strtotime("-7 day")), $moban );
+//    $moban = str_replace( "<发布时间8>", date( "m-d",strtotime("-8 day")), $moban );
+//    $moban = str_replace( "<发布时间9>", date( "m-d",strtotime("-9 day")), $moban );
+//    $moban = str_replace( "<发布时间10>", date( "m-d",strtotime("-10 day")), $moban );
+//    $moban = str_replace( "<发布时间11>", date( "m-d",strtotime("-11 day")), $moban );
+//    $moban = str_replace( "<发布时间12>", date( "m-d",strtotime("-12 day")), $moban );
+//    $moban = str_replace( "<发布时间13>", date( "m-d",strtotime("-13 day")), $moban );
+//    $moban = str_replace( "<发布时间14>", date( "m-d",strtotime("-14 day")), $moban );
+//    $moban = str_replace( "<发布时间15>", date( "m-d",strtotime("-15 day")), $moban );
+//    $moban = str_replace( "<发布时间16>", date( "m-d",strtotime("-16 day")), $moban );
+//    $moban = str_replace( "<发布时间17>", date( "m-d",strtotime("-17 day")), $moban );
+//    $moban = str_replace( "<发布时间18>", date( "m-d",strtotime("-18 day")), $moban );
+//    $moban = str_replace( "<发布时间19>", date( "m-d",strtotime("-19 day")), $moban );
+//    $moban = str_replace( "<发布时间20>", date( "m-d",strtotime("-20 day")), $moban );
+//    $zf1 = count(explode('<动态随机字符>', $moban)) - 1;
+//    for ($ii=0; $ii<$zf1; $ii++)
+//    {
+//        $moban = preg_replace('/<动态随机字符>/', randKey(5), $moban, 1);
+//    }
+//    $ri5 = count(explode('<动态随机数字>', $moban)) - 1;
+//    for ($i=0; $i<$ri5; $i++)
+//    {
+//        $moban = preg_replace('/<动态随机数字>/', mt_rand(10000, 99999), $moban, 1);
+//    }
+    $moban = str_replace( "<当天时间>", date( "Y-m-d" ), $moban );
+//    $ci = count(explode('<动态随机关键词>', $moban)) - 1;
+//    for ($ii=0; $ii<$ci; $ii++)
+//    {
+//        $keywords=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
+//        $moban = preg_replace('/<动态随机关键词>/', trim($keywords), $moban, 1);
+//    }
+//    $wk = count(explode('<动态句子>', $moban)) - 1;
+//    for ($wi=0; $wi<$wk; $wi++)
+//    {
+//        $juzi=$mysqli->query("select title from juzi order by rand() limit 1")->fetch_object()->title;
+//        $moban = preg_replace('/<动态句子>/', trim($juzi), $moban, 1);
+//    }
     $wk = count(explode('<随机泛域名>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
@@ -264,7 +217,7 @@ function moban($moban){
     $wk = count(explode('<随机页面>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
-        $yemian="./".randKey(5)."/";
+        $yemian="/".randKey(5).".html";
         $moban = preg_replace('/<随机页面>/', trim($yemian), $moban, 1);
     }
     $wk = count(explode('<随机人名>', $moban)) - 1;
@@ -281,11 +234,26 @@ function info_add($from,$title){
     $mysqli->query("insert into ".$from." (`title`) values('".$title."')");
     header("Location: info.php?act=".$from);
 }
-function list_data($from,$page){
+function list_data($from,$page,$type=''){
     global $mysqli;
-    $page_size=10;
+    $page_size=30;
+    $sql="select id from ".$from;
+    if($type){
+        $sql.=" where type='".$type."'";
+    }
+    $mysqli->query($sql);
+    $total=$mysqli->affected_rows;
+    $pagenum=ceil($total/$page_size);
+    if($page!="all"&&($page<1||!is_numeric($page)||$page>$pagenum))$page=1;
     $min=($page-1)*$page_size;
-    $sql="select * from ".$from." order by id desc limit ".$min.",".$page_size;
+    $sql="select * from ".$from;
+    if($type){
+        $sql.=" where type='".$type."'";
+    }
+    $sql.=" order by id desc";
+    if($page!="all"){
+        $sql.=" limit ".$min.",".$page_size;
+    }
     $result=$mysqli->query($sql);
     if($mysqli->affected_rows>0){
         while($row = $result->fetch_assoc())
@@ -295,23 +263,33 @@ function list_data($from,$page){
         return $data;
     }
 }
-function list_page($from,$page){
+function list_page($from,$page,$type=''){
     global $mysqli;
-    $page_size=10;
-    $mysqli->query("select id from ".$from);
-    $total=$mysqli->affected_rows;
-    $pagenum=ceil($total/$page_size);
-    $shang=$page>1?$page-1:$page;
-    $str="<div class=\"pageUp\"><a href=\"?act=".$from."&page=".$shang."\">上一页</a></div>";
-    $str.="<div class=\"pageList clear\"><ul>";
-    for($i=1;$i<=$pagenum;$i++){
-        $on=$i==$page?" class=\"on\"":"";
-        $str.="<li$on><a href='?act=$from&page=$i'>$i</a></li>";
+    $page_size=30;
+    $sql="select id from ".$from;
+    if($type){
+        $sql.=" where type='".$type."'";
     }
-    $str.="</ul></div>";
-    $xia=$page==$pagenum?$page:$page+1;
-    $str.="<div class=\"pageDown\"><a href=\"?act=$from&page=$xia\">下一页</a></div>";
-    return $str;
+    $mysqli->query($sql);
+    $total=$mysqli->affected_rows;
+    if($total>0){
+        $pagenum=ceil($total/$page_size);
+        if($page<1||!is_numeric($page)||$page>$pagenum)$page=1;
+        $shang=$page>1?$page-1:1;
+        $str="<div class=\"pageUp\"><a href=\"?act=".$from."&page=".$shang."&type=".$type."\">上一页</a></div>";
+        $str.="<div class=\"pageList clear\"><ul>";
+//    for($i=1;$i<=$pagenum;$i++){
+//        $on=$i==$page?" class=\"on\"":"";
+//        $str.="<li$on><a href='?act=$from&page=$i'>$i</a></li>";
+//    }
+        $str.="<li class=\"on\">$page</li>";
+        $str.="</ul></div>";
+        $xia=$page>=$pagenum?$pagenum:$page+1;
+        $str.="<div class=\"pageDown\"><a href=\"?act=$from&page=$xia&type=$type\">下一页</a></div>";
+        $str.="<div class=\"pageDown\"><a href=\"export.php?act=$from&type=$type\">导出数据</a></div>";
+        $str.="<div class=\"pagejump\"><form action='' method='get'><input type='hidden' name='act' value='$from'/><input type='hidden' name='type' value='$type'/>共{$pagenum}页 | 跳转到<input type='text' name='page'/>页</form></div>";
+        return $str;
+    }
 }
 function info_save($from,$title,$page,$id){
     global $mysqli;
@@ -411,5 +389,30 @@ function templates_list(){
 
     }
     return $data;
+}
+function spiderset_list(){
+    global $mysqli;
+    $sql="select * from spiderset order by id asc";
+    $result=$mysqli->query($sql);
+    while($row=$result->fetch_assoc()){
+        $row['thumb']="img/".$row['title']."_thumb.jpg";
+        if($row['ok']){
+            $row['us']="<a class='ok' href='?act=edit&id=".$row['id']."&ok=0'>已开启</a>";
+        }else{
+            $row['us']="<a href='?act=edit&id=".$row['id']."&ok=1'>未开启</a>";
+        }
+        $data[]=$row;
+    }
+    return $data;
+}
+function spider_type_list(){
+    global $mysqli;
+    $sql="select title from spiderset where ok=1 order by id asc";
+    $result=$mysqli->query($sql);
+    $str="";
+    while($row=$result->fetch_assoc()){
+        $str.="<a href='spider.php?type=".$row['title']."'>".$row['title']."(".data_num('spider','','',$row['title']).")</a> | ";
+    }
+    return $str;
 }
 ?>

@@ -9,6 +9,7 @@
 #hides{display: none;}
 a {
 	text-decoration: none;
+	color:#0000cc;
 }
 
 li {
@@ -37,6 +38,11 @@ margin-top:20px;
 	display:block;
 	width: 300px;
 	height:200px;
+}
+#pageAll .spiderset li img {
+	display:block;
+	width: 200px;
+	height:100px;
 }
 #pageAll .templates li a {
 	display:block;
@@ -396,7 +402,7 @@ td {
 }
 
 .conShow {
-	margin-top: 30px;
+
 }
 .conShow input{
 	width:90%;
@@ -419,9 +425,11 @@ background-color: #999;margin-right:20px;}
 }
 
 .cfD {
-	margin-top: 15px;
+	float:left;
 }
-
+.upload {
+	float:right;
+}
 .cfD select {
 	width: 200px;
 	height: 30px;
@@ -654,7 +662,7 @@ background-color: #999;margin-right:20px;}
 }
 /*心愿管理页面CSS、、约见管理页面CSS end*/
 .cfD .userinput {
-	width: 200px;
+	width: 300px;
 	height: 40px;
 	border: 1px solid #ccc;
 	text-indent: 15px;
@@ -670,6 +678,17 @@ background-color: #999;margin-right:20px;}
 	color: #fff;
 	background-color: #47a4e1;
 }
+.upload .userbtn{
+	margin-left: 10px;
+	width: 135px;
+	height: 40px;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	background-color:#00A000;
+}
+.upload input{width:200px;
+	}
 .cfD a.userbtn {
 	display:block;
 	width: 135px;
