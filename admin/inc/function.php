@@ -190,7 +190,7 @@ function list_data($from,$page,$type=''){
     $page_size=30;
     $sql="select id from ".$from;
     if($type){
-        $sql.=" where type='".$type."'";
+        $sql.=" where ssyq='".$type."'";
     }
     $mysqli->query($sql);
     $total=$mysqli->affected_rows;
@@ -199,7 +199,7 @@ function list_data($from,$page,$type=''){
     $min=($page-1)*$page_size;
     $sql="select * from ".$from;
     if($type){
-        $sql.=" where type='".$type."'";
+        $sql.=" where ssyq='".$type."'";
     }
     $sql.=" order by id desc";
     if($page!="all"){
@@ -219,7 +219,7 @@ function list_page($from,$page,$type=''){
     $page_size=30;
     $sql="select id from ".$from;
     if($type){
-        $sql.=" where type='".$type."'";
+        $sql.=" where ssyq='".$type."'";
     }
     $mysqli->query($sql);
     $total=$mysqli->affected_rows;
