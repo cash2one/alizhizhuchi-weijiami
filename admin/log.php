@@ -49,7 +49,7 @@ if($act=="out"){
 
 	<!-- 登录body -->
 	<div class="logDiv">
-		<img class="logBanner" src="img/logBanner.png" />
+		<img class="logBanner" src="img/logBanner.jpg" />
 		<div class="logGet">
 			<!-- 头部提示信息 -->
 			<div class="logD logDtip">
