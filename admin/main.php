@@ -18,7 +18,6 @@ if(is_numeric($act)&&$act>0){
 		$seriesdata.=",'".data_num('spider','',date('Y-m-d',time()-$i*24*3600))."'";
 	}
 }
-//['百度','谷歌','Bing','雅虎','搜搜','搜狗','有道','360']
 $sql="select title from spiderset where ok=1 order by id asc";
 $result=$mysqli->query($sql);
 $str="";
