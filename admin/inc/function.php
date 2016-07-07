@@ -135,12 +135,6 @@ function moban($moban){
     {
         $moban = preg_replace('/<随机端口>/', rand(100,20000), $moban, 1);
     }
-//    $vi = count( explode( "<随机外链>", $moban ) ) - 1;
-//    for ($li=0; $li<$vi; $li++)
-//    {
-//        $domains=$mysqli->query("select title from domains order by rand() limit 1")->fetch_object()->title;
-//        $moban = preg_replace('/<随机外链>/', $domains, $moban, 1);
-//    }
     $zf1 = count(explode('<随机字符>', $moban)) - 1;
     for ($ii=0; $ii<$zf1; $ii++)
     {
@@ -153,7 +147,6 @@ function moban($moban){
     }
     $moban = str_replace( "<当前域名>", $yuming, $moban );
     $moban = str_replace( "<顶级域名>", $yumi, $moban );
-    //$moban = str_replace( "<当前域名1>", $_SERVER['HTTP_HOST'], $moban );
     $tupian5 = count(explode('<随机图片>', $moban)) - 1;
     for ($tui=0; $tui<$tupian5; $tui++)
     {
@@ -164,49 +157,7 @@ function moban($moban){
     for($i=1;$i<30;$i++){
         $moban = str_replace( "<发布时间$i>", date( "m-d",strtotime("-$i day")), $moban );
     }
-
-//    $moban = str_replace( "<发布时间2>", date( "m-d",strtotime("-2 day")), $moban );
-//    $moban = str_replace( "<发布时间3>", date( "m-d",strtotime("-3 day")), $moban );
-//    $moban = str_replace( "<发布时间4>", date( "m-d",strtotime("-4 day")), $moban );
-//    $moban = str_replace( "<发布时间5>", date( "m-d",strtotime("-5 day")), $moban );
-//    $moban = str_replace( "<发布时间6>", date( "m-d",strtotime("-6 day")), $moban );
-//    $moban = str_replace( "<发布时间7>", date( "m-d",strtotime("-7 day")), $moban );
-//    $moban = str_replace( "<发布时间8>", date( "m-d",strtotime("-8 day")), $moban );
-//    $moban = str_replace( "<发布时间9>", date( "m-d",strtotime("-9 day")), $moban );
-//    $moban = str_replace( "<发布时间10>", date( "m-d",strtotime("-10 day")), $moban );
-//    $moban = str_replace( "<发布时间11>", date( "m-d",strtotime("-11 day")), $moban );
-//    $moban = str_replace( "<发布时间12>", date( "m-d",strtotime("-12 day")), $moban );
-//    $moban = str_replace( "<发布时间13>", date( "m-d",strtotime("-13 day")), $moban );
-//    $moban = str_replace( "<发布时间14>", date( "m-d",strtotime("-14 day")), $moban );
-//    $moban = str_replace( "<发布时间15>", date( "m-d",strtotime("-15 day")), $moban );
-//    $moban = str_replace( "<发布时间16>", date( "m-d",strtotime("-16 day")), $moban );
-//    $moban = str_replace( "<发布时间17>", date( "m-d",strtotime("-17 day")), $moban );
-//    $moban = str_replace( "<发布时间18>", date( "m-d",strtotime("-18 day")), $moban );
-//    $moban = str_replace( "<发布时间19>", date( "m-d",strtotime("-19 day")), $moban );
-//    $moban = str_replace( "<发布时间20>", date( "m-d",strtotime("-20 day")), $moban );
-//    $zf1 = count(explode('<动态随机字符>', $moban)) - 1;
-//    for ($ii=0; $ii<$zf1; $ii++)
-//    {
-//        $moban = preg_replace('/<动态随机字符>/', randKey(5), $moban, 1);
-//    }
-//    $ri5 = count(explode('<动态随机数字>', $moban)) - 1;
-//    for ($i=0; $i<$ri5; $i++)
-//    {
-//        $moban = preg_replace('/<动态随机数字>/', mt_rand(10000, 99999), $moban, 1);
-//    }
     $moban = str_replace( "<当天时间>", date( "Y-m-d" ), $moban );
-//    $ci = count(explode('<动态随机关键词>', $moban)) - 1;
-//    for ($ii=0; $ii<$ci; $ii++)
-//    {
-//        $keywords=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
-//        $moban = preg_replace('/<动态随机关键词>/', trim($keywords), $moban, 1);
-//    }
-//    $wk = count(explode('<动态句子>', $moban)) - 1;
-//    for ($wi=0; $wi<$wk; $wi++)
-//    {
-//        $juzi=$mysqli->query("select title from juzi order by rand() limit 1")->fetch_object()->title;
-//        $moban = preg_replace('/<动态句子>/', trim($juzi), $moban, 1);
-//    }
     $wk = count(explode('<随机泛域名>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
