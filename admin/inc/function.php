@@ -229,15 +229,11 @@ function list_page($from,$page,$type=''){
         $shang=$page>1?$page-1:1;
         $str="<div class=\"pageUp\"><a href=\"?act=".$from."&page=".$shang."&type=".$type."\">上一页</a></div>";
         $str.="<div class=\"pageList clear\"><ul>";
-//    for($i=1;$i<=$pagenum;$i++){
-//        $on=$i==$page?" class=\"on\"":"";
-//        $str.="<li$on><a href='?act=$from&page=$i'>$i</a></li>";
-//    }
         $str.="<li class=\"on\">$page</li>";
         $str.="</ul></div>";
         $xia=$page>=$pagenum?$pagenum:$page+1;
         $str.="<div class=\"pageDown\"><a href=\"?act=$from&page=$xia&type=$type\">下一页</a></div>";
-        $str.="<div class=\"pageDown\"><a href=\"export.php?act=$from&type=$type\">导出数据</a></div>";
+        //$str.="<div class=\"pageDown\"><a href=\"export.php?act=$from&type=$type\">导出数据</a></div>";
         $str.="<div class=\"pagejump\"><form action='' method='get'><input type='hidden' name='act' value='$from'/><input type='hidden' name='type' value='$type'/>共{$pagenum}页 | 跳转到<input type='text' name='page'/>页</form></div>";
         return $str;
     }
