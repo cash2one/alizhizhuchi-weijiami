@@ -323,18 +323,41 @@ function data_num($from,$num='',$day='',$type=''){
 }
 function templates_list(){
     global $mysqli;
-    $sql="select * from templates order by id asc";
-    $result=$mysqli->query($sql);
-    while($row=$result->fetch_assoc()){
-        $row['thumb']="/templates/".$row['title']."/thumb.jpg";
-        if($row['ok']){
-            $row['us']="<a class='ok' href='?act=edit&id=".$row['id']."&ok=0'>已启用</a>";
+    //远程模板
+    $yuan_moban='["moban1","moban2","moban3","moban4","moban5","moban6"]';//todo:远程获取
+    $yuanmoban=json_decode($yuan_moban,true);//转为数组
+
+    foreach($yuanmoban as $value){
+        $sql="select * from templates where title='".$value."'";
+        $result=$mysqli->query($sql);
+        if($result->num_rows>0){
+            $row=$result->fetch_assoc();
+            $row['thumb']="/templates/".$row['title']."/thumb.jpg";
+            if($row['ok']){
+                $row['us']="<a class='ok' href='?act=edit&id=".$row['id']."&ok=0'>已启用</a>";
+            }else{
+                $row['us']="<a href='?act=edit&id=".$row['id']."&ok=1'>未启用</a>";
+            }
         }else{
-            $row['us']="<a href='?act=edit&id=".$row['id']."&ok=1'>未启用</a>";
+            $row['thumb']="http://vip.alizhizhuchi.top/templates/".$value."/thumb.jpg";
+            $row['title']=$value;
+            $row['us']="<a class='down' href='templates_down.php?act=$value'>下载</a>";
         }
         $data[]=$row;
-
     }
+    //本地已安装模板
+//    $sql="select * from templates order by id asc";
+//    $result=$mysqli->query($sql);
+//    while($row=$result->fetch_assoc()){
+//        $row['thumb']="/templates/".$row['title']."/thumb.jpg";
+//        if($row['ok']){
+//            $row['us']="<a class='ok' href='?act=edit&id=".$row['id']."&ok=0'>已启用</a>";
+//        }else{
+//            $row['us']="<a href='?act=edit&id=".$row['id']."&ok=1'>未启用</a>";
+//        }
+//        $data[]=$row;
+//    }
+
     return $data;
 }
 function spiderset_list(){

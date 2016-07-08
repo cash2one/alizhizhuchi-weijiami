@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/css.css" afterPath="$PROJECT_DIR$/admin/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates.php" afterPath="$PROJECT_DIR$/admin/templates.php" />
+    </list>
+    <ignored path="alizhizhuchi-weijiami.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="alizhizhuchi-weijiami" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2766">
+              <caret line="326" column="85" selection-start-line="326" selection-start-column="85" selection-end-line="326" selection-end-column="85" />
+              <folding>
+                <marker date="1467967691000" expanded="true" signature="2433:2446" ph="select * fro... " />
+                <marker date="1467967691000" expanded="true" signature="2433:2456" ph="select * fro... spiderset" />
+                <marker date="1467967691000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+                <marker date="1467967691000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+                <marker date="1467967691000" expanded="true" signature="3244:3293" ph="select title... keywords" />
+                <marker date="1467967691000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+                <marker date="1467967691000" expanded="true" signature="3353:3534" ph="..." />
+                <marker date="1467967691000" expanded="true" signature="3416:3457" ph="select title... keywords" />
+                <marker date="1467967691000" expanded="true" signature="3575:3589" ph="update url s... " />
+                <marker date="1467967691000" expanded="true" signature="3575:3596" ph="update url s... " />
+                <marker date="1467967691000" expanded="true" signature="3575:3613" ph="update url s... " />
+                <marker date="1467967691000" expanded="true" signature="3717:3766" ph="select title... keywords" />
+                <marker date="1467967691000" expanded="true" signature="3963:4008" ph="select title... juzi" />
+                <marker date="1467967691000" expanded="true" signature="5346:5395" ph="SELECT title... domains" />
+                <marker date="1467967691000" expanded="true" signature="6062:6114" ph="insert into ${$from}... " />
+                <marker date="1467967691000" expanded="true" signature="6256:6271" ph="select id fr... ${$from}" />
+                <marker date="1467967691000" expanded="true" signature="6558:6572" ph="select * fro... ${$from}" />
+                <marker date="1467967691000" expanded="true" signature="7029:7044" ph="select id fr... ${$from}" />
+                <marker date="1467967691000" expanded="true" signature="8356:8387" ph="delete from " />
+                <marker date="1467967691000" expanded="true" signature="8836:8889" ph="select * fro... spider" />
+                <marker date="1467967691000" expanded="true" signature="10099:10147" ph="update spide... " />
+                <marker date="1467967691000" expanded="true" signature="10340:10370" ph="select count... " />
+                <marker date="1467967691000" expanded="true" signature="11227:11264" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="11227:11275" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="11227:11276" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="11227:11978" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="11227:12114" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="11979:12018" ph="select * fro... templates" />
+                <marker date="1467967691000" expanded="true" signature="12499:12538" ph="select * fro... spiderset" />
+                <marker date="1467967691000" expanded="true" signature="12993:13047" ph="select title... spiderset" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shouye.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="47" column="3843" selection-start-line="47" selection-start-column="3843" selection-end-line="47" selection-end-column="3843" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shouye.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/moban3/shouye.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6825">
+              <caret line="455" column="144" selection-start-line="455" selection-start-column="144" selection-end-line="455" selection-end-column="144" />
+              <folding>
+                <marker date="1467902828000" expanded="true" signature="15188:15212" ph="{...}" />
+                <marker date="1467902828000" expanded="true" signature="15529:15553" ph="{...}" />
+                <marker date="1467902828000" expanded="true" signature="15870:15894" ph="{...}" />
+                <marker date="1467902828000" expanded="true" signature="16211:16235" ph="{...}" />
+                <marker date="1467902828000" expanded="true" signature="16552:16576" ph="{...}" />
+                <marker date="1467902828000" expanded="true" signature="16919:16943" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/css/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/templates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <marker date="1467967061000" expanded="true" signature="400:441" ph="update templ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/spiderset.php" />
+        <option value="$PROJECT_DIR$/admin/inc/left.php" />
+        <option value="$PROJECT_DIR$/admin/css/pageGroup.css" />
+        <option value="$PROJECT_DIR$/admin/spider.php" />
+        <option value="$PROJECT_DIR$/admin/export.php" />
+        <option value="$PROJECT_DIR$/admin/info.php" />
+        <option value="$PROJECT_DIR$/admin/import.php" />
+        <option value="$PROJECT_DIR$/templates/moban1/map.html" />
+        <option value="$PROJECT_DIR$/templates/moban2/map.html" />
+        <option value="$PROJECT_DIR$/templates/moban3/map.html" />
+        <option value="$PROJECT_DIR$/templates/moban1/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban2/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban1/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban2/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban3/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban3/neirong.html" />
+        <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/admin/log.php" />
+        <option value="$PROJECT_DIR$/admin/main.php" />
+        <option value="$PROJECT_DIR$/admin/inc/ver.php" />
+        <option value="$PROJECT_DIR$/admin/templates.php" />
+        <option value="$PROJECT_DIR$/admin/css/css.css" />
+        <option value="$PROJECT_DIR$/admin/inc/function.php" />
+        <option value="$PROJECT_DIR$/templates/moban4/map.html" />
+        <option value="$PROJECT_DIR$/templates/moban4/shouye.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="69" />
+    <option name="y" value="40" />
+    <option name="width" value="1373" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moban4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moban3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wanjia" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="" />
+      <created>1467861155128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1467861155128</updated>
+      <workItem from="1467861156501" duration="18747000" />
+      <workItem from="1467903912258" duration="1408000" />
+      <workItem from="1467906288708" duration="304000" />
+      <workItem from="1467908220104" duration="366000" />
+      <workItem from="1467945313663" duration="981000" />
+      <workItem from="1467961581396" duration="4129000" />
+    </task>
+    <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
+      <created>1467903317340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467903317340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="精简模板替换函数">
+      <created>1467903457424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1467903457424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="去除无用trim函数,增加数据库文件">
+      <created>1467904035494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467904035494</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加搜索引擎缩略图,更换登录界面背景图">
+      <created>1467905412302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467905412302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加空数据库文件">
+      <created>1467905464803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1467905464803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新版本号为1.1">
+      <created>1467907903298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1467907903298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="蜘蛛按类别分字段名更正">
+      <created>1467908494247</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467908494247</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新数据库文件">
+      <created>1467908546511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467908546511</updated>
+    </task>
+    <task id="LOCAL-00009" summary="禁用数据导出">
+      <created>1467945363875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1467945363875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25935000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="40" width="1373" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理" />
+    <MESSAGE value="精简模板替换函数" />
+    <MESSAGE value="去除无用trim函数,增加数据库文件" />
+    <MESSAGE value="增加搜索引擎缩略图,更换登录界面背景图" />
+    <MESSAGE value="增加空数据库文件" />
+    <MESSAGE value="更新版本号为1.1" />
+    <MESSAGE value="蜘蛛按类别分字段名更正" />
+    <MESSAGE value="更新数据库文件" />
+    <MESSAGE value="禁用数据导出" />
+    <option name="LAST_COMMIT_MESSAGE" value="禁用数据导出" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467967691000" expanded="true" signature="2433:2446" ph="select * fro... " />
+            <marker date="1467967691000" expanded="true" signature="2433:2456" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1467967691000" expanded="true" signature="3244:3293" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3353:3534" ph="..." />
+            <marker date="1467967691000" expanded="true" signature="3416:3457" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3575:3589" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3596" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3613" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3717:3766" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3963:4008" ph="select title... juzi" />
+            <marker date="1467967691000" expanded="true" signature="5346:5395" ph="SELECT title... domains" />
+            <marker date="1467967691000" expanded="true" signature="6062:6114" ph="insert into ${$from}... " />
+            <marker date="1467967691000" expanded="true" signature="6256:6271" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="6558:6572" ph="select * fro... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="7029:7044" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="8356:8387" ph="delete from " />
+            <marker date="1467967691000" expanded="true" signature="8836:8889" ph="select * fro... spider" />
+            <marker date="1467967691000" expanded="true" signature="10099:10147" ph="update spide... " />
+            <marker date="1467967691000" expanded="true" signature="10340:10370" ph="select count... " />
+            <marker date="1467967691000" expanded="true" signature="11227:11264" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11275" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11276" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11978" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:12114" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11979:12018" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="12499:12538" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="12993:13047" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/spider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467967691000" expanded="true" signature="2433:2446" ph="select * fro... " />
+            <marker date="1467967691000" expanded="true" signature="2433:2456" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1467967691000" expanded="true" signature="3244:3293" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3353:3534" ph="..." />
+            <marker date="1467967691000" expanded="true" signature="3416:3457" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3575:3589" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3596" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3613" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3717:3766" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3963:4008" ph="select title... juzi" />
+            <marker date="1467967691000" expanded="true" signature="5346:5395" ph="SELECT title... domains" />
+            <marker date="1467967691000" expanded="true" signature="6062:6114" ph="insert into ${$from}... " />
+            <marker date="1467967691000" expanded="true" signature="6256:6271" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="6558:6572" ph="select * fro... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="7029:7044" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="8356:8387" ph="delete from " />
+            <marker date="1467967691000" expanded="true" signature="8836:8889" ph="select * fro... spider" />
+            <marker date="1467967691000" expanded="true" signature="10099:10147" ph="update spide... " />
+            <marker date="1467967691000" expanded="true" signature="10340:10370" ph="select count... " />
+            <marker date="1467967691000" expanded="true" signature="11227:11264" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11275" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11276" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11978" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:12114" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11979:12018" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="12499:12538" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="12993:13047" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/spiderset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/pageGroup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="39" column="174" selection-start-line="39" selection-start-column="174" selection-end-line="39" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban2/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban2/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6382">
+          <caret line="46" column="136" selection-start-line="46" selection-start-column="136" selection-end-line="46" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="39" column="101" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban2/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="355" column="37" selection-start-line="355" selection-start-column="37" selection-end-line="355" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban3/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="424" column="145" selection-start-line="424" selection-start-column="145" selection-end-line="424" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+          <folding>
+            <marker date="1467904845000" expanded="true" signature="530:610" ph="select id fr... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/spider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban4/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban3/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban3/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6825">
+          <caret line="455" column="144" selection-start-line="455" selection-start-column="144" selection-end-line="455" selection-end-column="144" />
+          <folding>
+            <marker date="1467902828000" expanded="true" signature="15188:15212" ph="{...}" />
+            <marker date="1467902828000" expanded="true" signature="15529:15553" ph="{...}" />
+            <marker date="1467902828000" expanded="true" signature="15870:15894" ph="{...}" />
+            <marker date="1467902828000" expanded="true" signature="16211:16235" ph="{...}" />
+            <marker date="1467902828000" expanded="true" signature="16552:16576" ph="{...}" />
+            <marker date="1467902828000" expanded="true" signature="16919:16943" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <marker date="1467967061000" expanded="true" signature="400:441" ph="update templ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1467903428000" expanded="true" signature="299:361" ph="select title... templates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2766">
+          <caret line="326" column="85" selection-start-line="326" selection-start-column="85" selection-end-line="326" selection-end-column="85" />
+          <folding>
+            <marker date="1467967691000" expanded="true" signature="2433:2446" ph="select * fro... " />
+            <marker date="1467967691000" expanded="true" signature="2433:2456" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1467967691000" expanded="true" signature="3244:3293" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3353:3534" ph="..." />
+            <marker date="1467967691000" expanded="true" signature="3416:3457" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3575:3589" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3596" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3575:3613" ph="update url s... " />
+            <marker date="1467967691000" expanded="true" signature="3717:3766" ph="select title... keywords" />
+            <marker date="1467967691000" expanded="true" signature="3963:4008" ph="select title... juzi" />
+            <marker date="1467967691000" expanded="true" signature="5346:5395" ph="SELECT title... domains" />
+            <marker date="1467967691000" expanded="true" signature="6062:6114" ph="insert into ${$from}... " />
+            <marker date="1467967691000" expanded="true" signature="6256:6271" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="6558:6572" ph="select * fro... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="7029:7044" ph="select id fr... ${$from}" />
+            <marker date="1467967691000" expanded="true" signature="8356:8387" ph="delete from " />
+            <marker date="1467967691000" expanded="true" signature="8836:8889" ph="select * fro... spider" />
+            <marker date="1467967691000" expanded="true" signature="10099:10147" ph="update spide... " />
+            <marker date="1467967691000" expanded="true" signature="10340:10370" ph="select count... " />
+            <marker date="1467967691000" expanded="true" signature="11227:11264" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11275" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11276" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:11978" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11227:12114" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="11979:12018" ph="select * fro... templates" />
+            <marker date="1467967691000" expanded="true" signature="12499:12538" ph="select * fro... spiderset" />
+            <marker date="1467967691000" expanded="true" signature="12993:13047" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="3843" selection-start-line="47" selection-start-column="3843" selection-end-line="47" selection-end-column="3843" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

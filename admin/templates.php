@@ -35,7 +35,7 @@ if($act=='edit'&&$id){
 				<?php
 				foreach(templates_list() as $key=>$value){
 				?>
-				<li><img src="<?=$value['thumb']?>"><?=$value['name']?><?=$value['us']?></li>
+				<li><img src="<?=$value['thumb']?>"><?=$value['title']?><?=$value['us']?></li>
 				<?}?>
 			</ul>
 		</div>
