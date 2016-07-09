@@ -1,0 +1,18 @@
+/* reset 2016 */
+h1, h2, h3, h4, h5, h6, dl, dd, dt, ol, ul, li, p, form, body { margin: 0; padding: 0; }
+
+ol, ul, li, dl, dd, dt { list-style: none; } a img { border: none; } em, i { font-style: normal; }
+input, option, select, textarea, button { font-size: 12px; }
+div, li, ul, ol, dl, dd, dt, p { width: auto; overflow: hidden; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+a { overflow: hidden; outline: none; text-decoration: none; }a:hover { text-decoration: underline; }
+.clear { clear: both; font-size: 0; visibility: hidden; width: 0; line-height: 0; }
+.fl, .lt { float: left; display: inline; } .fr, .rt { float: right; display: inline; }
+
+.clearfix:after { content:"."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.xRel { position: relative; }.xAbs { position: absolute; }.ofv { overflow: visible; }

@@ -1,0 +1,127 @@
+
+
+/* ============================= Global Top 2014.02.22 
+Modified 2014.05.09
+
+
+
+
+
+============================= */
+
+
+dl, dd, dt, ol, ul, li, p { margin: 0; padding: 0; width: auto; overflow: hidden; list-style: none; }
+a img { border: none; }
+
+#an, #anc, #ancl { overflow: hidden; }
+
+
+
+.cs14_di_bigEdge { height: 33px; background: url(../images/gimg2014.gif) repeat-x; overflow: visible; z-index: 9999; font-family: 'ËÎÌו'; color: #5c5c5c; font-size: 12px; }
+.cs14_di_bigEdge a, .cs14_di_bigEdge a:hover { color: #5c5c5c; text-decoration: none; }
+.cs14_di_subEdge { width: 980px; margin: 0 auto; overflow: visible; position: relative; z-index: 9999; }
+
+.cs14_di_qee { height: 33px; line-height: 35px; width: 155px; }
+.cs14_di_qee a { padding-left: 22px; background: url(../images/gimg2014.gif) 0 -50px no-repeat; display: block; color: #5c5c5c; }
+.cs14_di_qee a:hover, .cs14_di_fbindex a:hover { color: #f22e00; text-decoration: underline; }
+
+.cs14_thisLaba { position: absolute; width: 250px; top: 0; left: 322px; height: 32px; }
+.cs14_thisLaba p { height: 23px; padding-top: 9px; }
+.cs14_thisLaba a { color: #f22e00; text-decoration: none; background: url(../images/gimg2014.gif) 0 -109px no-repeat; padding-left: 20px; line-height: 17px; display: block; }
+.cs14_thisLaba a:hover { color: #f22e00; text-decoration: underline; background: url(../images/gimg2014.gif) -190px -209px no-repeat; }
+
+.cs14_di_fbindex { position: absolute; width: 53px; top: 0; left: 155px; line-height: 35px; }
+.cs14_di_fbindex a { height: 33px; display: block; background: url(../images/gimg2014.gif) 0 -200px no-repeat; padding-left: 15px; color: #5c5c5c; }
+
+.cs14_di_bigGpsBoxing { position: absolute; width: 706px; top: 0; left: 208px; }
+.cs14_di_bigGpsBoxing p { line-height: 35px; }
+a.cs14_xxPGS { width: 70px; height: 33px; display: block; background: url(../images/gimg2014.gif) 0 -200px no-repeat; padding-left: 10px; }
+.xActive a.cs14_xxPGS { background-position: -80px -200px; }
+
+#cs14_di_gpsBoxing { background: #fff; border: 1px #ccc solid; border-top: none; padding: 10px 0; line-height: 30px; height: 210px; width: 704px; }
+.cs14_di_gpsNav { width: 97px; float: left; padding-left: 20px; height: 210px; border-left: 1px #e3e3e3 solid; margin-left: -1px; }
+.cs14_di_gpsNav li { height: 30px; float: left; width: 110px; }
+.cs14_di_gpsNav a { display: block; color: #585858; }
+.cs14_di_gpsNav a.cs14_xLight { color: #ff6000;}
+.cs14_di_gpsNav a.cs14_xLight:hover, .cs14_di_gpsNav a:hover { color: #f22e00; text-decoration: underline; }
+
+
+.cs14_di_reg { position: absolute; width: 80px; top: 0; right: 68px; height: 33px; line-height: 35px; color: #ccc; z-index: 66; }
+.cs14_di_reg a { color: #5c5c5c; text-decoration: none; }
+.cs14_di_reg a:hover { color: #f22e00; text-decoration: underline; }
+
+.cs14_di_bigUserBoxing { position: absolute; width: 218px; top: 0; right: 67px; }
+
+.cs14_user_name { display: none; height: 33px; width: 150px; background: url(../images/gimg2014.gif) 0 -250px no-repeat; cursor: pointer; line-height: 35px; }
+.cs14_user_name_bg { background-position: 0 -300px; }
+.cs14_user_name dl { height: 33px; position: relative; }
+.cs14_user_name dt { width: 30px; float:left; padding-left: 10px; padding-top: 5px; }
+.cs14_user_name dt img { border:#e1e1e1 solid 1px; height: 20px; width: 20px; }
+.cs14_user_name dd { width: 108px; float: left; line-height: 35px; }
+
+.cs14_xspanno, .xbom { position: relative; }
+.cs14_xspanno span, .xbom span, .cs14_user_name dl span, .cs14_user_name_mail1 { font-family: Arial; font-size: 11px; position: absolute; top: 0; left: 4px; width: 14px; height: 12px; line-height: 12px; text-align: center; color: #fff; 
+display: block; width: 14px; height: 12px; background: url(../images/gimg2014.gif) -186px -360px no-repeat; cursor: pointer; letter-spacing: -1px; }
+.cs14_user_name dl span { top: 3px; left: 25px; }
+.cs14_di_bigEdge .cs14_xspanno a { color: #ff6c00; }
+
+.cs14_user_name_box { background: #fff url(../images/gimg2014.gif) 0 -400px no-repeat; width: 216px; height: 338px; border: 1px #ccc solid; border-top: none; }
+.cs14_di_userLink { padding-left: 20px; line-height: 27px; width: 240px; margin-bottom: 11px; }
+.cs14_di_userLink dt { padding-top: 7px; }
+.cs14_di_userLink li { float: left; width: 110px; }
+.cs14_di_userLink li a { padding-left: 20px; display: block; color: #585858; }
+.cs14_di_userLink a:hover { color: #f22e00; text-decoration: underline; }
+
+.cs14_user_name_mail { position: absolute; width: 68px; top: 0; right: 0; height: 33px; }
+.cs14_user_name_mail a.cs14_unma { width: 34px; height: 33px; display: block; background: url(../images/gimg2014.gif) 0 -350px no-repeat; padding-left: 34px; line-height: 35px; }
+.cs14_user_name_mail a.cs14_unma:hover { background-position: -70px -350px; }
+.cs14_user_name_mail1 { top: 3px; left: 18px; }
+
+
+.cs14_di_fav { position: absolute; width: 68px; top: 0; right: 0; height: 33px; line-height: 35px; }
+.cs14_di_fav a { width: 36px; height: 33px; display: block; background: url(../images/gimg2014.gif) 0 -150px no-repeat; padding-left: 32px; }
+.cs14_di_fav a:hover { background-position: -70px -150px; }
+
+
+
+
+/* ------------- Global login_form ------------- */
+
+.cs14_di_loginFormBoxing { background: #fff; border: 1px #ccc solid; 
+position: fixed; _position: absolute;  z-index: 1000;
+width: 398px; margin-left: -200px; left: 50%; 
+top: 50%; _top: 
+expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); 
+height: 328px; margin-top: -175px; _margin-top: 0; border: 2px #ccc solid; }
+
+.cs14_dif_newClose { height: 56px; background: url(../images/gimg2014.gif) 0 -1050px no-repeat; }
+.cs14_dif_newClose a { width: 40px; height: 32px; display: block; float: right; text-indent: -987em; background: url(../images/gimg2014.gif) -342px -321px no-repeat; }
+.cs14_dif_newClose a:hover { background-position: -342px -288px; }
+
+.cs14_user_win_con { margin: 0 auto; width: 370px; font-size: 14px; color: #585858; }
+.cs14_xaf12 { font-size: 12px; color: #999; height: 38px; vertical-align: text-bottom; }
+.cs14_xaf12 i { float: right; display: block; padding-top: 4px; }
+.cs14_xaf12 a { color: #4590dc; }
+.cs14_xaf12 a:hover { color: #4590dc; text-decoration: underline; }
+.cs14_xaf12 span.cs14_di_tipsRed { color: #f00; }
+.cs14_user_win_con_in { background-color: #fff; background-repeat: no-repeat; background-image: url(../images/gimg2014.gif); border: 1px #ccc solid; padding: 12px 10px; color: #585858; font-size: 14px; height: 15px; width: 328px; }
+.csuci1 { background-position: right -952px; }
+.csuci2 { background-position: right -1006px; }
+
+.cs14_login_href, .cs14_login_href2{ width: 350px; height: 40px; color: #fff; border: none; cursor: pointer; font-size: 18px; font-family: 'Microsoft Yahei'; background-image: url(../images/gimg2014.gif); background-color: transparent }
+.cs14_login_href { background-position: 0 -850px; }
+.cs14_login_href2 { background-position: 0 -900px; }
+
+#x4Reg { width: 420px; padding-top: 10px; }
+
+
+
+
+/* ----------- Global login_form end ----------- */
+
+/* ============================= Global Top 2014.02.22 end ============================= */
+
+

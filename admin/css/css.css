@@ -52,6 +52,9 @@ margin-top:20px;
 #pageAll .templates li a.ok{
 	background:#00A000;
 }
+#pageAll .templates li a.down{
+	background:#d55537;
+}
 #pageAll .page .title {
 	line-height:30px;
 	font-size:14px;

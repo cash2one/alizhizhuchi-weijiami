@@ -1,0 +1,114 @@
+﻿@charset "gbk";
+/* CSS Document */
+*{ margin:0; padding:0;}
+.clear{ clear:both;}
+img{ vertical-align:middle;}
+li{ list-style:none;}
+
+a img{ border:0;}
+input,img{ vertical-align:middle;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#003d51; text-decoration:underline;}
+
+
+body{ font-size:12px; font-family:"����"; background:#FFF;}
+
+.dfz{ width:990px; margin:0 auto;}
+
+.WenZhang_box{ width:990px; margin:0 auto;}
+.WenZhang_box h2{ background-image:url(../images/wenzhang_03.jpg); height:36px; line-height:36px; text-align:center; font-size:20px; background-repeat:repeat-x;}
+.WenZhang_box .GuangGao{ font-size:12px; text-align:center; font-weight:bold; padding-top:12px; padding-bottom:12px;}
+.WenZhang_box .GuangGao .p1{ color:#0096ff;}
+.WenZhang_box .GuangGao .p2{ color: #FF0000;}
+.WenZhang_box .LaiYuan{ text-align:center; color:#737373; font-size:12px; padding:10px 0 1px 0;}
+.solid{ border-bottom:1px solid #dcdcdc; width:627px; margin:0 auto;}
+.WZ_left{ width:677px; float:left;}
+.Weizhi{ font-size:14px; margin:12px 0 12px 15px;}
+.WZ_left .text_box{ width:675px; border:1px solid #bde6f8;}
+.WZ_left .text_box .text{ width:627px; font-size:14px; margin:0 auto; line-height:26px;}
+.WZ_left .text_box .text .em{ text-indent:2em;}
+.WZ_left .text_box .text .ERP_Fanye{ font-size:14px; font-family:"����"; float:right; margin-top:16px; margin-bottom:16px; padding-right:16px;}
+.WZ_left .text_box .text .ERP_Fanye a{ list-style:none; text-decoration:none; border:1px solid #dddddd; display:block; color:#666666;}
+.WZ_left .text_box .text .ERP_Fanye .now a{ background-color:#fc8800; color:#FFFFFF; font-weight:bold;}
+.WZ_left .text_box .text .ERP_Fanye a:hover{ background-color:#fc8800; color:#FFFFFF; font-weight:bold;}
+.WZ_left .text_box .text .ERP_Fanye ul li{ float:left; height:18px; text-align:center; line-height:18px; margin-left:5px;}
+.FenXiang{ text-align:right; padding-bottom:20px; padding-top:30px;}
+.FenXiang a{ color:#000000; text-decoration:none; margin-left:10px;}
+.FenXiang a:hover{ color:#0066CC;}
+
+.Recommend{ width:675px; border:1px solid #bde6f8; margin-bottom:14px;}
+.Recommend .title{ background-image:url(../images/wenzhang_03.jpg); height:36px; line-height:36px; background-repeat:repeat-x; color:#002d49;}
+.Recommend h3{ font-family:"����"; font-size:14px; font-weight:bold; color:#002d49; background-image:url(../images/wenzhang_25.jpg); background-repeat:no-repeat; background-position:18px center; padding-left:42px;}
+.Recommend span{ float:right; font-size:14px; font-style:normal; font-family:"����"; padding-right:18px;}
+.Recommend .ul{ font-size:14px; line-height:24px; padding:10px 0 10px 20px;}
+.Recommend .ul li a{ color:#333333; text-decoration:none;}
+.Recommend .ul li a:hover{ color:#0066CC;}
+.Recommend .title a{ font-size:14px; text-decoration:none; color:#002d49;}
+.Recommend .title a:hover{ text-decoration:underline;}
+
+.web_nav{ width:675px; border:1px solid #bde6f8; margin-top:14px; margin-bottom:14px;}
+.web_nav .title{ background-image:url(../images/wenzhang_03.jpg); height:36px; line-height:36px; background-repeat:repeat-x; color:#002d49;}
+.web_nav h3{ font-family:"����"; font-size:14px; font-weight:bold; color:#002d49; background-image:url(../images/wenzhang_25.jpg); background-repeat:no-repeat; background-position:18px center; padding-left:42px;}
+.web_nav span{ float:right; font-size:12px; font-style:normal; font-family:"����"; padding-right:18px;}
+.web_nav .ul{ font-size:12px; line-height:24px; width:310px; float:left; padding:6px 0 10px 20px; overflow:hidden;}
+.web_nav .ul li{ background-image:url(../images/wenzhang_56.jpg); background-repeat:no-repeat; background-position:left center; line-height:24px; padding-left:10px; height:20px; overflow:hidden;}
+.web_nav .ul li a{ color:#333333; text-decoration:none;}
+.web_nav .ul li a:hover{ color:#0066CC;}
+.web_nav .title a{ font-size:12px; text-decoration:none; color:#002d49;}
+.web_nav .title a:hover{ text-decoration:underline;}
+
+.school_nav{ width:300px; margin-top:14px; margin-bottom:14px;}
+.school_nav .title{ background-image:url(../images/wenzhang_07.jpg); height:32px; line-height:32px; background-repeat:repeat-x; color:#002d49;}
+.school_nav h3{ font-family:"����"; font-size:14px; font-weight:bold; color:#ffffff; background-image:url(../images/wenzhang_10.jpg); background-repeat:no-repeat; background-position:18px center; padding-left:42px;}
+.school_nav span{ float:right; font-size:12px; font-style:normal; font-family:"����"; padding-right:18px;}
+.school_nav .ul{ font-size:12px; line-height:22px; border:1px solid #bde6f8; padding-bottom:10px;}
+.school_nav .ul li a{ text-decoration:none;}
+.school_nav .ul li a:hover{ color:#0066CC;}
+.school_nav .title a{ font-size:12px; text-decoration:none; color:#002d49;}
+.school_nav .title a:hover{ text-decoration:underline;}
+.school_nav .left_pic{ width:137px; float:left; border:1px solid #CCCCCC; padding:1px; margin:7px 25px 0 25px;}
+.school_nav .right_nav{ width:78px; float:left; padding-top:8px;}
+.school_nav .right_nav ul li{ background-image:url(../images/wenzhang_18.jpg); background-repeat:no-repeat; background-position:left center; padding-left:10px;}
+.school_nav .right_nav ul li a{ font-size:14px; color:#000000;}
+.school_nav .dashed{ border-top:1px dashed #CCCCCC; width:276px; height:1px; text-align:center; margin:5px 0 5px 5px;}
+.school_nav .ul_1{ width:50px; padding-left:15px; line-height:24px;}
+.school_nav .ul_2{ width:80px; padding-left:12px; line-height:24px;}
+.school_nav .ul_2 a{ font-weight:bold; color:#1290c1;}
+.school_nav .ul_box ul{ float:left;}
+.MianFei a{ color:#FF3300;}
+.BaoMing{ background-color:#ffcfc3; width:47px; height:18px; text-align:center; line-height:18px; border:1px solid #f1af9f; margin-top:4px;}
+
+.TuiJinaWenZhang{ width:300px; border:1px solid #bde6f8; margin-bottom:14px;}
+.TuiJinaWenZhang .title{ background-image:url(../images/wenzhang_03.jpg); height:36px; line-height:36px; background-repeat:repeat-x; color:#002d49;}
+.TuiJinaWenZhang h3{ font-family:"����"; font-size:14px; font-weight:bold; color:#002d49; background-image:url(../images/wenzhang_25.jpg); background-repeat:no-repeat; background-position:18px center; padding-left:42px;}
+.TuiJinaWenZhang span{ float:right; font-size:124px; font-style:normal; font-family:"����"; padding-right:18px;}
+.TuiJinaWenZhang .ul{ font-size:14px; line-height:24px; padding:10px 0 10px 10px;}
+.TuiJinaWenZhang .ul li a{ color:#333333; text-decoration:none;}
+.TuiJinaWenZhang .ul li a:hover{ color:#0066CC;}
+.TuiJinaWenZhang .title a{ font-size:14px; text-decoration:none; color:#002d49;}
+.TuiJinaWenZhang .title a:hover{ text-decoration:underline;}
+
+
+.WZ_right{ width:300px; float:right;}
+
+.Lie_Recommend{ width:675px; border:1px solid #bde6f8; margin-bottom:14px;}
+.Lie_Recommend .title{ background-image:url(../images/wenzhang_03.jpg); height:36px; line-height:36px; background-repeat:repeat-x; color:#002d49;}
+.Lie_Recommend h3{ font-family:"����"; font-size:14px; font-weight:bold; color:#002d49; background-image:url(../images/wenzhang_25.jpg); background-repeat:no-repeat; background-position:18px center; padding-left:42px;}
+.Lie_Recommend .title span{ float:right; font-size:14px; font-style:normal; font-family:"����"; margin-right:12px;}
+.Lie_Recommend .ul span{ float:right; font-size:14px; font-style:normal; font-family:"����"; padding-right:8px;}
+.Lie_Recommend .ul{ font-size:14px; line-height:24px; padding:10px 0 10px 20px;}
+.Lie_Recommend .ul li{ border-bottom:1px dashed #CCCCCC; width:647px; overflow:hidden; line-height:35px;}
+.Lie_Recommend .ul li a{ color:#333333; text-decoration:none;}
+.Lie_Recommend .ul li a:hover{ color:#0066CC;}
+.Lie_Recommend .title a{ font-size:14px; text-decoration:none; color:#002d49;}
+.Lie_Recommend .title a:hover{ text-decoration:underline;}
+
+.Lie_Recommend .ERP_Fanye{ font-size:14px; font-family:"����"; float:right; margin-top:16px; margin-bottom:16px; padding-right:16px;}
+.Lie_Recommend .ERP_Fanye a{ list-style:none; text-decoration:none; border:1px solid #dddddd; display:block; color:#666666;}
+.Lie_Recommend .ERP_Fanye .now a{ background-color:#fc8800; color:#FFFFFF; font-weight:bold;}
+.Lie_Recommend .ERP_Fanye a:hover{ background-color:#fc8800; color:#FFFFFF; font-weight:bold;}
+.Lie_Recommend .ERP_Fanye ul li{ float:left; height:18px; text-align:center; line-height:18px; margin-left:5px;}
+.Lie_Recommend .ERP_Fanye .F1{ width:90px;}
+.Lie_Recommend .ERP_Fanye .F2{ width:49px;}
+.Lie_Recommend .ERP_Fanye .F3{ width:30px;}
+.Lie_Recommend .ERP_Fanye .F4{ width:80px;}
