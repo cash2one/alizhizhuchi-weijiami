@@ -2,9 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/hsw/n13_ch.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/hsw/n13_zt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/hsw/news_gj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/hsw/news_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/jsc/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/jsc/star.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/moban2/7290611_180032.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/moban2/x02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/images/moban2/x09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/365xs/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/365xs/read.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/365xs/stylelist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/67/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/67/newsV3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/67/titlelist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/67/topMenu950.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/67/topMenu970.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/2014news.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/add.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/back2015.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/jsc/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/jsc/jiathis_counter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/jsc/jiathis_share.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/moban1/indexz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/moban1/main_v2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/moban3/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/moban4/bdsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/moban4/stylet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/HLRelation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/commMore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/hl_float_div.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/imgshare.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/lib1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/select_share.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/share_popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/share_style0_16.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/style_list_ent.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/qianlong/titleBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/rain8/bdsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/rain8/dedecms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/sangwu123/sw.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/xuanshu/share_style1_16.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/css/xuanshu/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/js/baidutj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/js/hsw/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/js/hsw/hm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/js/hsw/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/js/sangwu123/sw.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/neirong.html" afterPath="$PROJECT_DIR$/templates/moban5/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/shouye.html" afterPath="$PROJECT_DIR$/templates/moban5/shouye.html" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -357,7 +411,7 @@
       <workItem from="1467945313663" duration="981000" />
       <workItem from="1467961581396" duration="5387000" />
       <workItem from="1468032698783" duration="42000" />
-      <workItem from="1468032743846" duration="7721000" />
+      <workItem from="1468032743846" duration="7755000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -436,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468049470855</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="增加模板五">
+      <created>1468050559828</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1468050559828</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34956000" />
+    <option name="totallyTimeSpent" value="34990000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -489,7 +550,8 @@
     <MESSAGE value="更新数据库文件" />
     <MESSAGE value="禁用数据导出" />
     <MESSAGE value="增加模板四" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加模板四" />
+    <MESSAGE value="增加模板五" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加模板五" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

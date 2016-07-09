@@ -1,0 +1,1531 @@
+h1{margin-top: 20px;}
+a {color:#242424; text-decoration:none;}
+/*a:link {color:#242424; text-decoration:none;}
+a:visited {color:#242424; text-decoration:none;}
+a:hover {color:#242424; text-decoration:underline;}
+a:active {color:#242424; text-decoration:none;}*/
+
+a.jiaodai{
+   position: absolute;
+    right:0;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0 !important;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  z-index: 1000;
+    text-decoration: none;
+}
+
+.media>.pull-left {
+    margin-right: 20px;
+}
+/*-----------组件1--------------*/
+.list1 a.title{
+
+    line-height: 150%;
+}
+.list1 .intro,.list1 .intro a{
+    font-size: 14px;
+    color:#474747;
+    line-height: 150%;
+}
+
+/*-----------组件2--------------*/
+.list2 .media{
+	margin-top: 30px;
+}
+.list2 .media>.pull-left {
+    width:auto;
+}
+.list2 .media img{
+    margin-right: 1%;
+}
+.list2 a.media-heading{
+    /*cursor: pointer;*/
+
+    line-height: 140%;
+}
+
+.list2 .media-body p{
+    margin-top: 12px;
+	line-height: 180%;
+}
+
+/*-----------组件3.1--------------*/
+.list3_1 .media .list3Pic{
+    width:37%;
+    margin-top: 7px;
+}
+.list3_1 .media .list3Pic li{
+    position: relative;
+    margin-bottom: 30px;
+}
+.list3_1 .media>.pull-right .jiaodai{
+    position: absolute;
+    bottom:-10px;
+    right:0;
+    font-size: 16px;
+    line-height: 160%;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000);
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  z-index: 1000;
+    text-decoration: none;
+    padding:2px 0px;
+}
+
+.list3_1 .media-body li a{
+    
+    line-height: 2.2em;
+} 
+.list3_1 .media img{
+    width: 100%;
+}
+.list3_1 .dot{
+    list-style:square;
+    margin-left: 16px;
+}
+.list3_1 .dot li{
+    list-style:square;
+}
+.list3_1 a.media-heading{
+    cursor: pointer;
+    
+    line-height: 120%;
+}
+
+.list3_1 .media-body p{
+    margin-top: 12px;
+}
+
+
+/*-----------组件3.2--------------*/
+.list3_2 .media .list3Pic{
+    /*width:auto;*/
+    width:37%;
+    margin-top: 7px;
+    margin-right: 3%;
+}
+.list3_2 .media .list3Pic li{
+    position: relative;
+    margin-bottom: 10px;
+}
+.list3_2 .media .list3Pic .jiaodai{
+    position: absolute;
+    bottom:-10px;
+    right:0;
+    font-size: 16px;
+    line-height: 160%;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000);
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  z-index: 1000;
+    text-decoration: none;
+    padding:2px 0px;
+}
+
+.list3_2 .media-body li a{
+    
+    line-height: 2.2em;
+} 
+.list3_2 .media img{
+    width: 100%;
+}
+.list3_2 .dot{
+    list-style:square;
+    margin-left: 16px;
+}
+.list3_2 .dot li{
+    list-style:square;
+}
+.list3_2 a.media-heading{
+    cursor: pointer;
+    
+    line-height: 120%;
+}
+
+.list3_2 .media-body p{
+    margin-top: 12px;
+}
+/*--------------组件4-------------------*/
+.list4 img{
+	height:410px;
+}
+.list4 .carousel-inner>.item img{
+    width:100%;
+}
+.list4 .carousel-caption h4{
+    font-size:16px;
+    font-weight: normal;
+}
+.list4 .carousel-caption{
+    background: rgba(0,0,0,0.4);
+}
+.list4 .carousel-indicators{
+    top:auto;
+    bottom:20px;
+}
+.list4 .carousel-indicators .active {
+    background-color: #ef2d36;
+}
+.list4 .carousel-indicators li{
+    background-color: #ddd;
+}
+.list4 .carousel-control{
+    display: none;
+}
+
+/*--------------组件5-------------------*/
+
+.list5 li{
+    width:30%;
+    float:left;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+	height:190px;
+ }
+.list5 li+li{
+    margin-left: 5%;
+}
+.list5 li img{
+    width:100%;
+    margin-bottom: 20px;
+}
+.list5 li a.title{
+    width:100%;
+    text-align: center;
+    font-size:16px;
+
+}
+.list5 li+li.noLeftGap{
+    margin-left:0;
+}
+/*--------------组件5.2-------------------*/
+
+.list5_2 li{
+    width:30%;
+    float:left;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 0px;
+    position: relative;
+}
+.list5_2 li+li{
+    margin-left: 5%;
+    *margin-left: 4%;
+}
+.list5_2 li img{
+    width:100%;
+    margin-bottom: 20px;
+}
+.list5_2 li a.title{
+    width:100%;
+    text-align: center;
+    font-size:16px;
+
+}
+.list5_2 li+li.noLeftGap{
+    margin-left:0;
+}
+.list5_2 a.jiaodai {
+    bottom: 20px;
+    font-size: 16px;
+    line-height: 2em;
+}
+/*--------------组件6-------------------*/
+.list6 li a{
+    font-size: 16px;
+    
+    line-height:2.2em;
+}
+.list6{
+    list-style:square;
+    margin-left: 16px;
+}
+.list6 li{
+    list-style:square;
+    text-indent: 4px;
+}
+
+/*--------------组件7-------------------*/
+.list7 li a{
+    
+    font-size: 22px;
+    line-height: 2.2em;
+    font-weight: normal;
+}
+.list7 li p{
+    font-size: 14px;
+    line-height: 1.9em;
+    font-family: "宋体";
+}
+
+/*--------------组件8-------------------*/
+.list8 {
+    width:85%;
+    margin:0 auto 30px auto;
+}
+.list8 li{
+    position: relative;
+}
+.list8 li img{
+    width:100%;
+}
+.list8 li a.title{
+    font-size: 16px;
+    color:#fff;
+    line-height:2em;
+}
+/*--------------组件8a-------------------*/
+.list8a {
+    width:85%;
+    margin:0 auto 30px auto;
+}
+.list8a .picTank{
+    position: relative;
+}
+.list8a .intro {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.list8a li img{
+    width:100%;
+}
+.list8a li a.title{
+    font-size: 16px;
+    color:#fff;
+    line-height:2em;
+}
+
+/*-----------组件9--------------*/
+.list9 .media .pic{
+    width:40%;
+    margin-right: 5%;
+}
+
+.list9 a.media-heading{
+    
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list9 .media-body p{
+    margin-top: 12px;
+    line-height: 1.6em;
+}
+
+/*-----------组件10--------------*/
+.list10 .media .list10Pic{
+    width:37%;
+    margin-top: 9px;
+    margin-right: 3%;
+}
+.list10 .media .list10Pic li{
+    position: relative;
+    margin-bottom: 10px;
+}
+.list10 .media-body li a{
+    
+    line-height: 2.2em;
+    font-size:16px;
+} 
+.list10 .media img{
+    width: 100%;
+}
+.list10 .dot{
+    list-style:square;
+    margin-left: 25px;
+}
+.list10 .dot li{
+    list-style:square;
+}
+
+.list10 .media-body p{
+    margin-top: 5px;
+}
+/*-----------组件11--------------*/
+.list11 li{
+    float: left;
+    background: #0da4d6;
+    height: 60px;
+    margin-bottom:15px ;
+    padding:1%;
+}
+.list11 li a{
+    font-size: 16px;
+    line-height: 170%;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.list11 .width1{
+    width:22%;
+	*width:21.5%;
+}
+.list11 .width2{
+    width:44%;
+}
+.list11 .mid{
+    margin:0 3%;
+}
+.list11 .light{
+    background: #35c4ef;
+}
+
+/*-----------组件12--------------*/
+.list12Big{
+    width:44%;
+    overflow: hidden;
+}
+.list12Small{
+    width:56%
+}
+.list12Small li{
+    width:48%;
+    float: left;
+    margin-left: 2%;
+	margin-left: 1.9%;
+	/*height:116px;*/
+	overflow:hidden;
+}
+.list12Small li img{
+    width:100%;
+}
+.list12Big li{
+    overflow: hidden;
+}
+.list12Big li img{
+    width:100%;
+    /*height:100%;*/
+}
+.list12 li{
+    position: relative;
+    margin-bottom: 8px;
+}
+.list12 li p.jiaodai{
+   position: absolute;
+    right:0;
+    bottom:-10px;
+    line-height: 200%;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0 !important;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  z-index: 1000;
+    text-decoration: none;
+}
+
+/*-----------组件12b--------------*/
+.list12bBig{
+    width:40%;
+    overflow: hidden;
+}
+.list12bSmall{
+    width:60%
+}
+.list12bSmall li{
+    width:32%;
+    float: left;
+    margin-left: 1%;
+
+    /*height:116px;*/
+    overflow:hidden;
+}
+.list12bSmall li img{
+    width:100%;
+}
+.list12bBig li{
+    overflow: hidden;
+}
+.list12bBig li img{
+    width:100%;
+    /*height:100%;*/
+}
+.list12b li{
+    position: relative;
+    margin-bottom: 8px;
+}
+.list12b li p.jiaodai{
+    position: absolute;
+    right:0;
+    bottom:-10px;
+    line-height: 200%;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0 !important;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    overflow: hidden;
+    display: block;
+    color: #fff;
+    z-index: 1000;
+    text-decoration: none;
+}
+/*-----------组件13--------------*/
+.list13{
+    position: relative;
+    height: 39px;
+    border-bottom: dashed 1px #1a1a1a;
+}
+.list13R{
+    position: absolute;
+    top:-10000px;
+    width:90%;
+    left:0;
+}
+.list13 .marqueenTank{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+.list13 ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:20000px;
+}
+.list13 .marqueenTank ul li{
+
+    float: left;
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+.list13 h4{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.list13 .marqueenTank ul li a{
+    font-size: 14px;
+    color:#787878;
+    font-family: "宋体";
+}
+
+.list13 h4{
+    display:inline;
+    width:82px;
+    padding-left: 6px;
+    height: 20px;
+}
+.list13 h4 a{
+    background: #fff;
+    font-size:18px;
+    line-height: 20px;
+    padding-left: 10px;
+    height: 22px;
+    width:100%;
+}
+
+.list13 h4.blue{
+    background: #c1d9e8;
+
+}
+.list13 h4.blue a{
+    color:#0a69a4;
+}
+.list13 h4.grey{
+    background: #c1c1c1;
+
+}
+.list13 h4.grey a{
+    color:#6a6a6a;
+}
+.list13 h4.brown{
+    background: #dcaa5c;
+
+}
+.list13 h4.brown a{
+    color:#704a17;
+}
+.list13 h4.jishi {
+    background: #A3B1D8;
+}
+.list13 h4.jishi a {
+    color: #4663B1;
+}
+/*-----------组件14--------------*/
+.list14 .dl-horizontal dt {
+  font-size: 16px;
+  width: 60px;
+  line-height: 1.9em;
+    color:#242424;
+}
+.list14 .dl-horizontal dd {
+  font-size: 16px;
+  margin-left: 70px;
+  line-height: 1.9em;
+    color:#242424;
+}
+
+/*-----------组件15--------------*/
+.list15 table{
+  width:100%;
+}
+.list15 td a{
+	font-size:16px;
+	line-height:1.8em;
+}
+
+/*-----------组件16--------------*/
+.list16{
+    overflow: hidden;
+    width:100%;
+}
+.list16 li{
+    width:49%;
+    float: left;
+    margin-bottom: 2%;
+    position: relative;
+}
+.list16 a.title {
+    font-size: 15px;
+    line-height: 1.7em;
+}
+.list16 li.hasLeftGap{
+    margin-left: 2%;
+}
+.list16 li img{
+    width:100%;
+}
+
+/*-----------组件17--------------*/
+
+.list17 li{
+    width:32%;
+    float:left;
+    margin-left: 0;
+}
+.list17 li+li{
+    margin-left: 2%;
+    *margin-left: 1.5%;
+}
+.list17 li img{
+    width:100%;
+    margin-bottom: 6px;
+}
+.list17 li a.title{
+    width:100%;
+    font-size:16px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 200%;
+}
+
+/*-----------组件18--------------*/
+
+.list18 li{
+    width:23%;
+    float:left;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.list18 li+li{
+    margin-left: 2.66%;
+}
+.list18 li img{
+    width:100%;
+    margin-bottom: 6px;
+}
+.list18 li a.title{
+    width:100%;
+    font-size:16px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.7em;
+}
+.list18 li+li.noLeftGap{
+    margin-left:0;
+}
+.list18 li.noLeftGap{
+    margin-left:0;
+}
+
+/*-----------组件19--------------*/
+.list19 li {
+	width: 32%;
+	float: left;
+	margin-left: 0;
+	margin-bottom: 20px;
+	margin-right: 2%;
+	background: #EEF2F1;
+}
+.list19 li:hover{
+	background: #00A0EA;
+	box-shadow: 5px 5px 15px 5px #DBF1FC;
+}
+.list19 li .whiteTank{
+	background: #fff;
+	margin: 1px;
+	margin-top: 1px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.list19 li:hover .whiteTank{
+	margin: 1px;
+
+}
+.list19 li.cut3{
+	margin-right: 0;
+}
+.list19 li a{
+	display: block;
+	text-decoration: none;
+
+}
+.list19 li .tagSet span{
+	display: inline-block;
+	font-size:15px;
+	background: #DEE6E9 url(img/iconTag.png) no-repeat right center;
+	height: 21px;
+	padding:0px 20px 0 10px;
+	margin-top: 20px;
+    margin-right: 10px;
+	color:#8C959C;
+}
+.list19 li a.title{
+	font-size:20px;
+	text-align: left;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+.list19 li a img{
+	width:100%;
+}
+
+
+/*-----------组件20--------------*/
+.list20 {
+            position: relative;
+            height: 656px;
+            overflow: hidden;
+        }
+        .list20 .panel{
+            height: 200px;
+            position: absolute;
+            bottom:0;
+            width:100%;
+            background: #000;
+            background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+            -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+        }
+        .list20 .bigPhotoTank {
+            height: 656px;
+        }
+        .list20 a.bigPhoto {
+             display: block;
+             height: 656px;
+             overflow: hidden;
+         }
+        .list20 a.bigPhoto img{
+            width:100%;
+        }
+        .list20 li {
+            width: 14.6%;
+            position: static;
+        }
+        .list20 li + li {
+            margin-right: 2%;
+        }
+        .list20 li img{
+            width:100%;
+        }
+        .list20 li a.title {
+            position: absolute;
+            color: #fff;
+            top: -45px;
+            left: 0;
+            font-size: 25px;
+            line-height: 60px;
+            text-indent: 1em;
+            display: none;
+        }
+        .list20 .thumbTank {
+            width: 96%;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: absolute;
+            bottom: 20px;
+            left: 2%;
+
+        }
+
+        .list20 ul{
+            position: absolute;
+            left:0;
+            width:10000px;
+
+        }
+        .list20 ul li
+        {
+            width:172px;
+            margin-right:20px;
+            float: left;
+        }
+
+        .list20 a.btnPrev,.list20 a.btnNext {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .list20 a.btnNext {
+            position: absolute;
+            bottom: 60px;
+            right:5px;
+        }
+        .list20 a.btnPrev {
+            position: absolute;
+            bottom: 60px;
+            left:5px;
+        }
+        .list20 h4.curTitle {
+            position: absolute;
+            top: 0px;
+            text-indent: 1em;
+            color: #fff;
+            font-size: 25px;
+            line-height: 60px;
+            font-weight:normal;
+        }
+        .list20 li.cur{
+            border-top:solid 4px #ff0;
+        }
+        .list20 li.noLeftGap {
+            margin-left: 0;
+        }
+/* Large desktop */
+@media (min-width: 1200px) { 
+    .list1 .title{
+        font-size: 22px;
+    }
+    
+    .list2 a.media-heading{
+        font-size: 22px;
+    }
+    
+    .list3_1 .media-body li a{
+        font-size: 16px;
+    } 
+    .list3_2 .media-body li a{
+        font-size: 16px;
+    } 
+	.list6 li a {
+	  line-height: 2.2em;
+	}
+	.list7 li a {
+	  line-height: 2.2em;
+	}
+
+
+}
+/* desktop */
+@media (min-width: 979px) and (max-width: 1199px) {
+    .list1 .title{
+        font-size: 22px;
+    }
+    .list2 a.media-heading{
+        font-size: 18px;
+    }
+    .list2 .media>.pull-left,.list3_2 .media>.pull-left {
+        width:37%;
+        float: left;
+    }
+	.list2 .media>.pull-right {
+        width:37%;
+    }
+    .list3_1 .media-body li a{
+        font-size: 15px;
+        line-height: 1.95em;
+    } 
+    .list3_2 .media-body li a{
+        font-size: 15px;
+        line-height: 2em;
+    }
+    .list3_2 .media .list3Pic{
+        /*width:auto;*/
+    }
+	.list4 img{
+		height:330px;
+	}
+	.list5 li{
+		height:160px;
+	 }
+    .list5_2 li a.title{
+        font-size:15px;
+    }
+    .list6 li a{
+        font-size:15px;
+    }
+	.list7 li a {
+	  line-height: 1.2em;
+	  font-size: 18px;
+	}
+	.span8 .list7 li a {
+	  font-size: 22px;
+	}
+    .list7 li p{
+        margin-top: 5px;
+    }
+    .list9 .media .pic{
+        width:30%;
+        margin-right: 5%;
+    }
+    .list10 .media-body li a{
+        font-size:15px;
+        line-height: 2em;
+    } 
+    .list10 .media .list10Pic {
+      width: 37%;
+      margin-top: 9px;
+      margin-right: 1%;
+    }
+    .list10 .dot{
+        list-style:none;
+        margin-left: 16px;
+    }
+    .list10 .dot li {
+      list-style: none;
+    }
+    .list11 li a{
+        font-size: 13px;
+        line-height: 170%;
+        color: #fff;
+    }
+    .list12Small li{
+        margin-left: 1.8%;
+		/*height:94px;*/
+		overflow:hidden;
+
+    }
+    .list14 .dl-horizontal dd,.list14 .dl-horizontal dt{
+        font-size:15px;
+    }
+    .list18 li{
+        height: 180px;
+    }
+	.list15 td a {
+		font-size: 15px;
+	}
+	.list20 {
+                height: 548px;
+            }
+            .list20 ul li {
+                width: 165px;
+            }
+            .list20 a.btnNext {
+                right: 5px;
+            }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .list1 .title{
+        font-size: 20px;
+    }
+    
+    .list2 a.media-heading{
+        font-size: 16px;
+    }
+    .list2 .media>.pull-left {
+        width:37%;
+        float: left;
+    }
+    .list2 .media>.pull-right {
+        width:37%;
+    }
+    .list3_1 .media-body li a{
+        font-size: 12px;
+        line-height: 1.9em;
+    } 
+    .list3_1 .media .list3Pic {
+        margin-top: 5px;
+    }
+
+    .list3_2 .media-body li a{
+        font-size: 12px;
+        line-height: 1.8em;
+    } 
+    .list3_2 .media .list3Pic {
+        margin-top: 5px;
+        width: 37%;
+    }
+	.list4 img{
+		height:253px;
+	}
+	.list5 li{
+		height:160px;
+	 }
+    .list5_2 a.jiaodai{
+        position: relative;
+        color:#0a69a4;
+        background: rgba(255, 255, 255, 1) none repeat scroll 0 0 !important;
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+    }
+	.list6 li a {
+	  font-size: 16px;
+	  line-height: 1.2em;
+	  /*line-height: 2.2em;*/
+	}
+	.list7 li a {
+	  font-size: 16px;
+	  line-height: 1.2em;
+	  font-weight:normal;
+	}
+	.span8 .list7 li a {
+	  font-size: 20px;
+	  
+	}
+	.list7 li p {
+	  font-size: 12px;
+	  line-height: 1.5em;
+        margin-top: 10px;
+	}
+	.list9 .media-body p {
+      line-height: 1.4em;
+    }
+    .list9 .media .pic{
+        width:100%;
+        margin-right: 0;
+        float:none;
+    }
+    .list10 .media-body li a{
+        font-size:16px;
+        line-height: 2.2em;
+    } 
+    .list10 .media .list10Pic {
+      width: 37%;
+      margin-top: 9px;
+      margin-right: 1%;
+    }
+    .list10 .media .list10Pic {
+        width:100%;
+        margin-left: 0;
+        float:none;
+    }
+    .list10 .media .list10Pic img{
+        width:100%;
+    }
+    .list11 li a{
+        font-size: 13px;
+        line-height: 170%;
+        color: #fff;
+    }
+
+    .list12Big{
+        width:100%;
+        overflow: hidden;
+    }
+    .list12Small{
+        width:100%
+    }
+    .list12Small li{
+        width:49%;
+        float: left;
+        margin-left: 0;
+		/*height:131px;*/
+		overflow:hidden;
+    }
+    .list12Small li.hasGap{
+        margin-left: 2%;
+    }
+    .list12Small li img{
+        width:100%;
+    }
+    .list12Big li{
+        overflow: hidden;
+    }
+    .list12Big li img{
+        width:100%;
+        /*height:100%;*/
+    }
+    .list12 li{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .list16 li.hasLeftGap{
+        *margin-left: 1.5%;
+    }
+    .list18 li+li {
+        *margin-left: 2.5%;
+    }
+    .list18 li{
+        height: 140px;
+    }
+	.list19 li {
+		width: 49%;
+		float: left;
+		margin-left: 0;
+		margin-bottom: 20px;
+		margin-right: 2%;
+		background: #EEF2F1;
+	}
+
+	.list19 li.cut3{
+		margin-right: 2%;
+	}
+	.list19 li.cut2{
+		margin-right: 0;
+	}
+	.list19 li a.title{
+		font-size:16px;
+	}
+	.list20 {
+                height: 422px;
+            }
+            .list20 .panel {
+                height: 160px;
+            }
+            .list20 .thumbTank {
+                width: 92%;
+                left: 4%;
+            }
+
+            .list20 ul li {
+                width: 150px;
+            }
+
+            .list20 a.btnNext {
+                right: 10px;
+                left:auto;
+            }
+            .list20 h4.curTitle {
+                font-size: 18px;
+                line-height: 1em;
+
+            }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .list1 .title{
+        font-size: 22px;
+    }
+    .list2 .media>.pull-left,.list2 .media>.pull-right {
+        width: 33%;
+    }
+    .list2 a.media-heading{
+        font-size: 20px;
+    }
+    
+    .list3_1 .media-body li a{
+        font-size: 14px;
+        line-height: 1.8em;
+    } 
+    .list3_1 .media .list3Pic {
+        margin-top: 3px;
+        margin-left: 0;
+        width:33%;
+    }
+    
+    .list3_2 .media-body li a{
+        font-size: 14px;
+        line-height: 1.95em;
+    } 
+    .list3_2 .media .list3Pic {
+        margin-top: 3px;
+        margin-left: 0;
+        width:33%;
+    }
+	.list3_1 .media>.pull-right .jiaodai {
+		font-size:13px;
+	}
+    .list3_2 .media .list3Pic .jiaodai{
+        font-size:13px;
+    }
+	.list4 img{
+		height:auto;
+	}
+    .list5 li{
+        width:30%;
+        float:left;
+        margin-left: 0;
+        text-align: center;
+		height:190px;
+     }
+    .list5 li+li{
+        margin-left: 5%;
+        *margin-left: 4%;
+    }
+    .list5_2 li a.jiaodai{
+       font-size:15px;
+    }
+	.list8{
+		width:100%;
+	}
+    .list8a{
+        width:100%;
+    }
+    .list9 .media .pic{
+        width:30%;
+        margin-right: 5%;
+ 
+    }
+    .list9 a.media-heading{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .list9 .media-body p{
+        font-size: 16px;
+        margin-top: 12px;
+        line-height: 1.8em;
+    }
+    /*-----------组件12b--------------*/
+    .list12bBig{
+        width:100%;
+        overflow: hidden;
+    }
+    .list12bSmall{
+        width:100%;
+    }
+    .list12bSmall li{
+        width:49%;
+        margin-left: 0;
+        margin-bottom: 2%;
+    }
+    .list12bSmall li.hasGap{
+        margin-left: 2%;
+    }
+
+	.list14 .dl-horizontal dt{
+		float:left;
+	}
+    .list16 li {
+        *width: 48%;
+    }
+    /*-----------组件17--------------*/
+    .list17 li{
+        width:100%;
+    }
+    .list17 li+li{
+        margin-left: 0;
+    }
+    .list17 li img{
+        width:25%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 7px;
+    }
+    .list17 li a.title,.list17 li .intro{
+        float: right;
+        width:73%;
+    }
+
+    .list18 li{
+        width:49%;
+        *width:48%;
+        float:left;
+        margin-left: 0;
+        text-align: center;
+        /*height:210px;*/
+    }
+    .list18 li,.list18 li+li{
+        margin-left: 2%;
+    }
+	.list19 li {
+		width: 49%;
+		float: left;
+		margin-left: 0;
+		margin-bottom: 20px;
+		margin-right: 2%;
+		background: #EEF2F1;
+	}
+
+	.list19 li.cut3{
+		margin-right: 2%;
+	}
+	.list19 li.cut2{
+		margin-right: 0;
+	}
+	.list19 li a.title{
+		font-size:16px;
+	}
+	.list20 {
+                height: auto;
+            }
+            .list20 .bigPhotoTank {
+                height: auto;
+            }
+            .list20 a.bigPhoto {
+                height: auto;
+            }
+            .list20 .panel {
+                height: 120px;
+                position: relative;
+                background: rgba(0, 0, 0, 1) none repeat scroll 0 0 !important;
+                -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000);
+            }
+            .list20 .thumbTank {
+                width: 92%;
+                left: 4%;
+                height:60px;
+            }
+
+            .list20 ul li {
+                width: 150px;
+                border-top:solid 4px #000;
+            }
+
+            .list20 a.btnNext {
+                right: 10px;
+                left:auto;
+                bottom:40px;
+            }
+            .list20 a.btnPrev {
+                bottom:40px;
+            }
+
+            .list20 h4.curTitle {
+                font-size: 18px;
+                line-height: 1em;
+
+            }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .list2 .media>.pull-left {
+        width:30%;
+        margin-right: 0;
+        float:left;
+    }
+	.list2 .media>.pull-right {
+        width:30%;
+        margin-left: 0;
+        float:left;
+    }
+    .list2 .media-body{
+        width:65%;
+        float: right;
+    }
+    .list2 a.media-heading {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .list2 .media-body p {
+        display: none;
+    }
+    .list3_1 .media>.pull-right {
+        width:100%;
+        margin-left: 0;
+
+    }
+    .list3_1 .media .list3Pic {
+        display: none;
+    }
+    .list3_1 .media img{
+        width:100%;
+    }
+    .list3_1 .media-body li a{
+        font-size: 16px;
+        line-height: 1.8em;
+    } 
+    .list3_2 .media .list3Pic {
+        width:100%;
+        margin-left: 0;
+        display: none;
+    }
+    .list3_2 .media img{
+        width:100%;
+    }
+    .list3_2 .media-body li a{
+        font-size: 16px;
+        line-height: 1.8em;
+    } 
+	.carousel-caption {
+	  position: absolute; 
+	}
+    .list5 li{
+        width:100%;
+        float:none;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+     }
+    .list5 li+li{
+        margin-left: 0;
+    }
+    .list5 li img{
+        margin-bottom: 10px;
+    }
+    .list5_2 a.jiaodai{
+        position: relative;
+        color:#0a69a4;
+        background: rgba(255, 255, 255, 1) none repeat scroll 0 0 !important;
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+    }
+	.list6 li a{
+        font-size: 16px;
+      line-height: 1.8em;
+    }
+	.span4 .list8{
+		width:100%;
+	}
+
+    .span8 .list8 li a.jiaodai{
+        position: relative;
+        background: rgba(255, 255, 255, 1) none repeat scroll 0 0 !important;
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);
+        overflow: hidden;
+        display: block;
+        color: #fff;
+        z-index: 1000;
+        text-decoration: none;
+    }
+    .span8 .list8 li a.title{
+        color:#0a69a4;
+    }
+    .list9 .media .pic{
+        width:100%;
+        margin-right: 0;
+        float:none;
+		
+    }
+    .list9 .media .pic img{
+        width:100%;
+		display: none;
+    }
+    .list10 .media .list10Pic {
+        width:100%;
+        margin-left: 0;
+    }
+    .list10 .media .list10Pic img{
+        width:100%;
+		display: none;
+    }
+	.list10 .media-body li a {
+      line-height: 1.8em;
+      font-size: 16px;
+    }
+    .list11 li a{
+        font-size: 13px;
+        line-height: 170%;
+        color: #fff;
+    }
+    
+    .list12Big{
+        width:100%;
+        overflow: hidden;
+    }
+    .list12Small{
+        width:100%
+    }
+    .list12Small li{
+        width:49%;
+        float: left;
+        margin-left: 0;
+    }
+    .list12Small li.hasGap{
+        margin-left: 2%;
+    }
+    .list12Small li img{
+        width:100%;
+    }
+    .list12Big li{
+        overflow: hidden;
+    }
+    .list12Big li img{
+        width:100%;
+    }
+    .list12 li{
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    /*-----------组件17--------------*/
+    .list17 li{
+        width:100%;
+    }
+    .list17 li+li{
+        margin-left: 0;
+    }
+    .list17 li img{
+        width:100%;
+        float: none;
+
+    }
+    .list17 a.pic{
+        float: left;
+        width:30%;
+    }
+    .list17 a.pic img{
+        width:100%;
+    }
+    .list17 li a.title,.list17 li .intro{
+        float: right;
+        width:65%;
+    }
+    /*-----------组件18--------------*/
+    /*.list18 li{
+        width:100%;
+        float:left;
+        margin-left: 0;
+        text-align: center;
+    }
+    .list18 li,.list18 li+li{
+        margin-left: 0%;
+    }*/
+    .list18 li{
+        /*height:170px;*/
+    }
+	.list5 li{
+		height:auto;
+	 }
+	 
+	 .list19 li {
+		width: 98%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 20px;
+		background: #EEF2F1;
+	}
+	.list20 .panel {
+                height: 150px;
+            }
+            .list20 .thumbTank {
+                width: 88%;
+                left: 6%;
+                height: 100px;
+                bottom:10px;
+            }
+            .list20 h4.curTitle {
+                font-size: 15px;
+                line-height: 1em;
+            }
+            .list20 a.btnNext {
+                right: 6px;
+                bottom:50px;
+            }
+            .list20 a.btnPrev {
+                bottom:50px;
+            }
+
+}
+

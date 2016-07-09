@@ -1,0 +1,777 @@
+.tank{
+    border:none;
+}
+h1{margin-top: 20px;}
+h3{
+    padding: 0;
+    margin: 20px 0;
+    /*font-weight: normal;
+    color:#1a1a1a;*/
+    font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+
+}
+h3,h3 span,h3 a,h3 span a,h3 a:link,h3 a:visited,h3 a:hover,h3 a:active{
+    color:#1a1a1a;
+    text-decoration:none;
+    font-weight: normal;
+}
+.span4 h3 {
+  margin-top: 15px;
+}
+/*-----------组件1--------------*/
+h3.titleBar1{
+    font-size: 24px;
+    line-height: 30px;
+    text-indent: 15px;
+    border-left: solid 4px #ef2d36;
+    font-weight: normal;
+}
+/*-----------组件2--------------*/
+h3.titleBar2{
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: solid 1px #0166bc;
+    padding-bottom: 10px;
+}
+/*-----------组件3--------------*/
+h3.titleBar3{
+    border-bottom: 2px solid #0166bc;
+    position: relative;
+    height: 35px;
+
+}
+h3.titleBar3 div{
+    line-height: 35px;
+    border-bottom: 2px solid #ef2d36;
+    position: absolute;
+    height: 35px;
+}
+h3.titleBar3 span{
+    font-size: 24px;
+    line-height: 30px;
+    border-right: 4px solid #FFFFFF;
+    height: 40px;
+    display: inline-block;
+	font-weight: bold;
+}
+/*-----------组件3a--------------*/
+
+.titleBar3a{
+    border-bottom: solid 2px #E7E7E7;
+}
+.titleBar3a span{
+    border-bottom: solid 2px #8BC59F;
+    padding-bottom: 6px;
+    padding-right: 30px;
+}
+.titleBar3a .gap{
+    background: #fff;
+    padding-right: 3px;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: -2px;
+}
+
+/*-----------组件4--------------*/
+h3.titleBar4{
+    font-size: 24px;
+    line-height: 30px;
+    color:#1a1a1a;
+}
+/*-----------组件5--------------*/
+/*h3.titleBar5{
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: solid 1px #bcbcbc;
+    padding-bottom: 10px;
+    color:#1a1a1a;
+}*/
+/*-----------组件6--------------*/
+h3.titleBar6{
+    font-size: 24px;
+    line-height: 1px;
+    *line-height: 30px;
+    border-bottom: solid 15px #fff;
+    *border-bottom: solid 1px #bcbcbc;
+    border-top: solid 15px #fff;
+    color: #1a1a1a;
+    height: 1px;
+    *height: 30px;
+    background: #bcbcbc;
+    *background: #fff;
+    text-align: center;
+    *padding-bottom:5px;
+}
+h3.titleBar6 span{
+
+    background: #fff;
+    /*display: inline-block;*/
+    padding:0 5px;
+
+    [;margin-top:-40px;]
+    [;line-height:40px;]
+    *margin-top: 10px;
+}
+
+/*-----------栏目下标签组件--------------*/
+.tab1 li{
+    float: left;
+    display: inline;
+    border:solid 1px #6f6f6f;
+    width:14%;
+    margin-right: 2%;
+}
+.tab1 li a{
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+    display:block;
+    padding:8px 0;
+}
+.tab1 li a:visited{
+    color: #6f6f6f;
+    font-weight: bold;
+}
+/*-----------组件7-1--------------*/
+h3.titleBar7-1{
+    background: url(img/titleBar7GreyBgd.png) no-repeat top right;
+    height: 36px;
+    font-style: italic;
+    line-height: 34px;
+    padding-left: 8px;
+    color:#d02828;
+}
+h3.titleBar7-1 a{
+    color:#d02828;
+    font-style: italic;
+    font-size: 24px;
+}
+h3.titleBar7-1 a span,h3.titleBar7-1 span{
+    color:#eee;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*-----------组件7-2--------------*/
+h3.titleBar7-2{
+    background: #C8C8C8 url(img/titleBar7OrangeBgd.png) no-repeat top right;
+    height: 36px;
+    font-style: italic;
+    line-height: 34px;
+    padding-left: 8px;
+    color:#623e06;
+}
+h3.titleBar7-2 a{
+    color:#623e06;
+    font-style: italic;
+    font-size: 24px;
+}
+h3.titleBar7-2 a span,h3.titleBar7-2 span{
+    color:#9a6b22;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/*-----------组件8-1--------------*/
+h3.titleBar8-1{
+    border-bottom:solid 1px #bcbcbc;
+    height: 36px;
+    font-style: italic;
+    line-height: 34px;
+    padding-left: 8px;
+    color:#d02828;
+    text-align: left;
+}
+h3.titleBar8-1 a{
+    color:#d02828;
+    font-style: italic;
+    font-size: 24px;
+    text-align: left;
+}
+h3.titleBar8-1 a span,h3.titleBar8-1 span{
+    color:#c1c1c1;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+}
+/*-----------组件8-2--------------*/
+h3.titleBar8-2{
+    border-bottom:solid 1px #bcbcbc;
+    height: 36px;
+    font-style: italic;
+    line-height: 34px;
+    padding-left: 8px;
+    color:#7b5110;
+}
+h3.titleBar8-2 a{
+    color:#7b5110;
+    font-style: italic;
+    font-size: 24px;
+}
+h3.titleBar8-2 a span,h3.titleBar8-2 span{
+    color:#af7e33;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/*-----------组件9-------------*/
+h3.titleBar9{
+    background: url(img/titleBar9Bgd.png) no-repeat right top;
+    height: 36px;
+}
+h3.titleBar9 a{
+    *cursor:pointer;
+}
+h3.titleBar9 .title{
+    background: #0A69A4;
+    height: 36px;
+    font-size:24px;
+    color:#fff;
+    display:inline-block;
+    padding:0 10px;
+    line-height: 36px;
+    float: left;
+}
+h3.titleBar9 .subTitle{
+    background: url(img/titleBar9SubTitleBgd.png) no-repeat top left;
+    font-size:24px;
+    height: 36px;
+    color:#b9dff7;
+    display:inline-block;
+    padding-left:40px;
+    font-size: 18px;
+    margin-top:0;
+    float: left;
+}
+
+/*-----------组件10-------------*/
+h3.titleBar10{
+    border-bottom: solid 1px #0A69A4;
+    height: 35px;
+}
+h3.titleBar10 a{
+    *cursor:pointer;
+}
+h3.titleBar10 .title{
+    background: url(img/titleBar10TitleBgd.png) repeat-x;
+    height: 35px;
+    font-size:24px;
+    color:#fff;
+    display:inline-block;
+    padding:0 10px;
+    line-height: 36px;
+    float: left;
+}
+h3.titleBar10 .subTitle{
+    background: url(img/titleBar10SubTitleBgd.png) no-repeat;
+    font-size:24px;
+    height: 35px;
+    color:#0A69A4;
+    display:inline-block;
+    padding-left:30px;
+    font-size: 18px;
+    margin-top:0;
+    float: left;
+}
+
+/*-----------组件11-------------*/
+h3.titleBar11{
+    background: #ECF6FC url(img/titleBar11Bgd.png) no-repeat;
+    height: 36px;
+    font-size:24px;
+    color:#0A69A4;
+    padding-left:20px;
+    line-height: 36px;
+}
+h3.titleBar11 a{
+    color:#0A69A4;
+}
+
+/*-----------组件12-------------*/
+h3.titleBar12{
+    background: #ECF6FC url(img/titleBar12Bgd.png) repeat-x;
+    height: 36px;
+    font-size:24px;
+    color:#0A69A4;
+    padding-left:15px;
+    line-height: 36px;
+}
+h3.titleBar12 a{
+    color:#0A69A4;
+}
+
+/*-----------组件13--------------*/
+h3.titleBar13 {
+    font-size: 24px;
+    line-height: 1px;
+    *line-height: 24px;
+    border-bottom: solid 15px #fff;
+    *border-bottom: solid 1px #bcbcbc;
+    border-top: solid 15px #fff;
+    color: #0A69A4;
+    height: 1px;
+    *height: 24px;
+    background: #bcbcbc;
+    *background: #fff;
+    *padding-bottom:5px;
+}
+h3.titleBar13 span{
+    background: #fff;
+    color: #0A69A4;
+    display: inline-block;
+    padding:0 10px;
+    [;margin-top:-40px;]
+    [;line-height:40px;]
+    *margin-top: 10px;
+}
+h3.titleBar13 span a{
+    color: #0A69A4;
+}
+
+/*-----------组件14-------------*/
+h3.titleBar14{
+    background: url(img/titleBar14Bgd.png) repeat-x left bottom;
+    height: 36px;
+    font-size:24px;
+    color:#0A69A4;
+    padding-left:10px;
+    line-height: 36px;
+    padding-bottom: 5px;
+}
+h3.titleBar14 span{
+    background: url(img/titleBar14TitleBgd.png) no-repeat center bottom;
+    height: 36px;
+    line-height: 36px;
+    color:#0A69A4;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+h3.titleBar14 a{
+    color:#0A69A4;
+    line-height: 36px;
+}
+
+/*-----------组件15-------------*/
+h3.titleBar15{
+    background: url(img/titleBar15Bgd.png) no-repeat right top;
+    height: 36px;
+    font-size:24px;
+    color:#0A69A4;
+    line-height: 36px;
+    padding-bottom: 5px;
+}
+h3.titleBar15 span.shell{
+    background: url(img/titleBar15TitleLBgd.png) no-repeat;
+    height: 36px;
+    display: inline-block;
+}
+h3.titleBar15 span.title{
+    background: #fff url(img/titleBar15TitleRBgd.png) no-repeat top right;
+    height: 30px;
+    line-height: 24px;
+    *line-height: 30px;
+    color:#2b7237;
+    display: inline-block;
+    padding:0 46px 0 5px;
+    vertical-align: top;
+    margin-left: 23px;
+}
+h3.titleBar15 a{
+    color:#2b7237;
+    line-height: 24px;
+    *line-height: 30px;
+}
+
+/*-----------组件16-------------*/
+h3.titleBar16{
+    background: url(img/titleBar16Bgd.png) repeat-x center center;
+    height: 36px;
+    font-size:24px;
+    color:#0A69A4;
+    line-height: 36px;
+    text-align: center;
+}
+h3.titleBar16 span.shell{
+    background: #fff url(img/titleBar16TitleRBgd.png) no-repeat right center;
+    height: 36px;
+    padding-right: 70px;
+    display: inline-block;
+
+}
+h3.titleBar16 span.title{
+    background: #fff url(img/titleBar16TitleLBgd.png) no-repeat left center;
+    padding-left: 70px;
+    height: 36px;
+    line-height: 36px;
+    color:#2b7237;
+    display: inline-block;
+
+}
+h3.titleBar16 a{
+    color:#2b7237;
+    line-height: 24px;
+}
+
+/*-----------组件17-------------*/
+h3.titleBar17{
+    background: url(img/titleBar17Bgd.png) no-repeat;
+    height: 26px;
+    position: relative;
+    width:100%;
+}
+h3.titleBar17 .title{
+    position: absolute;
+    top:0;
+    background: #ffffff;
+    padding: 0 12px;
+    margin-left: 4px;
+    height: 26px;
+    font-size:24px;
+    color:#0969A6;
+    line-height: 24px;
+    display: inline-block;
+    font-style: normal;
+}
+h3.titleBar17 .rightLink{
+    position: absolute;
+    right:10px;
+    bottom: -2px;
+    font-size: 18px;
+    color:#0969A6;
+}
+h3.titleBar17 .title a{
+    color:#0969A6;
+}
+
+/*-----------组件18-------------*/
+
+h3.titleBar18 {
+    font-size:24px;
+    color:#5D6AD3;
+    font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    font-weight:bold;
+    text-decoration:none;
+    height:36px;
+    line-height:36px;
+    overflow:hidden; margin-top:0;
+    margin-bottom:10px;
+    position: relative;
+}
+h3.titleBar18:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #8AA0F3;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+h3.titleBar18 span {
+    position:relative;
+}
+h3.titleBar18 span:before {
+    content:"";
+    display:block;
+    width:3px;
+    height:14px;
+    background:#FF9F38;
+    position:absolute;
+    left:0px; top:18px;
+}
+
+h3.titleBar18 span:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 11px;
+    background: #8D9FF5;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+h3.titleBar18 span{
+    background: #FFF;
+    font-size: 24px;
+    color: #5D6AD3;
+    font-family: "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    font-weight: bold;
+    text-decoration: none;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+}
+h3.titleBar18 a {
+    font-size: 24px;
+    color: #5D6AD3;
+    font-family: "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    font-weight: bold;
+    text-decoration: none;
+    height: 36px;
+    line-height: 36px;
+    /*padding: 0 20px;*/
+}
+
+/*-----------组件19-------------*/
+h3.titleBar19{
+    border-bottom: 5px solid #F2F2F3;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+h3.titleBar19 a{
+    *cursor:pointer;
+}
+h3.titleBar19 .title{
+    color: #3E3A39;
+    border-bottom: 1px solid #0084CF;
+    background: #FFF;
+    height: 34px;
+    padding: 0;
+    font-size:24px;
+    display:inline-block;
+    line-height: 36px;
+    float: left;
+}
+h3.titleBar19 .subTitle{
+    background: url("img/titleBar19titlebg.jpg") no-repeat left bottom;
+    font-size:24px;
+    height: 35px;
+    color:#0A69A4;
+    display:inline-block;
+    padding-left:30px;
+    font-size: 18px;
+    margin-top:0;
+    float: left;
+}
+h3.titleBar19 span.subtit {
+    position: absolute;
+    right: 0;
+}
+h3.titleBar19 span.subtit a {
+    color: #089DE2;
+    font-size: 14px;
+}
+/*-----------组件20-------------*/
+h3.titleBar20{
+    background: rgba(0, 0, 0, 0) url("img/titleBar20Bgd.png") no-repeat center center;
+    height: 26px;
+    line-height: 26px;
+    font-size:24px;
+    color:#0A69A4;
+    line-height: 26px;
+    text-align: center;
+}
+h3.titleBar20 span.shell{
+    background: #FFF url("img/titleBar20TitleRBgd.png") no-repeat right bottom;
+    padding-right: 28px;
+    height: 26px;
+    padding-left: 5px;
+    display: inline-block;
+
+}
+h3.titleBar20 span.title{
+    background: #FFF url("img/titleBar20TitleLBgd.png") no-repeat left top;
+    padding-left: 23px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+
+}
+h3.titleBar20 span,h3.titleBar20 a{
+    color: #FF6B23;
+    font-weight: bold;
+}
+
+
+
+
+
+/*-----------组件20b-------------*/
+h3.titleBar20b{
+    background: rgba(0, 0, 0, 0) url("img/titleBar20bBgd.png") no-repeat scroll right center;
+    height: 26px;
+    line-height: 26px;
+    padding-bottom: 0;
+    font-size:24px;
+    color:#0A69A4;
+
+}
+h3.titleBar20b span.shell{
+    height: 26px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("img/titleBar20TitleRBgd.png") no-repeat scroll left bottom;
+}
+h3.titleBar20b span.title{
+    background: #FFF url("img/titleBar20bTitleRBgd.png") no-repeat right center;
+    height: 27px;
+    line-height: 26px;
+    margin-left: 14px;
+    *line-height: 30px;
+    color: #FF6B23;
+    display: inline-block;
+    padding:0 46px 0 5px;
+    vertical-align: top;
+    margin-left: 23px;
+}
+h3.titleBar20b span,h3.titleBar20b a{
+    color: #FF6B23;
+    font-weight: bold;
+    *line-height: 30px;
+}
+/*-----------通用颜色-------------*/
+h3.red,h3 div.red{
+   border-color:#ef2d36; 
+}
+h3.blue,h3 div.blue{
+    border-color:#0166bc; 
+}
+h3.grey,h3 div.grey{
+    border-color:#bcbcbc; 
+}
+h3.brown,h3 div.brown{
+    border-color:#775100;
+}
+h3.darkGrey,h3 div.darkGrey{
+    border-color:#363636; 
+}
+
+h3.naturals,h3 div.naturals{
+    border-color:#ba8c00;
+}
+h3.bGrey{
+    background: #bcbcbc;
+    *background: #fff;
+    *border-bottom: solid 1px #bcbcbc;
+}
+h3.bRed{
+    background: #ef2d36;
+    *background: #fff;
+    *border-bottom: solid 1px #ef2d36;
+}
+h3.bBlue{
+    background: #0166bc;
+    *background: #fff;
+    *border-bottom: solid 1px #0166bc;
+}
+ul.darkGrey li{
+    border-color:#999; 
+}
+ul.red li{
+    border-color:#ef2d36; 
+}
+ul.blue li{
+    border-color:#0166bc; 
+}
+
+#commBlock1 h3,#commBlock2 h3{ color:#0a5095;}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+/* desktop */
+@media (min-width: 979px) and (max-width: 1199px) {
+    
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .tab1 li{
+        float: left;
+        display: inline;
+        border:solid 1px #999;
+        width:20%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+    .tab1 li a{
+        font-size:14px;
+    }
+    h3.titleBar17 .title a {
+        font-size: 20px;
+    }
+    h3.titleBar17 .rightLink {
+        display: none;
+    }
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .tab1 li{
+        float: left;
+        display: inline;
+        border:solid 1px #999;
+        width:20%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+    .tab1 li a{
+        font-size:14px;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .tab1 li{
+        float: left;
+        display: inline;
+        border:solid 1px #999;
+        width:47%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+    h3,h3 a,h3 span,h3.titleBar1,h3.titleBar2,h3.titleBar3,h3.titleBar3a,h3.titleBar4,h3.titleBar5,h3.titleBar6,h3.titleBar1 span,h3.titleBar2 span,h3.titleBar3 span,h3.titleBar3a span,h3.titleBar4 span,h3.titleBar5 span,h3.titleBar6 span{
+        font-size:24px;
+        line-height: 24px;
+        height:24px;
+        border:none;
+        text-align: left;
+        /*color:#000;*/
+    }
+    h3.titleBar1{
+        border-left:solid 4px #f00;
+        line-height: 24px;
+        padding-left: 14px;
+        height: 24px;
+        padding-bottom: 0;
+        text-indent: 0;
+    }
+    h3.titleBar2,h3.titleBar4{
+        border-left:solid 4px #f00;
+        line-height: 24px;
+        padding-left: 14px;
+        height: 24px;
+        padding-bottom: 0;
+    }
+    h3.titleBar3 .blue{
+        border:none;
+        border-left:solid 4px #f00;
+        line-height: 24px;
+        padding-left: 14px;
+        height: 24px;
+    }
+    h3.titleBar3 div,h3.titleBar3a div {
+        border:none;
+        border-left:solid 4px #f00;
+        line-height: 24px;
+        padding-left: 14px;
+        height: 24px;
+    }
+    h3.titleBar6{
+        border-left:solid 4px #f00;
+        line-height: 24px;
+        padding-left: 14px;
+
+    }
+    h3.bGrey{
+        background: #fff;
+    }
+}
+
