@@ -1,0 +1,205 @@
+/*---------------导航------------------------*/
+.navbar{
+    margin-bottom: 0;
+}
+.navbar .nav>li>a{
+    font-family: "宋体";
+    font-size: 12px;
+    text-shadow: none;
+    color:#474747;
+}
+
+.navbar-inner{
+    padding:0;
+    background: none;
+    filter:none;
+    border:none;
+    box-shadow:none;
+    min-height: 24px;
+}
+.navbar .nav {
+    margin: 0;
+}
+
+.funcNav{
+  background:#0093DD;
+    border-bottom:solid #D4D4D4 3px;
+  height:32px;
+  
+}
+.funcNav .navbar-inner{
+  background:none;
+    min-height: 20px;
+}
+.funcNav .nav>li{
+  margin-right:20px;
+}
+.funcNav .nav>li>a,.funcNav .nav>li>a:hover{
+  color:#fff;
+}
+
+#localNav{
+    background: #1BBC9B;
+    margin-top: 10px;
+}
+#localNav .navbar .nav li{
+    background: #1BBC9B none repeat scroll 0% 0%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    -moz-transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    -webkit-transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+#localNav .navbar .nav li:hover  ,#localNav .navbar .nav li:focus {
+    background: #0f7b66 none repeat scroll 0% 0%;
+
+}
+#channelNav{
+    border-bottom: solid 1px #E5E5E5;
+}
+#channelNav .nav li{
+    line-height: 15px;
+}
+#topbnr {
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+#topbnr .channelLogo{
+    margin-bottom: 2px;
+}
+.logoTank {
+    /*margin-left: 20px;*/
+}
+#localNav .navbar .nav li{
+    line-height: 30px;
+}
+#localNav .navbar .nav a{
+    font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color:#fff;
+}
+#localNav .span12{
+    margin-top: 0;
+}
+.bnrTank{
+    text-align: right;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    .navbar .nav>li.grpLast{
+        padding-right: 55px;
+    }
+    .navbar .nav>li>a{
+        padding:5px 7px;
+    }
+    #localNav .navbar .nav a{
+        font-size: 18px;
+    }
+    #localNav .navbar .nav{
+        /*margin-top: 26px;*/
+    }
+    #localNav .navbar .nav li{
+        padding: 0 5px;
+        line-height: 40px;
+
+    }
+
+}
+/* desktop */
+@media (min-width: 979px) and (max-width: 1199px) {
+    .navbar .nav>li.grpLast{
+        padding-right: 18px;
+    }
+    .navbar .nav>li>a{
+        padding:5px 4px;
+    }
+    #localNav .navbar .nav a{
+        font-size: 16px;
+    }
+    #localNav .navbar .nav{
+        /*margin:5px 0;*/
+    }
+    #localNav .navbar .nav li{
+        padding: 0 5px;
+    }
+	.hiddenSmall{display:none;}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 978px) {
+    .navbar .nav>li.grpLast{
+        padding-right: 8px;
+    }
+    .navbar .nav>li>a{
+        padding:5px 12px;
+    }
+    #channelNav{
+        padding:5px 0;
+    }
+    #channelNav .navbar .nav>li>a{
+        padding:3px 13px;
+    }
+    #localNav .navbar .nav a{
+        font-size: 12px;
+        padding:5px 6px;
+    }
+    #localNav .navbar .nav{
+
+    }
+    #localNav .navbar .nav li{
+        margin-left: 4px;
+    }
+	.hiddenSmall{display:none;}
+	#channelNav .navbar .nav>li.nplsmall>a{padding-left:0;}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    
+    #channelNav.navbar .nav>li.grpLast{
+        padding-right: 0px;
+    }
+    #channelNav .navbar .nav>li>a{
+        padding:4px 4px;
+        font-size:14px;
+        text-align: center;
+        font-weight: normal;
+        color:#fff;
+    }
+    #channelNav .nav{
+        background: #0093DD;
+        width:100%;
+        padding:5px 0;
+    }
+    #channelNav .nav > li {
+        /*float: none;*/
+        float:left;
+        width:20%;
+        *width:19%;
+    }
+    .navbar .nav>li.grpLast{
+        padding-right: 0px;
+    }
+    #channelNav .navbar .nav>li>a.navMore{
+        font-weight: bold;
+        color:#ffa;
+        text-indent: 9px;
+    }
+    #localNav{
+        background: #ffffff;
+    }
+    #adbnr .channelLogo{
+        height: 50px;
+    }
+    .logoTank{
+        /*width:250px;*/
+    }
+	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+

@@ -1,0 +1,63 @@
+a:hover, a:focus {
+    color: #f64138;
+}
+
+#localNav{
+    background: #f64138;
+	border-bottom: 2px solid #ffffff;
+}
+#localNav .navbar .nav li{
+    background-color:#f64138;
+}
+#localNav .navbar .nav li:hover  ,#localNav .navbar .nav li:focus {
+    background-color: #90140e;
+}
+
+
+h3, h3 span, h3 a, h3 span a, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active {
+    color: #f64138;
+	font-weight:bold;
+	font-size: 24px;
+}
+h3.titleBar3 span {
+    font-size: 24px;
+}
+h3.red, h3 div.red {
+    border-color: #e91f1f;
+}
+h3.blue, h3 div.blue {
+    border-color: #f64138;
+}
+#commBlock1 h3, #commBlock2 h3 {
+    color: #f64138;
+}
+
+#commBlock1{
+	margin-top: 25px;
+}
+h3.titleBar2 {
+    border-bottom-color: #bcbcbc;
+    font-weight: bold;
+    font-size: 24px;
+	line-height: 20px;
+}
+h3.red, h3 div.red {
+    border-color: #bcbcbc;
+}
+h3.titleBar3 div {
+    border-bottom: 2px solid #bcbcbc;
+}
+
+@media (max-width: 480px) {
+h3.titleBar3 div {
+    border-bottom: 0px solid #f64138;
+}
+h3.red, h3 div.red {
+    border-color: #f64138;
+}
+h3.titleBar3 div, h3.titleBar3a div{
+	border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #f64138;
+	
+
+}
+}

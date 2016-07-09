@@ -1,0 +1,217 @@
+body, h1, h2, h3, h4, h5, h6, p, pre, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, input, textarea, button {margin:0; padding:0;outline:none;}
+header,hgroup,nav,article,footer,figure,section,figcaption{display:block;}
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img {border:none;}
+caption, th{font-weight:normal; }
+address, cite, dfn, em, var { font-style:normal;}
+code, kbd, pre, samp, tt { font-family:"Courier New", Courier, monospace; }/* 使用等宽字体 */
+ul, ol { list-style:none outside; }/* outside重置IE6,7缩进xys */
+caption, th { text-align:left; }
+q:before, q:after { content:''; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+select, input, button, textarea { font-size:100%;color:#666;}/* 使表单元素能继承父级字体大小 */
+/*修复IE6连续英文不折行导致页面布局崩溃*/
+body { _word-break:break-all; }
+/* 专有属性修复IE7，IE8浏览器强制缩放图片失真 */
+img { -ms-interpolation-mode:bicubic; }
+/* 默认样式 "Microsoft YaHei" */
+body{font:14px microsoft yahei,"宋体";}
+html, legend{color:#333;background: #0099cc;}
+a{color:#2f468f;text-decoration:none;}
+a:hover{color:#FF4810;}
+/*代码开始*/
+
+#bodyabd{width:980px;height:auto;margin:0 auto;overflow:hidden;background: #fff;}
+#header{width:auto;height:88px;margin:0 auto;}
+#header .head{width:980px;overflow:hidden;}
+#logo{width: 300px; height: 78px; padding: 8px 0px 2px;/* background: #fff; */margin-left:10px;float:left;overflow:hidden;}
+#search{width: 564px; height:38px;  margin-top: 26px;float:right;overflow:hidden;}
+#bdcs-search-form-input{width:385px; height:20px; line-height:20px; padding:7px 69px 7px 5px;background:#fff; border:2px solid #05a2da; border-right:0 none; font-size:14px; color:#333; float:left; overflow:hidden;}
+#bdcs-search-form-submit{width:72px; height:38px; border:0 none; background:#05a2da; color:#fff;font-size: 15px; float:left; }
+.menu{width:960px;height:70px;margin:0 auto;overflow:hidden;background:#05a2da;margin-top:10px}
+.menu ul{overflow:hidden;}
+.menu ul li{line-height:40px;float:left;font-size:16px;}
+.menu ul li.arr{background:#e1e1e1;}
+.menu ul li.arr a{color:#666}
+.menu ul li:hover{background:#37b5e1;}
+.menu ul li a{color:#fff;padding:0 15px;}
+.menu ul.xmenu{background:#ececec;line-height:30px;}
+.menu ul.xmenu li{line-height:30px;font-size:14px;}
+.menu ul.xmenu li:hover{background:#ececec;}
+.menu ul.xmenu li a:hover{color:#000}
+.menu ul.xmenu li a{color:#555}
+
+#tuijian{width:960px;height:auto;margin:0 auto;overflow:hidden;margin-top:10px;}
+#tuijian .xiatui{width:700px;height:175px;float:left; }
+#tuijian .xiatui dd{width:700px;height:25px;border-bottom:1px solid #0099cc;line-height:25px;overflow:hidden;}
+#tuijian .xiatui dd h2{width:100px;padding:0 10px 0 10px;font-size:16px;background-color:#0099cc;color:#fff;float:left;}
+#tuijian .xiatui dd span{float:right;margin-right:10px;line-height:25px;}
+#tuijian .xiatui dd span a{margin-left:10px;line-height:25px;color:#666}
+#tuijian .xiatui ul{width:700px;overflow:hidden;}
+#tuijian .xiatui ul li{line-height:25px;width:330px;float:left;margin-top:5px;font-size:12px;margin-right:10px;padding-left:10px;}
+#tuijian .xiatui ul li a{font-size:14px}
+#tuijian .xiatui ul li span{float:right;font-size:14px;}
+#tuijian .xiatui ul li span.arr{color:#ffc993}
+#tuijian .denglu{width:248px;height:360px;float:right;border:1px solid #0099cc;}
+#tuijian .search{width:248px;}
+#tuijian .search ul{width:248px;margin-left:4px;}
+#tuijian .search ul li{width:70px;height:32px;line-height:32px;float:left;margin:0 6px;}
+
+#tuijian .denglu dd{background-color:#0099cc;height:25px;line-height:25px;font-size:16px;padding-left:10px;color:#fff;margin-bottom:8px;}
+#tuijian .denglu .input{width:240px;height:40px;line-height:40px;font-size:16px;margin-left:8px}
+#tuijian .denglu .input input{width:158px;height:25px;line-height:25px;border:1px solid #0099cc;}
+#tuijian .denglu .submit{width:240px;height:30px;line-height:30px;margin-left:8px}
+#tuijian .denglu .submit .button{width:80px;height:30px;line-height:30px;background-color:#0099cc;float:right;margin-right:18px;border:0;color:#fff}
+#tuijian .denglu .reg{margin:8px;line-height:30px;text-align:center;}
+.txt_cont #content{width:98%}
+#content{width:960px;height:auto;margin:0 auto;overflow:hidden;margin-top:10px;}
+#content .zuixin{width:700px;height:auto;overflow:hidden;border:1px solid #e1e1e1;border-top:5px solid #0099cc;float:left;}
+#content .zuixin dd{width:700px;height:35px;background-color:#ececec;line-height:35px;}
+#content .zuixin dd h2{width:150px;padding:0 10px 0 10px;float:left;font-weight:bold}
+#content .zuixin dd span{margin-right:10px;float:right;}
+#content .zuixin ul{width:690px;height:auto;line-height:30px;overflow:hidden;margin:5px 5px 0 5px;}
+#content .zuixin ul li{width:690px;height:30px;line-height:30px;overflow:hidden;color:#999;}
+#content .zuixin ul li.ltitle{font-weight:bold;color:#000;border-bottom:1px solid #c1c1c1;}
+#content .zuixin ul li div{float:left;}
+#content .zuixin ul li .lei{width:80px;}
+#content .zuixin ul li .xname{width:140px;}
+#content .zuixin ul li .xupl{width:280px;}
+#content .zuixin ul li .zuozhe{width:120px;}
+#content .zuixin ul li .uptime{width:60px;}
+#content .paihang{width:250px;height:auto;overflow:hidden;border:1px solid #e1e1e1;border-top:2px solid #0099cc;margin-left:6px;float:left;}
+#content .paihang dd{width:250px;height:35px;background-color:#ececec;line-height:35px;}
+#content .paihang dd h2{width:150px;padding:0 10px 0 10px;float:left;font-weight:bold}
+#content .paihang dd span{margin-right:10px;float:right;}
+#content .paihang ul{width:250px;height:auto;line-height:30px;overflow:hidden;margin:2px 5px;}
+#content .paihang ul li{width:250px;height:30px;line-height:30px;overflow:hidden;color:#666}
+#content .paihang ul i{width:0; 
+    height:0; 
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid #9C6;float:left;margin-top:11px;margin-right:5px;}
+#content .paihang ul li .xname{width:180px;float:left;}
+#content .paihang ul li .uptime{width:50px;float:right;}
+
+.youqing{width:960px;height:auto;margin:0 auto;overflow:hidden;margin-top:10px;border:1px solid #e1e1e1;border-top:2px solid #0099cc;}
+.youqing dd{padding-left:20px;background-color:#ececec;line-height:35px;height:35px;font-weight:bold}
+.youqing ul{padding:0 10px;}
+.youqing ul li{float:left; padding:5px 10px;}
+.footer{width:960px;height:auto;margin:0 auto;overflow:hidden;margin-top:10px;text-align:center;padding:10px;line-height:30px}
+
+/*xs内容页*/
+#info{width:956px;height:auto;border:2px solid #0099cc;margin:10px auto;}
+#info dd{width:946px;height:38px;border-bottom:1px solid #0099cc;background-color:#ededed;line-height:38px;padding-left:10px}
+#info span{float:right;margin-right:10px}
+#info span .bdsharebuttonbox{margin-top:6px;}
+#info .info_cont{width:946px;height:auto;margin:10px 5px;overflow:hidden;}
+#info .info_cont .tupian{width:120px;height:150px;padding:15px;background-color:#ececec;margin:10px;float:left;}
+#info .info_cont .tupian img{width:120px;height:150px;}
+#info .info_cont .info_des{width:740px;height:auto;margin:10px 18px;overflow:hidden;float:left;}
+#info .info_cont .info_des h1{font-size:28px;font-weight:690;overflow:hidden;margin:auto;padding:1px;}
+#info .info_cont .info_des dl{height:25px;line-height:25px;padding-top:2px;width:350px;margin:auto;overflow:hidden;float:left;}
+#info .info_cont .intro{	width:96%;overflow:hidden;border-top:1px dashed #88C6E5;padding:10px;font-size:13px;float:left;margin-top:10px}
+#info .info_cont .intro p{text-indent:2em; }
+
+#down{width:100%;height:auto;overflow:hidden;margin-bottom:10px}
+
+
+#info .pc_list{padding:2px;height:auto;overflow:hidden;margin:10px 5px 10px 8px}
+#info .pc_list ul{float:left;overflow:hidden;padding-bottom:1px;margin:auto;}
+#info .pc_list li{border-bottom:1px dashed #CCC;float:left;height:32px;line-height:200%;margin-bottom:5px;text-align:left;text-indent:10px;vertical-align:middle;width:25%;overflow:hidden;}
+#info .pc_list li a{color:#444;}
+#info .pc_list li a:link{color:#444;}
+/*阅读页*/
+#info .txt_cont{width:946px;height:auto;margin:10px 5px;overflow:hidden;}
+#info .txt_cont h1{width:946px;line-height:40px;text-align:center;height:40px;font-size:28px;color:#555}
+#info .txt_cont .txt_lian{width:946px;line-height:35px;text-align:center;height:35px;color:#555;margin-top:10px;padding-bottom:10px;border-bottom:1px dashed #88C6E5;}
+#info .txt_cont .txt_lian a{margin:0 5px;padding:0 10px;color:#085308;}
+#info .txt_cont .txt_lian2{width:946px;line-height:35px;text-align:center;height:35px;color:#555;margin-top:10px;padding-top:10px;border-top:1px dashed #88C6E5;}
+#info .txt_cont .txt_lian2 a{margin:0 5px;padding:0 10px;color:#085308;}
+#info  #content{padding:10px 0;}
+/* table */
+table{
+	text-align: left; 
+	font: 16px/120% 宋体,Verdana,Arial,sans-serif;
+}
+
+table td{
+}
+
+table.fix{
+	table-layout: fixed;
+}
+
+table.fix td{
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+table.grid{
+	border-collapse: collapse;
+	border: 1px solid #05a2da;
+	padding: 3px;
+	margin: auto;
+}
+
+table.grid caption, .gridtop{
+	border: 1px solid #05a2da
+	background: #e9f1f8;
+	vertical-align: middle; 
+	text-align: center;
+	padding: 3px;
+	color:#054e86;
+	font-weight: bold;
+	font-size: 14px;
+	margin: auto;
+}
+
+table.grid th, .head{
+	border: 1px solid #05a2da;
+	background: #ececec;
+	color:#054e86;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 3px;
+}
+
+table.grid td{
+	border: 1px solid #05a2da;
+	padding: 5px;
+	font-size: 14px;
+	background-color: #ffffff !important; 
+}
+
+table.hide, table.hide th, table.hide td{
+	border: 0;
+}
+.pages{
+	padding: 5px 0px;
+	
+}
+.pagelink{
+	
+	float: right;
+	line-height:30px;
+	padding:5px;
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-right:5px;
+}
+.pagelink a, .pagelink strong, .pagelink em, .pagelink kbd, .pagelink a.first, .pagelink a.last, .pagelink a.prev, .pagelink a.next, .pagelink a.pgroup, .pagelink a.ngroup{
+	float: left;
+	padding: 0 8px;
+	margin-left:8px;
+}
+.pagelink a{border: 1px solid #a3bee8;}
+.pagelink a:hover{background-color: #ffffff; }
+.pagelink strong{font-weight: bold; color: #ff6600; background: #e9f1f8;border: 1px solid #a3bee8;}
+.pagelink kbd{height:24px;}
+.pagelink em{height:30px;  font-style:normal;}
+.pagelink input{width:0px;height:0px;border:none}
+#down{width:100%;height:auto;overflow:hidden;margin-bottom:10px}
+.showDown{padding:0 0}
+.showDown li{height:41px; margin:5px 5px;float:left; }
+.showDown a{width: 155px; height: 40px; padding:10px 25px;line-height: 40px; background-color:#7abf36; color:#fff; font-size:18px; text-align:center; }

@@ -184,7 +184,7 @@ function moban($moban){
     {
         $moban = preg_replace('/<随机人名>/', randName(), $moban, 1);
     }
-    $moban = str_replace( "<站点名称>", SITE_NAME ,$moban);
+    $moban = str_replace( "<随机关键词>", SITE_NAME ,$moban);
     return $moban;
 }
 //后台
@@ -332,7 +332,7 @@ function data_num($from,$num='',$day='',$type=''){
 function templates_list(){
     global $mysqli;
     //远程模板
-    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"},{"title":"moban7","name":"模板七"}]';//todo:远程获取
+    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"},{"title":"moban7","name":"模板七"},{"title":"moban8","name":"模板八"}]';//todo:远程获取
     $yuanmoban=json_decode($yuan_moban,true);//转为数组
 
     foreach($yuanmoban as $value){
