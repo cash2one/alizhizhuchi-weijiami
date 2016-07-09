@@ -1,0 +1,22 @@
+﻿/* topMenu970 */
+.topMenu{width:968px;margin:32px auto 0;line-height:20px;height:39px;padding:10px 0 7px 0;border:1px solid #eae9e2;}
+.topMenu ul{border-left:1px solid #ffffff;padding-left:4px;clear:both;overflow:hidden;zoom:1;}
+.topMenu ul li{padding:0 5px;float:left;display:block; }
+.topMenu ul li a{color:#333333;font-family:"SimSun"; }
+.topMenu ul li a span{color:#ffffff;background:#ff0000;font-family:"Arial"; }
+.topMenu ul li a.freeA,.topMenu ul li a.tryA{color:#ff0000; }
+/* 旧版专题增加970宽度的修改 */
+#container2 .topMenu{width:968px;margin:32px auto 0;line-height:20px;height:39px;padding:10px 0 7px 0;border:1px solid #eae9e2;}
+#container2 .topMenu ul{border-left:1px solid #ffffff;padding-left:4px;clear:both;overflow:hidden;zoom:1;}
+#container2 .topMenu ul li{padding:0 5px;float:left;display:block; }
+#container2 .topMenu ul li a{color:#333333;font-family:"SimSun"; }
+#container2 .topMenu ul li a span{color:#ffffff;background:#ff0000;font-family:"Arial"; }
+#container2 .topMenu ul li a.freeA,#container2 .topMenu ul li a.tryA{color:#ff0000; }
+
+.tm_1{padding-left:15px; }
+.tm_1,.tm_2,.tm_3,.tm_4,.tm_5{float:left;border-left:1px solid #cccccc;margin-left:-2px;}
+.tm_1,.tm_2,.tm_3{width:186px; }
+.tm_4{width:178px; }
+.tm_5{width:214px; }
+/* #topLogin */
+#topLogin{width:946px;overflow:visible;border:none;padding:0 12px;height:31px;background:#f1f1f1;top:0;left:50%;margin-left:-485px;z-index:999;position:fixed;_position:absolute;_top:0;}

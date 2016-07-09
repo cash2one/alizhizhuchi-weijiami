@@ -1,0 +1,84 @@
+h3,h3 span{
+    color:#775100;
+}
+#localNav{
+    background: #4863B2;
+}
+#localNav .navbar .nav li{
+    background-color:#4863B2;
+}
+#localNav .navbar .nav li:hover  ,#localNav .navbar .nav li:focus {
+    background-color: #25418B;
+
+}
+#mainContent ul.list6{
+    margin: 20px 10px 20px 70px;
+}
+#mainContent ul.list6 li{
+	position:relative;
+}
+#mainContent ul.list6 li span.date {
+color: #999;
+    font-size: 14px;
+  position: absolute;
+  right: 0;
+  line-height: 2.2em;
+}
+.bottomGap{
+    margin-bottom: 25px;
+}
+#commBlock3 h3,#commBlock4 h3{
+    margin-top: 30px;
+}
+#commBlock1{
+    margin-top: 20px;
+}
+h3.titleBar2{
+    color:#4863B2;
+    border-bottom-color: #bcbcbc;
+    font-weight: bold;
+    font-size:24px;
+}
+#mainContent h3.titleBar2{
+    border-bottom-color: #4863B2;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+/* desktop */
+@media (min-width: 979px) and (max-width: 1199px) {
+	#mainContent ul.list6 li span.date {
+		font-size:13px;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#mainContent ul.list6{
+		margin-left:20px;
+	}
+	.list6 li a{
+		font-size:14px;
+		line-height:1.8em;
+	}
+	#mainContent ul.list6 li span.date {
+		font-size:12px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+#mainContent ul.list6{
+		margin-left:20px;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#mainContent ul.list6 li span.date {
+	  display:none;
+	}
+}

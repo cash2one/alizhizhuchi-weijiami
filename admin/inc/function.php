@@ -132,6 +132,12 @@ function moban($moban){
         $juzi = $mysqli->query("SELECT title FROM juzi order by rand() limit 1")->fetch_object()->title;
         $moban = preg_replace('/<句子>/', $juzi, $moban, 1);
     }
+    $wk = count(explode('<文章标题>', $moban)) - 1;
+    for ($di=0; $di<$wk; $di++)
+    {
+        $juzi = $mysqli->query("SELECT title FROM wenzhang order by rand() limit 1")->fetch_object()->title;
+        $moban = preg_replace('/<文章标题>/', $juzi, $moban, 1);
+    }
     $dk = count(explode('<随机端口>', $moban)) - 1;
     for ($di=0; $di<$dk; $di++)
     {
@@ -326,7 +332,7 @@ function data_num($from,$num='',$day='',$type=''){
 function templates_list(){
     global $mysqli;
     //远程模板
-    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"}]';//todo:远程获取
+    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"},{"title":"moban7","name":"模板七"}]';//todo:远程获取
     $yuanmoban=json_decode($yuan_moban,true);//转为数组
 
     foreach($yuanmoban as $value){

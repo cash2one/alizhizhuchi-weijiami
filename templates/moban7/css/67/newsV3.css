@@ -1,0 +1,136 @@
+/*
+Style Name:
+Author: ZJL
+*/
+.setHomePage{display:none;}
+.textBox{width:146px;height:24px;padding:2px;margin:0;float:left;}
+#search{margin-top:13px;height:28px;width:186px;padding:1px;background:none;border:1px solid #9e9e9e;}
+.textBox{width:146px;height:24px;padding:2px;margin:0;float:left;}
+.searchBtn,.so{background:url(http://img3.67.com/img/global/photo-search.png) 8px 5px no-repeat;float:right;}
+.searchBtn{width:34px;height:28px;background-position:-75px 0;text-indent:-9999px;}
+.so{display:block;width:83px;height:32px;margin-top:12px; }
+/*----- #main -----*/
+img{ border:1px solid #ccc; padding:1px;}
+a:hover img{border:1px solid #c00;}
+a{ cursor:pointer;color:#323132;}
+.BreadcrumbNav{margin-top:12px;font-size:14px;}
+#main{border:1px solid #bec5d1; border-top:4px solid #8895ae;background:#fff; position:relative;}
+.fs14{ font-size:14px;}
+.artSbottm{ height:5px; background:#fff; position:absolute; bottom:0; width:970px;}
+.mtb20{margin:20px 0;}
+.mlr1{margin:0 1px; }
+.artLeft{ width:610px; padding-left:10px; float:left;min-height:2550px; _height:2550px; overflow:visible}
+.artLeft .artCon h3{ text-align:center;}
+.artLeft .artCon .Info,.artInfo{ text-align:center;}
+.artInfo{ background:none;border:none; }
+.daodu{ width:528px;margin:20px auto; background:#f3f3fa; border:1px solid #d8d8d8; padding:10px 20px; font-size:14px; color:#333; line-height:26px;}
+.article{width:570px; overflow:hidden; margin:0 auto;line-height:26px; color:#333;font-size:14px; }
+.article img{ display:block; margin:0 auto; margin-bottom:10px;}
+.article img.webico{ margin:20px 0;padding:0; border:none;}
+.picTitle{text-align:center;}
+.picTitle em{ font-style:normal; color:#1461b7}
+.article h2{margin-top:10px;}
+.article p,.article div{font-size:14px; margin-top:10px;overflow:hidden;zoom:1; }
+.article div.pages{clear:both;overflow:hidden;zoom:1; font-size:1px; line-height:1px;margin-top:30px;padding:0;}
+.article div.pages div.fr{margin-top:0px; }
+.article div.mtb20{margin:20px 0; }
+.artLeft .comment{ width:568px; margin:0 auto 20px; border:1px solid #f2f7fb; padding:0;}
+
+.pic-list4{ overflow:hidden;zoom:1;}
+.p-column{ width:570px; margin:0 auto 20px;}
+.p-column h2{ height:30px; background:#f3f3fa; border-bottom:1px solid #ccc; line-height:30px; padding:0 15px; margin-bottom:15px;font-size:14px; color:#c00;}
+.p-column h2 a{font-size:14px; color:#c00;}
+.p-column h2 a.underline{font-size:14px; color:#c00;text-decoration:underline;}
+.p-column h2 span a{font-weight:normal; font-size:12px;}
+.title-list1,.title-list1b{ margin:0 10px}
+.title-list1 li,.title-list1b li{ height:26px; line-height:26px; background:url(http://img3.67.com/img/news/liico.gif) 5px 50% no-repeat; padding-left:15px; font-size:14px; overflow:hidden;}
+.pic-list2{ overflow:hidden;zoom:1;}
+.pic-list2 li{width:50%;}
+.pic-list4 li{width:25%;}
+.pic-list4 li,.pic-list2 li{overflow:hidden;float:left;text-align:center; margin-bottom:6px;}
+.pic-list4 li img,.pic-list2 li img{ display:block;margin:0 auto;}
+.pic-list4 li a,.pic-list2 li a{ line-height:28px;}
+.linkbg{ width:280px; height:30px; display:block; background:#eee2b3; line-height:30px; text-align:center; font-size:14px; margin-top:20px;}
+.arAddComment{width:564px;height:110px;padding:2px;margin-bottom:12px;font-family:SimSun;font-size:14px;line-height:22px; }
+.com-box{ margin:0 auto;width:570px;}
+.com-box .sd-form-list{ width:440px;}
+.sd-form-txt{width:70px;}
+.com-box .sd-form-btn{width:120px;height:40px;background:url(http://img3.67.com/img/news/sprite2.png) -128px -58px no-repeat; color:#28487d; font-size:14px; border:none;cursor:pointer; display:block;}
+.com-box .btn-txt{ color:#ccc; width:120px; text-align:center; display:block;line-height:22px; text-align:center;}
+
+.artSide{width:320px; background:#f3f3fa; border-left:1px solid #bec5d1; display:inline; margin:5px 5px 0 0; padding:7px; margin-bottom:-10000px; height:10000px;}
+.artSide h2{height:28px; border-bottom:2px solid #a6b0c2; margin-bottom:8px; line-height:28px; background:#fff; font-size:14px; padding:0 15px;}
+.artSide h2 a{ color:#f60;}
+.artSide h2 span a{ font-weight:normal; color:#333; font-size:12px;}
+.artSide ul.title-list1{ border-top:1px dotted #323132; padding:8px 0;}
+.artSide ul.title-list1 li,.title-list1b li{ font-size:12px; height:24px; line-height:24px;}
+.topul{background:url(http://img3.67.com/img/news/topten.png) 0 6px no-repeat #f3f3fa; margin:0 15px 15px;}
+.title-list1b{margin:-8px 10px 8px;}
+.baoliao{ margin-bottom:10px;}
+.baoliao h2{ height:30px; background:url(http://img3.67.com/img/news/sprite2.png) 0 -258px; border-bottom:none; padding-left:10px; margin:0;}
+.baoliao h2 a{ display:block; width:84px; float:left; height:30px; overflow:hidden;}
+.blCon{ border:1px solid #dfd094; border-top:none; background:#fff; padding:0 7px 15px;}
+.blCon h3{line-height:36px;font-size:14px;}
+.blCon p{ width:134px; float:right; line-height:20px; color:#666;}
+.blCon a.sd-form-btn{ width:100px; height:24px; border:none; background:url(http://img3.67.com/img/news/sprite2.png) -220px -98px no-repeat; color:#fff; margin-top:10px; font-weight:bold; cursor:pointer;display:inline-block; *display:inline; *zoom:1;text-align:center;}
+.blCon a.sd-form-btn:hover{text-decoration:none;}
+div.editor_commend { font-size:14px; border:1px solid #E3E3E3; padding:10px; width:450px; margin:0 auto; background:#FFFFFF;}
+div.editor_commend p { line-height:180%;}
+div.editor_commend p.head { color:#ff4500;}
+div.editor_commend * { font-size:14px; color:#000000; font-weight:normal; }
+div.editor_commend a {line-height:180%;color:#0342C1; text-decoration:underline;}
+/*----- topten 排行榜 -----*/
+.topten{ position:relative; width:318px; background:#f3f3fa;overflow:visible; display:inherit;margin:0 auto;}
+.topten span.corner-l{ left:-1px; bottom:-1px;}
+.topten span.corner-r{ right:-1px; bottom:-1px;}
+.tabMenu{ height:27px;margin:10px 4px; background:url(http://img3.67.com/img/photo/sprite.png) 0 -607px repeat-x; overflow:visible;}
+.tabMenu li{ display:block;overflow:hidden; background:url(http://img3.67.com/img/photo/sprite2.png) -220px -195px no-repeat; float:left; text-align:center;color:#fff; width:100px; height:30px; line-height:30px; margin-right:4px; margin-top:-3px; font-size:14px; color:#c18500; cursor:pointer;position:relative;z-index:2;}
+.tabMenu li.tabl,.tabMenu li.tabr{width:6px;height:27px;background:url(http://img3.67.com/img/photo/sprite.png) 0 -580px no-repeat; margin:0; cursor:default;}
+.tabMenu li.tabr{background-position:-14px -634px; float:right; margin-left:-4px;}
+.tabMenu li.current{ background-position:-220px -153px;}
+.tabcon{height:280px;}
+.tabcon ul.topul{ margin:0 8px;}
+.tabcon ul.topul li{border-bottom:1px dotted #3c3e67; margin-bottom:-1px;height:26px; line-height:26px;}
+#topVideoTab{display:none;}
+/*-----分享代码样式-----*/
+.article .share-con{text-align:right;font-weight:bold;font-size:12px;margin:15px 0 20px 0;}
+.article .bshare-custom{float:right;}
+.backbtn{width:80px;background:url(http://img3.67.com/img/news/backbtn.jpg) no-repeat;float:right;height:26px;margin-top:12px;padding-right:10px;}
+/*-----合作方推荐 2012.3.13-----*/
+.artSide .pic-list3{overflow:hidden;zoom:1;clear:both;padding-top:5px;}
+.artSide .pic-list3 li{width:33%;float:left;text-align:center;line-height:18px;overflow:hidden;}
+.artSide .pic-list3 li img{width:70px;height:70px;display:block;margin:0 auto 5px;}
+.artSide .title-list2{overflow:hidden;zoom:1;clear:both;margin-top:10px;}
+.artSide .title-list2 li{width:140px;float:left;height:22px; line-height:22px; background:url(http://img3.67.com/img/www/img/liicox.gif) 5px 10px no-repeat; padding:0 5px 0 12px; font-size:12px; overflow:hidden;}
+/*-----今日top5 2012.4.27-----*/
+.tabMenu2{background:#f3f3fa;height:30px;border-bottom:1px solid #cccccc;line-height:30px;overflow:visible;}
+.tabMenu2 li{float:left;width:49px;height:30px;position:relative;text-align:center;color:#cc0000;font-size:14px;font-weight:bold;background:url(http://img3.67.com/img/www/img/toptab2.gif) no-repeat;margin-right:2px;cursor:pointer;}
+.tabMenu2 li.tabTitle{width:238px;height:30px;text-indent:-9999px;background:url(http://img3.67.com/img/www/img/top5bg.png) 14px 5px no-repeat;border:none;}
+.tabMenu2 li.current2{background:url(http://img3.67.com/img/www/img/toptab.png) repeat-x;border:1px solid #cccccc;border-bottom:none;line-height:29px; width:47px; }
+.p-column .tabcon{height:auto; }
+.p-column .tabcon .topul{background:url(http://img3.67.com/img/news/topten.png) 17px 31px no-repeat #ffffff;padding:24px 0 0 17px;width:373px;height:130px;float:left;margin:0;}
+.p-column .tabcon .topul li{border:none;height:27px;line-height:27px;font-size:14px;}
+.tfpic{text-align:center;padding-top:20px;line-height:18px;width:156px; }
+.tfpic img{width:152px;height:114px;display:block;margin-bottom:5px;}
+/*-----头部推荐 2012.4.27-----*/
+.topRecommend{height:75px;margin:0 auto;border-bottom:1px solid #dddddd;width:970px;}
+.topRecommend img{width:100px;height:75px;border:none;padding:0px;}
+.topRecommend a:hover img{border:none;}
+.topRecommend .pic{width:100px;height:75px;float:left;margin-right:20px;}
+.topRecommend .pic-text{width:1020px;}
+.topRecommend .pic-text li{width:310px;float:left;line-height:18px;margin-right:20px;color:#666666;}
+.topRecommend .pic-text .text{padding-top:8px; }
+.topRecommend h2 a{color:#ff6600;}
+/*-----67热图 2012.4.27-----*/
+.artSide .pic-list4{overflow:hidden;zoom:1;clear:both;padding-top:5px;}
+.artSide .pic-list4 img{width:70px;height:70px;margin-bottom:7px;}
+.artSide .pic-list4 li{width:74px;padding:0 3px;}
+.artSide .pic-list4 li a{line-height:18px;}
+/*-----娱乐关键词 2012.4.27-----*/
+.hotKeywords{background:#ffffff;border:1px solid #dfd094;margin-bottom:10px;height:108px; }
+.hotKeywords h3{border-bottom:1px solid #f3f3fb;padding:0 7px 0 14px;height:28px;line-height:28px;margin-bottom:5px;}
+.hotKeywords a{display:block;float:left;line-height:23px;padding-left:15px;}
+.hotKeywords h3 a{color:#ff6600;font-size:14px;display:inline;line-height:28px;padding:0;}
+.hotKeywords h3 span a{display:block;width:68px;height:21px;background:url(http://img3.67.com/img/www/img/more2.gif) no-repeat;text-indent:-9999px;margin-top:3px;}
+.hotKeywords p{overflow:hidden;zoom:1;}
+

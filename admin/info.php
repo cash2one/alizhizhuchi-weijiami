@@ -10,6 +10,8 @@ $page=isset($_GET['page'])?$_GET['page']:1;
 switch($act){
 	case "keywords":
 		$title="关键词管理";break;
+	case "wenzhang":
+		$title="文章标题管理";break;
 	case "domains":
 		$title="域名管理";break;
 	case "url":

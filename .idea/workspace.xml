@@ -2,83 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/hsw/n13_ch.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/hsw/n13_zt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/hsw/news_gj.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/hsw/news_logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/jsc/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/jsc/star.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/moban2/7290611_180032.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/moban2/x02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/images/moban2/x09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/365xs/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/365xs/read.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/365xs/stylelist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/67/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/67/newsV3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/67/titlelist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/67/topMenu950.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/67/topMenu970.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/2014news.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/add.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/back2015.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/jsc/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/jsc/jiathis_counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/jsc/jiathis_share.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/moban1/indexz.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/moban1/main_v2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/moban3/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/moban4/bdsstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/HLRelation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/commMore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/hl_float_div.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/imgshare.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/lib1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/select_share.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/share_popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/share_style0_16.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/style_list_ent.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/qianlong/titleBar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/rain8/bdsstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/rain8/dedecms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/sangwu123/sw.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/xuanshu/share_style1_16.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/css/xuanshu/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/js/baidutj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/js/hsw/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/js/hsw/hm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/js/hsw/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/js/sangwu123/sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/neirong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban6/shouye.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/hsw/n13_ch.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/hsw/n13_zt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/hsw/news_gj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/hsw/news_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/jsc/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/jsc/star.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/moban2/7290611_180032.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/moban2/x02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/images/moban2/x09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/365xs/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/365xs/read.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/365xs/stylelist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/67/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/67/newsV3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/67/titlelist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/67/topMenu950.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/67/topMenu970.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/2014news.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/add.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/back2015.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/jsc/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/jsc/jiathis_counter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/jsc/jiathis_share.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/moban1/indexz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/moban1/main_v2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/moban3/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/moban4/bdsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/moban4/stylet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/HLRelation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/commMore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/hl_float_div.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/imgshare.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/lib1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/select_share.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/share_popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/share_style0_16.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/style_list_ent.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/qianlong/titleBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/rain8/bdsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/rain8/dedecms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/sangwu123/sw.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/xuanshu/share_style1_16.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/css/xuanshu/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/js/baidutj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/js/hsw/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/js/hsw/hm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/js/hsw/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/js/sangwu123/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/neirong.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban7/shouye.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/map.html" afterPath="$PROJECT_DIR$/templates/moban1/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/neirong.html" afterPath="$PROJECT_DIR$/templates/moban1/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/shouye.html" afterPath="$PROJECT_DIR$/templates/moban1/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/map.html" afterPath="$PROJECT_DIR$/templates/moban2/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/neirong.html" afterPath="$PROJECT_DIR$/templates/moban2/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/shouye.html" afterPath="$PROJECT_DIR$/templates/moban2/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/map.html" afterPath="$PROJECT_DIR$/templates/moban3/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/neirong.html" afterPath="$PROJECT_DIR$/templates/moban3/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/shouye.html" afterPath="$PROJECT_DIR$/templates/moban3/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/neirong.html" afterPath="$PROJECT_DIR$/templates/moban4/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/shouye.html" afterPath="$PROJECT_DIR$/templates/moban4/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/map.html" afterPath="$PROJECT_DIR$/templates/moban5/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/neirong.html" afterPath="$PROJECT_DIR$/templates/moban5/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/shouye.html" afterPath="$PROJECT_DIR$/templates/moban5/shouye.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/info.php" afterPath="$PROJECT_DIR$/admin/info.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,98 +89,65 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="157" column="32" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
               <folding>
-                <marker date="1468053220000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
-                <marker date="1468053220000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
-                <marker date="1468053220000" expanded="true" signature="3244:3294" ph="select title... keywords" />
-                <marker date="1468053220000" expanded="true" signature="3416:3457" ph="select * fro... url" />
-                <marker date="1468053220000" expanded="true" signature="3596:3634" ph="update url s... " />
-                <marker date="1468053220000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
-                <marker date="1468053220000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
-                <marker date="1468053220000" expanded="true" signature="5405:5454" ph="SELECT title... domains" />
-                <marker date="1468053220000" expanded="true" signature="6121:6173" ph="insert into ${$from}... " />
-                <marker date="1468053220000" expanded="true" signature="6315:6330" ph="select id fr... ${$from}" />
-                <marker date="1468053220000" expanded="true" signature="6617:6631" ph="select * fro... ${$from}" />
-                <marker date="1468053220000" expanded="true" signature="7088:7103" ph="select id fr... ${$from}" />
-                <marker date="1468053220000" expanded="true" signature="8415:8446" ph="delete from " />
-                <marker date="1468053220000" expanded="true" signature="8895:8948" ph="select * fro... spider" />
-                <marker date="1468053220000" expanded="true" signature="10158:10206" ph="update spide... " />
-                <marker date="1468053220000" expanded="true" signature="10399:10429" ph="select count... " />
-                <marker date="1468053220000" expanded="true" signature="11424:11481" ph="select * fro... templates" />
-                <marker date="1468053220000" expanded="true" signature="12734:12773" ph="select * fro... spiderset" />
-                <marker date="1468053220000" expanded="true" signature="13228:13282" ph="select title... spiderset" />
+                <marker date="1468056625000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+                <marker date="1468056625000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+                <marker date="1468056625000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+                <marker date="1468056625000" expanded="true" signature="3416:3457" ph="select * fro... url" />
+                <marker date="1468056625000" expanded="true" signature="3596:3634" ph="update url s... " />
+                <marker date="1468056625000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
+                <marker date="1468056625000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
+                <marker date="1468056625000" expanded="true" signature="4305:4355" ph="SELECT title... juzi" />
+                <marker date="1468056625000" expanded="true" signature="5667:5716" ph="SELECT title... domains" />
+                <marker date="1468056625000" expanded="true" signature="6383:6435" ph="insert into ${$from}... " />
+                <marker date="1468056625000" expanded="true" signature="6577:6592" ph="select id fr... ${$from}" />
+                <marker date="1468056625000" expanded="true" signature="6879:6893" ph="select * fro... ${$from}" />
+                <marker date="1468056625000" expanded="true" signature="7350:7365" ph="select id fr... ${$from}" />
+                <marker date="1468056625000" expanded="true" signature="8677:8708" ph="delete from " />
+                <marker date="1468056625000" expanded="true" signature="9157:9210" ph="select * fro... spider" />
+                <marker date="1468056625000" expanded="true" signature="10420:10468" ph="update spide... " />
+                <marker date="1468056625000" expanded="true" signature="10661:10691" ph="select count... " />
+                <marker date="1468056625000" expanded="true" signature="11718:11775" ph="select * fro... templates" />
+                <marker date="1468056625000" expanded="true" signature="13028:13067" ph="select * fro... spiderset" />
+                <marker date="1468056625000" expanded="true" signature="13522:13576" ph="select title... spiderset" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/moban6/map.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shouye.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/moban6/shouye.html">
+        <entry file="file://$PROJECT_DIR$/templates/moban7/shouye.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+            <state relative-caret-position="-1855">
+              <caret line="176" column="105" selection-start-line="176" selection-start-column="105" selection-end-line="176" selection-end-column="105" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#dd#0;n#dl#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#dd#0;n#dl#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#dd#0;n#dl#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#1;n#dd#0;n#dl#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#10;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#12;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#14;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#15;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#16;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#17;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#18;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#19;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#20;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#21;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#22;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#23;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#24;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#25;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#26;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#27;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#28;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#29;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#30;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#31;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#dd#0;n#dl#1;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="neirong.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/moban7/neirong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#span#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban6/neirong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="61" column="184" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="184" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -209,16 +162,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/moban5/neirong.html">
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="134" column="180" selection-start-line="132" selection-start-column="0" selection-end-line="134" selection-end-column="180" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="36" column="159" selection-start-line="36" selection-start-column="159" selection-end-line="36" selection-end-column="159" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,12 +181,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
-        <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/css/pageGroup.css" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/export.php" />
-        <option value="$PROJECT_DIR$/admin/info.php" />
-        <option value="$PROJECT_DIR$/admin/import.php" />
         <option value="$PROJECT_DIR$/admin/log.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/inc/ver.php" />
@@ -246,7 +192,6 @@
         <option value="$PROJECT_DIR$/templates/moban4/map.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/templates/moban1/map.html" />
         <option value="$PROJECT_DIR$/templates/moban1/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban1/shouye.html" />
@@ -264,6 +209,12 @@
         <option value="$PROJECT_DIR$/templates/moban6/map.html" />
         <option value="$PROJECT_DIR$/templates/moban6/shouye.html" />
         <option value="$PROJECT_DIR$/templates/moban6/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban7/shouye.html" />
+        <option value="$PROJECT_DIR$/admin/inc/left.php" />
+        <option value="$PROJECT_DIR$/admin/info.php" />
+        <option value="$PROJECT_DIR$/admin/import.php" />
+        <option value="$PROJECT_DIR$/admin/inc/function.php" />
+        <option value="$PROJECT_DIR$/templates/moban7/neirong.html" />
       </list>
     </option>
   </component>
@@ -340,98 +291,22 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="moban6" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban1" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,7 +422,7 @@
       <workItem from="1467945313663" duration="981000" />
       <workItem from="1467961581396" duration="5387000" />
       <workItem from="1468032698783" duration="42000" />
-      <workItem from="1468032743846" duration="9944000" />
+      <workItem from="1468032743846" duration="12338000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -640,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468050627165</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="增加模板六">
+      <created>1468054330394</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1468054330394</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37179000" />
+    <option name="totallyTimeSpent" value="39573000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -694,7 +576,8 @@
     <MESSAGE value="禁用数据导出" />
     <MESSAGE value="增加模板四" />
     <MESSAGE value="增加模板五" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加模板五" />
+    <MESSAGE value="增加模板六" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加模板六" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -706,25 +589,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468053220000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="3244:3294" ph="select title... keywords" />
-            <marker date="1468053220000" expanded="true" signature="3416:3457" ph="select * fro... url" />
-            <marker date="1468053220000" expanded="true" signature="3596:3634" ph="update url s... " />
-            <marker date="1468053220000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
-            <marker date="1468053220000" expanded="true" signature="5405:5454" ph="SELECT title... domains" />
-            <marker date="1468053220000" expanded="true" signature="6121:6173" ph="insert into ${$from}... " />
-            <marker date="1468053220000" expanded="true" signature="6315:6330" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="6617:6631" ph="select * fro... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="7088:7103" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="8415:8446" ph="delete from " />
-            <marker date="1468053220000" expanded="true" signature="8895:8948" ph="select * fro... spider" />
-            <marker date="1468053220000" expanded="true" signature="10158:10206" ph="update spide... " />
-            <marker date="1468053220000" expanded="true" signature="10399:10429" ph="select count... " />
-            <marker date="1468053220000" expanded="true" signature="11424:11481" ph="select * fro... templates" />
-            <marker date="1468053220000" expanded="true" signature="12734:12773" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="13228:13282" ph="select title... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1468056625000" expanded="true" signature="3416:3457" ph="select * fro... url" />
+            <marker date="1468056625000" expanded="true" signature="3596:3634" ph="update url s... " />
+            <marker date="1468056625000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="4305:4355" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="5667:5716" ph="SELECT title... domains" />
+            <marker date="1468056625000" expanded="true" signature="6383:6435" ph="insert into ${$from}... " />
+            <marker date="1468056625000" expanded="true" signature="6577:6592" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="6879:6893" ph="select * fro... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="7350:7365" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="8677:8708" ph="delete from " />
+            <marker date="1468056625000" expanded="true" signature="9157:9210" ph="select * fro... spider" />
+            <marker date="1468056625000" expanded="true" signature="10420:10468" ph="update spide... " />
+            <marker date="1468056625000" expanded="true" signature="10661:10691" ph="select count... " />
+            <marker date="1468056625000" expanded="true" signature="11718:11775" ph="select * fro... templates" />
+            <marker date="1468056625000" expanded="true" signature="13028:13067" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="13522:13576" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>
@@ -752,25 +636,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468053220000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="3244:3294" ph="select title... keywords" />
-            <marker date="1468053220000" expanded="true" signature="3416:3457" ph="select * fro... url" />
-            <marker date="1468053220000" expanded="true" signature="3596:3634" ph="update url s... " />
-            <marker date="1468053220000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
-            <marker date="1468053220000" expanded="true" signature="5405:5454" ph="SELECT title... domains" />
-            <marker date="1468053220000" expanded="true" signature="6121:6173" ph="insert into ${$from}... " />
-            <marker date="1468053220000" expanded="true" signature="6315:6330" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="6617:6631" ph="select * fro... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="7088:7103" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="8415:8446" ph="delete from " />
-            <marker date="1468053220000" expanded="true" signature="8895:8948" ph="select * fro... spider" />
-            <marker date="1468053220000" expanded="true" signature="10158:10206" ph="update spide... " />
-            <marker date="1468053220000" expanded="true" signature="10399:10429" ph="select count... " />
-            <marker date="1468053220000" expanded="true" signature="11424:11481" ph="select * fro... templates" />
-            <marker date="1468053220000" expanded="true" signature="12734:12773" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="13228:13282" ph="select title... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1468056625000" expanded="true" signature="3416:3457" ph="select * fro... url" />
+            <marker date="1468056625000" expanded="true" signature="3596:3634" ph="update url s... " />
+            <marker date="1468056625000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="4305:4355" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="5667:5716" ph="SELECT title... domains" />
+            <marker date="1468056625000" expanded="true" signature="6383:6435" ph="insert into ${$from}... " />
+            <marker date="1468056625000" expanded="true" signature="6577:6592" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="6879:6893" ph="select * fro... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="7350:7365" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="8677:8708" ph="delete from " />
+            <marker date="1468056625000" expanded="true" signature="9157:9210" ph="select * fro... spider" />
+            <marker date="1468056625000" expanded="true" signature="10420:10468" ph="update spide... " />
+            <marker date="1468056625000" expanded="true" signature="10661:10691" ph="select count... " />
+            <marker date="1468056625000" expanded="true" signature="11718:11775" ph="select * fro... templates" />
+            <marker date="1468056625000" expanded="true" signature="13028:13067" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="13522:13576" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>
@@ -788,25 +673,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468053220000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="3244:3294" ph="select title... keywords" />
-            <marker date="1468053220000" expanded="true" signature="3416:3457" ph="select * fro... url" />
-            <marker date="1468053220000" expanded="true" signature="3596:3634" ph="update url s... " />
-            <marker date="1468053220000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
-            <marker date="1468053220000" expanded="true" signature="5405:5454" ph="SELECT title... domains" />
-            <marker date="1468053220000" expanded="true" signature="6121:6173" ph="insert into ${$from}... " />
-            <marker date="1468053220000" expanded="true" signature="6315:6330" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="6617:6631" ph="select * fro... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="7088:7103" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="8415:8446" ph="delete from " />
-            <marker date="1468053220000" expanded="true" signature="8895:8948" ph="select * fro... spider" />
-            <marker date="1468053220000" expanded="true" signature="10158:10206" ph="update spide... " />
-            <marker date="1468053220000" expanded="true" signature="10399:10429" ph="select count... " />
-            <marker date="1468053220000" expanded="true" signature="11424:11481" ph="select * fro... templates" />
-            <marker date="1468053220000" expanded="true" signature="12734:12773" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="13228:13282" ph="select title... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1468056625000" expanded="true" signature="3416:3457" ph="select * fro... url" />
+            <marker date="1468056625000" expanded="true" signature="3596:3634" ph="update url s... " />
+            <marker date="1468056625000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="4305:4355" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="5667:5716" ph="SELECT title... domains" />
+            <marker date="1468056625000" expanded="true" signature="6383:6435" ph="insert into ${$from}... " />
+            <marker date="1468056625000" expanded="true" signature="6577:6592" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="6879:6893" ph="select * fro... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="7350:7365" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="8677:8708" ph="delete from " />
+            <marker date="1468056625000" expanded="true" signature="9157:9210" ph="select * fro... spider" />
+            <marker date="1468056625000" expanded="true" signature="10420:10468" ph="update spide... " />
+            <marker date="1468056625000" expanded="true" signature="10661:10691" ph="select count... " />
+            <marker date="1468056625000" expanded="true" signature="11718:11775" ph="select * fro... templates" />
+            <marker date="1468056625000" expanded="true" signature="13028:13067" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="13522:13576" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>
@@ -846,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="39" column="174" selection-start-line="39" selection-start-column="174" selection-end-line="39" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -864,20 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1083,6 +948,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban5/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="134" column="180" selection-start-line="132" selection-start-column="0" selection-end-line="134" selection-end-column="180" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban6/shouye.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
@@ -1139,50 +1016,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban5/neirong.html">
+    <entry file="file://$PROJECT_DIR$/templates/moban7/shouye.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="134" column="180" selection-start-line="132" selection-start-column="0" selection-end-line="134" selection-end-column="180" />
+        <state relative-caret-position="-1855">
+          <caret line="176" column="105" selection-start-line="176" selection-start-column="105" selection-end-line="176" selection-end-column="105" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <marker date="1468056280000" expanded="true" signature="1125:1174" ph="insert into ${$act}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="36" column="159" selection-start-line="36" selection-start-column="159" selection-end-line="36" selection-end-column="159" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="157" column="32" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
           <folding>
-            <marker date="1468053220000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="3244:3294" ph="select title... keywords" />
-            <marker date="1468053220000" expanded="true" signature="3416:3457" ph="select * fro... url" />
-            <marker date="1468053220000" expanded="true" signature="3596:3634" ph="update url s... " />
-            <marker date="1468053220000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
-            <marker date="1468053220000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
-            <marker date="1468053220000" expanded="true" signature="5405:5454" ph="SELECT title... domains" />
-            <marker date="1468053220000" expanded="true" signature="6121:6173" ph="insert into ${$from}... " />
-            <marker date="1468053220000" expanded="true" signature="6315:6330" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="6617:6631" ph="select * fro... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="7088:7103" ph="select id fr... ${$from}" />
-            <marker date="1468053220000" expanded="true" signature="8415:8446" ph="delete from " />
-            <marker date="1468053220000" expanded="true" signature="8895:8948" ph="select * fro... spider" />
-            <marker date="1468053220000" expanded="true" signature="10158:10206" ph="update spide... " />
-            <marker date="1468053220000" expanded="true" signature="10399:10429" ph="select count... " />
-            <marker date="1468053220000" expanded="true" signature="11424:11481" ph="select * fro... templates" />
-            <marker date="1468053220000" expanded="true" signature="12734:12773" ph="select * fro... spiderset" />
-            <marker date="1468053220000" expanded="true" signature="13228:13282" ph="select title... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="3244:3294" ph="select title... keywords" />
+            <marker date="1468056625000" expanded="true" signature="3416:3457" ph="select * fro... url" />
+            <marker date="1468056625000" expanded="true" signature="3596:3634" ph="update url s... " />
+            <marker date="1468056625000" expanded="true" signature="3784:3834" ph="SELECT title... shipin" />
+            <marker date="1468056625000" expanded="true" signature="4049:4095" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="4305:4355" ph="SELECT title... juzi" />
+            <marker date="1468056625000" expanded="true" signature="5667:5716" ph="SELECT title... domains" />
+            <marker date="1468056625000" expanded="true" signature="6383:6435" ph="insert into ${$from}... " />
+            <marker date="1468056625000" expanded="true" signature="6577:6592" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="6879:6893" ph="select * fro... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="7350:7365" ph="select id fr... ${$from}" />
+            <marker date="1468056625000" expanded="true" signature="8677:8708" ph="delete from " />
+            <marker date="1468056625000" expanded="true" signature="9157:9210" ph="select * fro... spider" />
+            <marker date="1468056625000" expanded="true" signature="10420:10468" ph="update spide... " />
+            <marker date="1468056625000" expanded="true" signature="10661:10691" ph="select count... " />
+            <marker date="1468056625000" expanded="true" signature="11718:11775" ph="select * fro... templates" />
+            <marker date="1468056625000" expanded="true" signature="13028:13067" ph="select * fro... spiderset" />
+            <marker date="1468056625000" expanded="true" signature="13522:13576" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban6/neirong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="61" column="184" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="184" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1192,6 +1094,18 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#外推链接#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#外推链接#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban7/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

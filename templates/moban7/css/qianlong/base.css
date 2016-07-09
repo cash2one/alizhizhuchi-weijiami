@@ -1,0 +1,49 @@
+body{
+font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+}
+ul{margin:0;}
+li{list-style: none;font-size:10px;color:#6f6f6f;}
+li p{font-size:14px;}
+
+/*
+h3.f28{
+    font-size:28px;
+}
+h3.f30{
+    font-size:30px;
+    font-weight: normal;
+}
+.tank{
+    border:solid 1px #ccc;
+    padding:0px;
+}
+.fl{
+    float: left;
+    display: inline;
+    width:20%;
+}
+.fr{
+    float: right;
+    display: inline;
+    width:75%;
+}
+*/
+.clearAll{
+    clear: both;
+}
+.footer{
+    width:100%;
+    text-align: center;
+    line-height: 200%;
+    background: #E4E4E4;
+    border-top: solid 6px #979797;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+	.container .row {
+		margin: 0 8px;
+	}
+
+}
