@@ -1,0 +1,68 @@
+/*
+Style Name:piclist.css
+Author: ZJL
+*/
+a{color:#323232;}
+ul li img{display:block; margin:0 auto;}
+em{font-style:normal;}
+/*-----#topLogin-----*/
+ul li a:hover{color:#c00; }
+/*-----main-----*/
+.main{margin-top:5px;padding:5px;background:#eeeeee;}
+/*-----leftCon-----*/
+.leftCon{width:602px;padding:0 5px;float:left;background:#ffffff;}
+.Bar{height:17px;padding:12px 25px 12px 16px;text-align:center;color:#e73555;line-height:17px;background:url(http://img3.67.com/img/www/img/titlebg.gif) 0 39px repeat-x; }
+.BreadcrumbNav{height:17px;padding-left:17px;margin:0;color:#e73555; background:url(http://img3.67.com/img/www/img/h1bg.jpg) 0 2px no-repeat;line-height:17px; font-size:14px; font-weight:bold;width:200px; }
+.Bar a{color:#e73555;line-height:17px;}
+.Bar a:hover{color:#e73555;}
+.Bar a.current{display:inline-block;padding:0 3px;height:17px; text-align:center; background:#dddddd;line-height:17px;}
+.Bar input{width:46px;height:15px;border:1px solid #949495;margin-left:10px;padding:0;display:inline-block;*display:inline; *zoom:1;
+background:#f6f6f6;font-family:Tahoma;vertical-align:top; }
+.pagebtn{width:38px;height:17px;display:inline-block;*display:inline; *zoom:1;background:#ebebeb;text-align:center;line-height:17x;font-family:Tahoma;vertical-align:top;}
+.Bar a.pagebtn{color:#000;margin-left:6px;cursor:pointer;}
+.Bar a.pagebtn:hover{color:#000;text-decoration:none;}
+.bgt{background:url(http://img3.67.com/img/www/img/titlebg.gif) 0 0 repeat-x;}
+.listCon{overflow:hidden;margin:9px 0 30px;padding:0 20px 0 10px;height:auto!important;height:1549px;min-height:1549px;_overflow:visible}
+.title-list{padding:12px 2px 0 0;height:auto!important;height:1537px;min-height:1537px;_overflow:visible}
+.title-list li{color:#e13656;height:25px;line-height:25px;padding-left:13px;background:url(http://img3.67.com/img/www/img/liicotit.gif) no-repeat 3px 13px;overflow:hidden;}
+.title-list li.border{height:15px;margin-bottom:14px;font-size:0px;overflow:hidden;border-bottom:1px dotted #c10303;background:none;}
+.title-list li a,.title-list li span{color:#4f4f4f;}
+.title-list li a{font-size:14px;}
+/*-----side-----*/
+.side{width:322px;float:right;}
+.side h2{height:30px;overflow:hidden;background:#ffffff;border-bottom:1px solid #b7b7b7;padding:0 17px 0 24px;margin-bottom:5px;}
+.side h2 a{color:#e43554;font-size:14px;line-height:30px;}
+.side h2 span a{line-height:999px;display:block;width:34px;height:5px;overflow:hidden;background:url(http://img3.67.com/img/www/img/moretit.gif) no-repeat;margin-top:13px;}
+
+
+/*----- topten ≈≈––∞Ò -----*/
+.topten{ position:relative; width:318px; background:#f3f3fa;overflow:visible; display:inherit;margin:0 auto;}
+.topten span.corner-l{ left:-1px; bottom:-1px;}
+.topten span.corner-r{ right:-1px; bottom:-1px;}
+.tabMenu{ height:27px;margin:10px 4px; background:url(http://img3.67.com/img/photo/sprite.png) 0 -607px repeat-x; overflow:visible;}
+.tabMenu li{ display:block;overflow:hidden; background:url(http://img3.67.com/img/photo/sprite2.png) -220px -195px no-repeat; float:left; text-align:center;color:#fff; width:100px; height:30px; line-height:30px; margin-right:4px; margin-top:-3px; font-size:14px; color:#c18500; cursor:pointer;position:relative;z-index:2;}
+.tabMenu li.tabl,.tabMenu li.tabr{width:6px;height:27px;background:url(http://img3.67.com/img/photo/sprite.png) 0 -580px no-repeat; margin:0; cursor:default;}
+.tabMenu li.tabr{background-position:-14px -634px; float:right; margin-left:-4px;}
+.tabMenu li.current{ background-position:-220px -153px;}
+.tabcon{height:280px;}
+.tabcon ul.topul{ margin:0 8px;background:url(http://img3.67.com/img/www/img/topten.png) 0 6px no-repeat; margin:0 15px 15px;}
+.tabcon ul.topul li{border-bottom:1px dotted #3c3e67; margin-bottom:-1px;height:26px; line-height:26px;}
+#topVideoTab{display:none;}
+.pic-list2{ overflow:hidden;zoom:1;}
+.pic-list2 li{width:50%;}
+.pic-list2 li{overflow:hidden;float:left;text-align:center; margin-bottom:6px;}
+.pic-list2 li img{ display:block;margin:0 auto; border:1px solid #ccc; padding:1px;}
+.pic-list2 li a{ line-height:28px;}
+.pic-list2 li a:hover img{border:1px solid #e43554;}
+.title-list1{ margin:0 10px;border-top:1px dotted #323132; padding:8px 0;}
+.title-list1 li{ font-size:12px; height:24px; line-height:24px; background:url(http://img3.67.com/img/www/img/liicotit2.gif) 5px 50% no-repeat; padding-left:15px;overflow:hidden;}
+/*-----bigmouse-----*/
+.bigmouse,.bigmouse a{color:#4f4f4f;line-height:25px;word-wrap:break-word;word-break:normal;}
+.bigmouse a:hover{color:#e13656;}
+.bigmouse{border-top:1px dotted #c10303;padding:15px 4px 4px 10px;margin-top:-1px;}
+.bigmouse dt{font-size:14px;}
+.bigmouse dd{font-family:Verdana,Arial,SimSun;}
+.bigmouse dd.tr,.bigmouse dd.tr a{color:#e13656;font-family:SimSun;}
+/* footer */
+#copyright{ color:#4f4f4f; line-height:20px; text-align:center; padding:10px 0;}
+#copyright a{color:#4f4f4f;}

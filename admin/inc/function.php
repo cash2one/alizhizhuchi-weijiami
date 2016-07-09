@@ -117,7 +117,7 @@ function moban($moban){
     //外推链接
     $result=$mysqli->query("select * from url order by rand() limit 1");
     $row=$result->fetch_assoc();
-    $moban = str_replace( "<外推链接>", $row['title'], $moban );
+    $moban = str_replace( "<外推链接>", "<a href='".$row['title']."'></a>", $moban );
     $mysqli->query("update url set count=count+1 where id=".$row['id']);
     //随机关键词
     $wk = count(explode('<随机关键词>', $moban)) - 1;
