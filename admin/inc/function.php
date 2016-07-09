@@ -121,14 +121,16 @@ function moban($moban){
     $mysqli->query("update url set count=count+1 where id=".$row['id']);
     //随机关键词
     $wk = count(explode('<随机关键词>', $moban)) - 1;
-    $result=$mysqli->query("select title from keywords order by rand() limit $wk");
-    while($row=$result->fetch_assoc()){
-        $moban = preg_replace('/<随机关键词>/', $row['title'], $moban, 1);
+    for ($di=0; $di<$wk; $di++)
+    {
+        $keywords = $mysqli->query("SELECT title FROM keywords order by rand() limit 1")->fetch_object()->title;
+        $moban = preg_replace('/<随机关键词>/', $keywords, $moban, 1);
     }
     $wk = count(explode('<句子>', $moban)) - 1;
-    $result=$mysqli->query("select title from juzi order by rand() limit $wk");
-    while($row=$result->fetch_assoc()){
-        $moban = preg_replace('/<句子>/', $row['title'], $moban, 1);
+    for ($di=0; $di<$wk; $di++)
+    {
+        $juzi = $mysqli->query("SELECT title FROM juzi order by rand() limit 1")->fetch_object()->title;
+        $moban = preg_replace('/<句子>/', $juzi, $moban, 1);
     }
     $dk = count(explode('<随机端口>', $moban)) - 1;
     for ($di=0; $di<$dk; $di++)

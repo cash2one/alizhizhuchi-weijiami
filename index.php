@@ -4,8 +4,8 @@ error_reporting(0);
 require("admin/inc/data.php");
 require("admin/inc/spider.php");
 define( "DIR", dirname( __FILE__ ) );
-if(get_naps_bot() == false)
-//if(get_naps_bot() !== false)
+//if(get_naps_bot() == false)
+if(get_naps_bot() !== false)
 {
 	header("Location: http://www.baidu.com");
 	exit;
