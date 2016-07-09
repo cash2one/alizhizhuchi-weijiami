@@ -324,11 +324,11 @@ function data_num($from,$num='',$day='',$type=''){
 function templates_list(){
     global $mysqli;
     //远程模板
-    $yuan_moban='["moban1","moban2","moban3","moban4","moban5","moban6"]';//todo:远程获取
+    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"}]';//todo:远程获取
     $yuanmoban=json_decode($yuan_moban,true);//转为数组
 
     foreach($yuanmoban as $value){
-        $sql="select * from templates where title='".$value."'";
+        $sql="select * from templates where title='".$value['title']."'";
         $result=$mysqli->query($sql);
         if($result->num_rows>0){
             $row=$result->fetch_assoc();
@@ -339,9 +339,9 @@ function templates_list(){
                 $row['us']="<a href='?act=edit&id=".$row['id']."&ok=1'>未启用</a>";
             }
         }else{
-            $row['thumb']="http://vip.alizhizhuchi.top/templates/".$value."/thumb.jpg";
-            $row['title']=$value;
-            $row['us']="<a class='down' href='templates_down.php?act=$value'>下载</a>";
+            $row['thumb']="http://vip.alizhizhuchi.top/templates/".$value['title']."/thumb.jpg";
+            $row['name']=$value['name'];
+            $row['us']="<a class='down' href='templates_down.php?act=".$value['title']."'>下载</a>";
         }
         $data[]=$row;
     }
