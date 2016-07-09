@@ -2,17 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/neirong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban5/shouye.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0096.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0129.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0446.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0493.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0510.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/0533.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1079.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1290.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1321.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/132p61kb4cy28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1413.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/141942423032o136.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1488.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1601181cb5d12c29ccd15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/160120c4cdfdfbdd28e74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/160307bd07d9bde1bddcc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/160411511cf2bd052a3d2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/16042183cd0f51fe6fd79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/160421fc47e575f0a61d1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/1604260dc1920bf474b2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/17598472_100042_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/17598489_114354_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/17598489_135656_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062219322[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062221683[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062301257[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062301387[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062302588[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050616062303431[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050622075410303[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050622075410949[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/20050622075411746[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/44bgnew.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/44xinyou.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/7427ea390b3d188cd01203.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/99509313a736d0f5c24942064f36565d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_ad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_all.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_all_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_b.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_b_n.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_fk.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_nk.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_ph.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_position.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_xjy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/bg_xzsk.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/caidan-bj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/d43d7e636a81185c90d716.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/d43d7e636a81185c93c41e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/d43d7e66186416fc2cb301.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/d_icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/ddd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dfz1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dfz2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dh_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/distance1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/distance2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dot.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dot_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/dq_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/endnav_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/exa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/examination.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa021[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa022[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa072[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa087[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa128[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa145[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa184[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa194[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa238[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/faa268[1].bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/fad009[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/flogo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/gfwb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/gimg2014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/guide_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/hd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/hjbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/hjs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/icon_tg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/image00010(6)[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/index_9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/kps.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/kspd_05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/kspd_08.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/list_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/mbg_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/mbg_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/menubg_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/middle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/n_btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/nav_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/nav_t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/pd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/q_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_023[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_050[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_092[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_098[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_100[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_102[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_105[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_a091[1].jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq11[1].gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq27[1].gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq69[1].gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq74[1].gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/r051461603982998_change_p40_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/scrolltop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/sina.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/top_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/ty1t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/ty2d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wenzhang_56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/wy44wrap00.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/xin2014bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/xx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/xybg2014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban4/images/zc.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/neirong.html" afterPath="$PROJECT_DIR$/templates/moban3/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/neirong.html" afterPath="$PROJECT_DIR$/templates/moban4/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/shouye.html" afterPath="$PROJECT_DIR$/templates/moban4/shouye.html" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +170,8 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="348" column="5" selection-start-line="348" selection-start-column="5" selection-end-line="348" selection-end-column="5" />
+            <state relative-caret-position="690">
+              <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
               <folding>
                 <marker date="1468046908000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
                 <marker date="1468046908000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
@@ -390,7 +523,7 @@
       <workItem from="1467945313663" duration="981000" />
       <workItem from="1467961581396" duration="5387000" />
       <workItem from="1468032698783" duration="42000" />
-      <workItem from="1468032743846" duration="6401000" />
+      <workItem from="1468032743846" duration="6637000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -455,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467945363875</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加模板四">
+      <created>1468049215577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1468049215577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33636000" />
+    <option name="totallyTimeSpent" value="33872000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -507,7 +647,8 @@
     <MESSAGE value="蜘蛛按类别分字段名更正" />
     <MESSAGE value="更新数据库文件" />
     <MESSAGE value="禁用数据导出" />
-    <option name="LAST_COMMIT_MESSAGE" value="禁用数据导出" />
+    <MESSAGE value="增加模板四" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加模板四" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -902,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="348" column="5" selection-start-line="348" selection-start-column="5" selection-end-line="348" selection-end-column="5" />
+        <state relative-caret-position="690">
+          <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
           <folding>
             <marker date="1468046908000" expanded="true" signature="2433:2483" ph="select * fro... spiderset" />
             <marker date="1468046908000" expanded="true" signature="3071:3119" ph="SELECT title... shipin" />
