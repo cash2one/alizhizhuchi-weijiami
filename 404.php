@@ -26,7 +26,7 @@ else
 {
 	$moban=$mysqli->query("select title from templates where ok=1 order by rand() limit 1")->fetch_object()->title;
 	$moban_neirong = file_get_contents(DIR."/templates/". $moban ."/neirong.html" );
-	$moban_neirong = str_replace( "<模板>", "/templates/".$moban, $moban_neirong );
+	$moban_neirong = str_replace( "<模板/>", "/templates/".$moban, $moban_neirong );
 	echo moban($moban_neirong);
 }
 ?>

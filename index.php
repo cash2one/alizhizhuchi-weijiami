@@ -14,7 +14,7 @@ else
 {
 	$moban=$mysqli->query("select title from templates where ok=1 order by rand() limit 1")->fetch_object()->title;
 	$moban_index = file_get_contents(DIR."/templates/". $moban ."/shouye.html" );
-	$moban_index = str_replace( "<模板>", "/templates/".$moban, $moban_index );
+	$moban_index = str_replace( "<模板/>", "/templates/".$moban, $moban_index );
 	echo moban($moban_index);
 }
 ?>
