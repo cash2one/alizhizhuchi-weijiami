@@ -106,7 +106,6 @@ function moban($moban){
     $yuming=str_replace(':'.$duankou, '', $yuming);
     $yumi=getdomain ( $yuming );
     $shipin = count(explode('<随机视频/>', $moban)) - 1;
-
     for ($sp=0; $sp<$shipin; $sp++)
     {
         $shipin = $mysqli->query("SELECT title FROM shipin order by rand() limit 1")->fetch_object()->title;
@@ -150,10 +149,6 @@ function moban($moban){
         $moban = preg_replace('/<随机图片\/>/', '/pics/' . varray_rand ( $image_list ), $moban, 1);
     }
     $moban = str_replace( "<年/>", date( "y" ), $moban );
-//    $moban = str_replace( "<随机时间/>", date( "m-d" ), $moban );
-//    for($i=1;$i<30;$i++){
-//        $moban = str_replace( "<发布时间$i>", date( "m-d",strtotime("-$i day")), $moban );
-//    }
     $sjsj = count(explode('<随机时间/>', $moban)) - 1;
     for ($tui=0; $tui<$sjsj; $tui++)
     {

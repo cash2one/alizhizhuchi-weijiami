@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2016-07-07 23:40:09
+-- Generation Time: 2016-07-10 23:45:24
 -- 服务器版本： 5.7.12
 -- PHP Version: 5.5.34
 
@@ -116,9 +116,25 @@ INSERT INTO `keywords` (`id`, `title`) VALUES
 --
 
 CREATE TABLE `shipin` (
-  `id` int(11) NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL,
   `title` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- 转存表中的数据 `shipin`
+--
+
+INSERT INTO `shipin` (`id`, `title`) VALUES
+(1, 'http://video.sdo.com/statics/default_0.0001_sdo.swf?vid=V81nnZt8qt7ELk10\r\n'),
+(2, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=Fs4xWV5AKXHdmfOQ&style\r\n'),
+(3, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=gmd1qE3A8ivZbSMj&style\r\n'),
+(4, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=P5RRf7iJKYR-s6my&style\r\n'),
+(5, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=0NANG8bOM6OXI2GZ&style\r\n'),
+(6, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=AAftyDrQfpBr8dRf&style\r\n'),
+(7, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=Fs4xWV5AKXHdmfOQ&style\r\n'),
+(8, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=E_aZYmtCxQZungcZ&style\r\n'),
+(9, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=UpmptoaOrv9xSQGX&style\r\n'),
+(10, 'http://video.sdo.com/statics/VMSPlayer.swf?vid=aEiZqSLxufNY8VH5&style\r\n');
 
 -- --------------------------------------------------------
 
@@ -136,6 +152,18 @@ CREATE TABLE `spider` (
   `rq` int(11) NOT NULL,
   `ipinfo` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- 转存表中的数据 `spider`
+--
+
+INSERT INTO `spider` (`id`, `ssyq`, `fwdz`, `lldz`, `ipdz`, `age`, `rq`, `ipinfo`) VALUES
+(1, 'other', 'http://localhost/zj93t.html', 'http://localhost/', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10.11; rv:49.0) gecko/20100101 firefox/49.0(zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3)', 1468165476, NULL),
+(2, 'other', 'http://localhost/zj93t.html', 'http://localhost/', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10.11; rv:49.0) gecko/20100101 firefox/49.0(zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3)', 1468165476, NULL),
+(3, 'other', 'http://localhost/%3C%E9%9A%8F%E6%9C%BA%E8%A7%86%E9%A2%91/%3E', 'http://localhost/zj93t.html', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10.11; rv:49.0) gecko/20100101 firefox/49.0(zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3)', 1468165477, NULL),
+(4, 'other', 'http://localhost/', '无来路', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10_11_5) applewebkit/601.6.17 (khtml, like gecko) version/9.1.1 safari/601.6.17(zh-cn)', 1468165505, NULL),
+(5, 'other', 'http://localhost/', 'http://localhost/', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10_11_5) applewebkit/601.6.17 (khtml, like gecko) version/9.1.1 safari/601.6.17(zh-cn)', 1468165505, NULL),
+(6, 'other', 'http://localhost/', '无来路', '::1', 'mozilla/5.0 (macintosh; intel mac os x 10_11_5) applewebkit/601.6.17 (khtml, like gecko) version/9.1.1 safari/601.6.17(zh-cn)', 1468165507, NULL);
 
 -- --------------------------------------------------------
 
@@ -182,7 +210,12 @@ CREATE TABLE `templates` (
 INSERT INTO `templates` (`id`, `title`, `ok`, `name`) VALUES
 (1, 'moban1', b'1', '模板一'),
 (2, 'moban2', b'1', '模板二'),
-(3, 'moban3', b'1', '模板三');
+(3, 'moban3', b'1', '模板三'),
+(4, 'moban4', b'1', '模板四'),
+(5, 'moban5', b'1', '模板五'),
+(6, 'moban6', b'1', '模板六'),
+(7, 'moban7', b'1', '模板七'),
+(8, 'moban8', b'1', '模板八');
 
 -- --------------------------------------------------------
 
@@ -201,7 +234,7 @@ CREATE TABLE `url` (
 --
 
 INSERT INTO `url` (`id`, `title`, `count`) VALUES
-(1, 'http://www.alizhizhuchi.top/', 1);
+(2, 'http://www.alizhizhuchi.top', 169);
 
 --
 -- Indexes for dumped tables
@@ -286,10 +319,15 @@ ALTER TABLE `juzi`
 ALTER TABLE `keywords`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2043;
 --
+-- 使用表AUTO_INCREMENT `shipin`
+--
+ALTER TABLE `shipin`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=500;
+--
 -- 使用表AUTO_INCREMENT `spider`
 --
 ALTER TABLE `spider`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- 使用表AUTO_INCREMENT `spiderset`
 --
@@ -299,12 +337,12 @@ ALTER TABLE `spiderset`
 -- 使用表AUTO_INCREMENT `templates`
 --
 ALTER TABLE `templates`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- 使用表AUTO_INCREMENT `url`
 --
 ALTER TABLE `url`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
