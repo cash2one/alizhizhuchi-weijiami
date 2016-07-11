@@ -6,8 +6,8 @@ require_once("admin/inc/spider.php");
 define( "DIR", dirname( __FILE__ ) );
 $urlaa=$_SERVER['REQUEST_URI'];
 $yuming=$_SERVER['HTTP_HOST'];
-if(get_naps_bot() == false)
-//if(get_naps_bot() !== false)
+//if(get_naps_bot() == false)
+if(get_naps_bot() !== false)
 {
 	header("Location: http://www.baidu.com");
 	exit;

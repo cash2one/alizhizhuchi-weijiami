@@ -1,29 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="更新模板错误">
+    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/css/lmstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/css/style_1_common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/css/style_1_forum_viewthread.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/css/sycss1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/images/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/images/icon_9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/images/logo副本.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/common_extra.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/discuz_tips.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/djkk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/djkk1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/forum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/forum_viewthread.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/logging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/seditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/js/tjkk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/Index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/1339NFvh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/191njBTH.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/19r53dZ3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/1JzR1v1N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/7HXxvDPX.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/8sU20aM8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/93njnLZd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/9951D1Dh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/9dLPR9hl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/Fdlx991H.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/N597v55H.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/P3r91R35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/P7hBzxb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/PFRzZ51p.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/Vhf31BRL.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/XT3vjJr1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/bNnnpRLX.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/body-bg-lusongsong.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/btn_comment.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/btn_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/container-bg-Lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/dBn5ZlE6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/footer-bg-lusongsong.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/gnew.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/gnew2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/ico-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/line-bg-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/line-bg2-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/menu-bg-lusongsong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/n5hN9Rfh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/p7jBxDDP.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/post-date-bg-lusongsong.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/postcomment-submit-lusongsong.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/q_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/quote-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/sIm68y2Y.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/sidebar-bg-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/space-line-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/widget-title-bg-lusongsong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban1/style/images/yUuKM88a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/7292226_391623.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/hsw/n13_ch.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/hsw/n13_zt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/hsw/news_gj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/hsw/news_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/jsc/star.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/moban2/7290611_180032.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/moban2/x02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/moban2/x09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/images/s_k47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/js/hsw/hm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban2/js/sangwu123/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban3/js/hsw/hm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban3/js/sangwu123/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/style002.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/css/wenzhang.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0096.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0446.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0493.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/0533.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1079.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1290.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1321.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/132p61kb4cy28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1413.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/141942423032o136.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1488.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1601181cb5d12c29ccd15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/160120c4cdfdfbdd28e74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/160307bd07d9bde1bddcc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/160411511cf2bd052a3d2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/16042183cd0f51fe6fd79.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/160421fc47e575f0a61d1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/1604260dc1920bf474b2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/17598472_100042_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/17598489_114354_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/17598489_135656_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062219322[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062221683[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062301257[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062301387[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062302588[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050616062303431[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050622075410303[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050622075410949[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/20050622075411746[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/44bgnew.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/44xinyou.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/7427ea390b3d188cd01203.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/99509313a736d0f5c24942064f36565d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_all_n.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_b_n.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_fk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_nk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/bg_xzsk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/d43d7e636a81185c90d716.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/d43d7e636a81185c93c41e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/d43d7e66186416fc2cb301.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/d_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/ddd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa021[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa022[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa072[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa087[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa128[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa145[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa184[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa194[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa238[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/faa268[1].bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/fad009[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/image00010(6)[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_023[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_050[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_092[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_098[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_100[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_102[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_105[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_a091[1].jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq11[1].gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq27[1].gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq69[1].gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/qqjia_dq74[1].gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/r051461603982998_change_p40_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/scrolltop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wenzhang_56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/wy44wrap00.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban4/images/xin2014bg.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/hsw/n13_ch.gif" afterPath="$PROJECT_DIR$/templates/moban3/images/hsw/n13_ch.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/hsw/n13_zt.gif" afterPath="$PROJECT_DIR$/templates/moban3/images/hsw/n13_zt.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/hsw/news_gj.jpg" afterPath="$PROJECT_DIR$/templates/moban3/images/hsw/news_gj.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/hsw/news_logo.jpg" afterPath="$PROJECT_DIR$/templates/moban3/images/hsw/news_logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/jsc/logo.png" afterPath="$PROJECT_DIR$/templates/moban3/images/jsc/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/jsc/star.gif" afterPath="$PROJECT_DIR$/templates/moban3/images/jsc/star.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/logo.png" afterPath="$PROJECT_DIR$/templates/moban3/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/logo1.png" afterPath="$PROJECT_DIR$/templates/moban3/images/logo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/moban2/7290611_180032.png" afterPath="$PROJECT_DIR$/templates/moban3/images/moban2/7290611_180032.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/moban2/x02.jpg" afterPath="$PROJECT_DIR$/templates/moban3/images/moban2/x02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/images/moban2/x09.jpg" afterPath="$PROJECT_DIR$/templates/moban3/images/moban2/x09.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/style/ningmp.css" afterPath="$PROJECT_DIR$/templates/moban1/style/ningmp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/css/indexz.css" afterPath="$PROJECT_DIR$/templates/moban2/css/indexz.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/css/main_v2.css" afterPath="$PROJECT_DIR$/templates/moban2/css/main_v2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/js/baidutj.js" afterPath="$PROJECT_DIR$/templates/moban2/js/baidutj.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban2/neirong.html" afterPath="$PROJECT_DIR$/templates/moban2/neirong.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/js/baidutj.js" afterPath="$PROJECT_DIR$/templates/moban3/js/baidutj.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/neirong.html" afterPath="$PROJECT_DIR$/templates/moban3/neirong.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban3/shouye.html" afterPath="$PROJECT_DIR$/templates/moban3/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/css/hsw/back2015.css" afterPath="$PROJECT_DIR$/templates/moban5/css/hsw/back2015.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban5/css/moban4/stylet.css" afterPath="$PROJECT_DIR$/templates/moban5/css/moban4/stylet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban6/css/hsw/back2015.css" afterPath="$PROJECT_DIR$/templates/moban6/css/hsw/back2015.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css" afterPath="$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban6/neirong.html" afterPath="$PROJECT_DIR$/templates/moban6/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban6/shouye.html" afterPath="$PROJECT_DIR$/templates/moban6/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban7/css/hsw/back2015.css" afterPath="$PROJECT_DIR$/templates/moban7/css/hsw/back2015.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban7/css/moban4/stylet.css" afterPath="$PROJECT_DIR$/templates/moban7/css/moban4/stylet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban7/neirong.html" afterPath="$PROJECT_DIR$/templates/moban7/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/back2015.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/back2015.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban4/bdsstyle.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban4/bdsstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/neirong.html" afterPath="$PROJECT_DIR$/templates/moban8/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/shouye.html" afterPath="$PROJECT_DIR$/templates/moban8/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi-kong.sql" afterPath="$PROJECT_DIR$/zhizhuchi-kong.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/css/global_2014.css" afterPath="$PROJECT_DIR$/templates/moban4/css/global_2014.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/css/list_view2016.css" afterPath="$PROJECT_DIR$/templates/moban4/css/list_view2016.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/css/reset.css" afterPath="$PROJECT_DIR$/templates/moban4/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/css/top_foot_global.css" afterPath="$PROJECT_DIR$/templates/moban4/css/top_foot_global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban4/shouye.html" afterPath="$PROJECT_DIR$/templates/moban4/shouye.html" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +226,31 @@
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <marker date="1468165572000" expanded="true" signature="642:704" ph="select title... templates" />
+                <marker date="1468202391000" expanded="true" signature="642:704" ph="select title... templates" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shouye.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="369" column="24" selection-start-line="369" selection-start-column="24" selection-end-line="369" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <marker date="1468165580000" expanded="true" signature="299:361" ph="select title... templates" />
+                <marker date="1468202385000" expanded="true" signature="299:361" ph="select title... templates" />
               </folding>
             </state>
           </provider>
@@ -86,7 +273,6 @@
         <option value="$PROJECT_DIR$/admin/inc/ver.php" />
         <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
-        <option value="$PROJECT_DIR$/templates/moban4/shouye.html" />
         <option value="$PROJECT_DIR$/admin/import.php" />
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/info.php" />
@@ -112,21 +298,22 @@
         <option value="$PROJECT_DIR$/templates/moban7/neirong.html" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/templates/moban2/shouye.html" />
-        <option value="$PROJECT_DIR$/templates/moban2/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban8/shouye.html" />
         <option value="$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css" />
         <option value="$PROJECT_DIR$/templates/moban7/css/moban4/stylet.css" />
         <option value="$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css" />
         <option value="$PROJECT_DIR$/templates/moban5/css/moban4/stylet.css" />
-        <option value="$PROJECT_DIR$/templates/moban3/shouye.html" />
-        <option value="$PROJECT_DIR$/templates/moban3/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban6/shouye.html" />
         <option value="$PROJECT_DIR$/templates/moban8/css/moban4/bdsstyle.css" />
         <option value="$PROJECT_DIR$/templates/moban8/neirong.html" />
-        <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sitemap.php" />
         <option value="$PROJECT_DIR$/admin/inc/spider.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/templates/moban2/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban3/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban3/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban4/shouye.html" />
       </list>
     </option>
   </component>
@@ -142,9 +329,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
+    <option name="x" value="65" />
     <option name="y" value="23" />
-    <option name="width" value="1373" />
+    <option name="width" value="1387" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -204,24 +391,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban8" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -237,7 +406,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moban6" />
+              <option name="myItemId" value="moban4" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,7 +424,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moban6" />
+              <option name="myItemId" value="moban4" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,55 +446,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moban3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemId" value="moban4" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moban2" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,38 +469,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="moban2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,7 +553,8 @@
       <workItem from="1468032698783" duration="42000" />
       <workItem from="1468032743846" duration="17707000" />
       <workItem from="1468161649386" duration="1337000" />
-      <workItem from="1468163104156" duration="2223000" />
+      <workItem from="1468163104156" duration="2251000" />
+      <workItem from="1468201610957" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -588,11 +682,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468161731628</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="更新模板错误">
+      <created>1468165685341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1468165685341</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48502000" />
+    <option name="totallyTimeSpent" value="50272000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -604,10 +705,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1373" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="23" width="1387" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24873829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,13 +756,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/css/pageGroup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -704,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="67" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="67" />
-          <folding>
-            <marker date="1467968487000" expanded="true" signature="400:441" ph="update templ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,9 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <marker date="1468056280000" expanded="true" signature="1125:1174" ph="insert into ${$act}... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="226" column="41" selection-start-line="226" selection-start-column="41" selection-end-line="226" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,14 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="224" column="41" selection-start-line="224" selection-start-column="41" selection-end-line="224" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban1/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -893,15 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5685">
-          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,24 +1015,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban2/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="266" column="6" selection-start-line="266" selection-start-column="6" selection-end-line="266" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban6/neirong.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="60" column="185" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="185" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,14 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="31" column="175" selection-start-line="31" selection-start-column="175" selection-end-line="31" selection-end-column="175" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,10 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-          <folding>
-            <marker date="1468164486000" expanded="true" signature="12540:12580" ph="{...}" />
-            <marker date="1468164486000" expanded="true" signature="12731:12771" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,10 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-          <folding>
-            <marker date="1468164496000" expanded="true" signature="12540:12580" ph="{...}" />
-            <marker date="1468164496000" expanded="true" signature="12731:12771" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,10 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-          <folding>
-            <marker date="1468164503000" expanded="true" signature="12540:12580" ph="{...}" />
-            <marker date="1468164503000" expanded="true" signature="12731:12771" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,40 +1054,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-          <folding>
-            <marker date="1468164509000" expanded="true" signature="12540:12580" ph="{...}" />
-            <marker date="1468164509000" expanded="true" signature="12731:12771" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban3/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban3/images/moban2/x09.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban3/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="334" column="40" selection-start-line="334" selection-start-column="40" selection-end-line="334" selection-end-column="40" />
-          <folding>
-            <marker date="1468164947000" expanded="true" signature="410:439" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="12709:12733" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="13051:13075" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="13393:13417" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="13735:13759" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="14077:14101" ph="{...}" />
-            <marker date="1468164947000" expanded="true" signature="14445:14469" ph="{...}" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban6/shouye.html">
@@ -1074,23 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#0;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#1;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#2;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#3;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#4;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#5;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#6;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#7;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#8;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#9;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#10;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#11;n#select#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="0" column="5011" selection-start-line="0" selection-start-column="5011" selection-end-line="0" selection-end-column="5011" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,23 +1115,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1468165572000" expanded="true" signature="642:704" ph="select title... templates" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/spider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <marker date="1468165615000" expanded="true" signature="1064:1232" ph="insert into spider... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,13 +1132,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14520">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1446862736000" expanded="true" signature="10191:10200" ph="..." />
+            <marker date="1446862736000" expanded="true" signature="50544:50550" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <marker date="1468165580000" expanded="true" signature="299:361" ph="select title... templates" />
+            <marker date="1468202385000" expanded="true" signature="299:361" ph="select title... templates" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban2/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban3/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <marker date="1468203301000" expanded="true" signature="366:395" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="12665:12689" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="13007:13031" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="13349:13373" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="13691:13715" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="14033:14057" ph="{...}" />
+            <marker date="1468203301000" expanded="true" signature="14401:14425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban3/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+          <folding>
+            <marker date="1468203292000" expanded="true" signature="15254:15278" ph="{...}" />
+            <marker date="1468203292000" expanded="true" signature="15596:15620" ph="{...}" />
+            <marker date="1468203292000" expanded="true" signature="15938:15962" ph="{...}" />
+            <marker date="1468203292000" expanded="true" signature="16280:16304" ph="{...}" />
+            <marker date="1468203292000" expanded="true" signature="16622:16646" ph="{...}" />
+            <marker date="1468203292000" expanded="true" signature="16990:17014" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <marker date="1468202391000" expanded="true" signature="642:704" ph="select title... templates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="369" column="24" selection-start-line="369" selection-start-column="24" selection-end-line="369" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
