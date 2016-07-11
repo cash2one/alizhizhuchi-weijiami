@@ -11,7 +11,9 @@ if(get_naps_bot() == false)
     exit;
 }
 else {
-    $moban = $mysqli->query("select title from templates where ok=1 order by rand() limit 1")->fetch_object()->title;
+    $sql="SELECT title FROM `templates` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `templates`)-(SELECT MIN(id) FROM `templates`))+(SELECT MIN(id) FROM `templates`)) AS id) AS t2 WHERE t1.id >= t2.id and t1.ok=1 ORDER BY t1.id LIMIT 1";
+    $moban = $mysqli->query($sql)->fetch_object()->title;
+    //$moban = $mysqli->query("select title from templates where ok=1 order by rand() limit 1")->fetch_object()->title;
     $moban_map = file_get_contents(DIR . "/templates/" . $moban . "/map.html");
     $moban_map = str_replace("<模板/>", "/templates/" . $moban, $moban_map);
     echo moban($moban_map);

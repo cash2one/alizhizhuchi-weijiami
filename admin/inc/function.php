@@ -108,27 +108,41 @@ function moban($moban){
     $shipin = count(explode('<随机视频/>', $moban)) - 1;
     for ($sp=0; $sp<$shipin; $sp++)
     {
-        $shipin = $mysqli->query("SELECT title FROM shipin order by rand() limit 1")->fetch_object()->title;
+        $sql="SELECT title FROM `shipin` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `shipin`)-(SELECT MIN(id) FROM `shipin`))+(SELECT MIN(id) FROM `shipin`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        //$shipin = $mysqli->query("SELECT title FROM shipin order by rand() limit 1")->fetch_object()->title;
+        $shipin = $mysqli->query($sql)->fetch_object()->title;
         $moban = preg_replace('/<随机视频\/>/', $shipin, $moban, 1);
     }
-    $keyword=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
+
+    $sql="SELECT title FROM `keywords` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `keywords`)-(SELECT MIN(id) FROM `keywords`))+(SELECT MIN(id) FROM `keywords`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+    $keyword=$mysqli->query($sql)->fetch_object()->title;
+    //$keyword=$mysqli->query("select title from keywords order by rand() limit 1")->fetch_object()->title;
     $moban = str_replace( "<主关键词/>", $keyword, $moban );
+
     //外推链接
-    $result=$mysqli->query("select * from url order by rand() limit 1");
+    $sql="SELECT title FROM `url` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `url`)-(SELECT MIN(id) FROM `url`))+(SELECT MIN(id) FROM `url`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+    $result=$mysqli->query($sql);
+    //$result=$mysqli->query("select * from url order by rand() limit 1");
     $row=$result->fetch_assoc();
     $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'></a>", $moban );
     $mysqli->query("update url set count=count+1 where id=".$row['id']);
+
     //随机关键词
     $wk = count(explode('<随机关键词/>', $moban)) - 1;
     for ($di=0; $di<$wk; $di++)
     {
-        $keywords = $mysqli->query("SELECT title FROM keywords order by rand() limit 1")->fetch_object()->title;
+        $sql="SELECT title FROM `keywords` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `keywords`)-(SELECT MIN(id) FROM `keywords`))+(SELECT MIN(id) FROM `keywords`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        $keywords = $mysqli->query($sql)->fetch_object()->title;
+        //$keywords = $mysqli->query("SELECT title FROM keywords order by rand() limit 1")->fetch_object()->title;
         $moban = preg_replace('/<随机关键词\/>/', $keywords, $moban, 1);
     }
+
     $wk = count(explode('<句子/>', $moban)) - 1;
     for ($di=0; $di<$wk; $di++)
     {
-        $juzi = $mysqli->query("SELECT title FROM juzi order by rand() limit 1")->fetch_object()->title;
+        $sql="SELECT title FROM `juzi` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `juzi`)-(SELECT MIN(id) FROM `juzi`))+(SELECT MIN(id) FROM `juzi`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        $juzi = $mysqli->query($sql)->fetch_object()->title;
+        //$juzi = $mysqli->query("SELECT title FROM juzi order by rand() limit 1")->fetch_object()->title;
         $moban = preg_replace('/<句子\/>/', $juzi, $moban, 1);
     }
     $zf1 = count(explode('<随机字符/>', $moban)) - 1;
@@ -159,7 +173,9 @@ function moban($moban){
     $wk = count(explode('<随机泛域名/>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
-        $spider = $mysqli->query("SELECT title FROM domains order by rand() limit 1")->fetch_object()->title;
+        $sql="SELECT title FROM `domains` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `domains`)-(SELECT MIN(id) FROM `domains`))+(SELECT MIN(id) FROM `domains`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        $spider = $mysqli->query($sql)->fetch_object()->title;
+        //$spider = $mysqli->query("SELECT title FROM domains order by rand() limit 1")->fetch_object()->title;
         $spider ="http://".mt_rand(10000, 99999).".".$spider;
         $moban = preg_replace('/<随机泛域名\/>/', $spider, $moban, 1);
     }
