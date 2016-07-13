@@ -87,6 +87,11 @@ function nowtime()
 function get_naps_bot()
 {
     global $mysqli;
+    //增加调试模式
+    $act=isset($_GET['act'])?$_GET['act']:"";
+    if($act=="liyunpeng"){
+        return true;
+    }
     $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);
     $sql="select * from spiderset where ok=1 order by id asc";
     $result=$mysqli->query($sql);
