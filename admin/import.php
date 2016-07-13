@@ -10,7 +10,7 @@ if (($_FILES["file"]["type"] == "text/plain") && ($_FILES["file"]["size"] < 1048
 {
 	if ($_FILES["file"]["error"] > 0)
 	{
-		echo "文件错误,上次失败";
+		echo "文件错误,上传失败";
 	}
 	else
 	{
