@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/data.php" afterPath="$PROJECT_DIR$/admin/inc/data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/ver.php" afterPath="$PROJECT_DIR$/admin/inc/ver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/update.php" afterPath="$PROJECT_DIR$/admin/update.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,65 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <file leaf-file-name="ver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
-              <folding>
-                <marker date="1468399094000" expanded="true" signature="2546:2596" ph="select * fro... spiderset" />
-                <marker date="1468399094000" expanded="true" signature="3164:3377" ph="SELECT title... shipin" />
-                <marker date="1468399094000" expanded="true" signature="3203:3326" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="3227:3255" ph="SELECT MAX(i... shipin" />
-                <marker date="1468399094000" expanded="true" signature="3258:3286" ph="SELECT MIN(i... shipin" />
-                <marker date="1468399094000" expanded="true" signature="3290:3318" ph="SELECT MIN(i... shipin" />
-                <marker date="1468399094000" expanded="true" signature="3416:3464" ph="SELECT title... shipin" />
-                <marker date="1468399094000" expanded="true" signature="3636:3857" ph="SELECT title... keywords" />
-                <marker date="1468399094000" expanded="true" signature="3677:3806" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="3701:3731" ph="SELECT MAX(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="3734:3764" ph="SELECT MIN(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="3768:3798" ph="SELECT MIN(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="3949:3999" ph="select title... keywords" />
-                <marker date="1468399094000" expanded="true" signature="4105:4306" ph="SELECT title... url" />
-                <marker date="1468399094000" expanded="true" signature="4141:4255" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="4165:4190" ph="SELECT MAX(i... url" />
-                <marker date="1468399094000" expanded="true" signature="4193:4218" ph="SELECT MIN(i... url" />
-                <marker date="1468399094000" expanded="true" signature="4222:4247" ph="SELECT MIN(i... url" />
-                <marker date="1468399094000" expanded="true" signature="4373:4414" ph="select * fro... url" />
-                <marker date="1468399094000" expanded="true" signature="4554:4592" ph="update url s... " />
-                <marker date="1468399094000" expanded="true" signature="4722:4943" ph="SELECT title... keywords" />
-                <marker date="1468399094000" expanded="true" signature="4763:4892" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="4787:4817" ph="SELECT MAX(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="4820:4850" ph="SELECT MIN(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="4854:4884" ph="SELECT MIN(i... keywords" />
-                <marker date="1468399094000" expanded="true" signature="5049:5099" ph="SELECT title... keywords" />
-                <marker date="1468399094000" expanded="true" signature="5300:5505" ph="SELECT title... juzi" />
-                <marker date="1468399094000" expanded="true" signature="5337:5454" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="5361:5387" ph="SELECT MAX(i... juzi" />
-                <marker date="1468399094000" expanded="true" signature="5390:5416" ph="SELECT MIN(i... juzi" />
-                <marker date="1468399094000" expanded="true" signature="5420:5446" ph="SELECT MIN(i... juzi" />
-                <marker date="1468399094000" expanded="true" signature="5603:5649" ph="SELECT title... juzi" />
-                <marker date="1468399094000" expanded="true" signature="6831:7048" ph="SELECT title... domains" />
-                <marker date="1468399094000" expanded="true" signature="6871:6997" ph="SELECT ROUND... " />
-                <marker date="1468399094000" expanded="true" signature="6895:6924" ph="SELECT MAX(i... domains" />
-                <marker date="1468399094000" expanded="true" signature="6927:6956" ph="SELECT MIN(i... domains" />
-                <marker date="1468399094000" expanded="true" signature="6960:6989" ph="SELECT MIN(i... domains" />
-                <marker date="1468399094000" expanded="true" signature="7150:7199" ph="SELECT title... domains" />
-                <marker date="1468399094000" expanded="true" signature="7875:7927" ph="insert into ${$from}... " />
-                <marker date="1468399094000" expanded="true" signature="8069:8084" ph="select id fr... ${$from}" />
-                <marker date="1468399094000" expanded="true" signature="8371:8385" ph="select * fro... ${$from}" />
-                <marker date="1468399094000" expanded="true" signature="8842:8857" ph="select id fr... ${$from}" />
-                <marker date="1468399094000" expanded="true" signature="9301:9379" ph="..." />
-                <marker date="1468399094000" expanded="true" signature="9305:9373" ph="..." />
-                <marker date="1468399094000" expanded="true" signature="10169:10200" ph="delete from " />
-                <marker date="1468399094000" expanded="true" signature="10649:10702" ph="select * fro... spider" />
-                <marker date="1468399094000" expanded="true" signature="11912:11960" ph="update spide... " />
-                <marker date="1468399094000" expanded="true" signature="12153:12183" ph="select count... " />
-                <marker date="1468399094000" expanded="true" signature="13252:13309" ph="select * fro... templates" />
-                <marker date="1468399094000" expanded="true" signature="14072:14111" ph="select * fro... templates" />
-                <marker date="1468399094000" expanded="true" signature="14572:14611" ph="select * fro... spiderset" />
-                <marker date="1468399094000" expanded="true" signature="15066:15120" ph="select title... spiderset" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/spiderset.php" />
-        <option value="$PROJECT_DIR$/admin/css/pageGroup.css" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/export.php" />
         <option value="$PROJECT_DIR$/admin/log.php" />
@@ -143,9 +110,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/sitemap.php" />
-        <option value="$PROJECT_DIR$/admin/inc/ver.php" />
         <option value="$PROJECT_DIR$/admin/import.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
+        <option value="$PROJECT_DIR$/httpd.ini" />
+        <option value="$PROJECT_DIR$/admin/inc/data.php" />
+        <option value="$PROJECT_DIR$/admin/inc/ver.php" />
+        <option value="$PROJECT_DIR$/admin/update.php" />
       </list>
     </option>
   </component>
@@ -154,6 +124,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -307,6 +280,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="" />
@@ -326,7 +302,7 @@
       <workItem from="1468163104156" duration="2251000" />
       <workItem from="1468201610957" duration="2964000" />
       <workItem from="1468219612763" duration="2400000" />
-      <workItem from="1468392535588" duration="602000" />
+      <workItem from="1468392535588" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -496,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468392569683</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="增加调试模式">
+      <created>1468399132918</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1468399132918</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54496000" />
+    <option name="totallyTimeSpent" value="56647000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -535,6 +518,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -560,41 +551,14 @@
     <MESSAGE value="优化模板随机记录读取效率,优化模板" />
     <MESSAGE value="优化模板随机记录读取效率,定版本为1.2" />
     <MESSAGE value="修改文字错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文字错误" />
+    <MESSAGE value="增加调试模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加调试模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/spider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570">
@@ -966,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/export.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -989,14 +945,6 @@
           <folding>
             <marker date="1468392550000" expanded="true" signature="1125:1174" ph="insert into ${$act}... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1006,54 @@
             <marker date="1468399094000" expanded="true" signature="14572:14611" ph="select * fro... spiderset" />
             <marker date="1468399094000" expanded="true" signature="15066:15120" ph="select title... spiderset" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpd.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

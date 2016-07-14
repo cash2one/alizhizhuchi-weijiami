@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前系统版本:<?=VER?>
+			当前系统版本:v<?=VER?>
 		</div>
 	</div>
 </body>
