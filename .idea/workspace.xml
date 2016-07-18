@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/ver.php" afterPath="$PROJECT_DIR$/admin/inc/ver.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ver.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -156,7 +165,6 @@
         <option value="$PROJECT_DIR$/httpd.ini" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/inc/spider.php" />
-        <option value="$PROJECT_DIR$/admin/inc/ver.php" />
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/admin/update.php" />
@@ -166,6 +174,7 @@
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
+        <option value="$PROJECT_DIR$/admin/inc/ver.php" />
       </list>
     </option>
   </component>
@@ -354,7 +363,7 @@
       <workItem from="1468219612763" duration="2400000" />
       <workItem from="1468392535588" duration="2851000" />
       <workItem from="1468733643898" duration="5139000" />
-      <workItem from="1468810964068" duration="10763000" />
+      <workItem from="1468810964068" duration="10981000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -573,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468850736653</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="修复24小时分析多了24点&#10;去掉首页今日蜘蛛数,增加今日预计蜘蛛数">
+      <created>1468881136095</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1468881136095</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72647000" />
+    <option name="totallyTimeSpent" value="72865000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -624,7 +640,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加搜索引擎缩略图,更换登录界面背景图" />
     <MESSAGE value="增加空数据库文件" />
     <MESSAGE value="更新版本号为1.1" />
     <MESSAGE value="蜘蛛按类别分字段名更正" />
@@ -649,7 +664,8 @@
     <MESSAGE value="计划外推链接增加各搜索引擎数量统计" />
     <MESSAGE value="修复首页30日数据统计分析日期排列" />
     <MESSAGE value="去掉系统设置info.php中信息编辑功能&#10;增加版本更新日期常量&#10;增加显示版本号位置&#10;增加交流QQ群&#10;增加外推链接分蜘蛛引擎统计,方便后期与服务器数据联通" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉系统设置info.php中信息编辑功能&#10;增加版本更新日期常量&#10;增加显示版本号位置&#10;增加交流QQ群&#10;增加外推链接分蜘蛛引擎统计,方便后期与服务器数据联通" />
+    <MESSAGE value="修复24小时分析多了24点&#10;去掉首页今日蜘蛛数,增加今日预计蜘蛛数" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复24小时分析多了24点&#10;去掉首页今日蜘蛛数,增加今日预计蜘蛛数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1011,14 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1093,6 +1101,14 @@
           <folding>
             <marker date="1468881077000" expanded="true" signature="1067:1121" ph="select title... spiderset" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
