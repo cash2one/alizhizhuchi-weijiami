@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/spider.php" afterPath="$PROJECT_DIR$/admin/inc/spider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <marker date="1468831257000" expanded="true" signature="1067:1121" ph="select title... spiderset" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="133" column="72" selection-start-line="133" selection-start-column="72" selection-end-line="133" selection-end-column="72" />
+            <state relative-caret-position="420">
+              <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
               <folding>
                 <marker date="1468827858000" expanded="true" signature="2555:2605" ph="select * fro... spiderset" />
                 <marker date="1468827858000" expanded="true" signature="3173:3386" ph="SELECT title... shipin" />
@@ -113,46 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-              <folding>
-                <element signature="n#style#0;n#a#2;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1468825728000" expanded="true" signature="1064:1118" ph="select title... spiderset" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="94" column="118" selection-start-line="94" selection-start-column="118" selection-end-line="94" selection-end-column="118" />
-              <folding>
-                <marker date="1468823784000" expanded="true" signature="2905:2941" ph="select SUM(c... url" />
-                <marker date="1468823784000" expanded="true" signature="4590:4691" ph="..." />
-                <marker date="1468823784000" expanded="true" signature="4632:4679" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/spider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -209,9 +180,9 @@
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/inc/ver.php" />
-        <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/inc/spider.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
+        <option value="$PROJECT_DIR$/admin/main.php" />
       </list>
     </option>
   </component>
@@ -400,7 +371,7 @@
       <workItem from="1468219612763" duration="2400000" />
       <workItem from="1468392535588" duration="2851000" />
       <workItem from="1468733643898" duration="5139000" />
-      <workItem from="1468810964068" duration="4213000" />
+      <workItem from="1468810964068" duration="5386000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -598,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468826092902</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="计划外推链接增加各搜索引擎数量统计">
+      <created>1468828022040</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1468828022040</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66097000" />
+    <option name="totallyTimeSpent" value="67270000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -649,7 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理" />
     <MESSAGE value="精简模板替换函数" />
     <MESSAGE value="去除无用trim函数,增加数据库文件" />
     <MESSAGE value="增加搜索引擎缩略图,更换登录界面背景图" />
@@ -674,7 +651,8 @@
     <MESSAGE value="把系统名称从ver.php放到data.php中,方便升级" />
     <MESSAGE value="更新版本1.2.2&#10;修复外推链接统计&#10;增加蜘蛛三天24小时分析&#10;修复蜘蛛时间统计不准确问题&#10;修复调试模式蜘蛛仍然记录问题&#10;去掉后台蜘蛛日志全部删除功能" />
     <MESSAGE value="去掉phpmyadmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉phpmyadmin" />
+    <MESSAGE value="计划外推链接增加各搜索引擎数量统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="计划外推链接增加各搜索引擎数量统计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1002,18 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#a#2;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1468825728000" expanded="true" signature="1064:1118" ph="select title... spiderset" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1044,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="133" column="72" selection-start-line="133" selection-start-column="72" selection-end-line="133" selection-end-column="72" />
+        <state relative-caret-position="420">
+          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
           <folding>
             <marker date="1468827858000" expanded="true" signature="2555:2605" ph="select * fro... spiderset" />
             <marker date="1468827858000" expanded="true" signature="3173:3386" ph="SELECT title... shipin" />
@@ -1101,6 +1067,16 @@
             <marker date="1468827858000" expanded="true" signature="15007:15046" ph="select * fro... templates" />
             <marker date="1468827858000" expanded="true" signature="15507:15546" ph="select * fro... spiderset" />
             <marker date="1468827858000" expanded="true" signature="16001:16055" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <marker date="1468831257000" expanded="true" signature="1067:1121" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>

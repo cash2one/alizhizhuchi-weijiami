@@ -8,7 +8,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 //$xAxisdata="'".date('n/j',time())."'";
 //$seriesdata="'".data_num('spider','',date('Y-m-d',time()))."'";
 if(is_numeric($act)&&$act>0){
-	for($i=1;$i<$act;$i++){
+	for($i=$act-1;$i>=0;$i--){
 //		$xAxisdata.=",'".date('n/j',time()-$i*24*3600)."'";
 		$xAxisdata[]="'".date('n/j',time()-$i*24*3600)."'";
 //		$seriesdata.=",'".data_num('spider','',date('Y-m-d',time()-$i*24*3600))."'";
@@ -57,7 +57,7 @@ if($act=='hour') {
 	<div id="pageAll">
 		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?> v<?=VER?> (2016/7/18更新)</div>
 		<div class="page">
-			<div class="title">蜘蛛访问量<span>今日(<?=data_num('spider',1)?>) <a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
+			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>
 			<?php
 			if($act=='hour') {
