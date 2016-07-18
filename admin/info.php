@@ -92,7 +92,8 @@ switch($action){
 							<td class="tdColor">内容</td>
 							<?php
 							if($act=="url"){
-								echo "<td class=\"tdColor\" width='100px'>引蜘蛛数</td>";
+								$allnum=$mysqli->query("select SUM(count) as allnum from url")->fetch_object()->allnum;
+								echo "<td class=\"tdColor\" width='100px'>引蜘蛛数<br>($allnum)</td>";
 							}
 							?>
 							<td width="130px" class="tdColor">操作</td>

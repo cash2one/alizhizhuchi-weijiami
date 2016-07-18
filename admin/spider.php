@@ -10,9 +10,9 @@ $page=isset($_GET['page'])?$_GET['page']:1;
 if($act=="ip_update"){
 	$err=ip_update($page);
 }
-if($act=="del_all"){
-	spider_del_all();
-}
+//if($act=="del_all"){
+//	spider_del_all();
+//}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,7 +44,7 @@ if($act=="del_all"){
 			<div class="connoisseur">
 				<div class="conShow">
 					今日(<?=data_num('spider',1)?>) | 7日(<?=data_num('spider',7)?>) | 30日(<?=data_num('spider',30)?>) | <?=spider_type_list()?>
-					<span style="float:right">合计(<?=data_num('spider','all')?>)<a class="userbtn" href="?act=del_all">删除所有数据</a></span>
+					<span style="float:right">合计(<?=data_num('spider','all')?>)<!--<a class="userbtn" href="?act=del_all">删除所有数据</a>--></span>
 					
 					<table border="1" cellspacing="0" cellpadding="0" width="100%">
 						<tr>

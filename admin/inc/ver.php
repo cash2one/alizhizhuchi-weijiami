@@ -1,3 +1,3 @@
 <?php
-define('VER','1.2.1');
+define('VER','1.2.2');
 ?>

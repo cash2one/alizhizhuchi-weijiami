@@ -41,8 +41,9 @@ class spider
     function record()
     {
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+        $act=isset($_GET['act'])?$_GET['act']:"";
         $spider=get_naps_bot();
-        if($spider){
+        if($spider&&$act!="liyunpeng"){
             $this->writeLog($spider, $agent);
         }
     }

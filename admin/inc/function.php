@@ -125,7 +125,7 @@ function moban($moban){
     $moban = str_replace( "<主关键词/>", $keyword, $moban );
 
     //外推链接
-    $sql="SELECT title FROM `url` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `url`)-(SELECT MIN(id) FROM `url`))+(SELECT MIN(id) FROM `url`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+    $sql="SELECT * FROM `url` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `url`)-(SELECT MIN(id) FROM `url`))+(SELECT MIN(id) FROM `url`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
     $result=$mysqli->query($sql);
     //$result=$mysqli->query("select * from url order by rand() limit 1");
     $row=$result->fetch_assoc();
@@ -228,6 +228,10 @@ function list_data($from,$page,$type=''){
     if($mysqli->affected_rows>0){
         while($row = $result->fetch_assoc())
         {
+            if($from=='url'&&($row['title']=='http://www.alizhizhuchi.top'||$row['title']=='http://www.itmba.cc')){
+                $row['title']="<span style='color:red'>".$row['title']."调试数据,测试使用</span>";
+                $row['del']=1;
+            }
             $data[] = $row;
         }
         return $data;
@@ -323,22 +327,43 @@ function data_num($from,$num='',$day='',$type=''){
     //$sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d')";
     if($from=='spider'){
         if($num && is_numeric($num)){
-            $riqi=time()-$num*24*3600;
+            $num='-'.($num-1).' day';
+            $riqi=strtotime(date('Y-m-d',strtotime($num)));
+            //$riqi=time()-$num*24*3600;
             $sql.=" where rq>$riqi";
         }
         if($day){
             $sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = '".date('Y-m-d',strtotime($day))."'";
         }
         if($type){
-            if($day){
-
-            }else{
-                $sql.=" where ssyq='".$type."'";
-            }
+            $sql.=" where ssyq='".$type."'";
         }
     }
     $num_all=$mysqli->query($sql)->fetch_object()->count;
     return $num_all;
+}
+//获得24小时蜘蛛数
+function hour_data_num($from,$num){
+    global $mysqli;
+    if(is_numeric($num)){
+        if($num==0){
+            $date=time();
+        }else{
+            $num='-'.$num.' day';
+            $date=strtotime($num);
+        }
+        $riqi=strtotime(date('Y-m-d',$date));//获得0点时间戳
+        $count=array();
+        //24小时循环
+        for($i=0;$i<=24;$i++){
+            $sql="select count(*) as count from ".$from;
+            $min=$riqi+$i*60*60;
+            $max=$min+60*60;
+            $sql.=" where rq>=$min and rq<=$max";
+            $count[]=$mysqli->query($sql)->fetch_object()->count;
+        }
+        return $count;
+    }
 }
 function templates_list(){
     global $mysqli;
