@@ -84,6 +84,7 @@ function nowtime()
     $date=date("Y-m-d.G:i:s");
     return $date;
 }
+//获取蜘蛛引擎
 function get_naps_bot()
 {
     global $mysqli;

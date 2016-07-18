@@ -28,10 +28,10 @@ class spider
     function writeLog($engine, $agent = '')
     {
         global $mysqli;
-        if (!$engine) {
-            $engine = 'other';
-        }
-        $agent .= "({$_SERVER['HTTP_ACCEPT_LANGUAGE']})";
+//        if (!$engine) {
+//            $engine = 'other';
+//        }
+        $agent = "({$_SERVER['HTTP_ACCEPT_LANGUAGE']})";
         $ref = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '无来路';
         $ipdz=$this->getIp();
         $time=time();
