@@ -57,7 +57,7 @@ if($act=='hour') {
 	<div id="pageAll">
 		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?></div>
 		<div class="page">
-			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
+			<div class="title">蜘蛛访问量<span>今日预计(<?=data_num('spider',1)/date("H")*24?>) <a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>
 			<?php
 			if($act=='hour') {
@@ -174,7 +174,7 @@ if($act=='hour') {
 			xAxis: {
 				type: 'category',
 				boundaryGap: false,
-				data: ['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24']
+				data: ['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23']
 			},
 			yAxis: {
 				type: 'value'

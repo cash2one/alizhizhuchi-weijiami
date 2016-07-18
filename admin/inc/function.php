@@ -361,7 +361,7 @@ function hour_data_num($from,$num){
         $riqi=strtotime(date('Y-m-d',$date));//获得0点时间戳
         $count=array();
         //24小时循环
-        for($i=0;$i<=24;$i++){
+        for($i=0;$i<=23;$i++){
             $sql="select count(*) as count from ".$from;
             $min=$riqi+$i*60*60;
             $max=$min+60*60;
