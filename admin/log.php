@@ -42,7 +42,7 @@ if($act=="out"){
 
 	<!-- 登录页面头部 -->
 	<div class="logHead clear">
-		<div class="system_name"><?=SYSTEM_NAME?></div>
+		<div class="system_name"><?=SYSTEM_NAME?><span>v<?=VER?></span></div>
 		<div class="ads"><img src="img/wellcom.jpg"/> </div>
 	</div>
 	<!-- 登录页面头部结束 -->

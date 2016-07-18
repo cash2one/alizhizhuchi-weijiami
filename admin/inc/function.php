@@ -79,11 +79,11 @@ function getdomain($url)
     }
     return $domain;
 }
-function nowtime()
-{
-    $date=date("Y-m-d.G:i:s");
-    return $date;
-}
+//function nowtime()
+//{
+//    $date=date("Y-m-d.G:i:s");
+//    return $date;
+//}
 //获取蜘蛛引擎
 function get_naps_bot()
 {
@@ -132,6 +132,11 @@ function moban($moban){
     $row=$result->fetch_assoc();
     $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'></a>", $moban );
     $mysqli->query("update url set count=count+1 where id=".$row['id']);
+    //获取当前蜘蛛引擎并转为小写
+    $ssyq=strtolower(get_naps_bot());
+    if($ssyq&&$ssyq!==true) {//如果不为调试模式
+        $mysqli->query("update url set " . $ssyq . "=" . $ssyq . "+1 where id=" . $row['id']);
+    }
 
     //随机关键词
     $wk = count(explode('<随机关键词/>', $moban)) - 1;
@@ -262,26 +267,26 @@ function list_page($from,$page,$type=''){
         return $str;
     }
 }
-function info_save($from,$title,$page,$id){
-    global $mysqli;
-    $mysqli->query("update ".$from." set title='".$title."' where id=".$id);
-    header("Location: info.php?act=".$from."&page=".$page);
-}
+//function info_save($from,$title,$page,$id){
+//    global $mysqli;
+//    $mysqli->query("update ".$from." set title='".$title."' where id=".$id);
+//    header("Location: info.php?act=".$from."&page=".$page);
+//}
 function info_del($from,$page,$id){
     global $mysqli;
     $mysqli->query("delete from ".$from." where id=".$id);
     header("Location: info.php?act=".$from."&page=".$page);
 }
-function info_del_all($from){
-    global $mysqli;
-    $mysqli->query("truncate table ".$from);
-    header("Location: info.php?act=".$from);
-}
-function spider_del_all(){
-    global $mysqli;
-    $mysqli->query("truncate table spider");
-    header("Location: spider.php");
-}
+//function info_del_all($from){
+//    global $mysqli;
+//    $mysqli->query("truncate table ".$from);
+//    header("Location: info.php?act=".$from);
+//}
+//function spider_del_all(){
+//    global $mysqli;
+//    $mysqli->query("truncate table spider");
+//    header("Location: spider.php");
+//}
 function ip_update($page){
     global $mysqli;
     $page_size=10;

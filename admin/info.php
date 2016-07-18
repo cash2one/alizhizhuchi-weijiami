@@ -28,25 +28,25 @@ switch($action){
 			info_add($act,$data);
 		}
 		break;
-	case "edit":
-		$id = isset($_GET['id']) ? $_GET['id'] : "";
-		break;
-	case "save":
-		$data=isset($_POST['title'])?$_POST['title']:"";
-		$id = isset($_GET['id']) ? $_GET['id'] : "";
-		if(!empty($act)&&!empty($data)&&!empty($id)&&is_numeric($id)) {
-			info_save($act, $data, $page,$id);
-		}
-		break;
+//	case "edit":
+//		$id = isset($_GET['id']) ? $_GET['id'] : "";
+//		break;
+//	case "save":
+//		$data=isset($_POST['title'])?$_POST['title']:"";
+//		$id = isset($_GET['id']) ? $_GET['id'] : "";
+//		if(!empty($act)&&!empty($data)&&!empty($id)&&is_numeric($id)) {
+//			info_save($act, $data, $page,$id);
+//		}
+//		break;
 	case "del":
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		if(!empty($act)&&!empty($id)&&is_numeric($id)) {
 			info_del($act,$page,$id);
 		}
 		break;
-	case "del_all":
-		info_del_all($act);
-		break;
+//	case "del_all":
+//		info_del_all($act);
+//		break;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -93,46 +93,46 @@ switch($action){
 							<?php
 							if($act=="url"){
 								$allnum=$mysqli->query("select SUM(count) as allnum from url")->fetch_object()->allnum;
-								echo "<td class=\"tdColor\" width='100px'>引蜘蛛数<br>($allnum)</td>";
+								echo "<td class=\"tdColor\" width='100px'>引蜘蛛数<br>($allnum)</td><td class=\"tdColor\">详情</td>";
 							}
 							?>
-							<td width="130px" class="tdColor">操作</td>
+							<td width="70px" class="tdColor">操作</td>
 						</tr>
 						<?php
 						if(list_data($act,$page)){
 							foreach(list_data($act,$page) as $row){
-								if (isset($id)&&$id == $row['id']&&$action=="edit") {
+								//if (isset($id)&&$id == $row['id']&&$action=="edit") {
 									?>
-									<tr bgcolor="#999">
-									<form action='?act=<?= $act ?>&action=save&page=<?= $page ?>&id=<?= $id ?>' method='post'>
-										<td height="40px"><?= $row['id'] ?></td>
-										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="<?= $row['title'] ?>"/>
-										</td>
-										<?php
-										if($act=="url"){
-											echo "<td>".$row['count']."</td>";
-										}
-										?>
-										<td>
-											<button><img src="img/ok.png"></button><a href="?act=<?= $act ?>&page=<?= $page ?>"><img src="img/no.png"></a></td>
-									</form>
-									</tr>
+<!--									<tr bgcolor="#999">-->
+<!--									<form action='?act=--><?//= $act ?><!--&action=save&page=--><?//= $page ?><!--&id=--><?//= $id ?><!--' method='post'>-->
+<!--										<td height="40px">--><?//= $row['id'] ?><!--</td>-->
+<!--										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="--><?//= $row['title'] ?><!--"/>-->
+<!--										</td>-->
+<!--										--><?php
+//										if($act=="url"){
+//											echo "<td>".$row['count']."</td><td>查看</td>";
+//										}
+//										?>
+<!--										<td>-->
+<!--											<button><img src="img/ok.png"></button><a href="?act=--><?//= $act ?><!--&page=--><?//= $page ?><!--"><img src="img/no.png"></a></td>-->
+<!--									</form>-->
+<!--									</tr>-->
 									<?php
-								}else {
+								//}else {
 									?>
 									<tr>
 									<td height="40px"><?= $row['id'] ?></td>
 									<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
 										<?php
 										if($act=="url"){
-											echo "<td>".$row['count']."</td>";
+											echo "<td>".$row['count']."</td><td><a href='javascript:void(0)' onclick=\"javascript:alert('Google:".$row['google']." | Baidu:".$row['baidu']." | Bing:".$row['bing']." | Yahoo:".$row['yahoo']." | Sogou:".$row['sogou']." | 360:".$row['360']."')\">查看</a></td>";
 										}
 										?>
 									<td>
-										<a href="?act=<?= $act ?>&action=edit&page=<?= $page ?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?act=<?=$act?>&action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
+										<!--<a href="?act=<?= $act ?>&action=edit&page=<?= $page ?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> --><a href="?act=<?=$act?>&action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
 									</tr>
 									<?php
-								}
+								//}
 							}
 						}
 						?>

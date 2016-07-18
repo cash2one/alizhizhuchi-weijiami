@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前帐号级别为:VIP
+			当前帐号级别为:<span style="color:red;">定制版测试帐号</span>
 		</div>
 	</div>
 </body>

@@ -55,7 +55,7 @@ if($act=='hour') {
 
 <body>
 	<div id="pageAll">
-		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?> v<?=VER?> (2016/7/18更新)</div>
+		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?></div>
 		<div class="page">
 			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>

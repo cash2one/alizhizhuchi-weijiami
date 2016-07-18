@@ -85,9 +85,8 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						class="icon5" src="../img/coin21.png" />
 				</dd>
 			</dl>
-
+			<div style="text-align:center;color:red;margin-top:20px;"><?=QQ?></div>
 		</div>
-
 	</div>
 </body>
 </html>
