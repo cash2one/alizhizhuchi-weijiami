@@ -31,13 +31,13 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						src="../img/coin20.png" />
 				</dt>
 				<dd>
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=url" target="main">外推链接</a><img class="icon5" src="../img/coin21.png" />
+				</dd>
+				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=keywords" target="main">关键词管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=domains" target="main">域名管理</a><img class="icon5" src="../img/coin21.png" />
-				</dd>
-				<dd>
-					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=url" target="main">外推链接</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../info.php?act=juzi" target="main">句子管理</a><img class="icon5" src="../img/coin21.png" />
