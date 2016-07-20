@@ -1,6 +1,7 @@
 <?php
 header("HTTP/1.1 200 OK");
 error_reporting(0);
+require("admin/inc/lic.php");
 require("admin/inc/data.php");
 require_once("admin/inc/spider.php");
 define( "DIR", dirname( __FILE__ ) );

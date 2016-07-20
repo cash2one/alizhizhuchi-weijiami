@@ -1,5 +1,5 @@
 <?php
-require("inc/data.php");
+require("inc/lic_admin.php");
 session_start();
 if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION['admin_id'])||empty($_SESSION['is_login'])){
 	header("Location: log.php");
@@ -22,8 +22,12 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前系统版本:v<?=VER?><br/>
-			更新时间:<?=VER_DATE?>
+			当前系统版本:v<?=$config['ver']?><br/>
+			更新时间:<?=date('Y/m/d',$config['ver_date'])?>
+
+			<?php
+			//todo:获取服务器升级信息
+			?>
 		</div>
 	</div>
 </body>

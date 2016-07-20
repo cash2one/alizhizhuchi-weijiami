@@ -374,7 +374,7 @@ function hour_data_num($from,$num){
 function templates_list(){
     global $mysqli;
     //远程模板
-//    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"},{"title":"moban7","name":"模板七"},{"title":"moban8","name":"模板八"}]';//todo:远程获取
+//    $yuan_moban='[{"title":"moban1","name":"模板一"},{"title":"moban2","name":"模板二"},{"title":"moban3","name":"模板三"},{"title":"moban4","name":"模板四"},{"title":"moban5","name":"模板五"},{"title":"moban6","name":"模板六"},{"title":"moban7","name":"模板七"},{"title":"moban8","name":"模板八"}]';//todo:获取服务器模板列表
 //    $yuanmoban=json_decode($yuan_moban,true);//转为数组
 //
 //    foreach($yuanmoban as $value){
@@ -434,5 +434,45 @@ function spider_type_list(){
         $str.="<a href='spider.php?type=".$row['title']."'>".$row['title']."(".data_num('spider','','',$row['title']).")</a> | ";
     }
     return $str;
+}
+function request_post($url = '', $post_data = array()) {
+    if (empty($url) || empty($post_data)) {
+        return false;
+    }
+
+    $o = "";
+    foreach ( $post_data as $k => $v )
+    {
+        $o.= "$k=" . urlencode( $v ). "&" ;
+    }
+    $post_data = substr($o,0,-1);
+
+    $postUrl = $url;
+    $curlPost = $post_data;
+    $ch = curl_init();//初始化curl
+    curl_setopt($ch, CURLOPT_URL,$postUrl);//抓取指定网页
+    curl_setopt($ch, CURLOPT_HEADER, 0);//设置header
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);//要求结果为字符串且输出到屏幕上
+    curl_setopt($ch, CURLOPT_POST, 1);//post提交方式
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $curlPost);
+    $data = curl_exec($ch);//运行curl
+    curl_close($ch);
+
+    return $data;
+}
+//获取配置信息
+function config_list(){
+    global $mysqli;
+    $sql="select * from config limit 1";
+    $result=$mysqli->query($sql);
+    if($result){
+        $row=$result->fetch_assoc();
+        foreach($row as $k=>$v){
+            $res[$k]=base64_decode($v);
+        }
+        return $res;
+    }else{
+        return false;
+    }
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-require("inc/data.php");
+require("inc/lic_admin.php");
 session_start();
 if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION['admin_id'])||empty($_SESSION['is_login'])){
 header("Location: log.php");

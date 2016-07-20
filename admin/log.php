@@ -1,5 +1,5 @@
 <?php
-require("inc/data.php");
+require("inc/lic_admin.php");
 $act=isset($_GET['act'])?$_GET['act']:false;
 $err="";
 session_start();

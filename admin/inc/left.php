@@ -1,5 +1,4 @@
 <?php
-require("data.php");
 session_start();
 if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION['admin_id'])||empty($_SESSION['is_login'])){
 	header("Location: log.php");
@@ -9,7 +8,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>左侧导航-<?=SYSTEM_NAME?></title>
+<title>左侧导航</title>
 <link rel="stylesheet" type="text/css" href="../css/public.css" />
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/public.js"></script>
@@ -85,7 +84,6 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						class="icon5" src="../img/coin21.png" />
 				</dd>
 			</dl>
-			<div style="text-align:center;color:red;margin-top:20px;"><?=QQ?></div>
 		</div>
 	</div>
 </body>
