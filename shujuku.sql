@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 50712
  Source Host           : localhost
- Source Database       : zhizhuchi
+ Source Database       : zhizhuchikong
 
  Target Server Type    : MySQL
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/19/2016 08:31:42 AM
+ Date: 07/19/2016 11:04:20 AM
 */
 
 SET NAMES utf8;
@@ -29,6 +29,13 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
+--  Records of `admin`
+-- ----------------------------
+BEGIN;
+INSERT INTO `admin` VALUES ('1', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b');
+COMMIT;
+
+-- ----------------------------
 --  Table structure for `domains`
 -- ----------------------------
 DROP TABLE IF EXISTS `domains`;
@@ -36,7 +43,7 @@ CREATE TABLE `domains` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=201 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `juzi`
@@ -46,7 +53,7 @@ CREATE TABLE `juzi` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=771591 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `keywords`
@@ -56,7 +63,7 @@ CREATE TABLE `keywords` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=60087 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `shipin`
@@ -66,7 +73,7 @@ CREATE TABLE `shipin` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `title` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=500 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `spider`
@@ -82,7 +89,7 @@ CREATE TABLE `spider` (
   `rq` int(11) NOT NULL,
   `ipinfo` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=170442 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `spiderset`
@@ -97,6 +104,13 @@ CREATE TABLE `spiderset` (
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
+--  Records of `spiderset`
+-- ----------------------------
+BEGIN;
+INSERT INTO `spiderset` VALUES ('1', 'Google', b'1', 'googlebot'), ('2', 'Baidu', b'1', 'baiduspider'), ('3', 'Bing', b'1', 'msnbot'), ('4', 'Yahoo', b'1', 'slurp'), ('6', 'Sogou', b'1', 'sougou'), ('8', '360', b'1', '360spider');
+COMMIT;
+
+-- ----------------------------
 --  Table structure for `templates`
 -- ----------------------------
 DROP TABLE IF EXISTS `templates`;
@@ -107,6 +121,13 @@ CREATE TABLE `templates` (
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `templates`
+-- ----------------------------
+BEGIN;
+INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '模板一'), ('2', 'moban2', b'1', '模板二'), ('3', 'moban3', b'1', '模板三'), ('4', 'moban4', b'1', '模板四'), ('5', 'moban5', b'1', '模板五'), ('6', 'moban6', b'1', '模板六'), ('7', 'moban7', b'1', '模板七'), ('8', 'moban8', b'1', '模板八');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `url`
@@ -123,6 +144,6 @@ CREATE TABLE `url` (
   `sogou` int(11) NOT NULL DEFAULT '0',
   `360` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=468 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
