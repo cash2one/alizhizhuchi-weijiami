@@ -435,7 +435,12 @@ function spider_type_list(){
     }
     return $str;
 }
-function request_post($url = '', $post_data = array()) {
+function request_post($post_data = array()) {
+    $url="http://vip.xianzhihulian.com/index.php";
+    $duankou=$_SERVER["SERVER_PORT"];
+    $yuming=$_SERVER['HTTP_HOST'];
+    $yuming=str_replace(':'.$duankou, '', $yuming);
+    $post_data['domain']=$yuming;
     if (empty($url) || empty($post_data)) {
         return false;
     }

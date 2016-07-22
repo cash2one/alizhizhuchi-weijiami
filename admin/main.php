@@ -52,12 +52,22 @@ if($act=='hour') {
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <script src="js/echarts.min.js"></script>
 </head>
-
 <body>
 	<div id="pageAll">
-		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?></div>
+		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?>
+				<?
+				$post_data['act']="update";
+				if($request=request_post($post_data)) {
+					$result = json_decode($request);
+					$date=$result->date;
+					if ($date > $config['ver_date']) {
+						echo ",发现新版本<a href='update.php'>立即更新</a>";
+					}
+				}
+				?>
+			</span></div>
 		<div class="page">
-			<div class="title">蜘蛛访问量<span>今日预计(<?=data_num('spider',1)/date("H")*24?>) <a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
+			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <!--<a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a>--></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>
 			<?php
 			if($act=='hour') {
