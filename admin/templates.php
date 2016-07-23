@@ -10,6 +10,15 @@ $id=is_numeric($id)?$id:"";
 $ok=isset($_GET['ok'])?$_GET['ok']:"";
 $ok=$ok==1?1:0;
 if($act=='edit'&&$id){
+	if($ok==1){//如果启用模板,进行权限验证
+		$vip_templates_num=$config['templates'];
+		$templates_num=$mysqli->query("select count(*) as count from templates where ok=1")->fetch_object()->count;
+		if($templates_num>=$vip_templates_num){
+			echo "<script>alert('模板开启数量已达到VIP限制,请升级您的帐号');self.location.href='templates.php';</script>";
+			exit;
+//            header("Location: info.php?act=".$from);
+		}
+	}
 	$sql="update templates set ok=".$ok." where id=".$id;
 	$mysqli->query($sql);
 }

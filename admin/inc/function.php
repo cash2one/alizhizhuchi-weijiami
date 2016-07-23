@@ -206,12 +206,21 @@ function moban($moban){
 }
 //后台
 function info_add($from,$title){
-    global $mysqli;
+    global $mysqli,$config;
+    if($from=='domains'){//添加域名vip限制
+        $vip_domain_num=$config['domain'];
+        $domain_num=$mysqli->query("select count(*) as count from domains")->fetch_object()->count;
+        if($domain_num>=$vip_domain_num){
+            echo "<script>alert('域名数量已达到VIP限制,请升级您的帐号');self.location.href='info.php?act=".$from."';</script>";
+            exit;
+//            header("Location: info.php?act=".$from);
+        }
+    }
     $mysqli->query("insert into ".$from." (`title`) values('".$title."')");
     header("Location: info.php?act=".$from);
 }
 function list_data($from,$page,$type=''){
-    global $mysqli;
+    global $mysqli,$config;
     $page_size=30;
     $sql="select id from ".$from;
     if($type){

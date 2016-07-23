@@ -7,6 +7,20 @@ if(isset($_SESSION['admin_id'])&&isset($_SESSION['is_login'])&&!empty($_SESSION[
 	header("Location: index.php");
 }
 if($act=="login"){
+	if($config['ver']&&$config['ver_date']) {
+		//	授权验证,交给登录页
+		$post_data['act'] = "shouquan";
+		if ($request = request_post($post_data)) {
+			$result = json_decode($request);
+			$sql = "update config set title='" . $result->title . "',vip='" . base64_encode($result->vip) . "',domain='" . base64_encode($result->domain) . "',templates='" . base64_encode($result->templates) . "',enddate='" . base64_encode($result->enddate) . "',date='" . base64_encode(mt_rand(strtotime(date('Y-m-d', strtotime("+1 day"))), strtotime(date('Y-m-d', strtotime("+2 day"))))) . "' limit 1";
+			$mysqli->query($sql);
+		} else {
+			echo "此域名未授权";
+			exit;
+		}
+	}else{
+		echo SITE_NAME."警告:数据损坏";exit;
+	}
 	$name=isset($_POST['name'])?$_POST['name']:false;
 	$name=!empty($name)?$name:false;
 	$password=isset($_POST['password'])?$_POST['password']:false;

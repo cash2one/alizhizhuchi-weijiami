@@ -5,15 +5,15 @@ include("function.php");
 define('SYSTEM_NAME','阿里蜘蛛池');
 define('SITE_NAME','阿里蜘蛛池');
 
-//授权验证
-$post_data['act']="shouquan";
-if($request=request_post($post_data)){
-    $result=json_decode($request);
-    $sql="update config set title='".$result->title."',vip='".base64_encode($result->vip)."',domain='".base64_encode($result->domain)."',templates='".base64_encode($result->templates)."',enddate='".base64_encode($result->enddate)."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
-    $mysqli->query($sql);
-}else{
-    echo "此域名未授权";exit;
-}
+//授权验证,交给登录页
+//$post_data['act']="shouquan";
+//if($request=request_post($post_data)){
+//    $result=json_decode($request);
+//    $sql="update config set title='".$result->title."',vip='".base64_encode($result->vip)."',domain='".base64_encode($result->domain)."',templates='".base64_encode($result->templates)."',enddate='".base64_encode($result->enddate)."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
+//    $mysqli->query($sql);
+//}else{
+//    echo "此域名未授权";exit;
+//}
 $config=config_list();
 if(time()>$config['enddate']){//如果过期
     echo "您的帐号已过期,请购买授权。";exit;

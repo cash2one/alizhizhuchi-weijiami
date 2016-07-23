@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前帐号级别为:<span style="color:red;">vip <?=$config['vip']?></span><br/>
+			当前帐号级别为:<span style="color:red;"><?=$config['vip']?></span><br/>
 			可添加域名数量:<span style="color:red;"><?=$config['domain']?></span><br/>
 			可应用模板数量:<span style="color:red;"><?=$config['templates']?></span><br/>
 		</div>
