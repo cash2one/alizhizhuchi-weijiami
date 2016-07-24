@@ -29,6 +29,46 @@ li {
 #pageAll .page {
 margin-top:20px;
 }
+#pageAll .page dl{
+	float:left;
+	width:150px;
+	border:1px solid #ccc;
+	border-left:0;
+}
+#pageAll .page dl.shuoming{
+	border-left:1px solid #ccc;
+	background:#eee;
+}
+#pageAll .page dl.cur{
+	border: 1px solid #ffaf90;
+	border-left: 1px solid #ffaf90;
+	box-shadow: 0 0 5px 1px #ffaf90;
+	position:relative;
+}
+#pageAll .page dl.cur dt{
+	color:red;
+	font-size:20px;
+	background:red;
+	color:#fff;
+}
+#pageAll .page dl.cur dd{
+	color:red;
+	font-size:20px;
+}
+#pageAll .page dl.shuoming dt{
+	background:#eee;
+}
+#pageAll .page dl dt{
+	text-align:center;
+	line-height: 70px;
+	font-weight:bold;
+	background:#e6f5ff;
+}
+#pageAll .page dl dd{
+	text-align:center;
+	line-height: 70px;
+	border-top:1px solid #ccc;
+}
 #pageAll .templates li {
 	float: left;
 	margin:10px 20px;

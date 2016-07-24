@@ -51,21 +51,22 @@ $series_data=implode(',',$series);
 <title>首页-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <script src="js/echarts.min.js"></script>
+<script src="js/MSClass.js"></script>
 </head>
 <body>
 	<div id="pageAll">
 		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span></div>
-		<div class="wellcom">
+		<div class="wellcom" id="text1">
 			<?php
 			$post_data['act']="gonggao";
 			if($request=request_post($post_data)) {
 				$result=json_decode($request,true);
 				?>
-				<ul>
+				<ul id="text2">
 					<?php
 					foreach($result as $val) {
 						?>
-						<li><a href="<?=$val['url']?>" target="_blank"><?=$val['title']?>(<?=date('n/j',$val['date'])?></a></li>
+						<li><a href="<?=$val['url']?>" target="_blank">(<?=date('n/j',$val['date'])?>)<?=$val['title']?></a></li>
 						<?php
 					}
 					?>
@@ -74,6 +75,10 @@ $series_data=implode(',',$series);
 			}
 			?>
 		</div>
+		<script type="text/javascript">
+			/*********文字翻屏滚动***************/
+			new Marquee(["text1","text2"],0,1,1000,40,30,4000,2000);			//文字翻屏滚动实例
+		</script>
 		<div class="page">
 			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <!--<a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a>--></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>

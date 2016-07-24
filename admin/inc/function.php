@@ -447,7 +447,7 @@ function spider_type_list(){
 }
 function request_post($post_data = array()) {
     if(function_exists("curl_init")){
-        $url="http://vip.xianzhihulian.com/index.php";//todo:修改服务器域名
+        $url="http://vip.alizhizhuchi.top/index.php";//修改服务器域名
         $duankou=$_SERVER["SERVER_PORT"];
         $yuming=$_SERVER['HTTP_HOST'];
         $yuming=str_replace(':'.$duankou, '', $yuming);
@@ -468,6 +468,7 @@ function request_post($post_data = array()) {
         $ch = curl_init();//初始化curl
         curl_setopt($ch, CURLOPT_URL,$postUrl);//抓取指定网页
         curl_setopt($ch, CURLOPT_HEADER, 0);//设置header
+        curl_setopt($ch, CURLOPT_TIMEOUT,3);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);//要求结果为字符串且输出到屏幕上
         curl_setopt($ch, CURLOPT_POST, 1);//post提交方式
         curl_setopt($ch, CURLOPT_POSTFIELDS, $curlPost);

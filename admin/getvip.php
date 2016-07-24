@@ -22,9 +22,29 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前帐号级别为:<span style="color:red;"><?=$config['vip']?></span><br/>
-			可添加域名数量:<span style="color:red;"><?=$config['domain']?></span><br/>
-			可应用模板数量:<span style="color:red;"><?=$config['templates']?></span><br/>
+			<dl class="shuoming">
+				<dt>VIP级别</dt>
+				<dd>域名数量</dd>
+				<dd>模板数量</dd>
+				<dd>&nbsp;</dd>
+			</dl>
+			<?php
+			//获取服务器vip列表
+			$post_data['act']="vipjibie";
+			if($request=request_post($post_data)) {
+				$request = json_decode($request, true);//转为数组
+				foreach($request as $val){
+			?>
+			<dl<?if($config['vip']==$val['title']){?> class="cur"<?}?>>
+				<dt><?=$val['title']?></dt>
+				<dd><?=$val['domain']?></dd>
+				<dd><?=$val['templates']?></dd>
+				<dd><a href="<?=$val['url']?>" target="_blank">升级</a></dd>
+			</dl>
+			<?php
+				}
+			}
+			?>
 		</div>
 	</div>
 </body>
