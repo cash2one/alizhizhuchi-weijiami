@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/19/2016 11:04:20 AM
+ Date: 07/24/2016 23:50:28 PM
 */
 
 SET NAMES utf8;
@@ -33,6 +33,28 @@ CREATE TABLE `admin` (
 -- ----------------------------
 BEGIN;
 INSERT INTO `admin` VALUES ('1', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b');
+COMMIT;
+
+-- ----------------------------
+--  Table structure for `config`
+-- ----------------------------
+DROP TABLE IF EXISTS `config`;
+CREATE TABLE `config` (
+  `title` varchar(255) DEFAULT NULL,
+  `vip` varchar(255) DEFAULT NULL,
+  `domain` varchar(255) DEFAULT NULL,
+  `templates` varchar(255) DEFAULT NULL,
+  `ver` varchar(255) DEFAULT NULL,
+  `ver_date` varchar(255) DEFAULT NULL,
+  `date` varchar(255) DEFAULT NULL,
+  `enddate` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `config`
+-- ----------------------------
+BEGIN;
+INSERT INTO `config` VALUES ('', '', '', '', 'MS4yLjM=', 'MTQ2ODg1NzYwMA==', '', '');
 COMMIT;
 
 -- ----------------------------
