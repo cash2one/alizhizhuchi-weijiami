@@ -447,7 +447,7 @@ function spider_type_list(){
 }
 function request_post($post_data = array()) {
     if(function_exists("curl_init")){
-        $url="http://vip.xianzhihulian.com/index.php";
+        $url="http://vip.xianzhihulian.com/index.php";//todo:修改服务器域名
         $duankou=$_SERVER["SERVER_PORT"];
         $yuming=$_SERVER['HTTP_HOST'];
         $yuming=str_replace(':'.$duankou, '', $yuming);
