@@ -27,22 +27,22 @@ $xAxisdata=implode(',',$xAxisdata);
 $seriesdata=implode(',',$seriesdata);
 $sql="select title from spiderset where ok=1 order by id asc";
 $result=$mysqli->query($sql);
-$str="";
+//$str="";
 while($row=$result->fetch_assoc()) {
 	$option2[]="'".$row['title']."'";
 	$series[]="{value:".data_num('spider','','',$row['title']).", name:'".$row['title']."'}";
 }
 $option2_data=implode(',',$option2);
 $series_data=implode(',',$series);
-if($act=='hour') {
-	for ($i = 3; $i >= 1; $i--) {
-		$data = implode(',', hour_data_num('spider', $i));
-		$option3[] = "{name:'" . date('n/j', time() - $i * 24 * 3600) . "',type:'line',stack: '总量',data:[" . $data . "]}";
-		$option3_legend[] = "'" . date('n/j', time() - $i * 24 * 3600) . "'";
-	}
-	$option3_series_data = implode(',', $option3);
-	$option3_legend_data = implode(',', $option3_legend);
-}
+//if($act=='hour') {
+//	for ($i = 3; $i >= 1; $i--) {
+//		$data = implode(',', hour_data_num('spider', $i));
+//		$option3[] = "{name:'" . date('n/j', time() - $i * 24 * 3600) . "',type:'line',stack: '总量',data:[" . $data . "]}";
+//		$option3_legend[] = "'" . date('n/j', time() - $i * 24 * 3600) . "'";
+//	}
+//	$option3_series_data = implode(',', $option3);
+//	$option3_legend_data = implode(',', $option3_legend);
+//}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,18 +54,26 @@ if($act=='hour') {
 </head>
 <body>
 	<div id="pageAll">
-		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?>
-				<?
-				$post_data['act']="update";
-				if($request=request_post($post_data)) {
-					$result = json_decode($request);
-					$date=$result->date;
-					if ($date > $config['ver_date']) {
-						echo ",发现新版本<a href='update.php'>立即更新</a>";
-					}
-				}
+		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span></div>
+		<div class="wellcom">
+			<?php
+			$post_data['act']="gonggao";
+			if($request=request_post($post_data)) {
+				$result=json_decode($request,true);
 				?>
-			</span></div>
+				<ul>
+					<?php
+					foreach($result as $val) {
+						?>
+						<li><a href="<?=$val['url']?>" target="_blank"><?=$val['title']?>(<?=date('n/j',$val['date'])?></a></li>
+						<?php
+					}
+					?>
+				</ul>
+				<?
+			}
+			?>
+		</div>
 		<div class="page">
 			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <!--<a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a>--></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>

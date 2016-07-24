@@ -50,7 +50,6 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             //获取域名数量
             $domain_num=data_num("domains");
             $spider_num=data_num('spider','',date('Y-m-d',time()-1*24*3600));
-            echo "http://vip.xianzhihulian.com/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num;exit;
             file_get_contents("http://vip.xianzhihulian.com/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num);//todo:修改服务器域名
             //域名限制
             $vip_domain_num=$result->domain;
