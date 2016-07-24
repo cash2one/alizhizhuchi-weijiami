@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="$PROJECT_DIR$/zhizhuchi.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +60,7 @@
       <file leaf-file-name="lic.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="150">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <marker date="1469240262000" expanded="true" signature="359:714" ph="update confi... " />
@@ -82,7 +84,7 @@
       <file leaf-file-name="templates.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/templates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
+            <state relative-caret-position="75">
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <marker date="1469239920000" expanded="true" signature="502:532" ph="select count... " />
@@ -93,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -165,6 +167,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -211,7 +223,6 @@
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
-        <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/main.php" />
@@ -224,6 +235,7 @@
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
         <option value="$PROJECT_DIR$/admin/getvip.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
+        <option value="$PROJECT_DIR$/admin/inc/left.php" />
       </list>
     </option>
   </component>
@@ -456,6 +468,8 @@
       <workItem from="1469279451713" duration="117000" />
       <workItem from="1469280665440" duration="119000" />
       <workItem from="1469281101279" duration="1042000" />
+      <workItem from="1469285485236" duration="124000" />
+      <workItem from="1469335011553" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -734,7 +748,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104660000" />
+    <option name="totallyTimeSpent" value="104873000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -747,7 +761,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1068,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1172,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1192,7 +1191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
+        <state relative-caret-position="75">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <marker date="1469239920000" expanded="true" signature="502:532" ph="select count... " />
@@ -1204,7 +1203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="42" />
           <folding>
             <marker date="1469240262000" expanded="true" signature="359:714" ph="update confi... " />
@@ -1221,6 +1220,14 @@
             <marker date="1469240262000" expanded="true" signature="3284:3344" ph="update templ... " />
             <marker date="1469240262000" expanded="true" signature="3404:3575" ph="update confi... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,6 +1298,14 @@
             <marker date="1469283537000" expanded="true" signature="16637:16691" ph="select title... spiderset" />
             <marker date="1469283537000" expanded="true" signature="17901:17929" ph="select * fro... config" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
