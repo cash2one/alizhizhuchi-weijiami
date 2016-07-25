@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			<?=SYSTEM_NAME?><span>v<?=$config['ver']?></span>
 		</div>
 		<div class="headR">
-			<img src="http://vip.alizhizhuchi.top/ad/wellcom.jpg" onerror="javascript:this.src='img/wellcom.jpg';"/>
+			<img src="http://vip.alizhizhuchi.top/ad/wellcom.jpg" onerror="javascript:this.src='../img/wellcom.jpg';"/>
 		</div>
 	</div>
 </body>

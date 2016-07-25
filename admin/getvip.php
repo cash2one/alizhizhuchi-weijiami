@@ -22,6 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
+			<div style="font-size:18px;margin-bottom:10px;">授权截止日期:<span style="color:red;font-size:18px;font-weight:bold;"><?=date('Y-m-d',$config['enddate'])?></span></div>
 			<?php
 			//整个数据读取服务器,键名,值
 			//获取服务器vip列表

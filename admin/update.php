@@ -23,7 +23,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 		</div>
 		<div class="page ">
 			当前系统版本:v<?=$config['ver']?><br/>
-			更新时间:<?=date('Y/m/d',$config['ver_date'])?><br/>
+			更新日期:<?=date('Y/m/d',$config['ver_date'])?><br/>
 
 				<?php
 				$post_data['act']="update";
