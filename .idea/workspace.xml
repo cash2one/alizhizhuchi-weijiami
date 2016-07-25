@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates_down.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/hsw/n13_ch.gif" afterPath="$PROJECT_DIR$/templates/moban8/images/hsw/n13_ch.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/hsw/n13_zt.gif" afterPath="$PROJECT_DIR$/templates/moban8/images/hsw/n13_zt.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/hsw/news_gj.jpg" afterPath="$PROJECT_DIR$/templates/moban8/images/hsw/news_gj.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/hsw/news_logo.jpg" afterPath="$PROJECT_DIR$/templates/moban8/images/hsw/news_logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/jsc/logo.png" afterPath="$PROJECT_DIR$/templates/moban8/images/jsc/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/jsc/star.gif" afterPath="$PROJECT_DIR$/templates/moban8/images/jsc/star.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/logo.png" afterPath="$PROJECT_DIR$/templates/moban8/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/moban2/7290611_180032.png" afterPath="$PROJECT_DIR$/templates/moban8/images/moban2/7290611_180032.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/moban2/x02.jpg" afterPath="$PROJECT_DIR$/templates/moban8/images/moban2/x02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/images/moban2/x09.jpg" afterPath="$PROJECT_DIR$/templates/moban8/images/moban2/x09.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/css.css" afterPath="$PROJECT_DIR$/admin/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic_admin.php" afterPath="$PROJECT_DIR$/admin/inc/lic_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates.php" afterPath="$PROJECT_DIR$/admin/templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/365xs/common.css" afterPath="$PROJECT_DIR$/templates/moban8/css/365xs/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/365xs/read.css" afterPath="$PROJECT_DIR$/templates/moban8/css/365xs/read.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/365xs/stylelist.css" afterPath="$PROJECT_DIR$/templates/moban8/css/365xs/stylelist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/67/base.css" afterPath="$PROJECT_DIR$/templates/moban8/css/67/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/67/newsV3.css" afterPath="$PROJECT_DIR$/templates/moban8/css/67/newsV3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/67/titlelist.css" afterPath="$PROJECT_DIR$/templates/moban8/css/67/titlelist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/67/topMenu950.css" afterPath="$PROJECT_DIR$/templates/moban8/css/67/topMenu950.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/67/topMenu970.css" afterPath="$PROJECT_DIR$/templates/moban8/css/67/topMenu970.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/2014news.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/2014news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/add.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/add.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/back2015.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/back2015.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/common.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/hsw/content.css" afterPath="$PROJECT_DIR$/templates/moban8/css/hsw/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/jsc/index.css" afterPath="$PROJECT_DIR$/templates/moban8/css/jsc/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/jsc/jiathis_counter.css" afterPath="$PROJECT_DIR$/templates/moban8/css/jsc/jiathis_counter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/jsc/jiathis_share.css" afterPath="$PROJECT_DIR$/templates/moban8/css/jsc/jiathis_share.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban1/indexz.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban1/indexz.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban1/main_v2.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban1/main_v2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban3/style.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban3/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban4/bdsstyle.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban4/bdsstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css" afterPath="$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/HLRelation.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/HLRelation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/base.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/bootstrap-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/bootstrap.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/commMore.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/commMore.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/default.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/hl_float_div.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/hl_float_div.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/imgshare.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/imgshare.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/lib1.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/lib1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/nav.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/select_share.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/select_share.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/share_popup.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/share_popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/share_style0_16.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/share_style0_16.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/style_list_ent.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/style_list_ent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/qianlong/titleBar.css" afterPath="$PROJECT_DIR$/templates/moban8/css/qianlong/titleBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/rain8/bdsstyle.css" afterPath="$PROJECT_DIR$/templates/moban8/css/rain8/bdsstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/rain8/dedecms.css" afterPath="$PROJECT_DIR$/templates/moban8/css/rain8/dedecms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/sangwu123/sw.css" afterPath="$PROJECT_DIR$/templates/moban8/css/sangwu123/sw.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/xuanshu/share_style1_16.css" afterPath="$PROJECT_DIR$/templates/moban8/css/xuanshu/share_style1_16.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/css/xuanshu/style.css" afterPath="$PROJECT_DIR$/templates/moban8/css/xuanshu/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/js/baidutj.js" afterPath="$PROJECT_DIR$/templates/moban8/js/baidutj.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/js/hsw/common.js" afterPath="$PROJECT_DIR$/templates/moban8/js/hsw/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/js/hsw/hm.js" afterPath="$PROJECT_DIR$/templates/moban8/js/hsw/hm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/js/hsw/jquery.js" afterPath="$PROJECT_DIR$/templates/moban8/js/hsw/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/js/sangwu123/sw.js" afterPath="$PROJECT_DIR$/templates/moban8/js/sangwu123/sw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/map.html" afterPath="$PROJECT_DIR$/templates/moban8/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/neirong.html" afterPath="$PROJECT_DIR$/templates/moban8/neirong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban8/shouye.html" afterPath="$PROJECT_DIR$/templates/moban8/shouye.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/head.php" afterPath="$PROJECT_DIR$/admin/inc/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/log.php" afterPath="$PROJECT_DIR$/admin/log.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="$PROJECT_DIR$/zhizhuchi.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
@@ -90,145 +27,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="templates.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <marker date="1469429292000" expanded="true" signature="502:532" ph="select count... " />
-                <marker date="1469429292000" expanded="true" signature="502:552" ph="select count... " />
-                <marker date="1469429292000" expanded="true" signature="795:836" ph="update templ... " />
-              </folding>
-            </state>
+      <file leaf-file-name="wellcom.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/img/wellcom.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="import.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <file leaf-file-name="head.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="52" />
-              <folding>
-                <marker date="1469029636000" expanded="true" signature="1130:1179" ph="insert into ${$act}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="879" column="17" selection-start-line="879" selection-start-column="17" selection-end-line="879" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="116" selection-start-line="24" selection-start-column="116" selection-end-line="24" selection-end-column="116" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates_down.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
+      <file leaf-file-name="log.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/log.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="45" column="129" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="129" />
               <folding>
-                <marker date="1469429509000" expanded="true" signature="965:1044" ph="insert into templates... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-              <folding>
-                <marker date="1469412611000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="405" column="9" selection-start-line="405" selection-start-column="9" selection-end-line="405" selection-end-column="9" />
-              <folding>
-                <marker date="1469427968000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
-                <marker date="1469427968000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
-                <marker date="1469427968000" expanded="true" signature="3222:3345" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="3246:3274" ph="SELECT MAX(i... shipin" />
-                <marker date="1469427968000" expanded="true" signature="3277:3305" ph="SELECT MIN(i... shipin" />
-                <marker date="1469427968000" expanded="true" signature="3309:3337" ph="SELECT MIN(i... shipin" />
-                <marker date="1469427968000" expanded="true" signature="3435:3483" ph="SELECT title... shipin" />
-                <marker date="1469427968000" expanded="true" signature="3655:3876" ph="SELECT title... keywords" />
-                <marker date="1469427968000" expanded="true" signature="3696:3825" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="3720:3750" ph="SELECT MAX(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="3753:3783" ph="SELECT MIN(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="3787:3817" ph="SELECT MIN(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="3968:4018" ph="select title... keywords" />
-                <marker date="1469427968000" expanded="true" signature="4124:4321" ph="SELECT title... url" />
-                <marker date="1469427968000" expanded="true" signature="4156:4270" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="4180:4205" ph="SELECT MAX(i... url" />
-                <marker date="1469427968000" expanded="true" signature="4208:4233" ph="SELECT MIN(i... url" />
-                <marker date="1469427968000" expanded="true" signature="4237:4262" ph="SELECT MIN(i... url" />
-                <marker date="1469427968000" expanded="true" signature="4388:4429" ph="select * fro... url" />
-                <marker date="1469427968000" expanded="true" signature="4569:4607" ph="update url s... " />
-                <marker date="1469427968000" expanded="true" signature="4744:4758" ph="update url s... " />
-                <marker date="1469427968000" expanded="true" signature="4744:4773" ph="update url s... " />
-                <marker date="1469427968000" expanded="true" signature="4744:4776" ph="update url s... " />
-                <marker date="1469427968000" expanded="true" signature="4744:4798" ph="update url s... " />
-                <marker date="1469427968000" expanded="true" signature="4936:5157" ph="SELECT title... keywords" />
-                <marker date="1469427968000" expanded="true" signature="4977:5106" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="5001:5031" ph="SELECT MAX(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="5034:5064" ph="SELECT MIN(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="5068:5098" ph="SELECT MIN(i... keywords" />
-                <marker date="1469427968000" expanded="true" signature="5263:5313" ph="SELECT title... keywords" />
-                <marker date="1469427968000" expanded="true" signature="5514:5719" ph="SELECT title... juzi" />
-                <marker date="1469427968000" expanded="true" signature="5551:5668" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="5575:5601" ph="SELECT MAX(i... juzi" />
-                <marker date="1469427968000" expanded="true" signature="5604:5630" ph="SELECT MIN(i... juzi" />
-                <marker date="1469427968000" expanded="true" signature="5634:5660" ph="SELECT MIN(i... juzi" />
-                <marker date="1469427968000" expanded="true" signature="5817:5863" ph="SELECT title... juzi" />
-                <marker date="1469427968000" expanded="true" signature="7045:7262" ph="SELECT title... domains" />
-                <marker date="1469427968000" expanded="true" signature="7085:7211" ph="SELECT ROUND... " />
-                <marker date="1469427968000" expanded="true" signature="7109:7138" ph="SELECT MAX(i... domains" />
-                <marker date="1469427968000" expanded="true" signature="7141:7170" ph="SELECT MIN(i... domains" />
-                <marker date="1469427968000" expanded="true" signature="7174:7203" ph="SELECT MIN(i... domains" />
-                <marker date="1469427968000" expanded="true" signature="7364:7413" ph="SELECT title... domains" />
-                <marker date="1469427968000" expanded="true" signature="8193:8222" ph="select count... " />
-                <marker date="1469427968000" expanded="true" signature="8193:8230" ph="select count... " />
-                <marker date="1469427968000" expanded="true" signature="8520:8572" ph="insert into ${$from}... " />
-                <marker date="1469427968000" expanded="true" signature="8722:8737" ph="select id fr... ${$from}" />
-                <marker date="1469427968000" expanded="true" signature="9024:9038" ph="select * fro... ${$from}" />
-                <marker date="1469427968000" expanded="true" signature="9496:9505" ph="..." />
-                <marker date="1469427968000" expanded="true" signature="9747:9762" ph="select id fr... ${$from}" />
-                <marker date="1469427968000" expanded="true" signature="10206:10284" ph="..." />
-                <marker date="1469427968000" expanded="true" signature="10210:10278" ph="..." />
-                <marker date="1469427968000" expanded="true" signature="11084:11115" ph="delete from " />
-                <marker date="1469427968000" expanded="true" signature="11584:11637" ph="select * fro... spider" />
-                <marker date="1469427968000" expanded="true" signature="12847:12895" ph="update spide... " />
-                <marker date="1469427968000" expanded="true" signature="13088:13118" ph="select count... " />
-                <marker date="1469427968000" expanded="true" signature="14149:14179" ph="select count... " />
-                <marker date="1469427968000" expanded="true" signature="14661:14722" ph="select * fro... templates" />
-                <marker date="1469427968000" expanded="true" signature="15652:15692" ph="select * fro... templates" />
-                <marker date="1469427968000" expanded="true" signature="16198:16237" ph="select * fro... spiderset" />
-                <marker date="1469427968000" expanded="true" signature="16692:16746" ph="select title... spiderset" />
-                <marker date="1469427968000" expanded="true" signature="18208:18236" ph="select * fro... config" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lic_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <marker date="1469425735000" expanded="true" signature="428:810" ph="update confi... " />
+                <marker date="1469430784000" expanded="true" signature="535:615" ph="select id fr... admin" />
               </folding>
             </state>
           </provider>
@@ -279,7 +101,6 @@
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
-        <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
@@ -287,12 +108,13 @@
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/admin/getvip.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
-        <option value="$PROJECT_DIR$/admin/log.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/templates_down.php" />
+        <option value="$PROJECT_DIR$/admin/log.php" />
+        <option value="$PROJECT_DIR$/admin/inc/head.php" />
       </list>
     </option>
   </component>
@@ -387,43 +209,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,7 +344,8 @@
       <workItem from="1469410804797" duration="325000" />
       <workItem from="1469411223442" duration="318000" />
       <workItem from="1469412071815" duration="6026000" />
-      <workItem from="1469428101418" duration="1278000" />
+      <workItem from="1469428101418" duration="2050000" />
+      <workItem from="1469430501943" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1&#10;优化模板,增加外推链接&#10;优化后台,增加txt导入导出,增加外推管理">
       <created>1467903317340</created>
@@ -889,13 +676,20 @@
       <option name="project" value="LOCAL" />
       <updated>1469429531639</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
+      <created>1469429585493</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1469429585493</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122740000" />
+    <option name="totallyTimeSpent" value="123798000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -972,13 +766,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban8/css/hsw/back2015.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1182,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1262,16 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1469424185000" expanded="true" signature="535:615" ph="select id fr... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -1294,16 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <marker date="1469412611000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1318,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,6 +1188,39 @@
           <folding>
             <marker date="1469429509000" expanded="true" signature="965:1044" ph="insert into templates... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <marker date="1469412611000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/img/wellcom.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="129" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="129" />
+          <folding>
+            <marker date="1469430784000" expanded="true" signature="535:615" ph="select id fr... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="116" selection-start-line="24" selection-start-column="116" selection-end-line="24" selection-end-column="116" />
+          <folding />
         </state>
       </provider>
     </entry>

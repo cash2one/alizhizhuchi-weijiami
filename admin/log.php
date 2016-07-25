@@ -42,8 +42,8 @@ if($act=="out"){
 
 	<!-- 登录页面头部 -->
 	<div class="logHead clear">
-		<div class="system_name"><?=SYSTEM_NAME?><span>v<?=VER?></span></div>
-		<div class="ads"><img src="img/wellcom.jpg"/> </div>
+		<div class="system_name"><?=SYSTEM_NAME?><span>v<?=$config['ver']?></span></div>
+		<div class="ads"><img src="http://vip.alizhizhuchi.top/ad/wellcom.jpg" onerror="javascript:this.src='img/wellcom.jpg';"/> </div>
 	</div>
 	<!-- 登录页面头部结束 -->
 
