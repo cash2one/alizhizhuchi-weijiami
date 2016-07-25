@@ -68,7 +68,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
                 $mysqli->query("update templates set ok=0 where ok=1 order by id desc limit ".$del_num);
             }
         }else{
-            $sql="update config set enddate='".time()."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
+            $sql="update config set enddate='".base64_encode(time())."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
             $mysqli->query($sql);
             echo SITE_NAME."警告:此域名未授权";exit;
         }
