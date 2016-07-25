@@ -12,8 +12,18 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 <title>系统升级-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('#templates .down').click(function(){
+				$('#loading').show();
+			});
+		})
+	</script>
 </head>
 <body>
+	<div id="loading">
+		<img src="img/load.gif">
+	</div>
 	<div id="pageAll">
 		<div class="pageTop">
 			<div class="page">
@@ -22,22 +32,26 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			当前系统版本:v<?=$config['ver']?><br/>
-			更新日期:<?=date('Y/m/d',$config['ver_date'])?><br/>
+			<div style="margin-bottom:10px;">当前系统版本:v<?=$config['ver']?>&nbsp;&nbsp;更新日期:<?=date('Y/m/d',$config['ver_date'])?></div>
 
 				<?php
 				$post_data['act']="update";
+				$post_data['ver_title']=$config['ver'];
 				if($request=request_post($post_data)){
 					$result=json_decode($request);
-					if($result->date>$config['ver_date']) {
+					if($result->title) {
 						?>
-						发现新版本:v<?=$result->title?><br/>
-						新版本说明:<?=$result->detail?><br/>
-						发布时间:<?=$result->date?><br/>
-						<a href="<?=$result->zip?>">更新</a>
+						<dl class="cur2">
+							<dt>发现新版本</dt>
+							<dd><span>版本:</span>v<?=$result->title?></dd>
+							<dd><span>说明:</span><?=$result->detail?></dd>
+							<dd><span>日期:</span><?=date('Y-m-d',$result->date)?></dd>
+							<dd><a href="update_down.php?ver=<?=$result->title?>&ver_date=<?=$result->date?>&zip=<?=$result->zip?>">更新</a></dd>
+						</dl>
 						<?php
-						//todo:远程更新
 					}
+				}else{
+					echo "已是最新版本";
 				}
 				?>
 		</div>

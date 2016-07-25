@@ -66,9 +66,9 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a href="../getvip.php" target="main" class="cks">帐号升级</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
-<!--				<dd>-->
-<!--					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a href="../update.php" target="main" class="cks">在线升级</a><img class="icon5" src="../img/coin21.png" />-->
-<!--				</dd>-->
+				<dd>
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a href="../update.php" target="main" class="cks">在线升级</a><img class="icon5" src="../img/coin21.png" />
+				</dd>
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a href="../templates.php" target="main" class="cks">模板管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>

@@ -55,6 +55,41 @@ margin-top:20px;
 	color:red;
 	font-size:20px;
 }
+#pageAll .page dl.cur2{
+	border: 1px solid #ffaf90;
+	border-left: 1px solid #ffaf90;
+	box-shadow: 0 0 5px 1px #ffaf90;
+	position:relative;
+	width:500px;
+	margin:0 auto;
+	float:none;
+}
+#pageAll .page dl.cur2 dt{
+	color:red;
+	font-size:20px;
+	background:red;
+	color:#fff;
+}
+#pageAll .page dl.cur2 dd{
+	color:red;
+	font-size:20px;
+	line-height: auto;
+	height:70px;
+}
+#pageAll .page dl.cur2 dd span {
+	float:left;
+	display:block;
+	width:150px;
+	font-size:18px;
+	color:#000;
+	background:#eee;
+}
+#pageAll .page dl.cur2 dd a{
+	display: block;
+	background: #4390b9;
+	color: #fff;
+	font-size: 24px;
+}
 #pageAll .page dl.shuoming dt{
 	background:#eee;
 }

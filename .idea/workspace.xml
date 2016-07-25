@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/update_down.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adminer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic.php" afterPath="$PROJECT_DIR$/admin/inc/lic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shujuku.sql" afterPath="$PROJECT_DIR$/shujuku.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/css.css" afterPath="$PROJECT_DIR$/admin/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/update.php" afterPath="$PROJECT_DIR$/admin/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="$PROJECT_DIR$/zhizhuchi.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
@@ -26,40 +30,77 @@
     <favorites_list name="alizhizhuchi-weijiami" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="lic.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
               <folding>
-                <marker date="1469451908000" expanded="true" signature="359:714" ph="update confi... " />
-                <marker date="1469451908000" expanded="true" signature="839:876" ph="select count... " />
-                <marker date="1469451908000" expanded="true" signature="1048:1091" ph="delete from " />
-                <marker date="1469451908000" expanded="true" signature="1215:1265" ph="select count... " />
-                <marker date="1469451908000" expanded="true" signature="1449:1509" ph="update templ... " />
-                <marker date="1469451908000" expanded="true" signature="1455:1509" ph="delete from " />
-                <marker date="1469451908000" expanded="true" signature="2067:2395" ph="update confi... " />
-                <marker date="1469451908000" expanded="true" signature="3031:3068" ph="select count... " />
-                <marker date="1469451908000" expanded="true" signature="3256:3298" ph="delete from " />
-                <marker date="1469451908000" expanded="true" signature="3256:3299" ph="delete from " />
-                <marker date="1469451908000" expanded="true" signature="3439:3489" ph="select count... " />
-                <marker date="1469451908000" expanded="true" signature="3689:3749" ph="update templ... " />
-                <marker date="1469451908000" expanded="true" signature="3809:3836" ph="update confi... " />
-                <marker date="1469451908000" expanded="true" signature="3809:3995" ph="update confi... " />
+                <marker date="1469453622000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lic_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="381">
+              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_down.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/update_down.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
-                <marker date="1469425735000" expanded="true" signature="428:810" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1165" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1171" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1195" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1206" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1235" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1243" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1148:1386" ph="update confi... " />
+                <marker date="1469460318000" expanded="true" signature="1154:1165" ph="insert into templates... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1469457103000" expanded="true" signature="1366:1745" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/moban7/map.html" />
         <option value="$PROJECT_DIR$/templates/moban8/map.html" />
         <option value="$PROJECT_DIR$/templates/moban5/css/hsw/back2015.css" />
         <option value="$PROJECT_DIR$/templates/moban6/css/hsw/back2015.css" />
@@ -111,18 +151,19 @@
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
-        <option value="$PROJECT_DIR$/admin/inc/left.php" />
-        <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
-        <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/templates_down.php" />
         <option value="$PROJECT_DIR$/admin/log.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
-        <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/getvip.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
+        <option value="$PROJECT_DIR$/admin/main.php" />
+        <option value="$PROJECT_DIR$/admin/inc/left.php" />
+        <option value="$PROJECT_DIR$/admin/css/css.css" />
+        <option value="$PROJECT_DIR$/admin/update.php" />
+        <option value="$PROJECT_DIR$/admin/update_down.php" />
       </list>
     </option>
   </component>
@@ -171,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,8 +263,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,14 +414,8 @@
       <workItem from="1469428101418" duration="2050000" />
       <workItem from="1469430501943" duration="3360000" />
       <workItem from="1469435754599" duration="292000" />
-      <workItem from="1469451826136" duration="119000" />
-    </task>
-    <task id="LOCAL-00002" summary="精简模板替换函数">
-      <created>1467903457424</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1467903457424</updated>
+      <workItem from="1469451826136" duration="766000" />
+      <workItem from="1469453489463" duration="3589000" />
     </task>
     <task id="LOCAL-00003" summary="去除无用trim函数,增加数据库文件">
       <created>1467904035494</created>
@@ -700,11 +753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469435567999</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="修复日期没有base加密">
+      <created>1469451974436</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1469451974436</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127283000" />
+    <option name="totallyTimeSpent" value="131519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加调试模式" />
     <MESSAGE value="把系统名称从ver.php放到data.php中,方便升级" />
     <MESSAGE value="更新版本1.2.2&#10;修复外推链接统计&#10;增加蜘蛛三天24小时分析&#10;修复蜘蛛时间统计不准确问题&#10;修复调试模式蜘蛛仍然记录问题&#10;去掉后台蜘蛛日志全部删除功能" />
     <MESSAGE value="去掉phpmyadmin" />
@@ -776,27 +835,14 @@
     <MESSAGE value="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包" />
     <MESSAGE value="后台头部广告读取服务器" />
     <MESSAGE value="vip页面增加授权截止日期" />
-    <option name="LAST_COMMIT_MESSAGE" value="vip页面增加授权截止日期" />
+    <MESSAGE value="修复日期没有base加密" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复日期没有base加密" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban8/css/moban4/stylet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban7/css/moban4/stylet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1023,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1048,33 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="52" />
-          <folding>
-            <marker date="1469029636000" expanded="true" signature="1130:1179" ph="insert into ${$act}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="879" column="17" selection-start-line="879" selection-start-column="17" selection-end-line="879" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <marker date="1469412611000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,20 +1183,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/update.php">
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1469425735000" expanded="true" signature="428:810" ph="update confi... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <marker date="1469429509000" expanded="true" signature="965:1044" ph="insert into templates... " />
+            <marker date="1469451908000" expanded="true" signature="359:714" ph="update confi... " />
+            <marker date="1469451908000" expanded="true" signature="839:876" ph="select count... " />
+            <marker date="1469451908000" expanded="true" signature="1048:1091" ph="delete from " />
+            <marker date="1469451908000" expanded="true" signature="1215:1265" ph="select count... " />
+            <marker date="1469451908000" expanded="true" signature="1449:1509" ph="update templ... " />
+            <marker date="1469451908000" expanded="true" signature="1455:1509" ph="delete from " />
+            <marker date="1469451908000" expanded="true" signature="2067:2395" ph="update confi... " />
+            <marker date="1469451908000" expanded="true" signature="3031:3068" ph="select count... " />
+            <marker date="1469451908000" expanded="true" signature="3256:3298" ph="delete from " />
+            <marker date="1469451908000" expanded="true" signature="3256:3299" ph="delete from " />
+            <marker date="1469451908000" expanded="true" signature="3439:3489" ph="select count... " />
+            <marker date="1469451908000" expanded="true" signature="3689:3749" ph="update templ... " />
+            <marker date="1469451908000" expanded="true" signature="3809:3836" ph="update confi... " />
+            <marker date="1469451908000" expanded="true" signature="3809:3995" ph="update confi... " />
           </folding>
         </state>
       </provider>
@@ -1201,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="38" selection-end-column="13" />
           <folding>
             <marker date="1469429292000" expanded="true" signature="502:532" ph="select count... " />
             <marker date="1469429292000" expanded="true" signature="502:552" ph="select count... " />
@@ -1211,35 +1238,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
+    <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <marker date="1469425735000" expanded="true" signature="428:810" ph="update confi... " />
+            <marker date="1469429509000" expanded="true" signature="965:1044" ph="insert into templates... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
+    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="381">
+          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <marker date="1469451908000" expanded="true" signature="359:714" ph="update confi... " />
-            <marker date="1469451908000" expanded="true" signature="839:876" ph="select count... " />
-            <marker date="1469451908000" expanded="true" signature="1048:1091" ph="delete from " />
-            <marker date="1469451908000" expanded="true" signature="1215:1265" ph="select count... " />
-            <marker date="1469451908000" expanded="true" signature="1449:1509" ph="update templ... " />
-            <marker date="1469451908000" expanded="true" signature="1455:1509" ph="delete from " />
-            <marker date="1469451908000" expanded="true" signature="2067:2395" ph="update confi... " />
-            <marker date="1469451908000" expanded="true" signature="3031:3068" ph="select count... " />
-            <marker date="1469451908000" expanded="true" signature="3256:3298" ph="delete from " />
-            <marker date="1469451908000" expanded="true" signature="3256:3299" ph="delete from " />
-            <marker date="1469451908000" expanded="true" signature="3439:3489" ph="select count... " />
-            <marker date="1469451908000" expanded="true" signature="3689:3749" ph="update templ... " />
-            <marker date="1469451908000" expanded="true" signature="3809:3836" ph="update confi... " />
-            <marker date="1469451908000" expanded="true" signature="3809:3995" ph="update confi... " />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1469457103000" expanded="true" signature="1366:1745" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="52" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <marker date="1469029636000" expanded="true" signature="1130:1179" ph="insert into ${$act}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update_down.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <marker date="1469460318000" expanded="true" signature="1148:1165" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1171" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1195" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1206" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1235" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1243" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1148:1386" ph="update confi... " />
+            <marker date="1469460318000" expanded="true" signature="1154:1165" ph="insert into templates... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding>
+            <marker date="1469453622000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>

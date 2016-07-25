@@ -55,7 +55,18 @@ $series_data=implode(',',$series);
 </head>
 <body>
 	<div id="pageAll">
-		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span></div>
+		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span>
+			<?
+			$post_data['act']="update";
+			$post_data['ver_title']=$config['ver'];
+			if($request=request_post($post_data)) {
+				$result = json_decode($request);
+				if ($result->title) {
+					echo ",发现新版本<a href='update.php'>立即更新</a>";
+				}
+			}
+			?>
+		</div>
 		<div class="wellcom" id="text1">
 			<?php
 			$post_data['act']="gonggao";
