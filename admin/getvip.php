@@ -22,24 +22,50 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			<dl class="shuoming">
-				<dt>VIP级别</dt>
-				<dd>域名数量</dd>
-				<dd>模板数量</dd>
-				<dd>&nbsp;</dd>
-			</dl>
 			<?php
+			//整个数据读取服务器,键名,值
 			//获取服务器vip列表
 			$post_data['act']="vipjibie";
 			if($request=request_post($post_data)) {
 				$request = json_decode($request, true);//转为数组
-				foreach($request as $val){
+			?>
+			<dl class="shuoming">
+				<?php
+				foreach($request['shuoming'] as $k=>$val) {
+					if($k==0) {
+						?>
+						<dt><?= $val ?></dt>
+						<?php
+					}else {
+						?>
+						<dd><?= $val ?></dd>
+						<?php
+					}
+				}
+				?>
+				<dd>&nbsp;</dd>
+			</dl>
+			<?php
+				foreach($request[0] as $val){
 			?>
 			<dl<?if($config['vip']==$val['title']){?> class="cur"<?}?>>
-				<dt><?=$val['title']?></dt>
-				<dd><?=$val['domain']?></dd>
-				<dd><?=$val['templates']?></dd>
-				<dd><a href="<?=$val['url']?>" target="_blank">升级</a></dd>
+				<?php
+				foreach($val as $k=>$v) {
+					if ($k == 'title') {
+						?>
+						<dt><?= $v ?></dt>
+						<?php
+					} elseif($k=='url') {
+						?>
+						<dd><a href="<?= $val['url'] ?>" target="_blank">升级</a></dd>
+						<?php
+					}else{
+						?>
+					<dd><?= $v ?></dd>
+					<?php
+					}
+				}
+					?>
 			</dl>
 			<?php
 				}
