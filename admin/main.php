@@ -77,7 +77,7 @@ $series_data=implode(',',$series);
 		</div>
 		<script type="text/javascript">
 			/*********文字翻屏滚动***************/
-			new Marquee(["text1","text2"],0,1,1000,40,30,4000,2000);			//文字翻屏滚动实例
+			new Marquee(["text1","text2"],0,1,'',40,30,4000,2000);			//文字翻屏滚动实例
 		</script>
 		<div class="page">
 			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <!--<a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a>--></span></div>

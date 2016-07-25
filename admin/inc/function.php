@@ -398,15 +398,15 @@ function templates_list(){
                     $row['us'] = "<a href='?act=edit&id=" . $row['id'] . "&ok=1'>未启用</a>";
                 }
             } else {
-                $row['thumb'] = "http://vip.alizhizhuchi.top/templates/" . $value['title'] . "/thumb.jpg";
-                $row['name'] = $value['name'];
-                $row['us'] = "<a class='down' href='templates_down.php?act=" . $value['title'] . "'>下载</a>";
+                $row['thumb'] = "http://vip.alizhizhuchi.top/templates/" . $value['title'] . "_thumb.jpg";
+                $row['name'] = $value['detail'];
+                $row['us'] = "<a class='down' href='templates_down.php?title=".$value['title']."&&name=".$value['detail']."&&zip=" . $value['zip'] . "'>下载</a>";
             }
             $data[] = $row;
         }
     }else{//如果获取不到服务器信息
         // 本地已安装模板
-        $sql="select * from templates order by id asc";
+        $sql="select * from templates order by id desc";
         $result=$mysqli->query($sql);
         while($row=$result->fetch_assoc()){
             $row['thumb']="/templates/".$row['title']."/thumb.jpg";

@@ -5,6 +5,7 @@ include("function.php");
 define('SYSTEM_NAME','阿里蜘蛛池');
 define('SITE_NAME','阿里蜘蛛池');
 
+$config=config_list();
 //系统首次使用,更新授权
 if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
     //	授权验证,交给登录页
@@ -17,10 +18,10 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
         echo "此域名未授权";
         exit;
     }
-}else{
+}
+if(empty($config['title'])||empty($config['enddate'])||empty($config['vip'])||empty($config['ver'])){
     echo SITE_NAME."警告:数据损坏";exit;
 }
-$config=config_list();
 if(time()>$config['enddate']){//如果过期
     echo "您未授权或已过期,请购买授权。";exit;
 }

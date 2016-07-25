@@ -30,8 +30,18 @@ if($act=='edit'&&$id){
 <title>模板管理-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('#templates .down').click(function(){
+				$('#loading').show();
+			});
+		})
+	</script>
 </head>
 <body>
+	<div id="loading">
+		<img src="img/load.gif">
+	</div>
 	<div id="pageAll">
 		<div class="pageTop">
 			<div class="page">
@@ -40,7 +50,7 @@ if($act=='edit'&&$id){
 			</div>
 		</div>
 		<div class="page clear">
-			<ul class="templates">
+			<ul class="templates" id="templates">
 				<?php
 				foreach(templates_list() as $key=>$value){
 				?>
