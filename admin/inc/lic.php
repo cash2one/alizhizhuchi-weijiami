@@ -71,6 +71,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             $mysqli->query($sql);
             echo SITE_NAME."警告:此域名未授权";exit;
         }
+        $config=config_list();
     }
     if(time()>$config['enddate']){//如果过期
         echo SITE_NAME."警告:您的帐号已过期,请购买授权。";exit;
