@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/import.php" afterPath="$PROJECT_DIR$/admin/import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/info.php" afterPath="$PROJECT_DIR$/admin/info.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="$PROJECT_DIR$/zhizhuchi.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
@@ -26,13 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="import.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
-                <marker date="1469514728000" expanded="true" signature="1144:1193" ph="insert into ${$act}... " />
+                <marker date="1469515486000" expanded="true" signature="3186:3222" ph="select SUM(c... url" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +90,6 @@
         <option value="$PROJECT_DIR$/admin/inc/ver_admin.php" />
         <option value="$PROJECT_DIR$/admin/changepwd.php" />
         <option value="$PROJECT_DIR$/admin/export.php" />
-        <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
@@ -91,12 +103,13 @@
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/update_down.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
-        <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/admin/import.php" />
+        <option value="$PROJECT_DIR$/admin/update.php" />
+        <option value="$PROJECT_DIR$/admin/info.php" />
       </list>
     </option>
   </component>
@@ -332,14 +345,7 @@
       <workItem from="1469451826136" duration="766000" />
       <workItem from="1469453489463" duration="7230000" />
       <workItem from="1469502480841" duration="4266000" />
-      <workItem from="1469511212923" duration="2500000" />
-    </task>
-    <task id="LOCAL-00011" summary="增加模板四">
-      <created>1468049470855</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1468049470855</updated>
+      <workItem from="1469511212923" duration="2928000" />
     </task>
     <task id="LOCAL-00012" summary="增加模板五">
       <created>1468050559828</created>
@@ -677,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469511753678</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="txt上传,过滤空行">
+      <created>1469515100428</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1469515100428</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141926000" />
+    <option name="totallyTimeSpent" value="142354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,7 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整菜单顺序,把常用的外推链接放在前面" />
     <MESSAGE value="加入服务器授权验证" />
     <MESSAGE value="最新版获取" />
     <MESSAGE value="授权验证放回lic_admin中" />
@@ -753,7 +765,8 @@
     <MESSAGE value="首次授权验证逻辑判断修正&#10;更新数据库文件为adminer,方便导入" />
     <MESSAGE value="更新空数据库" />
     <MESSAGE value="自动授权验证后重新读取授权信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动授权验证后重新读取授权信息" />
+    <MESSAGE value="txt上传,过滤空行" />
+    <option name="LAST_COMMIT_MESSAGE" value="txt上传,过滤空行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="66" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -976,20 +982,6 @@
     <entry file="file://$PROJECT_DIR$/admin/img/wellcom.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/getvip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="38" selection-end-column="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminer.php">
@@ -1031,6 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,81 +1034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/update.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="470" column="10" selection-start-line="470" selection-start-column="10" selection-end-line="470" selection-end-column="10" />
-          <folding>
-            <marker date="1469506047000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
-            <marker date="1469506047000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
-            <marker date="1469506047000" expanded="true" signature="3222:3345" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="3246:3274" ph="SELECT MAX(i... shipin" />
-            <marker date="1469506047000" expanded="true" signature="3277:3305" ph="SELECT MIN(i... shipin" />
-            <marker date="1469506047000" expanded="true" signature="3309:3337" ph="SELECT MIN(i... shipin" />
-            <marker date="1469506047000" expanded="true" signature="3435:3483" ph="SELECT title... shipin" />
-            <marker date="1469506047000" expanded="true" signature="3655:3876" ph="SELECT title... keywords" />
-            <marker date="1469506047000" expanded="true" signature="3696:3825" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="3720:3750" ph="SELECT MAX(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="3753:3783" ph="SELECT MIN(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="3787:3817" ph="SELECT MIN(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="3968:4018" ph="select title... keywords" />
-            <marker date="1469506047000" expanded="true" signature="4124:4321" ph="SELECT title... url" />
-            <marker date="1469506047000" expanded="true" signature="4156:4270" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="4180:4205" ph="SELECT MAX(i... url" />
-            <marker date="1469506047000" expanded="true" signature="4208:4233" ph="SELECT MIN(i... url" />
-            <marker date="1469506047000" expanded="true" signature="4237:4262" ph="SELECT MIN(i... url" />
-            <marker date="1469506047000" expanded="true" signature="4388:4429" ph="select * fro... url" />
-            <marker date="1469506047000" expanded="true" signature="4569:4607" ph="update url s... " />
-            <marker date="1469506047000" expanded="true" signature="4744:4758" ph="update url s... " />
-            <marker date="1469506047000" expanded="true" signature="4744:4773" ph="update url s... " />
-            <marker date="1469506047000" expanded="true" signature="4744:4776" ph="update url s... " />
-            <marker date="1469506047000" expanded="true" signature="4744:4798" ph="update url s... " />
-            <marker date="1469506047000" expanded="true" signature="4936:5157" ph="SELECT title... keywords" />
-            <marker date="1469506047000" expanded="true" signature="4977:5106" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="5001:5031" ph="SELECT MAX(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="5034:5064" ph="SELECT MIN(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="5068:5098" ph="SELECT MIN(i... keywords" />
-            <marker date="1469506047000" expanded="true" signature="5263:5313" ph="SELECT title... keywords" />
-            <marker date="1469506047000" expanded="true" signature="5514:5719" ph="SELECT title... juzi" />
-            <marker date="1469506047000" expanded="true" signature="5551:5668" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="5575:5601" ph="SELECT MAX(i... juzi" />
-            <marker date="1469506047000" expanded="true" signature="5604:5630" ph="SELECT MIN(i... juzi" />
-            <marker date="1469506047000" expanded="true" signature="5634:5660" ph="SELECT MIN(i... juzi" />
-            <marker date="1469506047000" expanded="true" signature="5817:5863" ph="SELECT title... juzi" />
-            <marker date="1469506047000" expanded="true" signature="7045:7262" ph="SELECT title... domains" />
-            <marker date="1469506047000" expanded="true" signature="7085:7211" ph="SELECT ROUND... " />
-            <marker date="1469506047000" expanded="true" signature="7109:7138" ph="SELECT MAX(i... domains" />
-            <marker date="1469506047000" expanded="true" signature="7141:7170" ph="SELECT MIN(i... domains" />
-            <marker date="1469506047000" expanded="true" signature="7174:7203" ph="SELECT MIN(i... domains" />
-            <marker date="1469506047000" expanded="true" signature="7364:7413" ph="SELECT title... domains" />
-            <marker date="1469506047000" expanded="true" signature="8193:8222" ph="select count... " />
-            <marker date="1469506047000" expanded="true" signature="8193:8230" ph="select count... " />
-            <marker date="1469506047000" expanded="true" signature="8520:8572" ph="insert into ${$from}... " />
-            <marker date="1469506047000" expanded="true" signature="8722:8737" ph="select id fr... ${$from}" />
-            <marker date="1469506047000" expanded="true" signature="9024:9038" ph="select * fro... ${$from}" />
-            <marker date="1469506047000" expanded="true" signature="9496:9505" ph="..." />
-            <marker date="1469506047000" expanded="true" signature="9747:9762" ph="select id fr... ${$from}" />
-            <marker date="1469506047000" expanded="true" signature="10206:10284" ph="..." />
-            <marker date="1469506047000" expanded="true" signature="10210:10278" ph="..." />
-            <marker date="1469506047000" expanded="true" signature="11084:11115" ph="delete from " />
-            <marker date="1469506047000" expanded="true" signature="11584:11637" ph="select * fro... spider" />
-            <marker date="1469506047000" expanded="true" signature="12847:12895" ph="update spide... " />
-            <marker date="1469506047000" expanded="true" signature="13088:13118" ph="select count... " />
-            <marker date="1469506047000" expanded="true" signature="14149:14179" ph="select count... " />
-            <marker date="1469506047000" expanded="true" signature="14661:14722" ph="select * fro... templates" />
-            <marker date="1469506047000" expanded="true" signature="15652:15692" ph="select * fro... templates" />
-            <marker date="1469506047000" expanded="true" signature="16198:16237" ph="select * fro... spiderset" />
-            <marker date="1469506047000" expanded="true" signature="16692:16746" ph="select title... spiderset" />
-            <marker date="1469506047000" expanded="true" signature="18210:18238" ph="select * fro... config" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,6 +1106,115 @@
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <marker date="1469514728000" expanded="true" signature="1144:1193" ph="insert into ${$act}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/getvip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1446">
+          <caret line="470" column="10" selection-start-line="470" selection-start-column="10" selection-end-line="470" selection-end-column="10" />
+          <folding>
+            <marker date="1469506047000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
+            <marker date="1469506047000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
+            <marker date="1469506047000" expanded="true" signature="3222:3345" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="3246:3274" ph="SELECT MAX(i... shipin" />
+            <marker date="1469506047000" expanded="true" signature="3277:3305" ph="SELECT MIN(i... shipin" />
+            <marker date="1469506047000" expanded="true" signature="3309:3337" ph="SELECT MIN(i... shipin" />
+            <marker date="1469506047000" expanded="true" signature="3435:3483" ph="SELECT title... shipin" />
+            <marker date="1469506047000" expanded="true" signature="3655:3876" ph="SELECT title... keywords" />
+            <marker date="1469506047000" expanded="true" signature="3696:3825" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="3720:3750" ph="SELECT MAX(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="3753:3783" ph="SELECT MIN(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="3787:3817" ph="SELECT MIN(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="3968:4018" ph="select title... keywords" />
+            <marker date="1469506047000" expanded="true" signature="4124:4321" ph="SELECT title... url" />
+            <marker date="1469506047000" expanded="true" signature="4156:4270" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="4180:4205" ph="SELECT MAX(i... url" />
+            <marker date="1469506047000" expanded="true" signature="4208:4233" ph="SELECT MIN(i... url" />
+            <marker date="1469506047000" expanded="true" signature="4237:4262" ph="SELECT MIN(i... url" />
+            <marker date="1469506047000" expanded="true" signature="4388:4429" ph="select * fro... url" />
+            <marker date="1469506047000" expanded="true" signature="4569:4607" ph="update url s... " />
+            <marker date="1469506047000" expanded="true" signature="4744:4758" ph="update url s... " />
+            <marker date="1469506047000" expanded="true" signature="4744:4773" ph="update url s... " />
+            <marker date="1469506047000" expanded="true" signature="4744:4776" ph="update url s... " />
+            <marker date="1469506047000" expanded="true" signature="4744:4798" ph="update url s... " />
+            <marker date="1469506047000" expanded="true" signature="4936:5157" ph="SELECT title... keywords" />
+            <marker date="1469506047000" expanded="true" signature="4977:5106" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="5001:5031" ph="SELECT MAX(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="5034:5064" ph="SELECT MIN(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="5068:5098" ph="SELECT MIN(i... keywords" />
+            <marker date="1469506047000" expanded="true" signature="5263:5313" ph="SELECT title... keywords" />
+            <marker date="1469506047000" expanded="true" signature="5514:5719" ph="SELECT title... juzi" />
+            <marker date="1469506047000" expanded="true" signature="5551:5668" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="5575:5601" ph="SELECT MAX(i... juzi" />
+            <marker date="1469506047000" expanded="true" signature="5604:5630" ph="SELECT MIN(i... juzi" />
+            <marker date="1469506047000" expanded="true" signature="5634:5660" ph="SELECT MIN(i... juzi" />
+            <marker date="1469506047000" expanded="true" signature="5817:5863" ph="SELECT title... juzi" />
+            <marker date="1469506047000" expanded="true" signature="7045:7262" ph="SELECT title... domains" />
+            <marker date="1469506047000" expanded="true" signature="7085:7211" ph="SELECT ROUND... " />
+            <marker date="1469506047000" expanded="true" signature="7109:7138" ph="SELECT MAX(i... domains" />
+            <marker date="1469506047000" expanded="true" signature="7141:7170" ph="SELECT MIN(i... domains" />
+            <marker date="1469506047000" expanded="true" signature="7174:7203" ph="SELECT MIN(i... domains" />
+            <marker date="1469506047000" expanded="true" signature="7364:7413" ph="SELECT title... domains" />
+            <marker date="1469506047000" expanded="true" signature="8193:8222" ph="select count... " />
+            <marker date="1469506047000" expanded="true" signature="8193:8230" ph="select count... " />
+            <marker date="1469506047000" expanded="true" signature="8520:8572" ph="insert into ${$from}... " />
+            <marker date="1469506047000" expanded="true" signature="8722:8737" ph="select id fr... ${$from}" />
+            <marker date="1469506047000" expanded="true" signature="9024:9038" ph="select * fro... ${$from}" />
+            <marker date="1469506047000" expanded="true" signature="9496:9505" ph="..." />
+            <marker date="1469506047000" expanded="true" signature="9747:9762" ph="select id fr... ${$from}" />
+            <marker date="1469506047000" expanded="true" signature="10206:10284" ph="..." />
+            <marker date="1469506047000" expanded="true" signature="10210:10278" ph="..." />
+            <marker date="1469506047000" expanded="true" signature="11084:11115" ph="delete from " />
+            <marker date="1469506047000" expanded="true" signature="11584:11637" ph="select * fro... spider" />
+            <marker date="1469506047000" expanded="true" signature="12847:12895" ph="update spide... " />
+            <marker date="1469506047000" expanded="true" signature="13088:13118" ph="select count... " />
+            <marker date="1469506047000" expanded="true" signature="14149:14179" ph="select count... " />
+            <marker date="1469506047000" expanded="true" signature="14661:14722" ph="select * fro... templates" />
+            <marker date="1469506047000" expanded="true" signature="15652:15692" ph="select * fro... templates" />
+            <marker date="1469506047000" expanded="true" signature="16198:16237" ph="select * fro... spiderset" />
+            <marker date="1469506047000" expanded="true" signature="16692:16746" ph="select title... spiderset" />
+            <marker date="1469506047000" expanded="true" signature="18210:18238" ph="select * fro... config" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <marker date="1469429292000" expanded="true" signature="502:552" ph="select count... " />
+            <marker date="1469429292000" expanded="true" signature="795:836" ph="update templ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <marker date="1469515486000" expanded="true" signature="3186:3222" ph="select SUM(c... url" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

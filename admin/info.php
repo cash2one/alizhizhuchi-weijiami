@@ -56,9 +56,20 @@ switch($action){
 <title><?=$title?>-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <link rel="stylesheet" type="text/css" href="css/pageGroup.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('#upload .userbtn').click(function(){
+				$('#loading').show();
+			});
+		})
+	</script>
 </head>
 
 <body>
+	<div id="loading">
+		<img src="img/load.gif">
+	</div>
 	<div id="pageAll">
 		<div class="pageTop">
 			<div class="page">
@@ -77,7 +88,7 @@ switch($action){
 <!--							<a class="userbtn" href="?act=--><?//=$act?><!--&action=del_all">删除所有数据</a>-->
 							</form>
 						</div>
-						<div class="upload">
+						<div class="upload" id="upload">
 							<form action="import.php?act=<?=$act?>" method="post" enctype="multipart/form-data">
 								<input type="file" name="file">
 								<input type="submit" value="导入txt(<1M)" class="userbtn">
