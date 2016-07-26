@@ -243,10 +243,6 @@ function list_data($from,$page,$type=''){
     if($mysqli->affected_rows>0){
         while($row = $result->fetch_assoc())
         {
-            if($from=='url'&&($row['title']=='http://www.alizhizhuchi.top'||$row['title']=='http://www.itmba.cc')){
-                $row['title']="<span style='color:red'>".$row['title']."调试数据,测试使用</span>";
-                $row['del']=1;
-            }
             $data[] = $row;
         }
         return $data;
