@@ -43,7 +43,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						<dl class="cur2">
 							<dt>发现新版本</dt>
 							<dd><span>版本:</span>v<?=$result->title?></dd>
-							<dd class="deail"><span>说明:</span><p><?=$result->detail?><?=$result->detail?><?=$result->detail?></p></dd>
+							<dd class="deail"><span>说明:</span><p><?=$result->detail?></p></dd>
 							<dd><span>日期:</span><?=date('Y-m-d',$result->date)?></dd>
 							<dd><a href="update_down.php?ver=<?=$result->title?>&ver_date=<?=$result->date?>&zip=<?=$result->zip?>">更新</a></dd>
 						</dl>
