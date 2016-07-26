@@ -4,7 +4,6 @@ require("data.php");
 include("function.php");
 define('SYSTEM_NAME','阿里蜘蛛池');
 define('SITE_NAME','阿里蜘蛛池');
-
 //手动授权验证
 $a=isset($_GET['a'])?$_GET['a']:"";
 if($a=="shouquan"){
@@ -53,7 +52,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             file_get_contents("http://vip.alizhizhuchi.top/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num);//修改服务器域名
             //域名限制
             $vip_domain_num=$result->domain;
-            $domain_num=$mysqli->query("select count(*) as count from dominas")->fetch_object()->count;
+            $domain_num=$mysqli->query("select count(*) as count from domains")->fetch_object()->count;
             if($domain_num>$vip_domain_num){
                 //如果超出限制,删除多余
                 $del_num=$domain_num-$vip_domain_num;

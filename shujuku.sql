@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/25/2016 16:39:13 PM
+ Date: 07/26/2016 11:45:15 AM
 */
 
 SET NAMES utf8;
@@ -148,7 +148,7 @@ CREATE TABLE `templates` (
 --  Records of `templates`
 -- ----------------------------
 BEGIN;
-INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '模板一'), ('2', 'moban2', b'1', '模板二'), ('3', 'moban3', b'1', '模板三'), ('4', 'moban4', b'1', '模板四'), ('5', 'moban5', b'1', '模板五'), ('6', 'moban6', b'1', '模板六'), ('7', 'moban7', b'1', '模板七'), ('8', 'moban8', b'1', '模板八');
+INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '模板一');
 COMMIT;
 
 -- ----------------------------
