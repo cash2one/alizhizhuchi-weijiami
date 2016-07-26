@@ -60,7 +60,7 @@ margin-top:20px;
 	border-left: 1px solid #ffaf90;
 	box-shadow: 0 0 5px 1px #ffaf90;
 	position:relative;
-	width:500px;
+	width:700px;
 	margin:0 auto;
 	float:none;
 }
@@ -75,6 +75,17 @@ margin-top:20px;
 	font-size:20px;
 	line-height: auto;
 	height:70px;
+}
+#pageAll .page dl.cur2 dd.deail {
+	height:100px;
+}
+#pageAll .page dl.cur2 dd.deail span{
+	line-height: 100px;
+}
+#pageAll .page dl.cur2 dd p {
+	line-height:30px;
+	text-align:left;
+	font-size:14px;
 }
 #pageAll .page dl.cur2 dd span {
 	float:left;

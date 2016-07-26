@@ -8,7 +8,7 @@ $ver=isset($_GET['ver'])?$_GET['ver']:"";
 $ver_date=isset($_GET['ver_date'])?$_GET['ver_date']:"";
 $zip=isset($_GET['zip'])?$_GET['zip']:"";
 $url="http://vip.alizhizhuchi.top".$zip;
-if($title&&$name&&$zip){
+if($ver&&$ver_date&&$zip){
 	//服务器文件下载
 	$url=urldecode($url);
 	$fname=basename("$url"); //返回路径中的文件名部分  fetion_sms.zip
@@ -30,17 +30,21 @@ if($title&&$name&&$zip){
 		//下载后解压缩
 		$zip=new ZipArchive();
 		if($zip->open($dir)===TRUE){
-			$zip->extractTo('/');
+			$zip->extractTo('upload/'.$ver);
 			$zip->close();
+			//复制文件到根目录
+			recurse_copy($upload_dir.$ver,"../");
 			//如果根目录有update.sql文件,那么执行数据库更新
 			$file = fopen("/update.sql");
-			while(!feof($file))
-			{
-				$line= fgets($file);
-				$mysqli->query($line);
+			if($file){
+				while(!feof($file))
+				{
+					$line= fgets($file);
+					$mysqli->query($line);
+				}
+				fclose($file);
+				unlink("/update.sql");
 			}
-			fclose($file);
-			unlink("/update.sql");
 			//更新数据库
 			$mysqli->query("update config set ver='".base64_encode($ver)."',ver_date='".base64_encode($ver_date)."' limit 1");
 			//删除更新包

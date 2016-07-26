@@ -33,7 +33,6 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 		</div>
 		<div class="page ">
 			<div style="margin-bottom:10px;">当前系统版本:v<?=$config['ver']?>&nbsp;&nbsp;更新日期:<?=date('Y/m/d',$config['ver_date'])?></div>
-
 				<?php
 				$post_data['act']="update";
 				$post_data['ver_title']=$config['ver'];
@@ -44,7 +43,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						<dl class="cur2">
 							<dt>发现新版本</dt>
 							<dd><span>版本:</span>v<?=$result->title?></dd>
-							<dd><span>说明:</span><?=$result->detail?></dd>
+							<dd class="deail"><span>说明:</span><p><?=$result->detail?><?=$result->detail?><?=$result->detail?></p></dd>
 							<dd><span>日期:</span><?=date('Y-m-d',$result->date)?></dd>
 							<dd><a href="update_down.php?ver=<?=$result->title?>&ver_date=<?=$result->date?>&zip=<?=$result->zip?>">更新</a></dd>
 						</dl>
