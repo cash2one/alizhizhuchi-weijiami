@@ -14,6 +14,7 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
         $result = json_decode($request);
         $sql = "update config set title='" . $result->title . "',vip='" . base64_encode($result->vip) . "',domain='" . base64_encode($result->domain) . "',templates='" . base64_encode($result->templates) . "',enddate='" . base64_encode($result->enddate) . "',date='" . base64_encode(mt_rand(strtotime(date('Y-m-d', strtotime("+1 day"))), strtotime(date('Y-m-d', strtotime("+2 day"))))) . "' limit 1";
         $mysqli->query($sql);
+        $config=config_list();
     } else {
         echo "此域名未授权";
         exit;
