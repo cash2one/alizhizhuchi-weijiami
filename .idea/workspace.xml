@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic.php" afterPath="$PROJECT_DIR$/admin/inc/lic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/import.php" afterPath="$PROJECT_DIR$/admin/import.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="$PROJECT_DIR$/zhizhuchi.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
@@ -26,26 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lic.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
+      <file leaf-file-name="import.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/import.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="615">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
-                <marker date="1469511313000" expanded="true" signature="358:713" ph="update confi... " />
-                <marker date="1469511313000" expanded="true" signature="838:875" ph="select count... " />
-                <marker date="1469511313000" expanded="true" signature="1047:1090" ph="delete from " />
-                <marker date="1469511313000" expanded="true" signature="1214:1264" ph="select count... " />
-                <marker date="1469511313000" expanded="true" signature="1448:1508" ph="update templ... " />
-                <marker date="1469511313000" expanded="true" signature="1454:1508" ph="delete from " />
-                <marker date="1469511313000" expanded="true" signature="2066:2394" ph="update confi... " />
-                <marker date="1469511313000" expanded="true" signature="3030:3060" ph="select count... " />
-                <marker date="1469511313000" expanded="true" signature="3030:3067" ph="select count... " />
-                <marker date="1469511313000" expanded="true" signature="3255:3297" ph="delete from " />
-                <marker date="1469511313000" expanded="true" signature="3255:3298" ph="delete from " />
-                <marker date="1469511313000" expanded="true" signature="3438:3488" ph="select count... " />
-                <marker date="1469511313000" expanded="true" signature="3688:3748" ph="update templ... " />
-                <marker date="1469511313000" expanded="true" signature="3808:3994" ph="update confi... " />
+                <marker date="1469514728000" expanded="true" signature="1144:1193" ph="insert into ${$act}... " />
               </folding>
             </state>
           </provider>
@@ -90,7 +77,6 @@
         <option value="$PROJECT_DIR$/admin/inc/ver_admin.php" />
         <option value="$PROJECT_DIR$/admin/changepwd.php" />
         <option value="$PROJECT_DIR$/admin/export.php" />
-        <option value="$PROJECT_DIR$/admin/import.php" />
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/spiderset.php" />
@@ -110,6 +96,7 @@
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
+        <option value="$PROJECT_DIR$/admin/import.php" />
       </list>
     </option>
   </component>
@@ -345,14 +332,7 @@
       <workItem from="1469451826136" duration="766000" />
       <workItem from="1469453489463" duration="7230000" />
       <workItem from="1469502480841" duration="4266000" />
-      <workItem from="1469511212923" duration="501000" />
-    </task>
-    <task id="LOCAL-00010" summary="增加模板四">
-      <created>1468049215577</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1468049215577</updated>
+      <workItem from="1469511212923" duration="2500000" />
     </task>
     <task id="LOCAL-00011" summary="增加模板四">
       <created>1468049470855</created>
@@ -690,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469507540359</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="自动授权验证后重新读取授权信息">
+      <created>1469511753677</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1469511753678</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139927000" />
+    <option name="totallyTimeSpent" value="141926000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,7 +728,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新版本号1.2.3" />
     <MESSAGE value="调整菜单顺序,把常用的外推链接放在前面" />
     <MESSAGE value="加入服务器授权验证" />
     <MESSAGE value="最新版获取" />
@@ -766,7 +752,8 @@
     <MESSAGE value="去掉curl超时限制" />
     <MESSAGE value="首次授权验证逻辑判断修正&#10;更新数据库文件为adminer,方便导入" />
     <MESSAGE value="更新空数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新空数据库" />
+    <MESSAGE value="自动授权验证后重新读取授权信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动授权验证后重新读取授权信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,13 +762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban6/css/moban4/stylet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban5/css/moban4/stylet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1026,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/export.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1153,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding>
-            <marker date="1469506641000" expanded="true" signature="428:810" ph="update confi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1179,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="711">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding>
             <marker date="1469511313000" expanded="true" signature="358:713" ph="update confi... " />
@@ -1187,15 +1150,40 @@
             <marker date="1469511313000" expanded="true" signature="1047:1090" ph="delete from " />
             <marker date="1469511313000" expanded="true" signature="1214:1264" ph="select count... " />
             <marker date="1469511313000" expanded="true" signature="1448:1508" ph="update templ... " />
-            <marker date="1469511313000" expanded="true" signature="1454:1508" ph="delete from " />
             <marker date="1469511313000" expanded="true" signature="2066:2394" ph="update confi... " />
-            <marker date="1469511313000" expanded="true" signature="3030:3060" ph="select count... " />
             <marker date="1469511313000" expanded="true" signature="3030:3067" ph="select count... " />
-            <marker date="1469511313000" expanded="true" signature="3255:3297" ph="delete from " />
             <marker date="1469511313000" expanded="true" signature="3255:3298" ph="delete from " />
             <marker date="1469511313000" expanded="true" signature="3438:3488" ph="select count... " />
             <marker date="1469511313000" expanded="true" signature="3688:3748" ph="update templ... " />
             <marker date="1469511313000" expanded="true" signature="3808:3994" ph="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <marker date="1469506641000" expanded="true" signature="428:810" ph="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../蜘蛛池/采菊蜘蛛池免费版/01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3930">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <marker date="1469514728000" expanded="true" signature="1144:1193" ph="insert into ${$act}... " />
           </folding>
         </state>
       </provider>
