@@ -34,15 +34,15 @@ while($row=$result->fetch_assoc()) {
 }
 $option2_data=implode(',',$option2);
 $series_data=implode(',',$series);
-//if($act=='hour') {
-//	for ($i = 3; $i >= 1; $i--) {
-//		$data = implode(',', hour_data_num('spider', $i));
-//		$option3[] = "{name:'" . date('n/j', time() - $i * 24 * 3600) . "',type:'line',stack: '总量',data:[" . $data . "]}";
-//		$option3_legend[] = "'" . date('n/j', time() - $i * 24 * 3600) . "'";
-//	}
-//	$option3_series_data = implode(',', $option3);
-//	$option3_legend_data = implode(',', $option3_legend);
-//}
+if($act=='hour') {
+	for ($i = 3; $i >= 1; $i--) {
+		$data = implode(',', hour_data_num('spider', $i));
+		$option3[] = "{name:'" . date('n/j', time() - $i * 24 * 3600) . "',type:'line',stack: '总量',data:[" . $data . "]}";
+		$option3_legend[] = "'" . date('n/j', time() - $i * 24 * 3600) . "'";
+	}
+	$option3_series_data = implode(',', $option3);
+	$option3_legend_data = implode(',', $option3_legend);
+}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -91,7 +91,7 @@ $series_data=implode(',',$series);
 			new Marquee(["text1","text2"],0,1,'',40,30,4000,2000);			//文字翻屏滚动实例
 		</script>
 		<div class="page">
-			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <!--<a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a>--></span></div>
+			<div class="title">蜘蛛访问量<span><a href="?">7日(<?=data_num('spider',7)?>)</a> <a href="?act=30">30日(<?=data_num('spider',30)?>)</a> <a href="?act=hour" style="color:red;">查看过去三天24小时数据分析(较慢)</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"></div>
 			<?php
 			if($act=='hour') {
