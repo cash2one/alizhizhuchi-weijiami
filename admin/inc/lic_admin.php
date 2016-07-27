@@ -2,7 +2,7 @@
 header ( "Content-type:text/html;charset=utf-8" );
 require("data.php");
 include("function.php");
-define('SYSTEM_NAME','阿里蜘蛛池');
+define('SYSTEM_NAME','AliSpider');
 define('SITE_NAME','阿里蜘蛛池');
 
 $config=config_list();

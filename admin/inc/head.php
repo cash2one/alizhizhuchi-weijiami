@@ -19,7 +19,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 	<!-- 头部 -->
 	<div class="head">
 		<div class="headL">
-			<?=SYSTEM_NAME?><span>v<?=$config['ver']?></span>
+			<?=SYSTEM_NAME?>&nbsp;<span>v<?=$config['ver']?></span>
 		</div>
 		<div class="headR">
 			<img src="http://vip.alizhizhuchi.top/ad/wellcom.jpg" onerror="javascript:this.src='../img/wellcom.jpg';"/>

@@ -2,7 +2,7 @@
 header ( "Content-type:text/html;charset=utf-8" );
 require("data.php");
 include("function.php");
-define('SYSTEM_NAME','阿里蜘蛛池');
+define('SYSTEM_NAME','AliSpider');
 define('SITE_NAME','阿里蜘蛛池');
 //手动授权验证
 $a=isset($_GET['a'])?$_GET['a']:"";
@@ -36,7 +36,7 @@ if($a=="shouquan"){
 //自动授权验证
 $config=config_list();
 if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$config['domain']&&$config['templates']){//如果为空,可能为第一次使用,需要获取服务器信息
-    if($config['enddate']-time()>48*60*60||time()>$config['date']){//如果验证时间大于当前时间48小时,或者当前时间大于验证时间,那么联网验证,一天联网验证一次
+    if(($config['date']-time())>172800||time()>$config['date']){//如果验证时间大于当前时间48小时,或者当前时间大于验证时间,那么联网验证,一天联网验证一次
         $post_data['act']="shouquan";
         if($request=request_post($post_data)){
             $result=json_decode($request);
