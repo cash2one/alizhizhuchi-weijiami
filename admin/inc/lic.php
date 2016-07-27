@@ -43,13 +43,15 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             $sql="update config set vip='".base64_encode($result->vip)."',domain='".base64_encode($result->domain)."',templates='".base64_encode($result->templates)."',enddate='".base64_encode($result->enddate)."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
             $mysqli->query($sql);
             //验证成功,发送当前数据到服务器:域名个数,昨日蜘蛛数量
-            $duankou=$_SERVER["SERVER_PORT"];
-            $yuming=$_SERVER['HTTP_HOST'];
-            $yuming=str_replace(':'.$duankou, '', $yuming);
             //获取域名数量
             $domain_num=data_num("domains");
             $spider_num=data_num('spider','',date('Y-m-d',time()-1*24*3600));
-            file_get_contents("http://vip.alizhizhuchi.top/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num);//修改服务器域名
+
+            $post_data['act']="data";
+            $post_data['domain_num']=$domain_num;
+            $post_data['spider_num']=$spider_num;
+            $request=request_post($post_data);
+            //file_get_contents("http://vip.alizhizhuchi.top/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num);//修改服务器域名
             //域名限制
             $vip_domain_num=$result->domain;
             $domain_num=$mysqli->query("select count(*) as count from domains")->fetch_object()->count;

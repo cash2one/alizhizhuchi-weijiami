@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhizhuchi.sql" afterPath="" />
+    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic.php" afterPath="$PROJECT_DIR$/admin/inc/lic.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <file leaf-file-name="lic.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="210" column="132" selection-start-line="210" selection-start-column="132" selection-end-line="210" selection-end-column="132" />
+            <state relative-caret-position="420">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#a#2;n#span#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1469587909000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
+                <marker date="1469600256000" expanded="true" signature="362:717" ph="update confi... " />
+                <marker date="1469600256000" expanded="true" signature="842:879" ph="select count... " />
+                <marker date="1469600256000" expanded="true" signature="1051:1094" ph="delete from " />
+                <marker date="1469600256000" expanded="true" signature="1218:1268" ph="select count... " />
+                <marker date="1469600256000" expanded="true" signature="1452:1512" ph="update templ... " />
+                <marker date="1469600256000" expanded="true" signature="2067:2395" ph="update confi... " />
+                <marker date="1469600256000" expanded="true" signature="3070:3107" ph="select count... " />
+                <marker date="1469600256000" expanded="true" signature="3295:3338" ph="delete from " />
+                <marker date="1469600256000" expanded="true" signature="3478:3528" ph="select count... " />
+                <marker date="1469600256000" expanded="true" signature="3728:3788" ph="update templ... " />
+                <marker date="1469600256000" expanded="true" signature="3848:4034" ph="update confi... " />
               </folding>
             </state>
           </provider>
@@ -94,10 +102,10 @@
         <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
-        <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
+        <option value="$PROJECT_DIR$/admin/inc/lic.php" />
       </list>
     </option>
   </component>
@@ -146,8 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,6 +206,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,14 +344,8 @@
       <workItem from="1469511212923" duration="3767000" />
       <workItem from="1469582691533" duration="532000" />
       <workItem from="1469583820947" duration="577000" />
-      <workItem from="1469585938246" duration="1575000" />
-    </task>
-    <task id="LOCAL-00016" summary="增加模板八">
-      <created>1468075077887</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1468075077888</updated>
+      <workItem from="1469585938246" duration="2109000" />
+      <workItem from="1469588952460" duration="622000" />
     </task>
     <task id="LOCAL-00017" summary="去掉文章标题管理,更新所有标签样式,增加模板八">
       <created>1468133249256</created>
@@ -681,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469586975344</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="24小时分析时间标注错误">
+      <created>1469587940901</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1469587940901</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145877000" />
+    <option name="totallyTimeSpent" value="147033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,14 +706,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="877" extended-state="0" />
+    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -716,6 +724,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -732,7 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="获取服务器模板信息" />
     <MESSAGE value="去掉在线升级菜单,升级采用公告方式,链接到博客" />
     <MESSAGE value="增加curl扩展验证" />
     <MESSAGE value="授权验证成功后发送数据,域名数量和昨日蜘蛛数" />
@@ -757,7 +765,8 @@
     <MESSAGE value="去掉测试外链提醒" />
     <MESSAGE value="更改系统名称" />
     <MESSAGE value="开启24小时分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="开启24小时分析" />
+    <MESSAGE value="24小时分析时间标注错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="24小时分析时间标注错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,26 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <marker date="1469585471000" expanded="true" signature="362:717" ph="update confi... " />
-            <marker date="1469585471000" expanded="true" signature="842:879" ph="select count... " />
-            <marker date="1469585471000" expanded="true" signature="1051:1094" ph="delete from " />
-            <marker date="1469585471000" expanded="true" signature="1218:1268" ph="select count... " />
-            <marker date="1469585471000" expanded="true" signature="1452:1512" ph="update templ... " />
-            <marker date="1469585471000" expanded="true" signature="2067:2395" ph="update confi... " />
-            <marker date="1469585471000" expanded="true" signature="3031:3068" ph="select count... " />
-            <marker date="1469585471000" expanded="true" signature="3256:3299" ph="delete from " />
-            <marker date="1469585471000" expanded="true" signature="3439:3489" ph="select count... " />
-            <marker date="1469585471000" expanded="true" signature="3689:3749" ph="update templ... " />
-            <marker date="1469585471000" expanded="true" signature="3809:3995" ph="update confi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1120,9 +1109,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="210" column="132" selection-start-line="210" selection-start-column="132" selection-end-line="210" selection-end-column="132" />
+          <folding>
+            <marker date="1469587909000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="-819">
           <caret line="377" column="1" selection-start-line="377" selection-start-column="1" selection-end-line="377" selection-end-column="1" />
           <folding>
             <marker date="1469515819000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
@@ -1189,13 +1188,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="210" column="132" selection-start-line="210" selection-start-column="132" selection-end-line="210" selection-end-column="132" />
+        <state relative-caret-position="420">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#a#2;n#span#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1469587909000" expanded="true" signature="1072:1126" ph="select title... spiderset" />
+            <marker date="1469600256000" expanded="true" signature="362:717" ph="update confi... " />
+            <marker date="1469600256000" expanded="true" signature="842:879" ph="select count... " />
+            <marker date="1469600256000" expanded="true" signature="1051:1094" ph="delete from " />
+            <marker date="1469600256000" expanded="true" signature="1218:1268" ph="select count... " />
+            <marker date="1469600256000" expanded="true" signature="1452:1512" ph="update templ... " />
+            <marker date="1469600256000" expanded="true" signature="2067:2395" ph="update confi... " />
+            <marker date="1469600256000" expanded="true" signature="3070:3107" ph="select count... " />
+            <marker date="1469600256000" expanded="true" signature="3295:3338" ph="delete from " />
+            <marker date="1469600256000" expanded="true" signature="3478:3528" ph="select count... " />
+            <marker date="1469600256000" expanded="true" signature="3728:3788" ph="update templ... " />
+            <marker date="1469600256000" expanded="true" signature="3848:4034" ph="update confi... " />
           </folding>
         </state>
       </provider>
