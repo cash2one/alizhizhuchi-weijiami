@@ -36,7 +36,7 @@ if (($_FILES["file"]["type"] == "text/plain") && ($_FILES["file"]["size"] < 1048
 			$line= fgets($file);
 			$str= mb_convert_encoding($line, 'utf-8','gb2312');
 			if($str){
-				$sql="insert into ".$act." (`title`) values('".$str."')";
+				$sql="insert into ".$act." (`title`) values('".trim($str)."')";
 				$mysqli->query($sql);
 			}
 		}
