@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="修复moban8内容页站点名称标签错误">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/columnbanbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/dy.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/focus_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/g9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/go-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/icon15-423.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/morefriend.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/num_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/num_bg_2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/openquote.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/point.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/radiusbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/radiusbgsmall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/tags_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/topbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/images/vote_mini_icon_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/js/jquery-2.1.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/js/jquery-migrate-1.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/js/plugins.count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/neirong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/shouye.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/style/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban9/style/common.css" />
+    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban9/neirong.html" afterPath="$PROJECT_DIR$/templates/moban9/neirong.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban9/shouye.html" afterPath="$PROJECT_DIR$/templates/moban9/shouye.html" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +35,8 @@
       <file leaf-file-name="shouye.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban9/shouye.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="960" column="0" selection-start-line="960" selection-start-column="0" selection-end-line="960" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="953" column="54" selection-start-line="953" selection-start-column="54" selection-end-line="953" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#b#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2469">
-              <caret line="95" column="75" selection-start-line="95" selection-start-column="75" selection-end-line="95" selection-end-column="75" />
+            <state relative-caret-position="426">
+              <caret line="267" column="66" selection-start-line="267" selection-start-column="66" selection-end-line="267" selection-end-column="66" />
               <folding>
                 <element signature="e#2610#2616#0" expanded="true" />
                 <element signature="e#2616#2622#0" expanded="true" />
@@ -90,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban9/map.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1179">
@@ -255,11 +227,11 @@
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/templates/moban9/index.html" />
         <option value="$PROJECT_DIR$/templates/moban8/neirong.html" />
-        <option value="$PROJECT_DIR$/templates/moban9/shouye.html" />
         <option value="$PROJECT_DIR$/admin/import.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
-        <option value="$PROJECT_DIR$/templates/moban9/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban9/map.html" />
+        <option value="$PROJECT_DIR$/templates/moban9/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban9/neirong.html" />
       </list>
     </option>
   </component>
@@ -375,6 +347,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moban1" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,14 +559,7 @@
       <workItem from="1469588952460" duration="671000" />
       <workItem from="1469605090250" duration="3960000" />
       <workItem from="1469611016153" duration="82000" />
-      <workItem from="1469611440086" duration="2477000" />
-    </task>
-    <task id="LOCAL-00020" summary="精简模板文件">
-      <created>1468203667258</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1468203667258</updated>
+      <workItem from="1469611440086" duration="2593000" />
     </task>
     <task id="LOCAL-00021" summary="精简模板文件">
       <created>1468204030057</created>
@@ -914,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469612784708</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="新增模板9">
+      <created>1469666186961</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1469666186962</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153601000" />
+    <option name="totallyTimeSpent" value="153717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,7 +955,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="后台首页增加公告获取" />
     <MESSAGE value="公告获取&#10;VIP获取" />
     <MESSAGE value="vip获取无限扩展模式" />
     <MESSAGE value="去掉后台授权验证,验证全部交由前台运行,后台只判断授权过期" />
@@ -990,7 +979,8 @@
     <MESSAGE value="数据发送改为curl发送" />
     <MESSAGE value="修复moban8内容页站点名称标签错误" />
     <MESSAGE value="txt导入时过滤空格" />
-    <option name="LAST_COMMIT_MESSAGE" value="txt导入时过滤空格" />
+    <MESSAGE value="新增模板9" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增模板9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1007,13 +997,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban2/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban3/neirong.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1402,32 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban9/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="960" column="0" selection-start-line="960" selection-start-column="0" selection-end-line="960" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2469">
-          <caret line="95" column="75" selection-start-line="95" selection-start-column="75" selection-end-line="95" selection-end-column="75" />
-          <folding>
-            <element signature="e#2610#2616#0" expanded="true" />
-            <element signature="e#2616#2622#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban9/map.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1179">
@@ -1533,6 +1490,40 @@
             <element signature="e#5766#5772#0" expanded="true" />
             <element signature="e#5842#5848#0" expanded="true" />
             <element signature="e#5848#5854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban9/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="953" column="54" selection-start-line="953" selection-start-column="54" selection-end-line="953" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#b#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="267" column="66" selection-start-line="267" selection-start-column="66" selection-end-line="267" selection-end-column="66" />
+          <folding>
+            <element signature="e#2610#2616#0" expanded="true" />
+            <element signature="e#2616#2622#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
