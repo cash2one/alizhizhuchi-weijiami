@@ -35,12 +35,13 @@ if($title&&$name&&$zip){
                 $zip->close();
                 //写入数据库
                 $mysqli->query("insert into templates (`title`,`ok`,`name`) VALUES ('" . $title . "',1,'" . $name . "')");
-                //删除模板包
-                unlink($dir);
+                //删除模板包,删除成功后再跳转
+                if(unlink($dir)){
+                    header("Location: templates.php");
+                }
 //		echo "下载成功";
-                header("Location: templates.php");
             } else {
-                echo "解压失败:".$dir."|".$title;
+                echo "解压失败";
             }
         }else{
             echo "请开启ZipArchive扩展";

@@ -41,10 +41,10 @@
       <file leaf-file-name="templates_down.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
-                <marker date="1469805749000" expanded="true" signature="1086:1173" ph="insert into templates... " />
+                <marker date="1469807765000" expanded="true" signature="1086:1173" ph="insert into templates... " />
               </folding>
             </state>
           </provider>
@@ -475,14 +475,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="41698000" />
-    </task>
-    <task id="LOCAL-00033" summary="更新版本号1.2.3">
-      <created>1468881336022</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1468881336022</updated>
+      <workItem from="1469686923634" duration="43161000" />
     </task>
     <task id="LOCAL-00034" summary="调整菜单顺序,把常用的外推链接放在前面">
       <created>1468881468457</created>
@@ -820,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469805288351</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="检测ZipArchive扩展">
+      <created>1469806026188</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1469806026188</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207572000" />
+    <option name="totallyTimeSpent" value="209035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +871,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="首次授权验证逻辑判断修正&#10;更新数据库文件为adminer,方便导入" />
     <MESSAGE value="更新空数据库" />
     <MESSAGE value="自动授权验证后重新读取授权信息" />
     <MESSAGE value="txt上传,过滤空行" />
@@ -896,7 +895,8 @@
     <MESSAGE value="给spider表ssyq字段添加索引，进一步加快后台搜索引擎检索速度" />
     <MESSAGE value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
     <MESSAGE value="增加无ZipArchive扩展提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加无ZipArchive扩展提示" />
+    <MESSAGE value="检测ZipArchive扩展" />
+    <option name="LAST_COMMIT_MESSAGE" value="检测ZipArchive扩展" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1418,10 +1418,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <marker date="1469805749000" expanded="true" signature="1086:1173" ph="insert into templates... " />
+            <marker date="1469807765000" expanded="true" signature="1086:1173" ph="insert into templates... " />
           </folding>
         </state>
       </provider>
