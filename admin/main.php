@@ -75,6 +75,8 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 			function(result){
 				if(result.data){
 					$("#newver").html(",发现新版本<a href='update.php'>立即更新</a>");
+				}else{
+					$("#newver").html("已是最新版本");
 				}
 			},"json");
 			//获取公告

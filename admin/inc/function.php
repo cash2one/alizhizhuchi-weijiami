@@ -321,45 +321,45 @@ function info_del_all($from){
 //    $mysqli->query("truncate table spider");
 //    header("Location: spider.php");
 //}
-function ip_update($page){
-    global $mysqli;
-    $page_size=10;
-    $min=($page-1)*$page_size;
-    $sql="select * from spider order by id desc limit ".$min.",".$page_size;
-    $result=$mysqli->query($sql);
-    if($mysqli->affected_rows>0){
-        while($row = $result->fetch_assoc())
-        {
-            $ch = curl_init();
-            $url = 'http://apis.baidu.com/apistore/iplookupservice/iplookup?ip='.$row['ipdz'];
-            $header = array(
-                'apikey: a7a1a7140e39b034dd70b718da8cd148',
-            );
-            curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($ch , CURLOPT_URL , $url);
-            $res = curl_exec($ch);
-            $api=json_decode($res);
-            if($api->errNum==0){
-                $ipinfo=$api->retData->country;
-                if($api->retData->province!="None"){
-                    $ipinfo.=$api->retData->province;
-                }
-                if($api->retData->city!="None"){
-                    $ipinfo.=$api->retData->city;
-                }
-                if($api->retData->district!="None"){
-                    $ipinfo.=$api->retData->district;
-                }
-                if($api->retData->carrier!="None"){
-                    $ipinfo.=$api->retData->carrier;
-                }
-                $mysqli->query("update spider set ipinfo='".$ipinfo."' where id=".$row['id']);
-            }
-        }
-        return true;
-    }
-}
+//function ip_update($page){
+//    global $mysqli;
+//    $page_size=10;
+//    $min=($page-1)*$page_size;
+//    $sql="select * from spider order by id desc limit ".$min.",".$page_size;
+//    $result=$mysqli->query($sql);
+//    if($mysqli->affected_rows>0){
+//        while($row = $result->fetch_assoc())
+//        {
+//            $ch = curl_init();
+//            $url = 'http://apis.baidu.com/apistore/iplookupservice/iplookup?ip='.$row['ipdz'];
+//            $header = array(
+//                'apikey: a7a1a7140e39b034dd70b718da8cd148',
+//            );
+//            curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
+//            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//            curl_setopt($ch , CURLOPT_URL , $url);
+//            $res = curl_exec($ch);
+//            $api=json_decode($res);
+//            if($api->errNum==0){
+//                $ipinfo=$api->retData->country;
+//                if($api->retData->province!="None"){
+//                    $ipinfo.=$api->retData->province;
+//                }
+//                if($api->retData->city!="None"){
+//                    $ipinfo.=$api->retData->city;
+//                }
+//                if($api->retData->district!="None"){
+//                    $ipinfo.=$api->retData->district;
+//                }
+//                if($api->retData->carrier!="None"){
+//                    $ipinfo.=$api->retData->carrier;
+//                }
+//                $mysqli->query("update spider set ipinfo='".$ipinfo."' where id=".$row['id']);
+//            }
+//        }
+//        return true;
+//    }
+//}
 //$from:数据表;$num:统计天数;$day:具体某天;$type:搜索引擎;
 function data_num($from,$num='',$day='',$type=''){
     global $mysqli;
