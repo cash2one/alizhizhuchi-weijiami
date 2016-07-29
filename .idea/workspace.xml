@@ -7,11 +7,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/neirong.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/shouye.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/css.css" afterPath="$PROJECT_DIR$/admin/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.php" afterPath="$PROJECT_DIR$/sitemap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adminer.sql" afterPath="$PROJECT_DIR$/adminer.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,23 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <file leaf-file-name="adminer.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adminer.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding>
-                <marker date="1469800742000" expanded="true" signature="6088:6142" ph="select title... spiderset" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="-1074">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,57 +89,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <marker date="1469799947000" expanded="true" signature="283:520" ph="SELECT title... templates" />
-                <marker date="1469799947000" expanded="true" signature="325:457" ph="SELECT ROUND... " />
-                <marker date="1469799947000" expanded="true" signature="349:380" ph="SELECT MAX(i... templates" />
-                <marker date="1469799947000" expanded="true" signature="383:414" ph="SELECT MIN(i... templates" />
-                <marker date="1469799947000" expanded="true" signature="418:449" ph="SELECT MIN(i... templates" />
-                <marker date="1469799947000" expanded="true" signature="602:664" ph="select title... templates" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <marker date="1469799955000" expanded="true" signature="657:894" ph="SELECT title... templates" />
-                <marker date="1469799955000" expanded="true" signature="699:831" ph="SELECT ROUND... " />
-                <marker date="1469799955000" expanded="true" signature="723:754" ph="SELECT MAX(i... templates" />
-                <marker date="1469799955000" expanded="true" signature="757:788" ph="SELECT MIN(i... templates" />
-                <marker date="1469799955000" expanded="true" signature="792:823" ph="SELECT MIN(i... templates" />
-                <marker date="1469799955000" expanded="true" signature="976:1038" ph="select title... templates" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sitemap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <marker date="1469799979000" expanded="true" signature="328:565" ph="SELECT title... templates" />
-                <marker date="1469799979000" expanded="true" signature="370:502" ph="SELECT ROUND... " />
-                <marker date="1469799979000" expanded="true" signature="394:425" ph="SELECT MAX(i... templates" />
-                <marker date="1469799979000" expanded="true" signature="428:459" ph="SELECT MIN(i... templates" />
-                <marker date="1469799979000" expanded="true" signature="463:494" ph="SELECT MIN(i... templates" />
-                <marker date="1469799979000" expanded="true" signature="657:719" ph="select title... templates" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="neirong.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -174,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/moban2/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban3/shouye.html" />
         <option value="$PROJECT_DIR$/templates/moban3/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban2/shouye.html" />
@@ -225,6 +157,7 @@
         <option value="$PROJECT_DIR$/sitemap.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/main.php" />
+        <option value="$PROJECT_DIR$/adminer.sql" />
       </list>
     </option>
   </component>
@@ -540,14 +473,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="38028000" />
-    </task>
-    <task id="LOCAL-00028" summary="去掉phpmyadmin">
-      <created>1468826092902</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1468826092902</updated>
+      <workItem from="1469686923634" duration="39026000" />
     </task>
     <task id="LOCAL-00029" summary="计划外推链接增加各搜索引擎数量统计">
       <created>1468828022040</created>
@@ -885,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469775517298</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板">
+      <created>1469800964373</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1469800964373</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203902000" />
+    <option name="totallyTimeSpent" value="204900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加mysql单文件管理&#10;增加在线升级功能&#10;增加新版本提醒" />
     <MESSAGE value="完善在线升级功能" />
     <MESSAGE value="更新说明重复" />
     <MESSAGE value="修复授权验证域名限制数据库名错误" />
@@ -961,7 +893,8 @@
     <MESSAGE value="增加未检测到新版本提示" />
     <MESSAGE value="信息页面和蜘蛛日志页面增加加载图片" />
     <MESSAGE value="修正外推蜘蛛详情中搜狗调用拼写错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正外推蜘蛛详情中搜狗调用拼写错误" />
+    <MESSAGE value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -977,13 +910,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban4/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="458" column="74" selection-start-line="458" selection-start-column="74" selection-end-line="458" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1377,14 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban10/neirong.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5385">
@@ -1484,6 +1402,22 @@
           <folding>
             <marker date="1469800742000" expanded="true" signature="6088:6142" ph="select title... spiderset" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminer.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

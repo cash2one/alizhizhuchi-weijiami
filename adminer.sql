@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/26/2016 12:26:14 PM
+ Date: 07/29/2016 22:24:00 PM
 */
 
 SET NAMES utf8;
@@ -26,7 +26,7 @@ CREATE TABLE `admin` (
   `name` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `admin`
@@ -48,13 +48,13 @@ CREATE TABLE `config` (
   `ver_date` varchar(255) DEFAULT NULL,
   `date` varchar(255) DEFAULT NULL,
   `enddate` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS4yLjQ=', 'MTQ2OTQyOTkwMw==', '', '');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS4yLjU=', 'MTQ2OTU4NDgwMA==', '', '');
 COMMIT;
 
 -- ----------------------------
@@ -65,7 +65,7 @@ CREATE TABLE `domains` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `juzi`
@@ -75,7 +75,7 @@ CREATE TABLE `juzi` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `keywords`
@@ -95,7 +95,7 @@ CREATE TABLE `shipin` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `title` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `spider`
@@ -123,7 +123,7 @@ CREATE TABLE `spiderset` (
   `ok` bit(1) NOT NULL,
   `age` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `spiderset`
@@ -142,7 +142,7 @@ CREATE TABLE `templates` (
   `ok` bit(1) NOT NULL,
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `templates`
@@ -166,6 +166,6 @@ CREATE TABLE `url` (
   `sogou` int(11) NOT NULL DEFAULT '0',
   `360` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
