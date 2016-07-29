@@ -136,7 +136,7 @@ switch($action){
 					str += "<td style='text-align:left;padding-left:20px;'>" + neirong[p]['title'] + "</td>";
 
 					if (act == "url") {
-						str += "<td>" + neirong[p]['count'] + "</td><td><a href='javascript:void(0)' onclick=\"javascript:alert('Google:" + neirong[p]['google'] + " | Baidu:" + neirong[p]['baidu'] + " | Bing:" + neirong[p]['bing'] + " | Yahoo:" + neirong[p]['yahoo'] + " | Sogou:" + neirong[p]['gogou'] + " | 360:" + neirong[p]['360'] + "')\">查看</a></td>";
+						str += "<td>" + neirong[p]['count'] + "</td><td><a href='javascript:void(0)' onclick=\"javascript:alert('Google:" + neirong[p]['google'] + " | Baidu:" + neirong[p]['baidu'] + " | Bing:" + neirong[p]['bing'] + " | Yahoo:" + neirong[p]['yahoo'] + " | Sogou:" + neirong[p]['sogou'] + " | 360:" + neirong[p]['360'] + "')\">查看</a></td>";
 					}
 					str += "<td>";
 					str += "<a href='?act=" + act + "&action=del&page=<?=$page?>&id=" + neirong[p]['id'] + "'><img class='operation delban' src='img/delete.png'></a></td>";

@@ -4,7 +4,6 @@
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/info.php" afterPath="$PROJECT_DIR$/admin/info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/spider.php" afterPath="$PROJECT_DIR$/admin/spider.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="info.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="146" column="33" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="33" />
+            <state relative-caret-position="471">
+              <caret line="138" column="317" selection-start-line="138" selection-start-column="317" selection-end-line="138" selection-end-column="317" />
               <folding>
-                <marker date="1469774442000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
-                <marker date="1469774442000" expanded="true" signature="4052:4086" ph="..." />
+                <marker date="1469775463000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
+                <marker date="1469775463000" expanded="true" signature="4052:4086" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/spider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
@@ -111,8 +110,8 @@
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
-        <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
+        <option value="$PROJECT_DIR$/admin/info.php" />
       </list>
     </option>
   </component>
@@ -377,14 +376,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="30075000" />
-    </task>
-    <task id="LOCAL-00026" summary="把系统名称从ver.php放到data.php中,方便升级">
-      <created>1468459799029</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1468459799029</updated>
+      <workItem from="1469686923634" duration="30580000" />
     </task>
     <task id="LOCAL-00027" summary="更新版本1.2.2&#10;修复外推链接统计&#10;增加蜘蛛三天24小时分析&#10;修复蜘蛛时间统计不准确问题&#10;修复调试模式蜘蛛仍然记录问题&#10;去掉后台蜘蛛日志全部删除功能">
       <created>1468825935625</created>
@@ -722,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469773853835</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="信息页面和蜘蛛日志页面增加加载图片">
+      <created>1469774767725</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1469774767725</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195949000" />
+    <option name="totallyTimeSpent" value="196454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,7 +740,7 @@
     <frame x="51" y="23" width="1389" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -773,7 +772,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vip页面增加授权截止日期" />
     <MESSAGE value="修复日期没有base加密" />
     <MESSAGE value="增加mysql单文件管理&#10;增加在线升级功能&#10;增加新版本提醒" />
     <MESSAGE value="完善在线升级功能" />
@@ -798,7 +796,8 @@
     <MESSAGE value="手动更新授权,不改变自动验证时间,防止时间变化,不发送客户端数据" />
     <MESSAGE value="修正新版本提醒获取错误&#10;增加蜘蛛合计统计" />
     <MESSAGE value="增加未检测到新版本提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加未检测到新版本提示" />
+    <MESSAGE value="信息页面和蜘蛛日志页面增加加载图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="信息页面和蜘蛛日志页面增加加载图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,13 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1244,17 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="146" column="33" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="33" />
-          <folding>
-            <marker date="1469774442000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
-            <marker date="1469774442000" expanded="true" signature="4052:4086" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/spider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -1265,6 +1246,25 @@
             <marker date="1469774637000" expanded="true" signature="3758:3792" ph="..." />
             <marker date="1469774637000" expanded="true" signature="3855:3889" ph="..." />
             <marker date="1469774637000" expanded="true" signature="4068:4083" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="138" column="317" selection-start-line="138" selection-start-column="317" selection-end-line="138" selection-end-column="317" />
+          <folding>
+            <marker date="1469775463000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
+            <marker date="1469775463000" expanded="true" signature="4052:4086" ph="..." />
           </folding>
         </state>
       </provider>
