@@ -39,7 +39,7 @@ if($title&&$name&&$zip){
 //		echo "下载成功";
 			header("Location: templates.php");
 		}else{
-			echo "解压失败";
+			echo "解压失败,请确认已开启ZipArchive扩展";
 		}
 	}else{
 		echo "下载失败";
