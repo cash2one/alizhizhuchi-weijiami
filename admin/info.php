@@ -44,9 +44,9 @@ switch($action){
 			info_del($act,$page,$id);
 		}
 		break;
-//	case "del_all":
-//		info_del_all($act);
-//		break;
+	case "del_all":
+		info_del_all($act);
+		break;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -85,7 +85,7 @@ switch($action){
 							添加新数据:
 							<input class="userinput vpr" type="text" name="title" />
 							<button class="userbtn">添加</button>
-<!--							<a class="userbtn" href="?act=--><?//=$act?><!--&action=del_all">删除所有数据</a>-->
+							<a class="userbtn" href="?act=<?=$act?>&action=del_all">删除所有数据</a>
 							</form>
 						</div>
 						<div class="upload" id="upload">
@@ -97,7 +97,7 @@ switch($action){
 				</div>
 				<div class="conShow">
 					<span style="float:right">合计(<?=data_num($act)?>)</span>
-					<table border="1" cellspacing="0" cellpadding="0" width="100%">
+					<table border="1" cellspacing="0" cellpadding="0" width="100%" id="neirong">
 						<tr>
 							<td width="66px" class="tdColor tdC">序号</td>
 							<td class="tdColor">内容</td>
@@ -109,44 +109,6 @@ switch($action){
 							?>
 							<td width="70px" class="tdColor">操作</td>
 						</tr>
-						<?php
-						if(list_data($act,$page)){
-							foreach(list_data($act,$page) as $row){
-								//if (isset($id)&&$id == $row['id']&&$action=="edit") {
-									?>
-<!--									<tr bgcolor="#999">-->
-<!--									<form action='?act=--><?//= $act ?><!--&action=save&page=--><?//= $page ?><!--&id=--><?//= $id ?><!--' method='post'>-->
-<!--										<td height="40px">--><?//= $row['id'] ?><!--</td>-->
-<!--										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="--><?//= $row['title'] ?><!--"/>-->
-<!--										</td>-->
-<!--										--><?php
-//										if($act=="url"){
-//											echo "<td>".$row['count']."</td><td>查看</td>";
-//										}
-//										?>
-<!--										<td>-->
-<!--											<button><img src="img/ok.png"></button><a href="?act=--><?//= $act ?><!--&page=--><?//= $page ?><!--"><img src="img/no.png"></a></td>-->
-<!--									</form>-->
-<!--									</tr>-->
-									<?php
-								//}else {
-									?>
-									<tr>
-									<td height="40px"><?= $row['id'] ?></td>
-									<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
-										<?php
-										if($act=="url"){
-											echo "<td>".$row['count']."</td><td><a href='javascript:void(0)' onclick=\"javascript:alert('Google:".$row['google']." | Baidu:".$row['baidu']." | Bing:".$row['bing']." | Yahoo:".$row['yahoo']." | Sogou:".$row['sogou']." | 360:".$row['360']."')\">查看</a></td>";
-										}
-										?>
-									<td>
-										<!--<a href="?act=<?= $act ?>&action=edit&page=<?= $page ?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> --><a href="?act=<?=$act?>&action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
-									</tr>
-									<?php
-								//}
-							}
-						}
-						?>
 					</table>
 					
 					<div class="paging">
@@ -158,5 +120,28 @@ switch($action){
 			</div>
 		</div>
 	</div>
+<script type="text/javascript">
+	$.post('ajax_data.php',{act:"ajax_list_data", data:{"from":"<?=$act?>","page":"<?=$page?>","type":""}},
+		function(result){
+			var neirong=result.data;
+			var str="";
+			var act="<?=$act?>";
+			for ( var p in neirong ){
+				if(typeof neirong[p]=="object") {
+					str += "<tr>";
+					str += "<td height='40px'>" + neirong[p]['id'] + "</td>";
+					str += "<td style='text-align:left;padding-left:20px;'>" + neirong[p]['title'] + "</td>";
+
+					if (act == "url") {
+						str += "<td>" + neirong[p]['count'] + "</td><td><a href='javascript:void(0)' onclick=\"javascript:alert('Google:" + neirong[p]['google'] + " | Baidu:" + neirong[p]['baidu'] + " | Bing:" + neirong[p]['bing'] + " | Yahoo:" + neirong[p]['yahoo'] + " | Sogou:" + neirong[p]['gogou'] + " | 360:" + neirong[p]['360'] + "')\">查看</a></td>";
+					}
+					str += "<td>";
+					str += "<a href='?act=" + act + "&action=del&page=<?=$page?>&id=" + neirong[p]['id'] + "'><img class='operation delban' src='img/delete.png'></a></td>";
+					str += "</tr>";
+				}
+			}
+			$("#neirong").append(str);
+		},"json");
+</script>
 </body>
 </html>

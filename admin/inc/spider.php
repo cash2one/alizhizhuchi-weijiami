@@ -35,7 +35,7 @@ class spider
         $ref = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '无来路';
         $ipdz=$this->getIp();
         $time=time();
-        $sql="insert into spider (`ssyq`,`fwdz`,`lldz`,`ipdz`,`age`,`rq`) values ('$engine','http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}','$ref','$ipdz','$agent',$time)";
+        $sql="insert into spider (`ssyq`,`fwdz`,`lldz`,`ipdz`,`age`,`rq`,`ipinfo`) values ('$engine','http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}','$ref','$ipdz','$agent',$time,'".convertip($ipdz)."')";
         $mysqli->query($sql);
     }
     function record()

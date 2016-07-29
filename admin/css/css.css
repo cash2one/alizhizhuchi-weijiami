@@ -15,7 +15,12 @@ a {
 li {
 	list-style-type: none;
 }
-
+em{
+	font-style:normal;
+}
+#newver,#newver a{
+	font-size:20px;
+}
 /*全局定义css*/
 #pageAll {
 	padding:0 40px;
@@ -24,6 +29,10 @@ li {
 	border-bottom:2px solid #4390b9;
 	line-height:40px;
 	font-size:20px;
+}
+#pageAll .wellcom ul{
+	float:left;
+	width:50%;
 }
 #pageAll .wellcom span {font-style:italic;color:red;font-size:20px;}
 #pageAll .page {

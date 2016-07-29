@@ -34,16 +34,11 @@ if($ver&&$ver_date&&$zip){
 			$zip->close();
 			//复制文件到根目录
 			recurse_copy($upload_dir.$ver,"../");
-			//如果根目录有update.sql文件,那么执行数据库更新
-			$file = fopen("/update.sql");
+			//后期交给update.php文件执行
+			$file = file_exists("ver_update.php");
 			if($file){
-				while(!feof($file))
-				{
-					$line= fgets($file);
-					$mysqli->query($line);
-				}
-				fclose($file);
-				unlink("/update.sql");
+				include("ver_update.php");
+				unlink("ver_update.php");
 			}
 			//更新数据库
 			$mysqli->query("update config set ver='".base64_encode($ver)."',ver_date='".base64_encode($ver_date)."' limit 1");
