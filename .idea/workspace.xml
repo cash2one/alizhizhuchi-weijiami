@@ -7,7 +7,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/neirong.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/shouye.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates_down.php" afterPath="$PROJECT_DIR$/admin/templates_down.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/update.php" afterPath="$PROJECT_DIR$/admin/update.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,14 +38,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates_down.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <marker date="1469807765000" expanded="true" signature="1086:1173" ph="insert into templates... " />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,7 +128,6 @@
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
         <option value="$PROJECT_DIR$/admin/log.php" />
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
-        <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/templates/moban9/index.html" />
         <option value="$PROJECT_DIR$/templates/moban8/neirong.html" />
@@ -160,6 +157,7 @@
         <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/adminer.sql" />
         <option value="$PROJECT_DIR$/admin/templates_down.php" />
+        <option value="$PROJECT_DIR$/admin/update.php" />
       </list>
     </option>
   </component>
@@ -475,14 +473,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="43161000" />
-    </task>
-    <task id="LOCAL-00034" summary="调整菜单顺序,把常用的外推链接放在前面">
-      <created>1468881468457</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1468881468457</updated>
+      <workItem from="1469686923634" duration="44034000" />
     </task>
     <task id="LOCAL-00035" summary="加入服务器授权验证">
       <created>1469030817601</created>
@@ -820,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469806026188</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="先判断是否删除模板包,再进行调整,防止删除未执行完就跳转导致删除失败">
+      <created>1469807916688</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1469807916688</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209035000" />
+    <option name="totallyTimeSpent" value="209908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新空数据库" />
     <MESSAGE value="自动授权验证后重新读取授权信息" />
     <MESSAGE value="txt上传,过滤空行" />
     <MESSAGE value="txt导入加入加载效果" />
@@ -896,7 +893,8 @@
     <MESSAGE value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
     <MESSAGE value="增加无ZipArchive扩展提示" />
     <MESSAGE value="检测ZipArchive扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="检测ZipArchive扩展" />
+    <MESSAGE value="先判断是否删除模板包,再进行调整,防止删除未执行完就跳转导致删除失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="先判断是否删除模板包,再进行调整,防止删除未执行完就跳转导致删除失败" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,14 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1408,6 +1398,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <marker date="1469807765000" expanded="true" signature="1086:1173" ph="insert into templates... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1416,13 +1416,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <marker date="1469807765000" expanded="true" signature="1086:1173" ph="insert into templates... " />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script>
 		$(function(){
-			$('#update .down').click(function(){
+			$('#down').click(function(){
 				$('#loading').show();
 			});
 		})
@@ -45,7 +45,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 							<dd><span>版本:</span>v<?=$result->title?></dd>
 							<dd class="deail"><span>说明:</span><p><?=$result->detail?></p></dd>
 							<dd><span>日期:</span><?=date('Y-m-d',$result->date)?></dd>
-							<dd><a class="down" href="update_down.php?ver=<?=$result->title?>&ver_date=<?=$result->date?>&zip=<?=$result->zip?>">更新</a></dd>
+							<dd><a id="down" href="update_down.php?ver=<?=$result->title?>&ver_date=<?=$result->date?>&zip=<?=$result->zip?>">更新</a></dd>
 						</dl>
 						<?php
 					}
