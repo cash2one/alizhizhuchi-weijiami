@@ -28,19 +28,23 @@ if($title&&$name&&$zip){
 	if ($newf) {
 		fclose($newf);
 		//下载后解压缩
-		$zip=new ZipArchive();
-		if($zip->open($dir)===TRUE){
-			$zip->extractTo('../templates/'.$title);
-			$zip->close();
-			//写入数据库
-			$mysqli->query("insert into templates (`title`,`ok`,`name`) VALUES ('".$title."',1,'".$name."')");
-			//删除模板包
-			unlink($dir);
+        if(class_exists('ZipArchive')) {
+            $zip = new ZipArchive();
+            if ($zip->open($dir) === TRUE) {
+                $zip->extractTo('../templates/' . $title);
+                $zip->close();
+                //写入数据库
+                $mysqli->query("insert into templates (`title`,`ok`,`name`) VALUES ('" . $title . "',1,'" . $name . "')");
+                //删除模板包
+                unlink($dir);
 //		echo "下载成功";
-			header("Location: templates.php");
-		}else{
-			echo "解压失败,请确认已开启ZipArchive扩展";
-		}
+                header("Location: templates.php");
+            } else {
+                echo "解压失败:".$dir."|".$title;
+            }
+        }else{
+            echo "请开启ZipArchive扩展";
+        }
 	}else{
 		echo "下载失败";
 	}

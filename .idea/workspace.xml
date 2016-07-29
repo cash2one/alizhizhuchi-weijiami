@@ -42,9 +42,9 @@
         <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
-                <marker date="1469805216000" expanded="true" signature="965:1044" ph="insert into templates... " />
+                <marker date="1469805749000" expanded="true" signature="1086:1173" ph="insert into templates... " />
               </folding>
             </state>
           </provider>
@@ -475,14 +475,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="40996000" />
-    </task>
-    <task id="LOCAL-00032" summary="修复24小时分析多了24点&#10;去掉首页今日蜘蛛数,增加今日预计蜘蛛数">
-      <created>1468881136095</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1468881136095</updated>
+      <workItem from="1469686923634" duration="41698000" />
     </task>
     <task id="LOCAL-00033" summary="更新版本号1.2.3">
       <created>1468881336022</created>
@@ -820,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469803467588</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="增加无ZipArchive扩展提示">
+      <created>1469805288351</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1469805288351</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206870000" />
+    <option name="totallyTimeSpent" value="207572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +871,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去掉curl超时限制" />
     <MESSAGE value="首次授权验证逻辑判断修正&#10;更新数据库文件为adminer,方便导入" />
     <MESSAGE value="更新空数据库" />
     <MESSAGE value="自动授权验证后重新读取授权信息" />
@@ -896,7 +895,8 @@
     <MESSAGE value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
     <MESSAGE value="给spider表ssyq字段添加索引，进一步加快后台搜索引擎检索速度" />
     <MESSAGE value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
+    <MESSAGE value="增加无ZipArchive扩展提示" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加无ZipArchive扩展提示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1419,9 +1419,9 @@
     <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
-            <marker date="1469805216000" expanded="true" signature="965:1044" ph="insert into templates... " />
+            <marker date="1469805749000" expanded="true" signature="1086:1173" ph="insert into templates... " />
           </folding>
         </state>
       </provider>
