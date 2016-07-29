@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/29/2016 22:32:25 PM
+ Date: 07/29/2016 22:43:35 PM
 */
 
 SET NAMES utf8;
@@ -54,7 +54,7 @@ CREATE TABLE `config` (
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS4yLjU=', 'MTQ2OTU4NDgwMA==', '', '');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjE=', 'MTQ2OTgwODAwMA==', '', '');
 COMMIT;
 
 -- ----------------------------
