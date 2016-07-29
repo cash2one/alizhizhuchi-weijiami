@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic.php" afterPath="$PROJECT_DIR$/admin/inc/lic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,23 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lic.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="405">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
               <folding>
-                <marker date="1469772396000" expanded="true" signature="362:592" ph="update confi... " />
-                <marker date="1469772396000" expanded="true" signature="717:754" ph="select count... " />
-                <marker date="1469772396000" expanded="true" signature="926:969" ph="delete from " />
-                <marker date="1469772396000" expanded="true" signature="1093:1143" ph="select count... " />
-                <marker date="1469772396000" expanded="true" signature="1327:1387" ph="update templ... " />
-                <marker date="1469772396000" expanded="true" signature="1942:2270" ph="update confi... " />
-                <marker date="1469772396000" expanded="true" signature="2945:2982" ph="select count... " />
-                <marker date="1469772396000" expanded="true" signature="3170:3213" ph="delete from " />
-                <marker date="1469772396000" expanded="true" signature="3353:3403" ph="select count... " />
-                <marker date="1469772396000" expanded="true" signature="3603:3663" ph="update templ... " />
-                <marker date="1469772396000" expanded="true" signature="3723:3909" ph="update confi... " />
+                <marker date="1469773196000" expanded="true" signature="6058:6112" ph="select title... spiderset" />
               </folding>
             </state>
           </provider>
@@ -101,10 +91,10 @@
         <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
-        <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/update_down.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
+        <option value="$PROJECT_DIR$/admin/main.php" />
       </list>
     </option>
   </component>
@@ -369,14 +359,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="27887000" />
-    </task>
-    <task id="LOCAL-00023" summary="优化模板随机记录读取效率,定版本为1.2">
-      <created>1468221884470</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1468221884470</updated>
+      <workItem from="1469686923634" duration="28764000" />
     </task>
     <task id="LOCAL-00024" summary="修改文字错误">
       <created>1468392569683</created>
@@ -714,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469763869563</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="手动更新授权,不改变自动验证时间,防止时间变化,不发送客户端数据">
+      <created>1469772462614</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1469772462614</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193761000" />
+    <option name="totallyTimeSpent" value="194638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,7 +755,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去掉后台授权验证,验证全部交由前台运行,后台只判断授权过期" />
     <MESSAGE value="增加模板在线下载&#10;增加模板下载loading等待图片&#10;模板安装后删除模板包" />
     <MESSAGE value="后台头部广告读取服务器" />
     <MESSAGE value="vip页面增加授权截止日期" />
@@ -790,7 +779,8 @@
     <MESSAGE value="新增模板9" />
     <MESSAGE value="修正模板9" />
     <MESSAGE value="v1.3.0&#10;增加纯真IP库,获取蜘蛛存入数据库时读取IP地址信息&#10;优化后台数据读取操作,改为ajax方式,加快页面打开速度&#10;开启info清空操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0&#10;增加纯真IP库,获取蜘蛛存入数据库时读取IP地址信息&#10;优化后台数据读取操作,改为ajax方式,加快页面打开速度&#10;开启info清空操作" />
+    <MESSAGE value="手动更新授权,不改变自动验证时间,防止时间变化,不发送客户端数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="手动更新授权,不改变自动验证时间,防止时间变化,不发送客户端数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1092,36 +1075,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/spider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#span#5;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1469758011000" expanded="true" signature="3454:3488" ph="..." />
-            <marker date="1469758011000" expanded="true" signature="3551:3585" ph="..." />
-            <marker date="1469758011000" expanded="true" signature="3648:3682" ph="..." />
-            <marker date="1469758011000" expanded="true" signature="3745:3779" ph="..." />
-            <marker date="1469758011000" expanded="true" signature="3958:3973" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
           <caret line="941" column="1" selection-start-line="941" selection-start-column="1" selection-end-line="941" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <marker date="1469760890000" expanded="true" signature="5758:5812" ph="select title... spiderset" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,6 +1215,38 @@
             <marker date="1469772396000" expanded="true" signature="3353:3403" ph="select count... " />
             <marker date="1469772396000" expanded="true" signature="3603:3663" ph="update templ... " />
             <marker date="1469772396000" expanded="true" signature="3723:3909" ph="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/spider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <marker date="1469758011000" expanded="true" signature="3454:3488" ph="..." />
+            <marker date="1469758011000" expanded="true" signature="3551:3585" ph="..." />
+            <marker date="1469758011000" expanded="true" signature="3648:3682" ph="..." />
+            <marker date="1469758011000" expanded="true" signature="3745:3779" ph="..." />
+            <marker date="1469758011000" expanded="true" signature="3958:3973" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <marker date="1469773196000" expanded="true" signature="6058:6112" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>

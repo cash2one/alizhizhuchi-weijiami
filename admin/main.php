@@ -33,7 +33,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 			<img src="img/loading.gif" height="20">
 		</div>
 		<div class="page">
-			<div class="title">蜘蛛访问量<span><a href="?" class="loadimg">7日(<em id="zhizhu7ri"><img src="img/loading.gif" height="20"></em>)</a> | <a href="?act=30" class="loadimg">30日(<em id="zhizhu30ri"><img src="img/loading.gif" height="20"></em>)</a> | <a href="?act=hour" class="loadimg" style="color:red;">查看过去三天24小时数据分析</a></span></div>
+			<div class="title">蜘蛛访问量<span><a href="?" class="loadimg">7日(<em id="zhizhu7ri"><img src="img/loading.gif" height="20"></em>)</a> | <a href="?act=30" class="loadimg">30日(<em id="zhizhu30ri"><img src="img/loading.gif" height="20"></em>)</a> | 合计(<em id="heji"><img src="img/loading.gif" height="20"></em>)</a> | <a href="?act=hour" class="loadimg" style="color:red;">查看过去三天24小时数据分析</a></span></div>
 			<div id="main" style="width: 900px;height:300px;"><img src="img/loading.gif"></div>
 			<?php
 			if($act=='hour') {
@@ -60,13 +60,18 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 			function(result){
 				$("#zhizhu30ri").html(result.data);
 			},"json");
+			//获取合计蜘蛛统计
+			$.post('ajax_data.php',{act:"ajax_data_num", data:{"from":"spider","num":"all","day":"","type":""}},
+			function(result){
+				$("#heji").html(result.data);
+			},"json");
 			//蜘蛛来源统计
 			$.post('ajax_data.php',{act:"spider_type_list", data:""},
 			function(result){
 				$("#zhizhulaiyuan").html(result.data);
 			},"json");
 			//获取新版本
-			$.post('ajax_data.php',{act:"spider_type_list", data:""},
+			$.post('ajax_data.php',{act:"request_post", data:{"act":"update","ver_title":"<?=$config['ver']?>"}},
 			function(result){
 				if(result.data){
 					$("#newver").html(",发现新版本<a href='update.php'>立即更新</a>");
