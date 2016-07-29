@@ -41,7 +41,7 @@
       <file leaf-file-name="adminer.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adminer.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1074">
+            <state relative-caret-position="-1155">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -473,14 +473,7 @@
       <workItem from="1469670192585" duration="10386000" />
       <workItem from="1469686794866" duration="14000" />
       <workItem from="1469686885438" duration="21000" />
-      <workItem from="1469686923634" duration="39026000" />
-    </task>
-    <task id="LOCAL-00029" summary="计划外推链接增加各搜索引擎数量统计">
-      <created>1468828022040</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1468828022040</updated>
+      <workItem from="1469686923634" duration="39478000" />
     </task>
     <task id="LOCAL-00030" summary="修复首页30日数据统计分析日期排列">
       <created>1468831368362</created>
@@ -818,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469800964373</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多">
+      <created>1469802408995</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1469802408995</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204900000" />
+    <option name="totallyTimeSpent" value="205352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完善在线升级功能" />
     <MESSAGE value="更新说明重复" />
     <MESSAGE value="修复授权验证域名限制数据库名错误" />
     <MESSAGE value="去掉curl超时限制" />
@@ -894,7 +893,8 @@
     <MESSAGE value="信息页面和蜘蛛日志页面增加加载图片" />
     <MESSAGE value="修正外推蜘蛛详情中搜狗调用拼写错误" />
     <MESSAGE value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
+    <MESSAGE value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1415,7 +1415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adminer.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1074">
+        <state relative-caret-position="-1155">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

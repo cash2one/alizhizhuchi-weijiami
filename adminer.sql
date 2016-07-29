@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/29/2016 22:24:00 PM
+ Date: 07/29/2016 22:32:25 PM
 */
 
 SET NAMES utf8;
@@ -110,7 +110,8 @@ CREATE TABLE `spider` (
   `age` text,
   `rq` int(11) NOT NULL,
   `ipinfo` text,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `ssyq` (`ssyq`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
