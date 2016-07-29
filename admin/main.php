@@ -29,7 +29,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 	<div id="pageAll">
 		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span><em id="newver"><img src="img/loading.gif" height="20"></em>
 		</div>
-		<div class="wellcom clear" id="text1">
+		<div class="wellcom" id="text1">
 			<img src="img/loading.gif" height="20">
 		</div>
 		<div class="page">
@@ -87,11 +87,9 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 					var str='<ul>';
 					var time='';
 					var gonggao=JSON.parse(gonggao_list);
-					for(var i=0; i<gonggao.length; i++){
+					for(var i=0; i<3; i++){//设置只读取3条
+//					for(var i=0; i<gonggao.length; i++){
 						time = new Date(gonggao[i].date*1000);
-						if(i==3){
-							str+="</ul><ul>";
-						}
 						str+="<li><a href='"+gonggao[i].url+"' target='_blank'>("+(time.getMonth()+1)+"/"+time.getDate()+")"+gonggao[i].title+"</a></li>";
 					}
 					str+='</ul>';
