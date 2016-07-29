@@ -18,6 +18,10 @@ $page=isset($_GET['page'])?$_GET['page']:1;
 <title>蜘蛛日志-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <link rel="stylesheet" type="text/css" href="css/pageGroup.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<style>
+		#loading{display:block}
+	</style>
 </head>
 
 <body>
@@ -104,6 +108,7 @@ $page=isset($_GET['page'])?$_GET['page']:1;
 					}
 				}
 				$("#neirong").append(str);
+				$("#loading").hide();
 			},"json");
 	</script>
 </body>

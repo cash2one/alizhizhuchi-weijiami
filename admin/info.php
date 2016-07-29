@@ -56,6 +56,9 @@ switch($action){
 <title><?=$title?>-<?=SYSTEM_NAME?></title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
 <link rel="stylesheet" type="text/css" href="css/pageGroup.css" />
+	<style>
+		#loading{display:block}
+	</style>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script>
 		$(function(){
@@ -141,6 +144,7 @@ switch($action){
 				}
 			}
 			$("#neirong").append(str);
+			$("#loading").hide();
 		},"json");
 </script>
 </body>
