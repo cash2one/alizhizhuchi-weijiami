@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="修复update点击更新按钮不出现加载图片">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/neirong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/shouye.html" />
+    <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="189" column="61" selection-start-line="189" selection-start-column="61" selection-end-line="189" selection-end-column="61" />
+            <state relative-caret-position="285">
+              <caret line="503" column="0" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
               <folding>
                 <marker date="1469857627000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
                 <marker date="1469857627000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
@@ -102,6 +98,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+              <folding>
+                <marker date="1469867863000" expanded="true" signature="6203:6257" ph="select title... spiderset" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lic_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <marker date="1469864840000" expanded="true" signature="437:505" ph="update confi... " />
+                <marker date="1469864840000" expanded="true" signature="654:1043" ph="update confi... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="shouye.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,7 +147,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/moban10/map.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -187,17 +208,17 @@
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/sitemap.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
-        <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/adminer.sql" />
         <option value="$PROJECT_DIR$/admin/templates_down.php" />
         <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
-        <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/templates/moban9/map.html" />
         <option value="$PROJECT_DIR$/templates/moban10/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban10/map.html" />
         <option value="$PROJECT_DIR$/templates/moban10/shouye.html" />
+        <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
+        <option value="$PROJECT_DIR$/admin/main.php" />
       </list>
     </option>
   </component>
@@ -216,7 +237,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
+    <option name="x" value="50" />
     <option name="y" value="23" />
     <option name="width" value="1389" />
     <option name="height" value="877" />
@@ -571,14 +592,7 @@
       <workItem from="1469844081437" duration="178000" />
       <workItem from="1469844804014" duration="3379000" />
       <workItem from="1469857624916" duration="258000" />
-      <workItem from="1469858061872" duration="4263000" />
-    </task>
-    <task id="LOCAL-00038" summary="授权验证放到登录页,加快速度&#10;更新域名限制和模板限制">
-      <created>1469240709954</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1469240709954</updated>
+      <workItem from="1469858061872" duration="6833000" />
     </task>
     <task id="LOCAL-00039" summary="获取服务器模板信息">
       <created>1469284432674</created>
@@ -916,11 +930,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469859155257</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="模板十">
+      <created>1469863744689</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1469863744689</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218397000" />
+    <option name="totallyTimeSpent" value="220967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -932,7 +953,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="877" extended-state="0" />
+    <frame x="50" y="23" width="1389" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -967,7 +988,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去掉测试外链提醒" />
     <MESSAGE value="更改系统名称" />
     <MESSAGE value="开启24小时分析" />
     <MESSAGE value="24小时分析时间标注错误" />
@@ -992,7 +1012,8 @@
     <MESSAGE value="修复update点击更新按钮不出现加载图片" />
     <MESSAGE value="授权加入服务器连接失败提示,及3次重试机会" />
     <MESSAGE value="数据库config增加服务器重试次数link字段,lic重试改为10分钟" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库config增加服务器重试次数link字段,lic重试改为10分钟" />
+    <MESSAGE value="模板十" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板十" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,20 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminer.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1255,17 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <marker date="1469857758000" expanded="true" signature="437:505" ph="update confi... " />
-            <marker date="1469857758000" expanded="true" signature="654:1043" ph="update confi... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,10 +1306,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban8/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban5/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban9/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="191" column="40" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
+          <folding>
+            <element signature="e#1742#1748#0" expanded="false" />
+            <element signature="e#1748#1754#0" expanded="false" />
+            <element signature="e#1824#1830#0" expanded="false" />
+            <element signature="e#1830#1836#0" expanded="false" />
+            <element signature="e#1906#1912#0" expanded="false" />
+            <element signature="e#1912#1918#0" expanded="false" />
+            <element signature="e#1988#1994#0" expanded="false" />
+            <element signature="e#1994#2000#0" expanded="false" />
+            <element signature="e#2070#2076#0" expanded="false" />
+            <element signature="e#2076#2082#0" expanded="false" />
+            <element signature="e#2152#2158#0" expanded="false" />
+            <element signature="e#2158#2164#0" expanded="false" />
+            <element signature="e#2234#2240#0" expanded="false" />
+            <element signature="e#2240#2246#0" expanded="false" />
+            <element signature="e#2316#2322#0" expanded="false" />
+            <element signature="e#2322#2328#0" expanded="false" />
+            <element signature="e#2398#2404#0" expanded="false" />
+            <element signature="e#2404#2410#0" expanded="false" />
+            <element signature="e#2480#2486#0" expanded="false" />
+            <element signature="e#2486#2492#0" expanded="false" />
+            <element signature="e#2562#2568#0" expanded="false" />
+            <element signature="e#2568#2574#0" expanded="false" />
+            <element signature="e#2644#2650#0" expanded="false" />
+            <element signature="e#2650#2656#0" expanded="false" />
+            <element signature="e#2726#2732#0" expanded="false" />
+            <element signature="e#2732#2738#0" expanded="false" />
+            <element signature="e#2808#2814#0" expanded="false" />
+            <element signature="e#2814#2820#0" expanded="false" />
+            <element signature="e#2890#2896#0" expanded="false" />
+            <element signature="e#2896#2902#0" expanded="false" />
+            <element signature="e#2972#2978#0" expanded="false" />
+            <element signature="e#2978#2984#0" expanded="false" />
+            <element signature="e#3054#3060#0" expanded="false" />
+            <element signature="e#3060#3066#0" expanded="false" />
+            <element signature="e#3136#3142#0" expanded="false" />
+            <element signature="e#3142#3148#0" expanded="false" />
+            <element signature="e#3218#3224#0" expanded="false" />
+            <element signature="e#3224#3230#0" expanded="false" />
+            <element signature="e#3300#3306#0" expanded="false" />
+            <element signature="e#3306#3312#0" expanded="false" />
+            <element signature="e#3382#3388#0" expanded="false" />
+            <element signature="e#3388#3394#0" expanded="false" />
+            <element signature="e#3464#3470#0" expanded="false" />
+            <element signature="e#3470#3476#0" expanded="false" />
+            <element signature="e#3546#3552#0" expanded="false" />
+            <element signature="e#3552#3558#0" expanded="false" />
+            <element signature="e#3628#3634#0" expanded="false" />
+            <element signature="e#3634#3640#0" expanded="false" />
+            <element signature="e#3710#3716#0" expanded="false" />
+            <element signature="e#3716#3722#0" expanded="false" />
+            <element signature="e#3792#3798#0" expanded="false" />
+            <element signature="e#3798#3804#0" expanded="false" />
+            <element signature="e#3874#3880#0" expanded="false" />
+            <element signature="e#3880#3886#0" expanded="false" />
+            <element signature="e#3956#3962#0" expanded="false" />
+            <element signature="e#3962#3968#0" expanded="false" />
+            <element signature="e#4038#4044#0" expanded="false" />
+            <element signature="e#4044#4050#0" expanded="false" />
+            <element signature="e#4120#4126#0" expanded="false" />
+            <element signature="e#4126#4132#0" expanded="false" />
+            <element signature="e#4202#4208#0" expanded="false" />
+            <element signature="e#4208#4214#0" expanded="false" />
+            <element signature="e#4284#4290#0" expanded="false" />
+            <element signature="e#4290#4296#0" expanded="false" />
+            <element signature="e#4366#4372#0" expanded="false" />
+            <element signature="e#4372#4378#0" expanded="false" />
+            <element signature="e#4448#4454#0" expanded="false" />
+            <element signature="e#4454#4460#0" expanded="false" />
+            <element signature="e#4530#4536#0" expanded="false" />
+            <element signature="e#4536#4542#0" expanded="false" />
+            <element signature="e#4612#4618#0" expanded="false" />
+            <element signature="e#4618#4624#0" expanded="false" />
+            <element signature="e#4694#4700#0" expanded="false" />
+            <element signature="e#4700#4706#0" expanded="false" />
+            <element signature="e#4776#4782#0" expanded="false" />
+            <element signature="e#4782#4788#0" expanded="false" />
+            <element signature="e#4858#4864#0" expanded="false" />
+            <element signature="e#4864#4870#0" expanded="false" />
+            <element signature="e#4940#4946#0" expanded="false" />
+            <element signature="e#4946#4952#0" expanded="false" />
+            <element signature="e#5022#5028#0" expanded="false" />
+            <element signature="e#5028#5034#0" expanded="false" />
+            <element signature="e#5104#5110#0" expanded="false" />
+            <element signature="e#5110#5116#0" expanded="false" />
+            <element signature="e#5186#5192#0" expanded="false" />
+            <element signature="e#5192#5198#0" expanded="false" />
+            <element signature="e#5268#5274#0" expanded="false" />
+            <element signature="e#5274#5280#0" expanded="false" />
+            <element signature="e#5350#5356#0" expanded="false" />
+            <element signature="e#5356#5362#0" expanded="false" />
+            <element signature="e#5432#5438#0" expanded="false" />
+            <element signature="e#5438#5444#0" expanded="false" />
+            <element signature="e#5514#5520#0" expanded="false" />
+            <element signature="e#5520#5526#0" expanded="false" />
+            <element signature="e#5596#5602#0" expanded="false" />
+            <element signature="e#5602#5608#0" expanded="false" />
+            <element signature="e#5678#5684#0" expanded="false" />
+            <element signature="e#5684#5690#0" expanded="false" />
+            <element signature="e#5760#5766#0" expanded="false" />
+            <element signature="e#5766#5772#0" expanded="false" />
+            <element signature="e#5842#5848#0" expanded="false" />
+            <element signature="e#5848#5854#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="e#11246#11252#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban10/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#7207#7213#0" expanded="true" />
+            <element signature="e#7268#7274#0" expanded="true" />
+            <element signature="e#7328#7334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="50" column="111" selection-start-line="50" selection-start-column="111" selection-end-line="50" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban10/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#A#5;n#LI#0;n#UL#0;n#DIV#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28705#28711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="189" column="61" selection-start-line="189" selection-start-column="61" selection-end-line="189" selection-end-column="61" />
+        <state relative-caret-position="285">
+          <caret line="503" column="0" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
           <folding>
             <marker date="1469857627000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
             <marker date="1469857627000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
@@ -1382,162 +1538,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban8/shouye.html">
+    <entry file="file://$PROJECT_DIR$/adminer.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban5/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-390">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban9/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="191" column="40" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
-          <folding>
-            <element signature="e#1742#1748#0" expanded="true" />
-            <element signature="e#1748#1754#0" expanded="true" />
-            <element signature="e#1824#1830#0" expanded="true" />
-            <element signature="e#1830#1836#0" expanded="true" />
-            <element signature="e#1906#1912#0" expanded="true" />
-            <element signature="e#1912#1918#0" expanded="true" />
-            <element signature="e#1988#1994#0" expanded="true" />
-            <element signature="e#1994#2000#0" expanded="true" />
-            <element signature="e#2070#2076#0" expanded="true" />
-            <element signature="e#2076#2082#0" expanded="true" />
-            <element signature="e#2152#2158#0" expanded="true" />
-            <element signature="e#2158#2164#0" expanded="true" />
-            <element signature="e#2234#2240#0" expanded="true" />
-            <element signature="e#2240#2246#0" expanded="true" />
-            <element signature="e#2316#2322#0" expanded="true" />
-            <element signature="e#2322#2328#0" expanded="true" />
-            <element signature="e#2398#2404#0" expanded="true" />
-            <element signature="e#2404#2410#0" expanded="true" />
-            <element signature="e#2480#2486#0" expanded="true" />
-            <element signature="e#2486#2492#0" expanded="true" />
-            <element signature="e#2562#2568#0" expanded="true" />
-            <element signature="e#2568#2574#0" expanded="true" />
-            <element signature="e#2644#2650#0" expanded="true" />
-            <element signature="e#2650#2656#0" expanded="true" />
-            <element signature="e#2726#2732#0" expanded="true" />
-            <element signature="e#2732#2738#0" expanded="true" />
-            <element signature="e#2808#2814#0" expanded="true" />
-            <element signature="e#2814#2820#0" expanded="true" />
-            <element signature="e#2890#2896#0" expanded="true" />
-            <element signature="e#2896#2902#0" expanded="true" />
-            <element signature="e#2972#2978#0" expanded="true" />
-            <element signature="e#2978#2984#0" expanded="true" />
-            <element signature="e#3054#3060#0" expanded="true" />
-            <element signature="e#3060#3066#0" expanded="true" />
-            <element signature="e#3136#3142#0" expanded="true" />
-            <element signature="e#3142#3148#0" expanded="true" />
-            <element signature="e#3218#3224#0" expanded="true" />
-            <element signature="e#3224#3230#0" expanded="true" />
-            <element signature="e#3300#3306#0" expanded="true" />
-            <element signature="e#3306#3312#0" expanded="true" />
-            <element signature="e#3382#3388#0" expanded="true" />
-            <element signature="e#3388#3394#0" expanded="true" />
-            <element signature="e#3464#3470#0" expanded="true" />
-            <element signature="e#3470#3476#0" expanded="true" />
-            <element signature="e#3546#3552#0" expanded="true" />
-            <element signature="e#3552#3558#0" expanded="true" />
-            <element signature="e#3628#3634#0" expanded="true" />
-            <element signature="e#3634#3640#0" expanded="true" />
-            <element signature="e#3710#3716#0" expanded="true" />
-            <element signature="e#3716#3722#0" expanded="true" />
-            <element signature="e#3792#3798#0" expanded="true" />
-            <element signature="e#3798#3804#0" expanded="true" />
-            <element signature="e#3874#3880#0" expanded="true" />
-            <element signature="e#3880#3886#0" expanded="true" />
-            <element signature="e#3956#3962#0" expanded="true" />
-            <element signature="e#3962#3968#0" expanded="true" />
-            <element signature="e#4038#4044#0" expanded="true" />
-            <element signature="e#4044#4050#0" expanded="true" />
-            <element signature="e#4120#4126#0" expanded="true" />
-            <element signature="e#4126#4132#0" expanded="true" />
-            <element signature="e#4202#4208#0" expanded="true" />
-            <element signature="e#4208#4214#0" expanded="true" />
-            <element signature="e#4284#4290#0" expanded="true" />
-            <element signature="e#4290#4296#0" expanded="true" />
-            <element signature="e#4366#4372#0" expanded="true" />
-            <element signature="e#4372#4378#0" expanded="true" />
-            <element signature="e#4448#4454#0" expanded="true" />
-            <element signature="e#4454#4460#0" expanded="true" />
-            <element signature="e#4530#4536#0" expanded="true" />
-            <element signature="e#4536#4542#0" expanded="true" />
-            <element signature="e#4612#4618#0" expanded="true" />
-            <element signature="e#4618#4624#0" expanded="true" />
-            <element signature="e#4694#4700#0" expanded="true" />
-            <element signature="e#4700#4706#0" expanded="true" />
-            <element signature="e#4776#4782#0" expanded="true" />
-            <element signature="e#4782#4788#0" expanded="true" />
-            <element signature="e#4858#4864#0" expanded="true" />
-            <element signature="e#4864#4870#0" expanded="true" />
-            <element signature="e#4940#4946#0" expanded="true" />
-            <element signature="e#4946#4952#0" expanded="true" />
-            <element signature="e#5022#5028#0" expanded="true" />
-            <element signature="e#5028#5034#0" expanded="true" />
-            <element signature="e#5104#5110#0" expanded="true" />
-            <element signature="e#5110#5116#0" expanded="true" />
-            <element signature="e#5186#5192#0" expanded="true" />
-            <element signature="e#5192#5198#0" expanded="true" />
-            <element signature="e#5268#5274#0" expanded="true" />
-            <element signature="e#5274#5280#0" expanded="true" />
-            <element signature="e#5350#5356#0" expanded="true" />
-            <element signature="e#5356#5362#0" expanded="true" />
-            <element signature="e#5432#5438#0" expanded="true" />
-            <element signature="e#5438#5444#0" expanded="true" />
-            <element signature="e#5514#5520#0" expanded="true" />
-            <element signature="e#5520#5526#0" expanded="true" />
-            <element signature="e#5596#5602#0" expanded="true" />
-            <element signature="e#5602#5608#0" expanded="true" />
-            <element signature="e#5678#5684#0" expanded="true" />
-            <element signature="e#5684#5690#0" expanded="true" />
-            <element signature="e#5760#5766#0" expanded="true" />
-            <element signature="e#5766#5772#0" expanded="true" />
-            <element signature="e#5842#5848#0" expanded="true" />
-            <element signature="e#5848#5854#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="e#11246#11252#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban10/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#7207#7213#0" expanded="true" />
-            <element signature="e#7268#7274#0" expanded="true" />
-            <element signature="e#7328#7334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban10/shouye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="50" column="111" selection-start-line="50" selection-start-column="111" selection-end-line="50" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban10/map.html">
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#A#5;n#LI#0;n#UL#0;n#DIV#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28705#28711#0" expanded="true" />
+            <marker date="1469864840000" expanded="true" signature="437:505" ph="update confi... " />
+            <marker date="1469864840000" expanded="true" signature="654:1043" ph="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding>
+            <marker date="1469867863000" expanded="true" signature="6203:6257" ph="select title... spiderset" />
           </folding>
         </state>
       </provider>

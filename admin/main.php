@@ -86,11 +86,16 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 				if(gonggao_list){
 					var str='<ul>';
 					var time='';
+					var tar='';
 					var gonggao=JSON.parse(gonggao_list);
 					for(var i=0; i<3; i++){//设置只读取3条
 //					for(var i=0; i<gonggao.length; i++){
+						var ggurl=gonggao[i].url;
+						if(ggurl.indexOf("http")>=0){
+							tar=" target='_blank'";
+						}
 						time = new Date(gonggao[i].date*1000);
-						str+="<li><a href='"+gonggao[i].url+"' target='_blank'>("+(time.getMonth()+1)+"/"+time.getDate()+")"+gonggao[i].title+"</a></li>";
+						str+="<li><a href='"+gonggao[i].url+"'"+tar+">("+(time.getMonth()+1)+"/"+time.getDate()+")"+gonggao[i].title+"</a></li>";
 					}
 					str+='</ul>';
 					$("#text1").html(str);
