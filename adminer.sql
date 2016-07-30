@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/29/2016 22:43:35 PM
+ Date: 07/30/2016 13:59:05 PM
 */
 
 SET NAMES utf8;
@@ -47,14 +47,15 @@ CREATE TABLE `config` (
   `ver` varchar(255) DEFAULT NULL,
   `ver_date` varchar(255) DEFAULT NULL,
   `date` varchar(255) DEFAULT NULL,
-  `enddate` varchar(255) DEFAULT NULL
+  `enddate` varchar(255) DEFAULT NULL,
+  `link` int(11) DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjE=', 'MTQ2OTgwODAwMA==', '', '');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjE=', 'MTQ2OTgwODAwMA==', '', '', '0');
 COMMIT;
 
 -- ----------------------------

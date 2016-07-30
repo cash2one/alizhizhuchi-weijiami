@@ -8,7 +8,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban10/shouye.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic.php" afterPath="$PROJECT_DIR$/admin/inc/lic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic_admin.php" afterPath="$PROJECT_DIR$/admin/inc/lic_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adminer.sql" afterPath="$PROJECT_DIR$/adminer.sql" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +35,6 @@
             <state relative-caret-position="285">
               <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lic_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <marker date="1469857758000" expanded="true" signature="437:505" ph="update confi... " />
-                <marker date="1469857758000" expanded="true" signature="654:1043" ph="update confi... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,25 +93,25 @@
       <file leaf-file-name="lic.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
               <folding>
-                <marker date="1469858064000" expanded="true" signature="457:694" ph="update confi... " />
-                <marker date="1469858064000" expanded="true" signature="819:856" ph="select count... " />
-                <marker date="1469858064000" expanded="true" signature="1028:1071" ph="delete from " />
-                <marker date="1469858064000" expanded="true" signature="1195:1245" ph="select count... " />
-                <marker date="1469858064000" expanded="true" signature="1429:1489" ph="update templ... " />
-                <marker date="1469858064000" expanded="true" signature="2141:2209" ph="update confi... " />
-                <marker date="1469858064000" expanded="true" signature="2374:2709" ph="update confi... " />
-                <marker date="1469858064000" expanded="true" signature="3384:3421" ph="select count... " />
-                <marker date="1469858064000" expanded="true" signature="3609:3652" ph="delete from " />
-                <marker date="1469858064000" expanded="true" signature="3792:3842" ph="select count... " />
-                <marker date="1469858064000" expanded="true" signature="4042:4102" ph="update templ... " />
-                <marker date="1469858064000" expanded="true" signature="4178:4201" ph="select link config" />
-                <marker date="1469858064000" expanded="true" signature="4178:4209" ph="select link config" />
-                <marker date="1469858064000" expanded="true" signature="4302:4326" ph="update confi... " />
-                <marker date="1469858064000" expanded="true" signature="4302:4380" ph="update confi... " />
-                <marker date="1469858064000" expanded="true" signature="4475:4543" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="457:694" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="819:856" ph="select count... " />
+                <marker date="1469858747000" expanded="true" signature="1028:1071" ph="delete from " />
+                <marker date="1469858747000" expanded="true" signature="1195:1245" ph="select count... " />
+                <marker date="1469858747000" expanded="true" signature="1429:1489" ph="update templ... " />
+                <marker date="1469858747000" expanded="true" signature="2141:2209" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="2374:2709" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="3384:3421" ph="select count... " />
+                <marker date="1469858747000" expanded="true" signature="3609:3652" ph="delete from " />
+                <marker date="1469858747000" expanded="true" signature="3792:3842" ph="select count... " />
+                <marker date="1469858747000" expanded="true" signature="4042:4102" ph="update templ... " />
+                <marker date="1469858747000" expanded="true" signature="4178:4201" ph="select link config" />
+                <marker date="1469858747000" expanded="true" signature="4178:4209" ph="select link config" />
+                <marker date="1469858747000" expanded="true" signature="4302:4326" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="4302:4380" ph="update confi... " />
+                <marker date="1469858747000" expanded="true" signature="4475:4543" ph="update confi... " />
               </folding>
             </state>
           </provider>
@@ -526,14 +513,7 @@
       <workItem from="1469844081437" duration="178000" />
       <workItem from="1469844804014" duration="3379000" />
       <workItem from="1469857624916" duration="258000" />
-      <workItem from="1469858061872" duration="21000" />
-    </task>
-    <task id="LOCAL-00036" summary="最新版获取">
-      <created>1469202636687</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1469202636687</updated>
+      <workItem from="1469858061872" duration="885000" />
     </task>
     <task id="LOCAL-00037" summary="授权验证放回lic_admin中">
       <created>1469234853797</created>
@@ -871,11 +851,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469808797161</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="授权加入服务器连接失败提示,及3次重试机会">
+      <created>1469858133969</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1469858133973</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214155000" />
+    <option name="totallyTimeSpent" value="215019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,7 +874,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
+    <frame x="51" y="23" width="1389" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -922,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="txt上传,过滤空行" />
     <MESSAGE value="txt导入加入加载效果" />
     <MESSAGE value="去掉测试外链提醒" />
     <MESSAGE value="更改系统名称" />
@@ -947,7 +933,8 @@
     <MESSAGE value="检测ZipArchive扩展" />
     <MESSAGE value="先判断是否删除模板包,再进行调整,防止删除未执行完就跳转导致删除失败" />
     <MESSAGE value="修复update点击更新按钮不出现加载图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复update点击更新按钮不出现加载图片" />
+    <MESSAGE value="授权加入服务器连接失败提示,及3次重试机会" />
+    <option name="LAST_COMMIT_MESSAGE" value="授权加入服务器连接失败提示,及3次重试机会" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1281,14 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1380,27 +1359,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban9/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="126">
+          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
           <folding>
-            <marker date="1469858064000" expanded="true" signature="457:694" ph="update confi... " />
-            <marker date="1469858064000" expanded="true" signature="819:856" ph="select count... " />
-            <marker date="1469858064000" expanded="true" signature="1028:1071" ph="delete from " />
-            <marker date="1469858064000" expanded="true" signature="1195:1245" ph="select count... " />
-            <marker date="1469858064000" expanded="true" signature="1429:1489" ph="update templ... " />
-            <marker date="1469858064000" expanded="true" signature="2141:2209" ph="update confi... " />
-            <marker date="1469858064000" expanded="true" signature="2374:2709" ph="update confi... " />
-            <marker date="1469858064000" expanded="true" signature="3384:3421" ph="select count... " />
-            <marker date="1469858064000" expanded="true" signature="3609:3652" ph="delete from " />
-            <marker date="1469858064000" expanded="true" signature="3792:3842" ph="select count... " />
-            <marker date="1469858064000" expanded="true" signature="4042:4102" ph="update templ... " />
-            <marker date="1469858064000" expanded="true" signature="4178:4201" ph="select link config" />
-            <marker date="1469858064000" expanded="true" signature="4178:4209" ph="select link config" />
-            <marker date="1469858064000" expanded="true" signature="4302:4326" ph="update confi... " />
-            <marker date="1469858064000" expanded="true" signature="4302:4380" ph="update confi... " />
-            <marker date="1469858064000" expanded="true" signature="4475:4543" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="457:694" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="819:856" ph="select count... " />
+            <marker date="1469858747000" expanded="true" signature="1028:1071" ph="delete from " />
+            <marker date="1469858747000" expanded="true" signature="1195:1245" ph="select count... " />
+            <marker date="1469858747000" expanded="true" signature="1429:1489" ph="update templ... " />
+            <marker date="1469858747000" expanded="true" signature="2141:2209" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="2374:2709" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="3384:3421" ph="select count... " />
+            <marker date="1469858747000" expanded="true" signature="3609:3652" ph="delete from " />
+            <marker date="1469858747000" expanded="true" signature="3792:3842" ph="select count... " />
+            <marker date="1469858747000" expanded="true" signature="4042:4102" ph="update templ... " />
+            <marker date="1469858747000" expanded="true" signature="4178:4201" ph="select link config" />
+            <marker date="1469858747000" expanded="true" signature="4178:4209" ph="select link config" />
+            <marker date="1469858747000" expanded="true" signature="4302:4326" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="4302:4380" ph="update confi... " />
+            <marker date="1469858747000" expanded="true" signature="4475:4543" ph="update confi... " />
           </folding>
         </state>
       </provider>

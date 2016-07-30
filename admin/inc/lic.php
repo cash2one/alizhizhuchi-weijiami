@@ -81,8 +81,8 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             }
         }else{
             $link=$mysqli->query("select link from config limit 1")->fetch_object()->link;
-            if($link<3){//连接服务器3次重试机会,30分钟一次
-                $sql="update config set date='".base64_encode((time()+30*60))."',link=link+1 limit 1";
+            if($link<3){//连接服务器3次重试机会,10分钟一次
+                $sql="update config set date='".base64_encode((time()+10*60))."',link=link+1 limit 1";
                 $mysqli->query($sql);
             }else{//3次连不上判定为未授权
                 $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
