@@ -11,12 +11,17 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
     //	授权验证,交给登录页
     $post_data['act'] = "shouquan";
     if ($request = request_post($post_data)) {
+        if($request==='5pyq5o6I5p2D'){//未授权
+            $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
+            $mysqli->query($sql);
+            echo SITE_NAME."警告:此域名未授权";exit;
+        }
         $result = json_decode($request);
-        $sql = "update config set title='" . $result->title . "',vip='" . base64_encode($result->vip) . "',domain='" . base64_encode($result->domain) . "',templates='" . base64_encode($result->templates) . "',enddate='" . base64_encode($result->enddate) . "',date='" . base64_encode(mt_rand(strtotime(date('Y-m-d', strtotime("+1 day"))), strtotime(date('Y-m-d', strtotime("+2 day"))))) . "' limit 1";
+        $sql = "update config set title='" . $result->title . "',vip='" . base64_encode($result->vip) . "',domain='" . base64_encode($result->domain) . "',templates='" . base64_encode($result->templates) . "',enddate='" . base64_encode($result->enddate) . "',date='" . base64_encode(mt_rand(strtotime(date('Y-m-d', strtotime("+1 day"))), strtotime(date('Y-m-d', strtotime("+2 day"))))) . "',link=0 limit 1";
         $mysqli->query($sql);
         $config=config_list();
     } else {
-        echo "此域名未授权";
+        echo "连接不到授权服务器,请检查网络";
         exit;
     }
 }
