@@ -2,11 +2,9 @@
 header("HTTP/1.1 200 OK");
 error_reporting(0);
 require("admin/inc/lic.php");
-require("admin/inc/data.php");
-require_once("admin/inc/spider.php");
+require("admin/inc/spider.php");
 define( "DIR", dirname( __FILE__ ) );
 $urlaa=$_SERVER['REQUEST_URI'];
-$yuming=$_SERVER['HTTP_HOST'];
 if(get_naps_bot() == false)
 //if(get_naps_bot() !== false)
 {
@@ -17,7 +15,7 @@ else
 {
 	if(stristr($urlaa,"sitemap")||stristr($urlaa,"sitemap.html"))
 	{
-		echo file_get_contents('http://'.$yuming.'/sitemap.php');
+		echo file_get_contents('sitemap.php');
 		exit();
 	}
 //	$sql="SELECT title FROM `templates` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `templates`)-(SELECT MIN(id) FROM `templates`))+(SELECT MIN(id) FROM `templates`)) AS id) AS t2 WHERE t1.id >= t2.id and t1.ok=1 ORDER BY t1.id LIMIT 1";
