@@ -39,9 +39,6 @@ if($a=="shouquan"){
 //自动授权验证
 $config=config_list();
 if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$config['domain']&&$config['templates']){//如果为空,可能为第一次使用,需要获取服务器信息
-    if(time()>$config['enddate']){//如果过期
-        echo SITE_NAME."警告:您的帐号已过期,请购买授权。";exit;
-    }
     if(($config['date']-time())>172800||time()>$config['date']){//如果验证时间大于当前时间48小时,或者当前时间大于验证时间,那么联网验证,一天联网验证一次
         $post_data['act']="shouquan";
         if($request=request_post($post_data)){
@@ -84,13 +81,20 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             if($link<3){//连接服务器3次重试机会,10分钟一次
                 $sql="update config set date='".base64_encode((time()+10*60))."',link=link+1 limit 1";
                 $mysqli->query($sql);
-            }else{//3次连不上判定为未授权
-                $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
+            }else{//3次连不上判定为未授权并且明天继续连接服务器
+                $sql="update config set date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
                 $mysqli->query($sql);
                 echo SITE_NAME."警告:此域名未授权";exit;
             }
         }
         $config=config_list();
+    }else{
+        if($config['link']>=3){//3次连不上判定为未授权
+            echo SITE_NAME."警告:此域名未授权";exit;
+        }
+    }
+    if(time()>$config['enddate']){//如果过期
+        echo SITE_NAME."警告:您的帐号已过期,请购买授权。";exit;
     }
 }else{
     echo SITE_NAME."警告:数据损坏";exit;

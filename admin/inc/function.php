@@ -131,11 +131,12 @@ function moban($moban){
     //$result=$mysqli->query("select * from url order by rand() limit 1");
     $row=$result->fetch_assoc();
     $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'></a>", $moban );
-    $mysqli->query("update url set count=count+1 where id=".$row['id']);
+
     //获取当前蜘蛛引擎并转为小写
     $ssyq=strtolower(get_naps_bot());
     if($ssyq&&$ssyq!==true) {//如果不为调试模式
-        $mysqli->query("update url set " . $ssyq . "=" . $ssyq . "+1 where id=" . $row['id']);
+        //$mysqli->query("update url set count=count+1 where id=".$row['id']);
+        $mysqli->query("update url set " . $ssyq . "=" . $ssyq . "+1,count=count+1 where id=" . $row['id']);
     }
 
     //随机关键词
@@ -535,7 +536,11 @@ function config_list(){
     if($result){
         $row=$result->fetch_assoc();
         foreach($row as $k=>$v){
-            $res[$k]=base64_decode($v);
+            if($k=='link'){
+                $res[$k]=$v;
+            }else{
+                $res[$k]=base64_decode($v);
+            }
         }
         return $res;
     }else{
@@ -562,7 +567,7 @@ function convertip($ip) {
     $ip2num = 0;
     $ipAddr1 ="";
     $ipAddr2 ="";
-    $dat_path = '../qqwry.dat';
+    $dat_path = './admin/qqwry.dat';
     if(!preg_match("/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/", $ip)) {
         return 'IP Address Error';
     }
