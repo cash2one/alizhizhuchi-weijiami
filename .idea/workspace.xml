@@ -55,9 +55,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/map.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/neirong.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/shouye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,36 +86,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/moban11/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="79" column="89" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
+            <state relative-caret-position="396">
+              <caret line="647" column="30" selection-start-line="647" selection-start-column="30" selection-end-line="647" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#A#5;n#LI#0;n#UL#0;n#DIV#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#28680#28686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <marker date="1470388826000" expanded="true" signature="635:697" ph="select title... templates" />
+                <element signature="e#28654#28660#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,9 +186,9 @@
         <option value="$PROJECT_DIR$/templates/moban11/css/style_1.css" />
         <option value="$PROJECT_DIR$/templates/moban11/neirong.html" />
         <option value="$PROJECT_DIR$/templates/moban11/shouye.html" />
-        <option value="$PROJECT_DIR$/templates/moban11/map.html" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/templates/moban11/map.html" />
       </list>
     </option>
   </component>
@@ -668,14 +644,7 @@
       <workItem from="1469857624916" duration="258000" />
       <workItem from="1469858061872" duration="31816000" />
       <workItem from="1470291632741" duration="8246000" />
-      <workItem from="1470367705008" duration="11903000" />
-    </task>
-    <task id="LOCAL-00045" summary="vip获取无限扩展模式">
-      <created>1469411272412</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1469411272412</updated>
+      <workItem from="1470367705008" duration="12022000" />
     </task>
     <task id="LOCAL-00046" summary="去掉后台授权验证,验证全部交由前台运行,后台只判断授权过期">
       <created>1469425015905</created>
@@ -1013,11 +982,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470388179481</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="优化sitemap代码">
+      <created>1470388982470</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1470388982470</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266099000" />
+    <option name="totallyTimeSpent" value="266218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1064,7 +1040,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="txt导入时过滤空格" />
     <MESSAGE value="新增模板9" />
     <MESSAGE value="修正模板9" />
     <MESSAGE value="v1.3.0&#10;增加纯真IP库,获取蜘蛛存入数据库时读取IP地址信息&#10;优化后台数据读取操作,改为ajax方式,加快页面打开速度&#10;开启info清空操作" />
@@ -1089,7 +1064,8 @@
     <MESSAGE value="优化获取sitemap页面代码" />
     <MESSAGE value="修复模板1标签错误" />
     <MESSAGE value="更新v1.3.3&#10;1、重写apache伪静态规则&#10;2、ajax_data.php增加get方式file_get_contents&#10;3、left.php在windows下乱码，所以引入lic_admin.php文件，用utf8显示&#10;4、修复后台不验证授权域名问题lic_admin.php&#10;5、修复前台授权验证时发送当前域名导致验证失败function.php   request_post&#10;6、adminer.sql更新为1.3.3&#10;7、模板新增&lt;年/&gt;&lt;月/&gt;&lt;日/&gt;&lt;随机域名/&gt;标签&#10;8、更新pics图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新v1.3.3&#10;1、重写apache伪静态规则&#10;2、ajax_data.php增加get方式file_get_contents&#10;3、left.php在windows下乱码，所以引入lic_admin.php文件，用utf8显示&#10;4、修复后台不验证授权域名问题lic_admin.php&#10;5、修复前台授权验证时发送当前域名导致验证失败function.php   request_post&#10;6、adminer.sql更新为1.3.3&#10;7、模板新增&lt;年/&gt;&lt;月/&gt;&lt;日/&gt;&lt;随机域名/&gt;标签&#10;8、更新pics图片" />
+    <MESSAGE value="优化sitemap代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化sitemap代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1537,6 +1513,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <marker date="1470117794000" expanded="true" signature="309:371" ph="select title... templates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/caiji.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1555,32 +1549,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <marker date="1470117794000" expanded="true" signature="309:371" ph="select title... templates" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban11/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="79" column="89" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
+        <state relative-caret-position="396">
+          <caret line="647" column="30" selection-start-line="647" selection-start-column="30" selection-end-line="647" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#A#5;n#LI#0;n#UL#0;n#DIV#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28680#28686#0" expanded="true" />
+            <element signature="e#28654#28660#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
