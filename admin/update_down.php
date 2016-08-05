@@ -17,10 +17,11 @@ if($ver&&$ver_date&&$zip){
 	$file = fopen ($url, "rb");
 	if ($file) {
 		$newf = fopen ($dir, "wb");
-		if ($newf)
-			while(!feof($file)) {
-				fwrite($newf, fread($file, 1024 * 8 ), 1024 * 8 );
-			}
+		if ($newf) {
+            while (!feof($file)) {
+                fwrite($newf, fread($file, 1024 * 8), 1024 * 8);
+            }
+        }
 	}
 	if ($file) {
 		fclose($file);

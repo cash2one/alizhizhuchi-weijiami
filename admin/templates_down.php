@@ -34,7 +34,7 @@ if($title&&$name&&$zip){
                 $zip->extractTo('../templates/' . $title);
                 $zip->close();
                 //写入数据库
-                $mysqli->query("insert into templates (`title`,`ok`,`name`) VALUES ('" . $title . "',1,'" . $name . "')");
+                $mysqli->query("insert into templates (`title`,`ok`,`name`) VALUES ('" . $title . "',0,'" . $name . "')");
                 //删除模板包,删除成功后再跳转
                 if(unlink($dir)){
                     header("Location: templates.php");

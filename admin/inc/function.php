@@ -573,7 +573,11 @@ function recurse_copy($src,$dst) {  // 原目录，复制到的目录
                 recurse_copy($src . '/' . $file,$dst . '/' . $file);
             }
             else {
-                copy($src . '/' . $file,$dst . '/' . $file);
+                if(!copy($src . '/' . $file,$dst . '/' . $file)){
+                    echo "更新失败,请下载更新包,手动上传到服务器。";exit;
+                }else{//成功后删除文件
+                    unlink($src . '/' . $file);
+                }
             }
         }
     }
