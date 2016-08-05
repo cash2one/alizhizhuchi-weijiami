@@ -28,7 +28,7 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
 if(empty($config['title'])||empty($config['enddate'])||empty($config['vip'])||empty($config['ver'])){
     echo SITE_NAME."警告:数据损坏";exit;
 }
-if(time()>$config['enddate']){//如果过期
+if($_SERVER['HTTP_HOST']!=$config['title']||time()>$config['enddate']){//如果过期
     echo "您未授权或已过期,请购买授权。";exit;
 }
 ?>

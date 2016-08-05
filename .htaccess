@@ -1,1 +1,5 @@
-ErrorDocument 404 /404.php
+RewriteEngine on
+RewriteRule index.html /index.php
+RewriteRule ^(.*).html /404.php
+RewriteRule ^admin/$ /admin/index.php
+RewriteRule ^(.*)/$ /404.php

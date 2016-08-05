@@ -130,7 +130,7 @@ function moban($moban){
     $result=$mysqli->query($sql);
     //$result=$mysqli->query("select * from url order by rand() limit 1");
     $row=$result->fetch_assoc();
-    $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'></a>", $moban );
+    $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'>阿里蜘蛛池</a>", $moban );
 
     //获取当前蜘蛛引擎并转为小写
     $ssyq=strtolower(get_naps_bot());
@@ -174,7 +174,9 @@ function moban($moban){
     {
         $moban = preg_replace('/<随机图片\/>/', '/pics/' . varray_rand ( $image_list ), $moban, 1);
     }
-    $moban = str_replace( "<年/>", date( "y" ), $moban );
+    $moban = str_replace( "<年/>", date( "Y" ), $moban );
+    $moban = str_replace( "<月/>", date( "m" ), $moban );
+    $moban = str_replace( "<日/>", date( "d" ), $moban );
     $sjsj = count(explode('<随机时间/>', $moban)) - 1;
     for ($tui=0; $tui<$sjsj; $tui++)
     {
@@ -182,19 +184,28 @@ function moban($moban){
         $moban = preg_replace('/<随机时间\/>/', date( "m-d",strtotime("-$i day")), $moban, 1);
     }
     $moban = str_replace( "<当天时间/>", date( "Y-m-d" ), $moban );
+    $wk = count(explode('<随机域名/>', $moban)) - 1;
+    for ($wi=0; $wi<$wk; $wi++)
+    {
+        $sql="SELECT title FROM `domains` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `domains`)-(SELECT MIN(id) FROM `domains`))+(SELECT MIN(id) FROM `domains`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        $spider = $mysqli->query($sql)->fetch_object()->title;
+        //$spider = $mysqli->query("SELECT title FROM domains order by rand() limit 1")->fetch_object()->title;
+//        $spider ="http://".randKey(5).".".$spider;
+        $moban = preg_replace('/<随机域名\/>/', $spider, $moban, 1);
+    }
     $wk = count(explode('<随机泛域名/>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
         $sql="SELECT title FROM `domains` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `domains`)-(SELECT MIN(id) FROM `domains`))+(SELECT MIN(id) FROM `domains`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
         $spider = $mysqli->query($sql)->fetch_object()->title;
         //$spider = $mysqli->query("SELECT title FROM domains order by rand() limit 1")->fetch_object()->title;
-        $spider ="http://".mt_rand(10000, 99999).".".$spider;
+        $spider ="http://".randKey(5).".".$spider;
         $moban = preg_replace('/<随机泛域名\/>/', $spider, $moban, 1);
     }
     $wk = count(explode('<随机页面/>', $moban)) - 1;
     for ($wi=0; $wi<$wk; $wi++)
     {
-        $yemian="/".randKey(5).".html";
+        $yemian=randKey(5).".html";
         $moban = preg_replace('/<随机页面\/>/', $yemian, $moban, 1);
     }
     $wk = count(explode('<随机人名/>', $moban)) - 1;
@@ -436,8 +447,8 @@ function templates_list(){
         foreach ($yuanmoban as $value) {
             $sql = "select * from templates where title='" . $value['title'] . "'";
             $result = $mysqli->query($sql);
-            if ($result->num_rows > 0) {
-                $row = $result->fetch_assoc();
+            $row = $result->fetch_assoc();
+            if ($result->num_rows > 0 && file_exists("../templates/" . $row['title'] . "/thumb.jpg")) {
                 $row['thumb'] = "/templates/" . $row['title'] . "/thumb.jpg";
                 if ($row['ok']) {
                     $row['us'] = "<a class='ok' href='?act=edit&id=" . $row['id'] . "&ok=0'>已启用</a>";
@@ -495,10 +506,16 @@ function spider_type_list(){
 function request_post($post_data = array()) {
     if(function_exists("curl_init")){
         $url="http://vip.alizhizhuchi.top/index.php";//修改服务器域名
-        $duankou=$_SERVER["SERVER_PORT"];
-        $yuming=$_SERVER['HTTP_HOST'];
-        $yuming=str_replace(':'.$duankou, '', $yuming);
-        $post_data['domain']=$yuming;
+        $config=config_list();
+        if($config['title']){
+            $domain=$config['title'];
+        }else {
+            $duankou = $_SERVER["SERVER_PORT"];
+            $yuming = $_SERVER['HTTP_HOST'];
+            $yuming = str_replace(':' . $duankou, '', $yuming);
+            $domain = $yuming;
+        }
+        $post_data['domain'] = $domain;
         if (empty($url) || empty($post_data)) {
             return false;
         }
