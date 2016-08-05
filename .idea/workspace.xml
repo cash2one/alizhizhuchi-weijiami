@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/images/ph.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/images/xd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/thumb.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/caiji.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/js/jquery-1.4.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/neirong.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/shouye.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/moban11/style/ningmp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/ajax_data.php" afterPath="$PROJECT_DIR$/admin/ajax_data.php" />
@@ -10,7 +27,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/lic_admin.php" afterPath="$PROJECT_DIR$/admin/inc/lic_admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adminer.sql" afterPath="$PROJECT_DIR$/adminer.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/shouye.html" afterPath="$PROJECT_DIR$/templates/moban1/shouye.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/moban1/neirong.html" afterPath="$PROJECT_DIR$/templates/moban1/neirong.html" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,21 +81,9 @@
       <file leaf-file-name="caiji.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/caiji.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="186">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shouye.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/moban1/shouye.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#ul#0;n#div#8;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +104,8 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+            <state relative-caret-position="435">
+              <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
               <folding>
                 <marker date="1470376027000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
                 <marker date="1470376027000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
@@ -175,6 +180,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shouye.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/moban11/shouye.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6915">
+              <caret line="461" column="30" selection-start-line="461" selection-start-column="30" selection-end-line="461" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/moban11/neirong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neirong.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -183,9 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/moban7/shouye.html" />
-        <option value="$PROJECT_DIR$/templates/moban8/shouye.html" />
-        <option value="$PROJECT_DIR$/templates/moban4/shouye.html" />
         <option value="$PROJECT_DIR$/httpd.ini" />
         <option value="$PROJECT_DIR$/admin/inc/ver.php" />
         <option value="$PROJECT_DIR$/admin/inc/ver_admin.php" />
@@ -234,6 +266,9 @@
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/templates/moban1/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban11/shouye.html" />
+        <option value="$PROJECT_DIR$/templates/moban11/neirong.html" />
+        <option value="$PROJECT_DIR$/templates/moban1/neirong.html" />
       </list>
     </option>
   </component>
@@ -298,6 +333,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alizhizhuchi-weijiami" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moban11" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,14 +662,7 @@
       <workItem from="1469857624916" duration="258000" />
       <workItem from="1469858061872" duration="31816000" />
       <workItem from="1470291632741" duration="8246000" />
-      <workItem from="1470367705008" duration="1382000" />
-    </task>
-    <task id="LOCAL-00042" summary="授权验证成功后发送数据,域名数量和昨日蜘蛛数">
-      <created>1469343298574</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1469343298574</updated>
+      <workItem from="1470367705008" duration="3211000" />
     </task>
     <task id="LOCAL-00043" summary="后台首页增加公告获取">
       <created>1469345757653</created>
@@ -954,11 +1000,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470118008965</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="修复模板1标签错误">
+      <created>1470376724334</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1470376724335</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255578000" />
+    <option name="totallyTimeSpent" value="257407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,7 +1058,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据发送改为curl发送" />
     <MESSAGE value="修复moban8内容页站点名称标签错误" />
     <MESSAGE value="txt导入时过滤空格" />
     <MESSAGE value="新增模板9" />
@@ -1030,7 +1082,8 @@
     <MESSAGE value="如果公告信息为新模板或新版本,链接地址为程序内页面地址,公告链接不需要打开新窗口" />
     <MESSAGE value="1、公告如果是模板下载或版本更新，链接为程序内页面地址，templates.php，公告链接点击不打开新窗口&#10;2、ip库路径错误修复&#10;3、外推链接统计，过滤调试模式&#10;4、修正linux下蜘蛛日志不能正确获得访问域名&#10;5、对授权进一步优化，除服务器连接3次失败提示未授权外，增加明天继续连接服务器&#10;6、修改robots禁止蜘蛛访问admin目录&#10;7、404.php删掉robot部分，直接应用robots.txt" />
     <MESSAGE value="优化获取sitemap页面代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化获取sitemap页面代码" />
+    <MESSAGE value="修复模板1标签错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复模板1标签错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,29 +1099,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban9/thumb.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban8/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="87" column="181" selection-start-line="85" selection-start-column="4" selection-end-line="87" selection-end-column="181" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/import.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1319,14 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/caiji.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/log.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1410,10 +1436,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#8;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/caiji.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
           <folding>
             <marker date="1470376027000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
             <marker date="1470376027000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
@@ -1487,13 +1531,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban1/shouye.html">
+    <entry file="file://$PROJECT_DIR$/templates/moban11/shouye.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#8;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="6915">
+          <caret line="461" column="30" selection-start-line="461" selection-start-column="30" selection-end-line="461" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban11/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
