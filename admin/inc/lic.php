@@ -45,7 +45,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             if($request==='5pyq5o6I5p2D'){//未授权
                 $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
                 $mysqli->query($sql);
-                echo SITE_NAME."警告:此域名未授权";exit;
+                echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
             }
             $result=json_decode($request);
             $sql="update config set vip='".base64_encode($result->vip)."',domain='".base64_encode($result->domain)."',templates='".base64_encode($result->templates)."',enddate='".base64_encode($result->enddate)."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."',link=0 limit 1";
@@ -84,19 +84,19 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             }else{//3次连不上判定为未授权并且明天继续连接服务器
                 $sql="update config set date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
                 $mysqli->query($sql);
-                echo SITE_NAME."警告:此域名未授权";exit;
+                echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
             }
         }
         $config=config_list();
     }else{
         if($config['link']>=3){//3次连不上判定为未授权
-            echo SITE_NAME."警告:此域名未授权";exit;
+            echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
         }
     }
     if(time()>$config['enddate']){//如果过期
-        echo SITE_NAME."警告:您的帐号已过期,请购买授权。";exit;
+        echo SITE_NAME."警告:您的帐号已过期,请购买授权。<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
     }
 }else{
-    echo SITE_NAME."警告:数据损坏";exit;
+    echo SITE_NAME."警告:数据损坏,请联系客服人员,加群201356527";exit;
 }
 ?>

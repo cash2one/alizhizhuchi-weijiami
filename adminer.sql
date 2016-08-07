@@ -13,6 +13,9 @@
 
  Date: 08/05/2016 22:48:42 PM
 */
+CREATE DATABASE IF NOT EXISTS `alizhizhuchi`
+  DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE alizhizhuchi;
 
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -55,7 +58,7 @@ CREATE TABLE `config` (
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjQ=', 'MTQ2OTgwODAwMA==', '', '', '0');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjU=', 'MTQ3MDQ5OTIwMA==', '', '', '0');
 COMMIT;
 
 -- ----------------------------
@@ -150,7 +153,7 @@ CREATE TABLE `templates` (
 --  Records of `templates`
 -- ----------------------------
 BEGIN;
-INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '模板一');
+INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '通用模板1');
 COMMIT;
 
 -- ----------------------------

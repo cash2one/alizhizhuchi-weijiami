@@ -14,7 +14,7 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
         if($request==='5pyq5o6I5p2D'){//未授权
             $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
             $mysqli->query($sql);
-            echo SITE_NAME."警告:此域名未授权";exit;
+            echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
         }
         $result = json_decode($request);
         $sql = "update config set title='" . $result->title . "',vip='" . base64_encode($result->vip) . "',domain='" . base64_encode($result->domain) . "',templates='" . base64_encode($result->templates) . "',enddate='" . base64_encode($result->enddate) . "',date='" . base64_encode(mt_rand(strtotime(date('Y-m-d', strtotime("+1 day"))), strtotime(date('Y-m-d', strtotime("+2 day"))))) . "',link=0 limit 1";
@@ -26,9 +26,9 @@ if(empty($config['enddate'])&&$config['ver']&&$config['ver_date']) {
     }
 }
 if(empty($config['title'])||empty($config['enddate'])||empty($config['vip'])||empty($config['ver'])){
-    echo SITE_NAME."警告:数据损坏";exit;
+    echo SITE_NAME."警告:数据损坏,请联系客服人员,加群201356527";exit;
 }
 if($_SERVER['HTTP_HOST']!=$config['title']||time()>$config['enddate']){//如果过期
-    echo "您未授权或已过期,请购买授权。";exit;
+    echo "您未授权或已过期,请购买授权。<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
 }
 ?>
