@@ -32,7 +32,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			</div>
 		</div>
 		<div class="page ">
-			<div style="margin-bottom:10px;">当前系统版本:v<?=$config['ver']?>&nbsp;&nbsp;更新日期:<?=date('Y/m/d',$config['ver_date'])?></div>
+			<div style="margin-bottom:10px;">当前系统版本:v<?=$config['ver']?>&nbsp;&nbsp;发布日期:<?=date('Y/m/d',$config['ver_date'])?></div>
 				<?php
 				$post_data['act']="update";
 				$post_data['ver_title']=$config['ver'];

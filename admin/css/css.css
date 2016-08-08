@@ -144,7 +144,7 @@ margin-top:20px;
 #pageAll .templates li a.ok{
 	background:#00A000;
 }
-#pageAll .templates li a.down{
+#pageAll .templates li a.down,#pageAll .templates li a.down_no{
 	background:#d55537;
 }
 #pageAll .page .title {

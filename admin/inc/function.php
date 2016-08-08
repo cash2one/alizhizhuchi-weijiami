@@ -440,6 +440,7 @@ function hour_data_num($from,$num){
 }
 function templates_list(){
     global $mysqli;
+    $config=config_list();
     //远程模板
     $post_data['act']="templates";
     if($request=request_post($post_data)) {
@@ -458,7 +459,12 @@ function templates_list(){
             } else {
                 $row['thumb'] = "http://vip.alizhizhuchi.top/templates/" . $value['title'] . "_thumb.jpg";
                 $row['name'] = $value['detail'];
-                $row['us'] = "<a class='down' href='templates_down.php?title=".$value['title']."&&name=".$value['detail']."&&zip=" . $value['zip'] . "'>下载</a>";
+                //免费用户禁止下载
+                if($config['vip']=='免费'){
+                    $row['us'] = "<a class='down_no' href=\"javascript:void(0)\">下载</a>";
+                }else {
+                    $row['us'] = "<a class='down' href='templates_down.php?title=" . $value['title'] . "&&name=" . $value['detail'] . "&&zip=" . $value['zip'] . "'>下载</a>";
+                }
             }
             $data[] = $row;
         }

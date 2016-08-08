@@ -36,6 +36,14 @@ if (($_FILES["file"]["type"] == "text/plain") && ($_FILES["file"]["size"] < 1048
 			$line= fgets($file);
 			$str= mb_convert_encoding($line, 'utf-8','gb2312');
 			if($str){
+			    //进行vip限制验证
+                if($act=='domains') {
+                    $num = $mysqli->query("select count(*) from domains");
+                    if($num>$config['domain']){
+                        echo "<script>alert('域名数量已达到VIP限制,请升级您的帐号');self.location.href='info.php?act=".$act."';</script>";
+                        exit;
+                    }
+                }
 				$sql="insert into ".$act." (`title`) values('".trim($str)."')";
 				$mysqli->query($sql);
 			}

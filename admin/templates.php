@@ -35,6 +35,9 @@ if($act=='edit'&&$id){
 			$('#templates .down').click(function(){
 				$('#loading').show();
 			});
+			$('#templates .down_no').click(function(){
+				alert('您目前是免费用户,升级VIP后将开启所有模板下载权限');
+			});
 		})
 	</script>
 </head>

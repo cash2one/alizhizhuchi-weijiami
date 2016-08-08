@@ -153,7 +153,7 @@ CREATE TABLE `templates` (
 --  Records of `templates`
 -- ----------------------------
 BEGIN;
-INSERT INTO `templates` VALUES ('1', 'moban1', b'1', '通用模板1');
+INSERT INTO `templates` VALUES ('1', 'moban10', b'1', '通用模板10'),('2', 'moban11', b'1', '通用模板11');
 COMMIT;
 
 -- ----------------------------
