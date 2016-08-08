@@ -4,12 +4,7 @@
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="v1.3.5&#10;1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/caiji.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/css.css" afterPath="$PROJECT_DIR$/admin/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/import.php" afterPath="$PROJECT_DIR$/admin/import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates.php" afterPath="$PROJECT_DIR$/admin/templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/update.php" afterPath="$PROJECT_DIR$/admin/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adminer.sql" afterPath="$PROJECT_DIR$/adminer.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/getvip.php" afterPath="$PROJECT_DIR$/admin/getvip.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,122 +24,12 @@
     <favorites_list name="alizhizhuchi-weijiami" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="import.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/import.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="getvip.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/getvip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <marker date="1470667433000" expanded="true" signature="1234:1262" ph="select count... domains" />
-                <marker date="1470667433000" expanded="true" signature="1517:1572" ph="insert into ${$act}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-              <folding>
-                <marker date="1470668746000" expanded="true" signature="502:552" ph="select count... " />
-                <marker date="1470668746000" expanded="true" signature="795:836" ph="update templ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="465" column="172" selection-start-line="465" selection-start-column="172" selection-end-line="465" selection-end-column="172" />
-              <folding>
-                <marker date="1470668811000" expanded="true" signature="2565:2615" ph="select * fro... spiderset" />
-                <marker date="1470668811000" expanded="true" signature="3183:3396" ph="SELECT title... shipin" />
-                <marker date="1470668811000" expanded="true" signature="3222:3345" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="3246:3274" ph="SELECT MAX(i... shipin" />
-                <marker date="1470668811000" expanded="true" signature="3277:3305" ph="SELECT MIN(i... shipin" />
-                <marker date="1470668811000" expanded="true" signature="3309:3337" ph="SELECT MIN(i... shipin" />
-                <marker date="1470668811000" expanded="true" signature="3655:3876" ph="SELECT title... keywords" />
-                <marker date="1470668811000" expanded="true" signature="3696:3825" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="3720:3750" ph="SELECT MAX(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="3753:3783" ph="SELECT MIN(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="3787:3817" ph="SELECT MIN(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="4124:4321" ph="SELECT * FRO... url" />
-                <marker date="1470668811000" expanded="true" signature="4156:4270" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="4180:4205" ph="SELECT MAX(i... url" />
-                <marker date="1470668811000" expanded="true" signature="4208:4233" ph="SELECT MIN(i... url" />
-                <marker date="1470668811000" expanded="true" signature="4237:4262" ph="SELECT MIN(i... url" />
-                <marker date="1470668811000" expanded="true" signature="4756:4824" ph="update url s... " />
-                <marker date="1470668811000" expanded="true" signature="4962:5183" ph="SELECT title... keywords" />
-                <marker date="1470668811000" expanded="true" signature="5003:5132" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="5027:5057" ph="SELECT MAX(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="5060:5090" ph="SELECT MIN(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="5094:5124" ph="SELECT MIN(i... keywords" />
-                <marker date="1470668811000" expanded="true" signature="5540:5745" ph="SELECT title... juzi" />
-                <marker date="1470668811000" expanded="true" signature="5577:5694" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="5601:5627" ph="SELECT MAX(i... juzi" />
-                <marker date="1470668811000" expanded="true" signature="5630:5656" ph="SELECT MIN(i... juzi" />
-                <marker date="1470668811000" expanded="true" signature="5660:5686" ph="SELECT MIN(i... juzi" />
-                <marker date="1470668811000" expanded="true" signature="7184:7401" ph="SELECT title... domains" />
-                <marker date="1470668811000" expanded="true" signature="7224:7350" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="7248:7277" ph="SELECT MAX(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="7280:7309" ph="SELECT MIN(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="7313:7342" ph="SELECT MIN(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="7805:8022" ph="SELECT title... domains" />
-                <marker date="1470668811000" expanded="true" signature="7845:7971" ph="SELECT ROUND... " />
-                <marker date="1470668811000" expanded="true" signature="7869:7898" ph="SELECT MAX(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="7901:7930" ph="SELECT MIN(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="7934:7963" ph="SELECT MIN(i... domains" />
-                <marker date="1470668811000" expanded="true" signature="8938:8975" ph="select count... " />
-                <marker date="1470668811000" expanded="true" signature="9265:9317" ph="insert into ${$from}... " />
-                <marker date="1470668811000" expanded="true" signature="9467:9482" ph="select id fr... ${$from}" />
-                <marker date="1470668811000" expanded="true" signature="9769:9783" ph="select * fro... ${$from}" />
-                <marker date="1470668811000" expanded="true" signature="10230:10245" ph="select id fr... ${$data['from']}" />
-                <marker date="1470668811000" expanded="true" signature="10604:10618" ph="select * fro... ${$data['from']}" />
-                <marker date="1470668811000" expanded="true" signature="11107:11122" ph="select id fr... ${$from}" />
-                <marker date="1470668811000" expanded="true" signature="12444:12475" ph="delete from " />
-                <marker date="1470668811000" expanded="true" signature="14516:14546" ph="select count... " />
-                <marker date="1470668811000" expanded="true" signature="15258:15288" ph="select count... " />
-                <marker date="1470668811000" expanded="true" signature="16391:16421" ph="select count... " />
-                <marker date="1470668811000" expanded="true" signature="16930:16991" ph="select * fro... templates" />
-                <marker date="1470668811000" expanded="true" signature="18193:18233" ph="select * fro... templates" />
-                <marker date="1470668811000" expanded="true" signature="18739:18778" ph="select * fro... spiderset" />
-                <marker date="1470668811000" expanded="true" signature="19233:19287" ph="select title... spiderset" />
-                <marker date="1470668811000" expanded="true" signature="20929:20957" ph="select * fro... config" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="146" column="62" selection-start-line="146" selection-start-column="62" selection-end-line="146" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminer.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adminer.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="155" column="78" selection-start-line="155" selection-start-column="78" selection-end-line="155" selection-end-column="78" />
+            <state relative-caret-position="435">
+              <caret line="60" column="137" selection-start-line="60" selection-start-column="137" selection-end-line="60" selection-end-column="137" />
               <folding />
             </state>
           </provider>
@@ -169,7 +54,6 @@
         <option value="$PROJECT_DIR$/admin/spider_data.php" />
         <option value="$PROJECT_DIR$/admin/data.php" />
         <option value="$PROJECT_DIR$/admin/js/alispider.js" />
-        <option value="$PROJECT_DIR$/admin/getvip.php" />
         <option value="$PROJECT_DIR$/admin/spider.php" />
         <option value="$PROJECT_DIR$/admin/info.php" />
         <option value="$PROJECT_DIR$/templates/moban9/map.html" />
@@ -209,6 +93,7 @@
         <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/adminer.sql" />
+        <option value="$PROJECT_DIR$/admin/getvip.php" />
       </list>
     </option>
   </component>
@@ -227,7 +112,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
+    <option name="x" value="51" />
     <option name="y" value="23" />
     <option name="width" value="1389" />
     <option name="height" value="877" />
@@ -257,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,32 +190,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,14 +368,9 @@
       <workItem from="1470367705008" duration="23842000" />
       <workItem from="1470493583688" duration="4343000" />
       <workItem from="1470661486931" duration="165000" />
-      <workItem from="1470666937703" duration="2572000" />
-    </task>
-    <task id="LOCAL-00050" summary="vip页面增加授权截止日期">
-      <created>1469435567990</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1469435567999</updated>
+      <workItem from="1470666937703" duration="3770000" />
+      <workItem from="1470674659093" duration="334000" />
+      <workItem from="1470675391010" duration="113000" />
     </task>
     <task id="LOCAL-00051" summary="修复日期没有base加密">
       <created>1469451974436</created>
@@ -846,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470549729769</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme&#10;5、import.php增加域名导入vip限制验证&#10;6、对免费客户只允许使用固定2套模板，模板放入安装包中，模板10和模板11&#10;7、adminer.sql更改默认模板为模板10和模板11">
+      <created>1470669911498</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1470669911498</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285118000" />
+    <option name="totallyTimeSpent" value="286763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,7 +731,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1389" height="877" extended-state="6" />
+    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -897,7 +766,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修正新版本提醒获取错误&#10;增加蜘蛛合计统计" />
     <MESSAGE value="增加未检测到新版本提示" />
     <MESSAGE value="信息页面和蜘蛛日志页面增加加载图片" />
     <MESSAGE value="修正外推蜘蛛详情中搜狗调用拼写错误" />
@@ -922,7 +790,8 @@
     <MESSAGE value="v1.3.4&#10;1、修复模板下载后立即开启，无视vip等级模板数量限制，改为下载后手动开启&#10;2、优化更新操作，加入更新失败提示，查看权限，windows给everyone权限，update_down，function文件" />
     <MESSAGE value="8、更新pics图片" />
     <MESSAGE value="v1.3.5&#10;1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.5&#10;1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme" />
+    <MESSAGE value="1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme&#10;5、import.php增加域名导入vip限制验证&#10;6、对免费客户只允许使用固定2套模板，模板放入安装包中，模板10和模板11&#10;7、adminer.sql更改默认模板为模板10和模板11" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme&#10;5、import.php增加域名导入vip限制验证&#10;6、对免费客户只允许使用固定2套模板，模板放入安装包中，模板10和模板11&#10;7、adminer.sql更改默认模板为模板10和模板11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1062,13 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/getvip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1234,10 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-          <folding>
-            <marker date="1469775463000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
-            <marker date="1469775463000" expanded="true" signature="4052:4086" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,9 +1103,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <marker date="1470390063000" expanded="true" signature="1086:1173" ph="insert into templates... " />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminer.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="155" column="78" selection-start-line="155" selection-start-column="78" selection-end-line="155" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -1255,10 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding>
-            <marker date="1470668746000" expanded="true" signature="502:552" ph="select count... " />
-            <marker date="1470668746000" expanded="true" signature="795:836" ph="update templ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1324,60 +1197,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="146" column="62" selection-start-line="146" selection-start-column="62" selection-end-line="146" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <marker date="1470465149000" expanded="true" signature="457:694" ph="update confi... " />
-            <marker date="1470465149000" expanded="true" signature="819:856" ph="select count... " />
-            <marker date="1470465149000" expanded="true" signature="1028:1071" ph="delete from " />
-            <marker date="1470465149000" expanded="true" signature="1195:1245" ph="select count... " />
-            <marker date="1470465149000" expanded="true" signature="1429:1489" ph="update templ... " />
-            <marker date="1470465149000" expanded="true" signature="2045:2113" ph="update confi... " />
-            <marker date="1470465149000" expanded="true" signature="2341:2676" ph="update confi... " />
-            <marker date="1470465149000" expanded="true" signature="3351:3388" ph="select count... " />
-            <marker date="1470465149000" expanded="true" signature="3576:3619" ph="delete from " />
-            <marker date="1470465149000" expanded="true" signature="3759:3809" ph="select count... " />
-            <marker date="1470465149000" expanded="true" signature="4009:4069" ph="update templ... " />
-            <marker date="1470465149000" expanded="true" signature="4145:4176" ph="select link config" />
-            <marker date="1470465149000" expanded="true" signature="4269:4347" ph="update confi... " />
-            <marker date="1470465149000" expanded="true" signature="4453:4603" ph="update confi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/import.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <marker date="1470667433000" expanded="true" signature="1234:1262" ph="select count... domains" />
-            <marker date="1470667433000" expanded="true" signature="1517:1572" ph="insert into ${$act}... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminer.sql">
+    <entry file="file://$PROJECT_DIR$/admin/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="155" column="78" selection-start-line="155" selection-start-column="78" selection-end-line="155" selection-end-column="78" />
+        <state relative-caret-position="549">
+          <caret line="931" column="1" selection-start-line="931" selection-start-column="1" selection-end-line="931" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/getvip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="60" column="137" selection-start-line="60" selection-start-column="137" selection-end-line="60" selection-end-column="137" />
           <folding />
         </state>
       </provider>

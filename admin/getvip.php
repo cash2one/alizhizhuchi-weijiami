@@ -58,7 +58,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 						<?php
 					} elseif($k=='url') {
 						?>
-						<dd><a href="<?= $val['url'] ?>" target="_blank">升级</a></dd>
+						<dd><a href="<?= $val['url'] ?>" target="_blank"><?if($val['title']=='免费'){echo "下载";}else{echo "升级";}?></a></dd>
 						<?php
 					}else{
 						?>
