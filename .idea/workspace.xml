@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc597b03-7c84-444c-84ae-92807480db87" name="Default" comment="v1.3.5&#10;1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/correct.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/correct.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/gth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_body_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_bodyb_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_c_bbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_c_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_c_tbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_gth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_hd_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_hd_bg.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_index.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_loadin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_loadin.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_mng.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_ok.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/i_t_btn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/jj_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/msg_bg.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/README.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/composer.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/composer.lock" />
@@ -68,30 +44,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/vendor/jaeger/querylist/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/vendor/jaeger/querylist/composer.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/caiji.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/inc/database.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/upload/domain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/chmod.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/css/install.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/header.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/formvalidator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/formvalidatorregex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/images/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/install.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/main/alizhizhuchi.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/header.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step1.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step2.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step3.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step4.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step5.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step6.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/step/step7.tpl.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/adminer.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/data.php" afterPath="$PROJECT_DIR$/admin/inc/data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,12 +67,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -156,7 +114,6 @@
         <option value="$PROJECT_DIR$/admin/templates_down.php" />
         <option value="$PROJECT_DIR$/admin/inc/a_function.php" />
         <option value="$PROJECT_DIR$/admin/update_down.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/admin/inc/lic.php" />
         <option value="$PROJECT_DIR$/admin/inc/lic_admin.php" />
         <option value="$PROJECT_DIR$/admin/import.php" />
@@ -181,6 +138,7 @@
         <option value="$PROJECT_DIR$/install/step/step6.tpl.php" />
         <option value="$PROJECT_DIR$/install/css/install.css" />
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -428,14 +386,7 @@
       <workItem from="1470675391010" duration="451000" />
       <workItem from="1470712231644" duration="253000" />
       <workItem from="1470713194447" duration="100000" />
-      <workItem from="1470733749025" duration="14140000" />
-    </task>
-    <task id="LOCAL-00052" summary="增加mysql单文件管理&#10;增加在线升级功能&#10;增加新版本提醒">
-      <created>1469460634352</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1469460634352</updated>
+      <workItem from="1470733749025" duration="14390000" />
     </task>
     <task id="LOCAL-00053" summary="完善在线升级功能">
       <created>1469503594480</created>
@@ -773,11 +724,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470675524560</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="v1.4.0&#10;1、增加安装界面 install,改变data格式&#10;2、首次打开自动进入安装界面 index.php">
+      <created>1470760539124</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1470760539127</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301594000" />
+    <option name="totallyTimeSpent" value="301844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,7 +782,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="信息页面和蜘蛛日志页面增加加载图片" />
     <MESSAGE value="修正外推蜘蛛详情中搜狗调用拼写错误" />
     <MESSAGE value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
     <MESSAGE value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
@@ -849,7 +806,8 @@
     <MESSAGE value="v1.3.5&#10;1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme" />
     <MESSAGE value="1、lic  lic_admin 未授权或已过期提醒加入购买链接&#10;2、adminer.sql数据库增加默认数据库alizhizhuchi功能，简化安装操作&#10;3、修改data文件，改为安装模式&#10;4、增加安装说明readme&#10;5、import.php增加域名导入vip限制验证&#10;6、对免费客户只允许使用固定2套模板，模板放入安装包中，模板10和模板11&#10;7、adminer.sql更改默认模板为模板10和模板11" />
     <MESSAGE value="免费版,升级显示为下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="免费版,升级显示为下载" />
+    <MESSAGE value="v1.4.0&#10;1、增加安装界面 install,改变data格式&#10;2、首次打开自动进入安装界面 index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.0&#10;1、增加安装界面 install,改变data格式&#10;2、首次打开自动进入安装界面 index.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,16 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1333,6 +1281,17 @@
         <state relative-caret-position="150">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
