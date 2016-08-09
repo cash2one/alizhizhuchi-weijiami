@@ -1,6 +1,11 @@
 <?php
 header("HTTP/1.1 200 OK");
 error_reporting(0);
+//判断根目录文件是否安装
+if(!file_exists("install.lock")){
+    header("Location: install/install.php");
+    exit;
+}
 require("admin/inc/lic.php");
 require("admin/inc/spider.php");
 define( "DIR", dirname( __FILE__ ) );

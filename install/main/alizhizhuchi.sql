@@ -13,9 +13,6 @@
 
  Date: 08/05/2016 22:48:42 PM
 */
-CREATE DATABASE IF NOT EXISTS `alizhizhuchi`
-  DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE alizhizhuchi;
 
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -30,13 +27,6 @@ CREATE TABLE `admin` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
--- ----------------------------
---  Records of `admin`
--- ----------------------------
-BEGIN;
-INSERT INTO `admin` VALUES ('1', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b');
-COMMIT;
 
 -- ----------------------------
 --  Table structure for `config`
@@ -58,7 +48,7 @@ CREATE TABLE `config` (
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS4zLjU=', 'MTQ3MDQ5OTIwMA==', '', '', '0');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS40LjA=', 'MTQ3MDc1ODQwMA==', '', '', '0');
 COMMIT;
 
 -- ----------------------------

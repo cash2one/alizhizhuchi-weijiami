@@ -1,5 +1,8 @@
 <?php
-$mysqli = new mysqli('localhost','root','123456','zhizhuchi');
+$database_info=include('database.php');
+extract($database_info['default']);
+
+$mysqli = new mysqli($hostname,$username,$password,$database);
 
 if ($mysqli->connect_error) {
     die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
