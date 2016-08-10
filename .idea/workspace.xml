@@ -45,12 +45,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/QueryList/vendor/jaeger/querylist/composer.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/caiji.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/upload/domain.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/step/step7.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/header.tpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/chmod.txt" afterPath="$PROJECT_DIR$/install/chmod.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/install.php" afterPath="$PROJECT_DIR$/install/install.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/step/step2.tpl.php" afterPath="$PROJECT_DIR$/install/step/step2.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/step/step4.tpl.php" afterPath="$PROJECT_DIR$/install/step/step4.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,44 +68,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/install/install.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <marker date="1470798086000" expanded="true" signature="4655:4709" ph="INSERT INTO ${$tablepre}admin... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chmod.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/chmod.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="step2.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/step/step2.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="step4.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/step/step4.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -165,13 +133,13 @@
         <option value="$PROJECT_DIR$/install/step/step6.tpl.php" />
         <option value="$PROJECT_DIR$/install/css/install.css" />
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/moban2/shouye.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/install/step/step2.tpl.php" />
         <option value="$PROJECT_DIR$/install/step/step4.tpl.php" />
         <option value="$PROJECT_DIR$/install/chmod.txt" />
         <option value="$PROJECT_DIR$/install/install.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -483,14 +451,7 @@
       <workItem from="1470675391010" duration="451000" />
       <workItem from="1470712231644" duration="253000" />
       <workItem from="1470713194447" duration="100000" />
-      <workItem from="1470733749025" duration="17857000" />
-    </task>
-    <task id="LOCAL-00054" summary="更新说明重复">
-      <created>1469504332286</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1469504332287</updated>
+      <workItem from="1470733749025" duration="18848000" />
     </task>
     <task id="LOCAL-00055" summary="修复授权验证域名限制数据库名错误">
       <created>1469505715935</created>
@@ -828,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470760740705</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="再次优化安装">
+      <created>1470798893446</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1470798893446</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305311000" />
+    <option name="totallyTimeSpent" value="306302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,7 +847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、后台首页公告获取改为3条&#10;2、因为模板可以开启和关闭，如果有关闭id就不能连续起来，获取随机模板时中间id号几率最大，所以还是改回rand()方式获取随机模板" />
     <MESSAGE value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
     <MESSAGE value="给spider表ssyq字段添加索引，进一步加快后台搜索引擎检索速度" />
     <MESSAGE value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
@@ -904,7 +871,8 @@
     <MESSAGE value="免费版,升级显示为下载" />
     <MESSAGE value="v1.4.0&#10;1、增加安装界面 install,改变data格式&#10;2、首次打开自动进入安装界面 index.php" />
     <MESSAGE value="更新安装说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新安装说明" />
+    <MESSAGE value="再次优化安装" />
+    <option name="LAST_COMMIT_MESSAGE" value="再次优化安装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1257,30 +1225,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install/header.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1299,14 +1248,6 @@
           <folding>
             <marker date="1470757164000" expanded="true" signature="707:769" ph="select title... templates" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/step/header.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,11 +1320,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/install/install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="1215">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <marker date="1470798086000" expanded="true" signature="4655:4709" ph="INSERT INTO ${$tablepre}admin... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/header.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step/header.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
