@@ -3,112 +3,39 @@
 header ( "Content-type:text/html;charset=utf-8" );
 if(phpversion() < '5.3.0') set_magic_quotes_runtime(0);
 if(phpversion() < '5.5.0') exit('您的php版本过低，不能安装本软件，请升级到5.5.0或更高版本再安装，谢谢！');
-//include 'base.php';
-//define('INSTALL_MODULE',true);
-//defined('IN_PHPCMS') or exit('No permission resources.');
 define('PC_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 if(!defined('ALI_PATH')) define('ALI_PATH', PC_PATH.'..'.DIRECTORY_SEPARATOR);
-if(file_exists(ALI_PATH.'install.lock')) exit('您已经安装过阿里蜘蛛池,如果需要重新安装，请删除 ./install.lock 文件！');
-//pc_base::load_sys_class('param','','','0');
-//pc_base::load_sys_func('global');
-//pc_base::load_sys_func('dir');
+if(file_exists(ALI_PATH.'install.lock')) exit('您已经安装过阿里蜘蛛池，如果需要重新安装，请删除 ./install.lock 文件！');
 $steps = include ALI_PATH.'install/step.inc.php';
 $step = isset($_REQUEST['step']) ? trim($_REQUEST['step']) : 1;
-$pos = strpos(get_url(),'install/install.php');
-$siteurl = substr(get_url(),0,$pos);
-if(strrpos(strtolower(PHP_OS),"win") === FALSE) {
-	define('ISUNIX', TRUE);
-} else {
-	define('ISUNIX', FALSE);
-}
 
 $mode = 0777;
 
 switch($step)
 {
     case '1': //安装许可协议
-//		param::set_cookie('reg_sso_succ','');
-		$license = file_get_contents(ALI_PATH."install/license.txt");
+		$license = file_get_contents(ALI_PATH."install".DIRECTORY_SEPARATOR."license.txt");
 
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 
 		break;
 
 	case '2':  //环境检测 (FTP帐号设置）
-//        $PHP_GD  = '';
-//		if(extension_loaded('gd')) {
-//			if(function_exists('imagepng')) $PHP_GD .= 'png';
-//			if(function_exists('imagejpeg')) $PHP_GD .= ' jpg';
-//			if(function_exists('imagegif')) $PHP_GD .= ' gif';
-//		}
 		$PHP_JSON = '0';
 		if(extension_loaded('json')) {
 			if(function_exists('json_decode') && function_exists('json_encode')) $PHP_JSON = '1';
 		}
-		//新加fsockopen 函数判断,此函数影响安装后会员注册及登录操作。
-//		if(function_exists('fsockopen')) {
-//			$PHP_FSOCKOPEN = '1';
-//		}
-        $PHP_DNS = preg_match("/^[0-9.]{7,15}$/", @gethostbyname('www.phpcms.cn')) ? 1 : 0;
-		//是否满足phpcms安装需求
-		$is_right = (phpversion() >= '5.5.0' && extension_loaded('mysqli') && extension_loaded('zip') && $PHP_JSON && (extension_loaded('iconv') || extension_loaded('mbstring')) && ini_get('allow_url_fopen')) ? 1 : 0;
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+
+        $PHP_DNS = preg_match("/^[0-9.]{7,15}$/", @gethostbyname('www.alizhizhuchi.top')) ? 1 : 0;
+		//是否满足安装需求
+		$is_right = (phpversion() >= '5.5.0' && extension_loaded('mysqli') && extension_loaded('zip') && $PHP_JSON && (extension_loaded('iconv') || extension_loaded('mbstring')) && ini_get('allow_url_fopen') && $PHP_DNS) ? 1 : 0;
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 		break;
-	
-//	case '3'://选择安装模块
-//		require PHPCMS_PATH.'install/modules.inc.php';
-//		include PHPCMS_PATH."install/step/step".$step.".tpl.php";
-//		break;
-//
 	case '3': //检测目录属性
-//		$selectmod = $_POST['selectmod'];
-//		$testdata = $_POST['testdata'];
-//		$selectmod = isset($selectmod) ? ','.implode(',', $selectmod) : '';
-//		$install_phpsso = (isset($_POST['install_phpsso']) && !empty($_POST['install_phpsso'])) ? intval($_POST['install_phpsso']) : showmessage('请选择sso安装类型');
-//		$needmod = 'admin,phpsso';
-//		$needmod = 'admin';
-//		$reg_sso_status = '';
-		//$reg_sso_succ = param::get_cookie('reg_sso_succ');
-//		if($install_phpsso === 2 && empty($reg_sso_succ)) {
-//			$sso_url = $_POST[sso]['sso_url'];
-//			$sso_info['username'] = $_POST[sso]['username'];
-//			$sso_info['password'] = $_POST[sso]['password'];
-//			$sso_info['authkey'] = $phpsso_auth_key = random(32, '1294567890abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ');
-//			$sso_info['name'] = 'phpcms v9';
-//			$sso_info['url'] = urlencode($siteurl);
-//			$sso_info['apifilename'] = 'api.php?op=phpsso';
-//			$sso_info['charset'] = strtolower(CHARSET);
-//			$sso_info['type'] = 'phpcms_v9';
-//			$data = http_build_query($sso_info);
-//			$needmod = 'admin';
-//			$remote_url = $sso_url.'api.php?op=install&'.$data;
-//			$remote_var = $sso_url.'api.php';
-//			if(remote_file_exists($remote_var)) {
-//				$returnid = @file_get_contents($remote_url);
-//			}
-//			if($returnid == '-1') {
-//				$reg_sso_status = 'PHPSSO缺少传递参数';
-//			} elseif($returnid == '-2') {
-//				$reg_sso_status = 'PHPSSO用户名不存在或者密码错误，请检查';
-//			} elseif($returnid > 0){
-//				$reg_sso = array('phpsso'=>'1',
-//								'phpsso_appid'=>$returnid,
-//								'phpsso_api_url'=>$sso_url,
-//								'phpsso_auth_key'=>$sso_info['authkey'],
-//						);
-//				set_config($reg_sso,'system');
-//				param::set_cookie('reg_sso_succ',$returnid);
-//			} elseif($returnid == '-4') {
-//				$reg_sso_status = '请删除phpsso_server/caches/phpsso_install.lock';
-//			} else {
-//				$reg_sso_status = 'PHPSSO 的 URL 地址可能填写错误，请检查!';
-//			}
-//		}
-		
+
 		$chmod_file =  'chmod.txt';
-//		$selectmod = $needmod.$selectmod;
-//		$selectmods = explode(',',$selectmod);
-		$files = file(ALI_PATH."install/".$chmod_file);
+
+		$files = file(ALI_PATH."install".DIRECTORY_SEPARATOR.$chmod_file);
         $no_writablefile = 0;
 		foreach($files as $_k => $file) {
 			$file = str_replace('*','',$file);
@@ -149,60 +76,41 @@ switch($step)
 		$filesmod[$_k+1]['is_dir'] = '1';
 		$filesmod[$_k+1]['cname'] = '目录';			
 		$filesmod[$_k+1]['is_writable'] = $is_writable;						
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 		break;
 
 	case '4': //配置帐号 （MYSQL帐号、管理员帐号、）
 		$database = include("../admin/inc/database.php");
-//		$testdata = $_POST['testdata'];
 		extract($database['default']);
-//		$selectmod = $_POST['selectmod'];
-//		$install_phpsso = $_POST['install_phpsso'];
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 		break;
 
 	case '5': //安装详细过程
 		extract($_POST);
-//		$testdata = $_POST['testdata'];
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 		break;
 
 	case '6': //完成安装
 		$pos = strpos(get_url(),'install/install.php');
 		$url = substr(get_url(),0,$pos);
 		file_put_contents(ALI_PATH.'install.lock','');
-		include ALI_PATH."install/step/step".$step.".tpl.php";
+		include ALI_PATH."install".DIRECTORY_SEPARATOR."step".DIRECTORY_SEPARATOR."step".$step.".tpl.php";
 		//删除安装目录
 //		delete_install(ALI_PATH.'install/');
 		break;
 	
 	case 'installmodule': //执行SQL
 		extract($_POST);
-//		$GLOBALS['dbcharset'] = $dbcharset;
 		$PHP_SELF = isset($_SERVER['PHP_SELF']) ? $_SERVER['PHP_SELF'] : (isset($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : $_SERVER['ORIG_PATH_INFO']);
-		$rootpath = str_replace('\\','/',dirname($PHP_SELF));	
-		$rootpath = substr($rootpath,0,-7);
-		$rootpath = strlen($rootpath)>1 ? $rootpath : "/";	
 
 		if($module == 'admin') {
-//			$cookie_pre = random(5, 'abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ').'_';
-//			$auth_key = random(20, '1294567890abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ');
-//			$sys_config = array('cookie_pre'=>$cookie_pre,
-//						'auth_key'=>$auth_key,
-//						'web_path'=>$rootpath,
-//						'errorlog'=>'0',
-//						'upload_url'=>$siteurl.'uploadfile/',
-//						'js_path'=>$siteurl.'statics/js/',
-//						'css_path'=>$siteurl.'statics/css/',
-//						'img_path'=>$siteurl.'statics/images/',
-//						'app_path'=>$siteurl,
-//						);
+
 			$db_config = array('hostname'=>$dbhost,
 						'username'=>$dbuser,
 						'password'=>$dbpw,
 						'database'=>$dbname
 						);
-//			set_config($sys_config,'system');
+
 			set_config($db_config,'database');
 			
 			$link = mysqli_connect($dbhost, $dbuser, $dbpw) or die ('Not connected : ' . mysqli_connect_error());
@@ -225,15 +133,11 @@ switch($step)
 				}
 			}
 			$dbfile =  'alizhizhuchi.sql';
-			if(file_exists(ALI_PATH."install/main/".$dbfile)) {
+			if(file_exists(ALI_PATH."install".DIRECTORY_SEPARATOR."main".DIRECTORY_SEPARATOR."".$dbfile)) {
 				$sql = file_get_contents(ALI_PATH."install/main/".$dbfile);
 				_sql_execute($link,$sql);
 				//创建网站创始人
-//				if(CHARSET=='gbk') $username = iconv('UTF-8','GBK',$username);
-//				$password_arr = sha1($password);
 				$password = sha1($password);
-//				$encrypt = $password_arr['encrypt'];
-//				$email = trim($email);
 				_sql_execute($link,"INSERT INTO admin VALUES ('1','$username','$password')");
 				
 			} else {
@@ -242,28 +146,7 @@ switch($step)
 		}
 		echo $module;
 		break;
-		
-	//安装测试数据	
-//	case 'testdata':
-//		$default_db = pc_base::load_config('database','default');
-//		$dbcharset = $default_db['charset'];
-//		$tablepre = $default_db['tablepre'];
-//		$link = mysqli_connect($default_db['dbhost'], $default_db['username'], $default_db['password'], null, $default_db['dbport']) or die ('Not connected : ' . mysqli_connect_error());
-//		$version = mysqli_get_server_info($link);
-//		if($version > '4.1' && $dbcharset) {
-//			mysqli_query($link, "SET NAMES '$dbcharset'");
-//		}
-//		if($version > '5.0') {
-//			mysqli_query($link, "SET sql_mode=''");
-//		}
-//		mysqli_select_db($link, $default_db['database']);
-//		if(file_exists(PHPCMS_PATH."install/main/testsql.sql"))
-//		{
-//			$sql = file_get_contents(PHPCMS_PATH."install/main/testsql.sql");
-//			_sql_execute($link,$sql);
-//		}
-//		break;
-//
+
 	//数据库测试
 	case 'dbtest':
 		extract($_GET);
@@ -289,41 +172,11 @@ switch($step)
 			exit('1');
 		}
 		break;
-		
-//	case 'cache_all':
-//		$cache = pc_base::load_app_class('cache_api','admin');
-//		$cache->cache('category');
-//		$cache->cache('cache_site');
-//		$cache->cache('downservers');
-//		$cache->cache('badword');
-//		$cache->cache('ipbanned');
-//		$cache->cache('keylink');
-//		$cache->cache('linkage');
-//		$cache->cache('position');
-//		$cache->cache('admin_role');
-//		$cache->cache('urlrule');
-//		$cache->cache('module');
-//		$cache->cache('sitemodel');
-//		$cache->cache('workflow');
-//		$cache->cache('dbsource');
-//		$cache->cache('member_group');
-//		$cache->cache('membermodel');
-//		$cache->cache('type','search');
-//		$cache->cache('special');
-//		$cache->cache('setting');
-//		$cache->cache('database');
-//		$cache->cache('member_setting');
-//		$cache->cache('member_model_field');
-//		$cache->cache('search_setting');
-//
-//		copy(PHPCMS_PATH."install/cms_index.html",PHPCMS_PATH."index.html");
-//		break;
 
 }
 
 function format_textarea($string) {
 	$chars = 'utf-8';
-//	if(CHARSET=='gbk') $chars = 'gb2312';
 	return nl2br(str_replace(' ', '&nbsp;', htmlspecialchars($string,ENT_COMPAT,$chars)));
 }
 
@@ -347,14 +200,12 @@ function _sql_execute($link,$sql,$r_tablepre = '',$s_tablepre = 'phpcms_') {
 }
 
 function _sql_split($link,$sql,$r_tablepre = '',$s_tablepre='phpcms_') {
-	global $tablepre;
-//	$r_tablepre = $r_tablepre ? $r_tablepre : $tablepre;
+
 	if(mysqli_get_server_info($link) > '4.1')
 	{
 		$sql = preg_replace("/TYPE=(InnoDB|MyISAM|MEMORY)( DEFAULT CHARSET=[^; ]+)?/", "ENGINE=\\1 DEFAULT CHARSET=utf8",$sql);
 	}
-	
-//	if($r_tablepre != $s_tablepre) $sql = str_replace($s_tablepre, $r_tablepre, $sql);
+
 	$sql = str_replace("\r", "\n", $sql);
 	$ret = array();
 	$num = 0;
@@ -378,9 +229,9 @@ function _sql_split($link,$sql,$r_tablepre = '',$s_tablepre='phpcms_') {
 function dir_writeable($dir) {
 	$writeable = 0;
 	if(is_dir($dir)) {  
-        if($fp = @fopen("$dir/chkdir.test", 'w')) {
+        if($fp = @fopen($dir.DIRECTORY_SEPARATOR."chkdir.test", 'w')) {
             @fclose($fp);      
-            @unlink("$dir/chkdir.test"); 
+            @unlink($dir.DIRECTORY_SEPARATOR."chkdir.test");
             $writeable = 1;
         } else {
             $writeable = 0; 
@@ -396,18 +247,18 @@ function writable_check($path){
 	$dir = opendir($path);
  	while (($file = readdir($dir)) !== false){
 		if($file!='.' && $file!='..'){
-			if(is_file($path.'/'.$file)){
+			if(is_file($path.DIRECTORY_SEPARATOR.$file)){
 				//是文件判断是否可写，不可写直接返回0，不向下继续
-				if(!is_writable($path.'/'.$file)){
+				if(!is_writable($path.DIRECTORY_SEPARATOR.$file)){
  					return '0';
 				}
 			}else{
 				//目录，循环此函数,先判断此目录是否可写，不可写直接返回0 ，可写再判断子目录是否可写
-				$dir_wrt = dir_writeable($path.'/'.$file);
+				$dir_wrt = dir_writeable($path.DIRECTORY_SEPARATOR.$file);
 				if($dir_wrt=='0'){
 					return '0';
 				}
-   				$is_writable = writable_check($path.'/'.$file);
+   				$is_writable = writable_check($path.DIRECTORY_SEPARATOR.$file);
  			}
 		}
  	}
@@ -416,7 +267,7 @@ function writable_check($path){
 
 function set_config($config,$cfgfile) {
 	if(!$config || !$cfgfile) return false;
-	$configfile = ALI_PATH.'admin/inc/database.php';
+	$configfile = ALI_PATH."admin".DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR."database.php";
 	if(!is_writable($configfile)) echo('Please chmod '.$configfile.' to 0777 !');
 	$pattern = $replacement = array();
 	foreach($config as $k=>$v) {
@@ -430,29 +281,6 @@ function set_config($config,$cfgfile) {
 	return file_put_contents($configfile, $str);		
 }
 
-//function set_sso_config($config,$cfgfile) {
-//	if(!$config || !$cfgfile) return false;
-//	$configfile = PHPCMS_PATH.'phpsso_server'.DIRECTORY_SEPARATOR.'caches'.DIRECTORY_SEPARATOR.'configs'.DIRECTORY_SEPARATOR.$cfgfile.'.php';
-//	if(!is_writable($configfile)) showmessage('Please chmod '.$configfile.' to 0777 !');
-//	$pattern = $replacement = array();
-//	foreach($config as $k=>$v) {
-//			$v = trim($v);
-//			$configs[$k] = $v;
-//			$pattern[$k] = "/'".$k."'\s*=>\s*([']?)[^']*([']?)(\s*),/is";
-//        	$replacement[$k] = "'".$k."' => \${1}".$v."\${2}\${3},";
-//	}
-//	$str = file_get_contents($configfile);
-//	$str = preg_replace($pattern, $replacement, $str);
-//	return file_put_contents($configfile, $str);
-//}
-
-//function remote_file_exists($url_file){
-//	$headers = get_headers($url_file);
-//	if (!preg_match("/200/", $headers[0])){
-//		return false;
-//	}
-//	return true;
-//}
 //function delete_install($dir) {
 //	$dir = dir_path($dir);
 //	if (!is_dir($dir)) return FALSE;

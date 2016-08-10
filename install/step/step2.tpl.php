@@ -70,8 +70,8 @@
                   <tr>
                     <td>DNS解析</td>
                     <td><?php if($PHP_DNS){ ?>√<?php }else{ ?>×<?php }?></td>
-                    <td>建议设置正确</td>
-                    <td><?php if($PHP_DNS){ ?><span><img src="images/correct.gif" /></span><?php }else{ ?><font class="red"><img src="images/error.gif" />&nbsp;不支持采集和保存远程图片</font><?php }?></td>
+                    <td>必须设置正确</td>
+                    <td><?php if($PHP_DNS){ ?><span><img src="images/correct.gif" /></span><?php }else{ ?><font class="red"><img src="images/error.gif" />&nbsp;不能下载模板和在线升级</font><?php }?></td>
                   </tr>
                 </table>
  					</div>

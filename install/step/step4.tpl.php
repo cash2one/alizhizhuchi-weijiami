@@ -35,10 +35,6 @@
 			<input name="dbhost" type="text" id="dbhost" value="<?php echo $hostname?>" class="input-text" />
 			</td>
 			</tr>
-<!--			<tr>-->
-<!--			<th align="right">数据库端口：</th>-->
-<!--			<td><input name="dbport" type="text" id="dbport" value="--><?php //echo $port?><!--" class="input-text" /></td>-->
-<!--			</tr>-->
 			<tr>
 			<th align="right">数据库帐号：</th>
 			<td><input name="dbuser" type="text" id="dbuser" value="<?php echo $username?>" class="input-text" /></td>
@@ -51,31 +47,6 @@
 			<th align="right">数据库名称：</th>
 			<td><input name="dbname" type="text" id="dbname" value="<?php echo $database?>" class="input-text" /></td>
 			</tr>
-<!--			<tr>-->
-<!--			<th align="right">数据表前缀：</th>-->
-<!--			<td><input name="tablepre" type="text" id="tablepre" value="--><?php //echo $tablepre?><!--" class="input-text" />  <img src="./images/help.png" style="cursor:pointer;" title="如果一个数据库安装多个phpcms，请修改表前缀" align="absmiddle" />-->
-<!--			<span id='helptablepre'></span></td>-->
-<!--			</tr>-->
-<!--			<tr>-->
-<!--			<th align="right">数据库字符集：</th>-->
-<!--			<td>-->
-<!--			<input name="dbcharset" type="radio" id="dbcharset" value="" --><?php //if(strtolower($charset)=='') echo ' checked="checked" '?><!--/>默认-->
-<!--			<input name="dbcharset" type="radio" id="dbcharset" value="gbk" --><?php //if(strtolower($charset)=='gbk') echo '  checked="checked" '?><!-- --><?php //if(strtolower($charset)=='utf8') echo 'disabled'?><!--/>GBK-->
-<!--			<input name="dbcharset" type="radio" id="dbcharset" value="utf8" --><?php //if(strtolower($charset)=='utf8') echo '  checked="checked" '?><!-- --><?php //if(strtolower($charset)=='gbk') echo 'disabled'?><!--/>utf8 -->
-<!--			<input name="dbcharset" type="radio" id="dbcharset" value="latin1" --><?php //if(strtolower($charset)=='latin1') echo ' checked '?><!-- />latin1 -->
-<!--			<img src="./images/help.png" style="cursor:pointer;" title="如果Mysql版本为4.0.x，则请选择默认；&#10;如果Mysql版本为4.1.x或以上，则请选择其他字符集（一般选GBK）" align="absmiddle" />-->
-<!--			<span id='helpdbcharset'></span>-->
-<!--			</td>-->
-<!--			</tr>-->
-<!--			<tr>-->
-<!--			<th align="right">启用持久连接：</th>-->
-<!--			<td><input name="pconnect" type="radio" id="pconnect" value="1" -->
-<!--			--><?php //if($pconnect==1) echo '  checked="checked" '?><!--/>是&nbsp;&nbsp;-->
-<!--			<input name="pconnect" type="radio" id="pconnect" value="0" -->
-<!--			--><?php //if($pconnect==0) echo '  checked="checked" '?><!--/>否-->
-<!--			<img src="./images/help.png" style="cursor:pointer;" title="如果启用持久连接，则数据库连接上后不释放，保存一直连接状态；如果不启用，则每次请求都会重新连接数据库，使用完自动关闭连接。" align="absmiddle" /><span id='helppconnect'></span>-->
-<!--			<span id='helptablepre'></span></td>-->
-<!--			</tr>-->
 			</table>
     </div>
 </fieldset>
@@ -96,13 +67,6 @@
 				<th align="right">确认密码：</th>
 				<td><input name="pwdconfirm" type="password" id="pwdconfirm" value="alizhizhuchi" class="input-text" /></td>
 			  </tr>
-<!--			  <tr>-->
-<!--				<th align="right">管理员E-mail：</th>-->
-<!--				<td><input name="email" type="text" id="email" class="input-text" />-->
-<!--					<input type="hidden" name="selectmod" value="--><?php //echo $selectmod?><!--" />-->
-<!--					<input type="hidden" name="testdata" value="--><?php //echo $testdata?><!--" />-->
-<!--					<input type="hidden" id="install_phpsso" name="install_phpsso" value="--><?php //echo $install_phpsso?><!--" />-->
-<!--			  </tr>-->
 
 			</table>
     </div>
