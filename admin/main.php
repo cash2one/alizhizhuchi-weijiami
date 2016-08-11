@@ -27,7 +27,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 		<img src="img/load.gif">
 	</div>
 	<div id="pageAll">
-		<div class="wellcom">欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span><em id="newver"><img src="img/loading.gif" height="20"></em>
+		<div class="wellcom"><!--欢迎使用<?=SYSTEM_NAME?>,您的等级为<span><?=$config['vip']?></span>,授权期限截止到<span><?=date('Y-m-d',$config['enddate'])?></span>--><em id="newver"><img src="img/loading.gif" height="20"></em>
 		</div>
 		<div class="wellcom" id="text1">
 			<img src="img/loading.gif" height="20">
@@ -74,9 +74,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 			$.post('ajax_data.php',{act:"request_post", data:{"act":"update","ver_title":"<?=$config['ver']?>"}},
 			function(result){
 				if(result.data){
-					$("#newver").html(",发现新版本<a href='update.php'>立即更新</a>");
-				}else{
-					$("#newver").html("已是最新版本");
+					$("#newver").html("发现新版本<a href='update.php'>立即更新</a>");
 				}
 			},"json");
 			//获取公告

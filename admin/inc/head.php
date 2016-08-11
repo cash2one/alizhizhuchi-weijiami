@@ -19,7 +19,8 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 	<!-- 头部 -->
 	<div class="head">
 		<div class="headL">
-			<?=SYSTEM_NAME?>&nbsp;<span>v<?=$config['ver']?></span>
+			<h1><?=SYSTEM_NAME?>&nbsp;<span>v<?=$config['ver']?></span></h1>
+			<div><em><?=$config['vip']?></em>版本&nbsp;&nbsp;&nbsp;授权截止<em><?=date('Y-m-d',$config['enddate'])?></em></div>
 		</div>
 		<div class="headR">
 			<img src="http://vip.alizhizhuchi.top/ad/wellcom.jpg" onerror="javascript:this.src='../img/wellcom.jpg';"/>
