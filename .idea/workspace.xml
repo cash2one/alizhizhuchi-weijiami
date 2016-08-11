@@ -46,9 +46,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/caiji.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/upload/domain.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/public.css" afterPath="$PROJECT_DIR$/admin/css/public.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/head.php" afterPath="$PROJECT_DIR$/admin/inc/head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/step/step6.tpl.php" afterPath="$PROJECT_DIR$/install/step/step6.tpl.php" />
     </list>
     <ignored path="alizhizhuchi-weijiami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,38 +67,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
+      <file leaf-file-name="step6.tpl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/install/step/step6.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="e#862#868#0#HTML" expanded="true" />
-                <element signature="e#868#874#0#HTML" expanded="true" />
-                <element signature="e#874#880#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/public.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            <state relative-caret-position="175">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="29" column="142" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="142" />
-              <folding>
-                <marker date="1470883533000" expanded="true" signature="6164:6218" ph="select title... spiderset" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,10 +120,8 @@
         <option value="$PROJECT_DIR$/install/main/alizhizhuchi.sql" />
         <option value="$PROJECT_DIR$/admin/inc/database.php" />
         <option value="$PROJECT_DIR$/install/step/step7.tpl.php" />
-        <option value="$PROJECT_DIR$/install/step.inc.php" />
         <option value="$PROJECT_DIR$/install/step/step3.tpl.php" />
         <option value="$PROJECT_DIR$/install/step/step5.tpl.php" />
-        <option value="$PROJECT_DIR$/install/step/step6.tpl.php" />
         <option value="$PROJECT_DIR$/install/css/install.css" />
         <option value="$PROJECT_DIR$/admin/inc/data.php" />
         <option value="$PROJECT_DIR$/templates/moban2/shouye.html" />
@@ -159,11 +129,13 @@
         <option value="$PROJECT_DIR$/install/step/step2.tpl.php" />
         <option value="$PROJECT_DIR$/install/step/step4.tpl.php" />
         <option value="$PROJECT_DIR$/install/chmod.txt" />
-        <option value="$PROJECT_DIR$/install/install.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/css/public.css" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
+        <option value="$PROJECT_DIR$/install/step/step6.tpl.php" />
+        <option value="$PROJECT_DIR$/install/step.inc.php" />
+        <option value="$PROJECT_DIR$/install/install.php" />
       </list>
     </option>
   </component>
@@ -241,7 +213,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="install" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,61 +227,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="install" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moban10" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alizhizhuchi-weijiami" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="step" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,14 +420,7 @@
       <workItem from="1470820281173" duration="288000" />
       <workItem from="1470841678752" duration="273000" />
       <workItem from="1470879376564" duration="103000" />
-      <workItem from="1470881303381" duration="2162000" />
-    </task>
-    <task id="LOCAL-00056" summary="去掉curl超时限制">
-      <created>1469506144848</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1469506144848</updated>
+      <workItem from="1470881303381" duration="5736000" />
     </task>
     <task id="LOCAL-00057" summary="首次授权验证逻辑判断修正&#10;更新数据库文件为adminer,方便导入">
       <created>1469506884584</created>
@@ -843,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470800764047</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="微调后台界面">
+      <created>1470885280093</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1470885280093</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309888000" />
+    <option name="totallyTimeSpent" value="313462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,6 +788,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -877,7 +800,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -894,7 +816,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更改数据库表类型，除spider需要大量写入用innodb类型，其他改用mysiam类型，方便查询操作，速度加快很多" />
     <MESSAGE value="给spider表ssyq字段添加索引，进一步加快后台搜索引擎检索速度" />
     <MESSAGE value="更新数据库版本号为1.3.1,版本日期为2016-07-30" />
     <MESSAGE value="增加无ZipArchive扩展提示" />
@@ -919,7 +840,8 @@
     <MESSAGE value="v1.4.0&#10;1、增加安装界面 install,改变data格式&#10;2、首次打开自动进入安装界面 index.php" />
     <MESSAGE value="再次优化安装" />
     <MESSAGE value="更新安装说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新安装说明" />
+    <MESSAGE value="微调后台界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="微调后台界面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,13 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/moban1/neirong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/moban11/css/style_1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2091">
@@ -1013,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates_down.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1085,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/base.php" />
     <entry file="file://$PROJECT_DIR$/install/main/alizhizhuchi.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1100,38 +1001,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/step.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/css/install.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1149,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install/step/step1.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/step/step3.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1164,13 +1030,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/install/step/step7.tpl.php" />
-    <entry file="file://$PROJECT_DIR$/install/step/step6.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/step/step5.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -1199,24 +1058,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <marker date="1470798086000" expanded="true" signature="4655:4709" ph="INSERT INTO ${$tablepre}admin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/header.tpl.php" />
-    <entry file="file://$PROJECT_DIR$/install/step/header.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1267,12 +1109,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/main.php">
+    <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="142" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="142" />
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <marker date="1470883533000" expanded="true" signature="6164:6218" ph="select title... spiderset" />
+            <element signature="e#862#868#0#HTML" expanded="true" />
+            <element signature="e#868#874#0#HTML" expanded="true" />
+            <element signature="e#874#880#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1285,15 +1129,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
+    <entry file="file://$PROJECT_DIR$/admin/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="29" column="142" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="142" />
           <folding>
-            <element signature="e#862#868#0#HTML" expanded="true" />
-            <element signature="e#868#874#0#HTML" expanded="true" />
-            <element signature="e#874#880#0#HTML" expanded="true" />
+            <marker date="1470883533000" expanded="true" signature="6164:6218" ph="select title... spiderset" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/lic_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1470551666000" expanded="true" signature="437:505" ph="update confi... " />
+            <marker date="1470551666000" expanded="true" signature="717:1106" ph="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <marker date="1469430784000" expanded="true" signature="535:615" ph="select id fr... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <marker date="1469775463000" expanded="true" signature="3222:3258" ph="select SUM(c... url" />
+            <marker date="1469775463000" expanded="true" signature="4052:4086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step/header.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step/step0.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step/step1.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <marker date="1470901989000" expanded="true" signature="4655:4709" ph="INSERT INTO ${$tablepre}admin... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/step/step6.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
