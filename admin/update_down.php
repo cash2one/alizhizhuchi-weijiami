@@ -36,11 +36,13 @@ if($ver&&$ver_date&&$zip){
 			//复制文件到根目录
 			recurse_copy($upload_dir.$ver,"../");
 			//后期交给update.php文件执行
-			$file = file_exists("ver_update.php");
-			if($file){
-				include("ver_update.php");
-				unlink("ver_update.php");
-			}
+            $file = file_exists("../ver_update.php");
+            if($file){
+                include("../ver_update.php");
+                if($zhixing){
+                    unlink("../ver_update.php");
+                }
+            }
 			//更新数据库
 			$mysqli->query("update config set ver='".base64_encode($ver)."',ver_date='".base64_encode($ver_date)."' limit 1");
 			//删除更新包

@@ -378,17 +378,26 @@ function data_num($from,$num='',$day='',$type=''){
     $sql="select count(*) as count from ".$from;
     //$sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d')";
     if($from=='spider'){
-        if($num && is_numeric($num)){
-            $num='-'.($num-1).' day';
-            $riqi=strtotime(date('Y-m-d',strtotime($num)));
-            //$riqi=time()-$num*24*3600;
-            $sql.=" where rq>$riqi";
-        }
-        if($day){
-            $sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = '".date('Y-m-d',strtotime($day))."'";
-        }
-        if($type){
-            $sql.=" where ssyq='".$type."'";
+        if($num||$day||$type){
+            $sql.=" where ";
+            if($type && $num && is_numeric($num)){
+                $num='-'.($num-1).' day';
+                $riqi=strtotime(date('Y-m-d',strtotime($num)));
+                //$riqi=time()-$num*24*3600;
+                $sql.="rq>$riqi and ssyq='".$type."'";
+            }
+            elseif($num && is_numeric($num)){
+                $num='-'.($num-1).' day';
+                $riqi=strtotime(date('Y-m-d',strtotime($num)));
+                //$riqi=time()-$num*24*3600;
+                $sql.="rq>$riqi";
+            }
+            elseif($day){
+                $sql.="DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = '".date('Y-m-d',strtotime($day))."'";
+            }
+            elseif($type){
+                $sql.="ssyq='".$type."'";
+            }
         }
     }
     $num_all=$mysqli->query($sql)->fetch_object()->count;
@@ -499,13 +508,13 @@ function spiderset_list(){
     }
     return $data;
 }
-function spider_type_list(){
+function spider_type_list($day=''){
     global $mysqli;
     $sql="select title from spiderset where ok=1 order by id asc";
     $result=$mysqli->query($sql);
     $str="";
     while($row=$result->fetch_assoc()){
-        $str.="<a href='spider.php?type=".$row['title']."'>".$row['title']."(".data_num('spider','','',$row['title']).")</a> | ";
+        $str.="<a href='spider.php?type=".$row['title']."'>".$row['title']."(".data_num('spider',$day,'',$row['title']).")</a> | ";
     }
     return $str;
 }

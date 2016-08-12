@@ -38,7 +38,7 @@ if (($_FILES["file"]["type"] == "text/plain") && ($_FILES["file"]["size"] < 1048
 			if($str){
 			    //进行vip限制验证
                 if($act=='domains') {
-                    $num = $mysqli->query("select count(*) from domains");
+                    $num = $mysqli->query("select count(*) as count from domains")->fetch_object()->count;
                     if($num>$config['domain']){
                         echo "<script>alert('域名数量已达到VIP限制,请升级您的帐号');self.location.href='info.php?act=".$act."';</script>";
                         exit;

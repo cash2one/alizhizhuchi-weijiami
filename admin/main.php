@@ -42,7 +42,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 				<?php
 			}
 			?>
-			<div class="title">蜘蛛来源<span id="zhizhulaiyuan"><img src="img/loading.gif" height="20"></span></div>
+			<div class="title">今日蜘蛛来源<span id="zhizhulaiyuan"><img src="img/loading.gif" height="20"></span></div>
 			<div id="main2" style="width: 800px;height:500px;"><img src="img/loading.gif"></div>
 		</div>
 	</div>
@@ -66,7 +66,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 				$("#heji").html(result.data);
 			},"json");
 			//蜘蛛来源统计
-			$.post('ajax_data.php',{act:"spider_type_list", data:""},
+			$.post('ajax_data.php',{act:"spider_type_list", data:"1"},
 			function(result){
 				$("#zhizhulaiyuan").html(result.data);
 			},"json");
@@ -75,6 +75,8 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 			function(result){
 				if(result.data){
 					$("#newver").html("发现新版本<a href='update.php'>立即更新</a>");
+				}else{
+					$("#newver").html("");
 				}
 			},"json");
 			//获取公告
@@ -209,7 +211,7 @@ $act=isset($_GET['act'])?$_GET['act']:false;
 		$result=$mysqli->query($sql);
 		while($row=$result->fetch_assoc()) {
 			$option2[]="'".$row['title']."'";
-			$series[]="{value:".data_num('spider','','',$row['title']).", name:'".$row['title']."'}";
+			$series[]="{value:".data_num('spider','1','',$row['title']).", name:'".$row['title']."'}";
 		}
 		$option2_data=implode(',',$option2);
 		$series_data=implode(',',$series);

