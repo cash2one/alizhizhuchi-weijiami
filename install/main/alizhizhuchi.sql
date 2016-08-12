@@ -48,7 +48,7 @@ CREATE TABLE `config` (
 --  Records of `config`
 -- ----------------------------
 BEGIN;
-INSERT INTO `config` VALUES ('', '', '', '', 'MS40LjA=', 'MTQ3MDc1ODQwMA==', '', '', '0');
+INSERT INTO `config` VALUES ('', '', '', '', 'MS40LjE=', 'MTQ3MDkzMTIwMA==', '', '', '0');
 COMMIT;
 
 -- ----------------------------
