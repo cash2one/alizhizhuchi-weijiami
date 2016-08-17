@@ -126,12 +126,15 @@ function moban($moban){
     $moban = str_replace( "<主关键词/>", $keyword, $moban );
 
     //外推链接
-    $sql="SELECT * FROM `url` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `url`)-(SELECT MIN(id) FROM `url`))+(SELECT MIN(id) FROM `url`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
-    $result=$mysqli->query($sql);
-    //$result=$mysqli->query("select * from url order by rand() limit 1");
-    $row=$result->fetch_assoc();
-    $moban = str_replace( "<外推链接/>", "<a href='".$row['title']."'>阿里蜘蛛池</a>", $moban );
-
+    $wk = count(explode('<外推链接/>', $moban)) - 1;
+    for ($di=0; $di<$wk; $di++) {
+        $sql = "SELECT title FROM `url` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `url`)-(SELECT MIN(id) FROM `url`))+(SELECT MIN(id) FROM `url`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1";
+        $tuiurl = $mysqli->query($sql)->fetch_object()->title;
+        //$result=$mysqli->query("select * from url order by rand() limit 1");
+        //$row=$result->fetch_assoc();
+//        $moban = str_replace("<外推链接/>", $tuiurl, $moban);
+        $moban = preg_replace('/<外推链接\/>/', $tuiurl, $moban, 1);
+    }
     //获取当前蜘蛛引擎并转为小写
     $ssyq=strtolower(get_naps_bot());
     if($ssyq&&$ssyq!==true) {//如果不为调试模式

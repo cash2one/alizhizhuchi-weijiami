@@ -37,6 +37,7 @@ class spider
         $time=time();
         $sql="insert into spider (`ssyq`,`fwdz`,`lldz`,`ipdz`,`age`,`rq`,`ipinfo`) values ('$engine','http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}','$ref','$ipdz','$agent',$time,'".convertip($ipdz)."')";
         $mysqli->query($sql);
+        //todo:v2.0
     }
     function record()
     {

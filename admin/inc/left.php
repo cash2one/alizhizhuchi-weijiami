@@ -23,6 +23,9 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			<a href="../main.php" target="main"><div class="line">
 					<img src="../img/coin01.png" />&nbsp;&nbsp;首页
 				</div></a>
+			<a href="http://www.alizhizhuchi.top/forum.php" target="_blank"><div class="line">
+					<img src="../img/coin07.png" />&nbsp;&nbsp;帮助
+				</div></a>
 			<dl class="system_log">
 				<dt>
 					<img class="icon1" src="../img/coin03.png" /><img class="icon2"

@@ -7,7 +7,7 @@ li{color:#999999;margin:0px;padding:0px;list-style-type:none;margin:0px;padding:
 /*---diy����----*/
 .home{width:960px;margin-left:auto;margin-right:auto;height:100%;}
 .top{width:960px;margin-left:auto;margin-right:auto;height:100%;}
-.logo{float:left;width:190px;height:70px;margin-right:10px;background: url(../images/logo.gif);text-indent: -999em;}
+.logo{float:left;width:190px;height:70px;margin-right:10px;background: url(../images/logo.png) no-repeat;text-indent: -999em;}
 .hf{float:left;width:600px;height:70px;margin-right:10px;}
 .sc{float:left;width:150px;height:70px;}
 .sc li{font-size:12px;color:#666;line-height:24px;}

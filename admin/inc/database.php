@@ -5,7 +5,7 @@ return array (
 		'hostname' => 'localhost',
 		'username' => 'root',
 		'password' => '123456',
-        'database' => 'alizhizhuchi'
+        'database' => 'zhizhuchi'
 		),
 );
 

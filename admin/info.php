@@ -76,7 +76,7 @@ switch($action){
 	<div id="pageAll">
 		<div class="pageTop">
 			<div class="page">
-				<img src="img/coin02.png" style="float:left;margin-top:10px;" /><span><a href="main.php">首页</a>&nbsp;-&nbsp;-</span>&nbsp;<?=$title?>
+				<img src="img/coin02.png" style="float:left;margin-top:10px;" /><span><a href="main.php">首页</a>&nbsp;-&nbsp;-</span>&nbsp;<?=$title?>&nbsp;(<a href="" style="color:red">导入失败?</a>)
 			</div>
 		</div>
 

@@ -1,0 +1,471 @@
+.box.view.sherry_box {
+    padding: 20px 28px;
+}
+.sherry_title {
+    padding: 0 2px;
+}
+.sherry_box .sherry_title h1 {
+    border-bottom: 0 none;
+}
+.sherry_box .content {
+    padding: 0;
+}
+.sherry_labels {
+    text-align: center;
+}
+.sherry_labels a{
+	display:inline-block;
+	padding:0 8px;
+}
+.sherry_edit {
+    height: 80px;
+    margin:0 0 15px 0;
+    position: relative;
+}
+.sherry_moreread p, .sherry_moreread ul {
+    display: block;
+    float: left;
+}
+.sherry_moreread ul {
+	overflow:hidden;
+}
+p.sherry_case{
+	width:60%;
+}
+p.sherry_keyword{
+	width:40%;
+}
+ul.sherry_case {
+    width: 358px;
+}
+ul.sherry_keyword{
+	width:40%;
+}
+.sherry_box .sherry_moreread p {
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+.sherry_box .sherry_edit > p {
+    border: 1px solid #c8d8f2;
+    height: 80px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 704px;
+    overflow:hidden;
+}
+.sherry_edit a {
+    border-right: 1px solid #c8d8f2;
+    display: block;
+    float: left;
+    height: 80px;
+    padding-top: 50px;
+    text-align: center;
+    width: 125px;
+}
+.sherry_dianzan {
+    background: url("Sxianang.png") repeat scroll 0 0 ;
+}
+.sherry_tougao {
+    background: url("Sxianang.png") repeat scroll -144px 0 ;
+}
+.sherry_zhuanlan {
+    background: url("Sxianang.png") repeat scroll -282px 0 ;
+}
+.sherry_qiye {
+    background: url("Sxianang.png") repeat scroll -414px 0 ;
+}
+.sherry_edit0 {
+    background: url("BLLan.png") repeat scroll 0 0 ;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 80px;
+    line-height: 20px;
+    min-width: 208px;
+    _width:208px;
+    overflow: hidden;
+    padding: 22px;
+    position: absolute;
+    left:504px;
+}
+.sherry_moreread {
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.sherry_writer {
+    font-size: 12px;
+}
+.sherry_checkbg {
+    background: none repeat scroll 0 0 #e7e7e7;
+    height: 2px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.sherry_checked {
+    background: none repeat scroll 0 0 #379be9;
+    height: 2px;
+    overflow: hidden;
+    position: absolute;
+    width: 335px;
+}
+.sherry_box .sherry_moreread a {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 35px;
+}
+.sherry_ad {
+    overflow: hidden;
+    position: relative;
+    width: 705px;
+}
+.sherry_ad > a {
+    display: block;
+}
+.sherry_recommend_head {
+	background:url("recombg.png");
+	height:36px;
+	overflow:hidden;
+	border-bottom: 1px solid #c8d8f2;
+	padding: 0 20px;
+}
+.sherry_recommendtions div {
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 135px;
+}
+.sherry_zhuanlan_recommendtions{
+    border: 1px solid #c8d8f2;
+    padding: 0 10px;
+    margin-bottom:10px;
+    border-top:0 none;
+}
+.sherry_zhuanlan_recommendtions a img,
+.sherry_zhuanlan_recommendtions img {
+    width: 100px;
+    height:65px;
+}
+.sherry_recommendtions a img,
+.sherry_recommendtions img {
+    width: 135px;
+    height: 90px;
+}
+.sherry_right_recommend > a {
+    color: #1e50a2;
+}
+.sherry_zhuanlan_recommendtions div {
+    float: left;
+    height: 67px;
+    margin-left: 1px;
+    overflow: hidden;
+    width: 100px;
+}
+.sherry_zhuanlan_recommendtions > .sherry_fli{
+    border-top: 0 none;
+	
+}
+.sherry_neck {
+	background:#ecf2f5;
+    border: 1px solid #c2d5e3;
+    margin: 10px 4px;
+    padding: 1px;
+}
+.sherry_links > ul {
+    color: #222222;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.sherry_links > ul > li {
+    display: inline-block;
+    padding: 0 3px;
+}
+.sherry_links > ul li a{
+    color: #444444;
+    font-family: 微软雅黑;
+}
+.sherry_wherenow {
+    font-family: 微软雅黑;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.grid_11 .sherry_mian {
+    border-color: #e8e8e8;
+}
+.sherry_photo > img {
+    height: 140px;
+    width: 190px;
+}
+.sherry_list {
+    padding: 20px 30px 0;
+}
+.sherry_photo {
+    overflow: hidden;
+    height: 140px;
+    width: 190px;
+    float: left;
+    border:1px solid #CCCCCC;
+    margin-right:20px;
+}
+.sherry_list > li {
+    border-top: 1px solid #e7e7e7;
+    overflow: hidden;
+    padding: 5px 0;
+}
+.shreey_from {
+	color: #bbbbbb;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	padding-left: 2px;
+	font-weight: bold;
+}
+.sherry_zw {
+	height: 85px;
+	overflow: hidden;
+	padding-left: 2px;
+	white-space: normal;
+	display: block;
+	padding-top:3px;
+}
+.sherry_mian .sherry_list > li .shreey_tips {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 2px;
+	text-indent: 0;
+}
+.sherry_date {
+	display: block;
+	float: right;
+	height: 20px;
+	padding-right: 20px;
+	line-height: 20px;
+	color:#777;
+}
+.sherry_zw span{
+	color: #777;
+	font-size:13px;
+}
+.sherry_zw span a {
+	color: #000;
+}
+.shreey_tips > a {
+    color: #000;
+    font-family: 微软雅黑;
+    padding: 5px;
+}
+.sherry_list > .sherry_fli{
+	border-top: 0 none;
+}
+
+/* 
+*{
+	font-size:13px;
+	font-family:微软雅黑;
+}*/
+.box.view .path a{
+	color:#3363dc;
+	font-weight:normal;
+}
+.box.view h1{
+	font-family:微软雅黑;
+}
+.sherry_title {
+    display: block;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 0 0 0 2px;
+	font-family:微软雅黑;
+	color:#343436;
+	font-weight:bold;
+}
+.sherry_box .sherry_title .source,.sherry_box .sherry_title .source *{
+	color:#666666;
+	font-weight:normal;
+}
+.box.view p.sherry_labels a{
+	font-size: 11px;
+	color:#1e50a2;
+}
+/*
+
+    color: #393939;
+    font-size:16px;   
+    */
+.box.view .content,
+.box.view .content p,
+.box.view .content p strong{ 
+    font-size: 16px;
+    line-height: 30px;
+	padding-bottom: 17px;
+	word-wrap:break-word;
+	word-break:normal; 
+}
+.box.view .content span{ 
+    font-size: 16px;
+}
+.box.view h1{
+	padding:5px 0 6px;
+	font-size:21px;
+	height: 36px;
+    line-height: 36px;
+}
+.sherry_box .sherry_title .source {
+    border-bottom: 1px solid #c3c3c3;
+	padding:0 0 10px;
+}
+.box.view .sherry_labels {
+	padding:10px 0 1px;
+}
+.box.view a{
+	color:#009;
+    font-weight: normal;
+    /*font-size:13px;*/
+}
+.box.view  .sherry_edit  a{
+	color:#454545;
+    font-weight: normal;
+    font-size:13px;
+}
+.box.view  .sherry_moreread  a{
+	color:#454545;
+    font-weight: normal;
+    font-size:13px;
+}
+
+.box.view .source a{
+    font-size:12px;
+}
+.sherry_recommend_pages {
+    float: right;
+    height: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+.sherry_recommend_pages > a {
+    display: block;
+    float: left;
+    padding: 1px;
+    width: 16px;
+	color:#3363dc;
+    font-size:13px;
+}
+.sherry_recommend_pages_now{
+	background:#c2d5e3;
+}
+.sherry_recommendtions a {
+    display: block;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 120px;
+	color:#383838;
+	margin-top:2px;
+}
+.sherry_recommend_head > p {
+	color:#1e50a2;
+    float: left;
+    font-size:13px;
+    margin-top:10px;
+}
+.sherry_recommendtions > li {
+	display: block;
+    float: left;
+    height: 130px;
+    overflow: hidden;
+    width: 178px;
+}
+.sherry_recommendtions {
+    overflow: hidden;
+    padding: 0;
+    height: 133px;
+}
+.sherry_recommend {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #c8d8f2;
+    overflow: hidden;
+}
+.box .box_hd .tab{
+}
+.clr25{
+	clear:both;
+	height:25px;
+	display:block;
+}
+.sherry_right_recommend {
+    background: url("recombg.png") repeat scroll 0 0 ;
+    border: 1px solid #c8d8f2;
+	color:#3363dc;
+    font-family: 微软雅黑;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size:13px;
+}
+.sherry_zhuanlan_recommendtions a {
+	color:#1e50a2;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    height: 25px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.sherry_zhuanlan_recommendtions div a{
+	height:auto;
+}
+.sherry_zhuanlan_recommendtions > li {
+    border-top: 1px dotted #ccc;
+    display: block;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.sherry_zhuanlan_recommendtions p {
+    color: #777;
+    display: block;
+    float: left;
+    height: 47px;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 6px 0;
+    width: 155px;
+}
+.sherry_zhuanlan_recommendtions a {
+    color: #3e70c2;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    height: 25px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.sherry_wherenow > a {
+    color: #1e50a2;
+}
+.box .box_bd ul.sherry_list li{
+	background:none;
+}
+.sherry_photo .imgface img {
+    height: 140px;
+    width: 190px;
+}
+.grid_5 .rank .box_hd{
+	margin-left:-1px;
+	padding-left:0;
+}
+.grid_5 .rank .box_hd .tab{
+	float:left;
+}

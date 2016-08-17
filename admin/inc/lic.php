@@ -45,7 +45,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             if($request==='5pyq5o6I5p2D'){//未授权
                 $sql="update config set enddate='".base64_encode(time())."',link=0 limit 1";
                 $mysqli->query($sql);
-                echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
+                echo SITE_NAME."警告:此域名未授权,请<a href='http://www.alizhizhuchi.top/#goumai' target='_blank'>点此链接</a>申请免费使用或购买授权";exit;
             }
             $result=json_decode($request);
             $sql="update config set vip='".base64_encode($result->vip)."',domain='".base64_encode($result->domain)."',templates='".base64_encode($result->templates)."',enddate='".base64_encode($result->enddate)."',date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."',link=0 limit 1";
@@ -61,6 +61,7 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
                 $post_data['spider_num'] = $spider_num;
                 $post_data['ver_title']=$config['ver'];
                 $request = request_post($post_data);
+                //todo:v2.0
                 //file_get_contents("http://vip.alizhizhuchi.top/index.php?act=data&domain=".$yuming."&domain_num=".$domain_num."&spider_num=".$spider_num);//修改服务器域名
 
                 //域名限制
@@ -88,17 +89,17 @@ if($config['title']&&$config['enddate']&&$config['date']&&$config['vip']&&$confi
             }else{//3次连不上判定为未授权并且明天继续连接服务器
                 $sql="update config set date='".base64_encode(mt_rand(strtotime(date('Y-m-d',strtotime("+1 day"))),strtotime(date('Y-m-d',strtotime("+2 day")))))."' limit 1";
                 $mysqli->query($sql);
-                echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
+                echo SITE_NAME."警告:此域名未授权,请<a href='http://www.alizhizhuchi.top/#goumai' target='_blank'>点此链接</a>申请免费使用或购买授权";exit;
             }
         }
         $config=config_list();
     }else{
         if($config['link']>=3){//3次连不上判定为未授权
-            echo SITE_NAME."警告:此域名未授权,<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
+            echo SITE_NAME."警告:此域名未授权,请<a href='http://www.alizhizhuchi.top/#goumai' target='_blank'>点此链接</a>申请免费使用或购买授权";exit;
         }
     }
     if(time()>$config['enddate']){//如果过期
-        echo SITE_NAME."警告:您的帐号已过期,请购买授权。<a href='http://www.alizhizhuchi.top' target='_blank'>立即购买</a>";exit;
+        echo SITE_NAME."警告:您的帐号已过期,请购买授权。请<a href='http://www.alizhizhuchi.top/#goumai' target='_blank'>点此链接</a>申请免费使用或购买授权";exit;
     }
 }else{
     echo SITE_NAME."警告:数据损坏,请联系客服人员,加群201356527";exit;

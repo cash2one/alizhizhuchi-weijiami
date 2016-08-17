@@ -1,0 +1,1 @@
+var IMG_URL="http://img.admin5.com/",UPLOAD_URL="http://upload.admin5.com/",APP_URL="http://apping.admin5.com/",WWW_URL="http://www.admin5.com/",SPACE_URL="http://space.admin5.com/",COOKIE_PRE="NTc3Yz_",COOKIE_DOMAIN=".admin5.com",COOKIE_PATH="/",SINA_APPKEY="3972269122",QQ_SOURCEID="1000033";

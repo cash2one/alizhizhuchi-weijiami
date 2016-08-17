@@ -2,7 +2,8 @@
 @set_time_limit(1000);
 header ( "Content-type:text/html;charset=utf-8" );
 if(phpversion() < '5.3.0') set_magic_quotes_runtime(0);
-if(phpversion() < '5.5.0') exit('您的php版本过低，不能安装本软件，请升级到5.5.0或更高版本再安装，谢谢！');
+if(phpversion() > '7.0.0') exit('您的php版本为'.phpversion().',版本过高，本程序咱不支持，请降级到5.5.x或5.6.x版本再安装，谢谢！');
+if(phpversion() < '5.5.0') exit('您的php版本为'.phpversion().',版本过低，不能安装本软件，请升级到5.5.x或5.6.x版本再安装，谢谢！');
 define('PC_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 if(!defined('ALI_PATH')) define('ALI_PATH', PC_PATH.'..'.DIRECTORY_SEPARATOR);
 if(file_exists(ALI_PATH.'install.lock')) exit('您已经安装过阿里蜘蛛池，如果需要重新安装，请删除 ./install.lock 文件！');

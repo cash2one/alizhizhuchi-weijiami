@@ -1,8 +1,8 @@
-body { font-size: 12px; font-family: "ËÎÌå"; background: #fff; }
+body { font-size: 12px; font-family: "ï¿½ï¿½ï¿½ï¿½"; background: #fff; }
 .case980, .thisYipinWrapper, .container { width: 980px; margin: 0 auto; }
 
 /* Modified 20151221 */
-.hy_foot { background: #3c3c3c; text-align: center; color: #ccc; height: 60px; line-height: 60px; }
+.hy_foot { background: #3c3c3c; text-align: center; color: #ccc; }
 .hy_foot a { color: #ccc; text-decoration: none; }
 .hy_foot a:hover { text-decoration: underline; }
 /* Modified 20151221 */
@@ -43,7 +43,7 @@ body { font-size: 12px; font-family: "ËÎÌå"; background: #fff; }
 .this_14list_tit div.fl { padding-top:13px; }
 .this_14list_tit div.fl a { color: #333; }
 
-/* ÆØ¹â ºÍ µãÆÀ ÁÐ±í */
+/* ï¿½Ø¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ */
 .this_14list { margin-bottom: 30px; }
 .this_14_dl{ height:160px; border-bottom:1px solid #ddd;font-family:"Microsoft Yahei";}
 

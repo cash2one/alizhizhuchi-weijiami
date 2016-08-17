@@ -1,0 +1,1542 @@
+
+/**顶部工具条**/
+.header{
+    height: 38px;
+    line-height: 38px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.headerLeft a{
+    display: block;
+    float: left;
+    padding-right: 15px;
+    padding-left: 9px;
+    border-right: 1px solid #eee;
+}
+
+/*.text_b{
+    padding-left: 280px;
+}*/
+
+.text_b .dlu{
+    display: block;
+    background-position: -84px 0;
+    width: 16px;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: 11px;
+}
+
+.header .text_c{
+    padding-left: 13px;
+}
+
+.header .text_c li{
+    display: block;
+    float: left;
+    padding: 0 15px;
+    height: 38px;
+}
+
+.header .text_c a{
+    text-decoration: none;
+    padding-left:5px;
+}
+
+.sprite{
+    margin-top: 10px;
+    background: url("http://img.admin5.com/templates/default/a5start/images/index_icon.png") no-repeat
+}
+
+.header .text_c .md{
+    display: block;
+    width: 12px;
+    height: 17px;
+    background-position: 0 0;
+}
+
+.header .text_c .wb{
+    display: block;
+    width: 21px;
+    background-position: -18px 0;
+    height: 15px;
+}
+
+.header .text_c .wx{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-position: -41px 0;
+}
+
+/*微信*/
+#wxHide{
+    position: relative;
+}
+
+.wxHide_box{
+    display: none;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    background: #f8f8f8;
+    padding: 10px;
+    left: -12px;
+    top: 38px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.text_d{
+    position: relative;
+}
+
+.text_d:hover .arrowRight{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); /* Internet Explorer */
+    -moz-transform:rotate(180deg); /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg); /* Opera */
+}
+
+.text_d .arrowRight{
+    display: inline-block;
+    *display: inline-block;
+    width: 10px;
+    height: 6px;
+    background-position: -67px 0;
+    margin-left: 5px;
+}
+
+
+/*网站导航*/
+.webNav{
+    display: none;
+    position: absolute;
+    height: 325px;
+    left: -301px;
+    width: 330px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    z-index: 9999;
+    padding: 20px;
+    font-size: 13px;
+    background: #f8f8f8;
+}
+
+.webNav h4 a{
+    display: block;
+    font-weight: bold;
+    color: #222;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.dealList{
+    margin-bottom: 20px;
+}
+
+.dealList dl{
+    width: 280px;
+}
+
+.dealList dt a{
+    float: left;
+    display: block;
+    font-weight: bold;
+    color: #222;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.dealList dd a{
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    border-right: 1px solid #eee;
+    padding-right: 12px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+/*logo一栏*/
+.logo{
+    height: 80px;
+}
+
+.logo .logoImg{
+    width: 159px;
+    height: 70px;
+}
+
+/*logo文字广告*/
+
+.logo_textAd{
+    width: 402px;
+    font-size: 13px;
+}
+
+.logo .logo_textAd{
+    margin-top: 10px;
+    border: 1px solid #eee;
+    margin-left: 62px;
+    height: 60px;
+}
+
+.logo .logo_textAd a{
+    display: block;
+    height: 20px;
+    width: 190px;
+    overflow: hidden;
+    margin: 0 5px;
+}
+
+.logo .logo_textAd table{
+    padding: 2px 10px;
+}
+
+/*logo图片广告*/
+.logoAd{
+    width: 468px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+/*导航*/
+.nav{
+    height: 45px;
+    font-size: 16px;
+}
+
+.nav li{
+    float: left;
+    background: #379be9;
+    width: 100px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav li:hover{
+    float: left;
+    background: #2986cf;
+    width: 100px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav .active{
+    background: #2986cf;
+}
+
+.nav li a{
+    color: #fff;
+}
+
+/*导航广告*/
+.navBottom {
+    height: 45px;
+    background: #f8f8f8;
+}
+
+.navBottom li{
+    float: left;
+    background: #f8f8f8;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 19px;
+}
+
+.navBottom_bg .zj{
+    display: block;
+    width: 12px;
+    height: 17px;
+    background-position: -106px 0;
+}
+
+/*导航文字广告*/
+.nav_textAd{
+    background: #eee;
+    height: auto;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.nav_textAd table{
+    padding: 6px 10px;
+}
+
+.nav_textAd a{
+    display: block;
+    width: 200px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding:0 9px;
+}
+
+.headerAd a{
+    display: block;
+    height: 53px;
+    width: 1100px;
+}
+
+.headerAd a img {
+    max-height: 50px;
+    width: 1100px;
+}
+
+
+/*搜索广告*/
+.search{
+    margin-top: 10px;
+    background: #f8f8f8;
+    height: 45px;
+    line-height: 45px;
+}
+
+/*滚动文字*/
+.notice{width:387px;height:26px;overflow:hidden;background:url(http://img.admin5.com/templates/default/a5start/images/bg.gif) no-repeat; margin-top: 10px; margin-left: 10px}
+.noticTipTxt{color:#ff7300;height:22px;line-height:22px;overflow:hidden;margin:0 0 0 35px;}
+.noticTipTxt li{height:22px;line-height:25px;}
+.noticTipTxt a{color:#0075E8;font-size:12px;text-decoration:none;}
+.noticTipTxt a:hover{color:#ff7300;text-decoration:underline;}
+
+/*4图标*/
+.btnText{
+    margin-left: 10px;
+}
+
+.btnText ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.btnText ul li:hover a{
+    color: #fff;
+}
+
+.btnText ul li:hover {
+    background: #379be9;
+}
+
+.btnText ul li a{
+    padding-left: 6px;
+}
+
+.btnText .tg {
+    display: block;
+    width: 16px;
+    height: 18px;
+    background-position: -125px 0;
+    margin-top: 12px;
+}
+
+.btnText ul li:hover .tg {
+    background-position: 0 -24px;
+}
+
+.btnText .zl {
+    display: block;
+    width: 16px;
+    height: 18px;
+    background-position: -152px 0;
+    margin-top: 12px;
+}
+
+.btnText ul li:hover .zl {
+    background-position: -26px -24px;
+}
+
+
+.btnText .bd {
+    display: block;
+    width: 16px;
+    height: 18px;
+    background-position: -177px 0;
+    margin-top: 14px;
+}
+
+.btnText ul li:hover .bd {
+    background-position: -51px -24px;
+}
+
+.btnText .xx {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-position: -202px 0;
+    margin-top: 15px;
+}
+
+.btnText ul li:hover .xx {
+    background-position: -76px -24px;
+}
+
+/*搜索*/
+.searchBox{
+    position: relative;
+}
+
+.searchBor{
+    width: 180px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.searchBtn{
+    position: absolute;
+    left: 160px;
+    top: 12px;
+}
+
+
+/*幻灯一栏*/
+.hdList{
+    margin-top: 15px;
+}
+
+/*幻灯*/
+
+.hd{
+    width: 390px;
+}
+.orbit-wrapper { position: relative;}
+#featured { position: relative; width: 390px; height: 330px; overflow: hidden; }
+.orbit > img { display: none; position: absolute; top: 0; left: 0; border: 0 none; }
+.orbit > a { display: none; position: absolute; top: 0; left: 0; line-height: 0; border: 0 none; }
+.orbit > div { position: absolute; top: 0; left: 0; width: 100%; height: 100% }
+.orbit-item { background-color: #f5f5f5; }
+
+
+/* 标题 */
+.orbit-caption { display: none; position: absolute; left: 0; bottom: 0; z-index: 10; width: 100%; height: 49px;  text-align: center; color: #fff; background: rgba(0,0,0,.6); }
+
+/* 导航 */
+.orbit-bullets { position: absolute; z-index: 1000; list-style: none; bottom: 0px; left: 50%; margin: 15px 0 15px -50px; padding: 0; }
+.orbit-bullets li { float: left; margin: 0 5px; cursor: pointer; width: 10px; height: 10px; overflow: hidden; text-indent: -9999px; background-color: #000; }
+.orbit-bullets li.active { background-color: #49CFF1; }
+.orbit-bullets li.has-thumb { background: none; width: 100px; height: 75px; }
+.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px solid #000; }
+
+
+/* 定时器 */
+.timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right: 10px; opacity: .6; cursor: pointer; z-index: 1001; }
+.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+.rotator.move { left: 0; }
+.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0;z-index: 4; opacity: 0; }
+.timer:hover span.pause, span.pause.active { opacity: 1; }
+
+/**幻灯底部头条**/
+.hdBottom{
+    margin-top: 10px;
+    position: relative;
+}
+
+.hdBottom a{
+    display: block;
+    width: 190px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hdBottom a:hover{
+    color: #379be9;
+}
+
+.hdBottom .hdDigest{
+    position: absolute;
+    top: 92px;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    width: 170px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.hdBottom img{
+    width: 190px;
+    height: 120px;
+}
+
+
+
+/*新闻头条*/
+.mainHot{
+    padding-left: 30px;
+    width: 335px;
+}
+
+.mainHot h1{
+    font-size: 16px;
+    color: #379be9;
+    font-weight: bold;
+    border-bottom: 1px dashed #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.mainHot h1 a{
+    color: #379be9;
+}
+
+.mainHot .titleHot dl{
+    margin-top: 15px;
+    border-bottom: 1px dashed #d5d5d5;
+    padding-bottom: 12px;
+}
+
+.mainHot .titleHot dt a{
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.mainHot .titleHot dd{
+    height: 22px;
+    overflow: hidden;
+}
+
+.mainHot .titleHot dd a{
+    display: block;
+    height: 22px;
+    overflow: hidden;
+    color: #999;
+    float: left;
+    padding: 3px 4px;
+}
+
+.mainHot .titleList li{
+    width: 330px;
+    overflow: hidden;
+    margin-top: 10px;
+    background: transparent url("http://img.admin5.com/templates/default/a5start/images/list_style.png") no-repeat scroll 2px 13px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 12px;
+}
+
+
+/*Admin5 业务*/
+.mainSpecial{
+    width: 310px;
+}
+
+.mainSpecial .bus{
+    padding: 3px 15px;
+    background: #eef5fb;
+}
+
+.mainSpecial .bus dl{
+    height: 24px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.mainSpecial .bus dt{
+    display: block;
+    background: #2b83c7;
+    color: #fff;
+    padding: 2px 6px;
+}
+
+.mainSpecial .bus dd a{
+    display: block;
+    float: left;
+    color: #13446a;
+    padding: 1px 4px;
+    margin-left: 5px;
+}
+
+/*专题推荐*/
+.special {
+    width: 310px;
+}
+
+.specialTitle{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #eee;
+    background: #f8f8f8;margin-top: 20px;
+}
+
+.specialTitle h1{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    color: #379be9;
+}
+
+.specialTitle span a{
+    display: block;
+    float: right;
+    color: #999;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.specialBox{
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-top: -1px;
+    height: 260px;
+}
+
+.specialBox a{
+    text-align: center;
+    display: block;
+    width: 135px;
+    position: relative;
+    height: 135px;
+}
+
+.specialBox img{
+    width: 100%;
+    height: 95px;
+}
+
+.specialBox .specialDigest{
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    background: #eee;
+    top: 94px;
+    left: 0;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.specialBox a:hover p{
+    background: #379be9;
+    color: #fff;
+}
+
+/*左侧主内容*/
+.mainLeft{
+    width: 750px;
+}
+
+/*广告*/
+.leftBanner a{
+    display: block;
+    width: 750px;
+    height: 50px;
+    margin-top: 10px;
+}
+/*创业列表*/
+.mainLeft .mainTitle h1{
+    margin-top: 15px;
+    height: 40px;
+    border-top: 1px solid #379be9;
+    font-weight: bold;
+    color: #379be9;
+    font-size: 24px;
+    padding-top: 6px;
+}
+
+.mainLeft .mainTitle h1 a{
+    color: #379be9;
+}
+
+.mainLeft .mainTitle h1 span a{
+    color: #999;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.mainLeft .mainTitle em{
+    font-weight: normal;
+}
+/**创业列表**/
+
+.startList{
+    margin-top: 8px;
+}
+
+.startList_l {
+    width: 360px;
+}
+
+.startList_hot dt a{
+    width: 100px;
+    height: 70px;
+    display: block;
+    margin-right: 15px;
+}
+
+.startList_hot dd a{
+    width: 245px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    height: 45px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.startList_bottom{
+    margin-top: 8px;
+}
+
+.startList_bottom ul li{
+    background: url("http://img.admin5.com/templates/default/a5start/images/list_style.png") no-repeat scroll 2px 12px transparent;
+    padding-left: 12px;
+    width: 348px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.startList_bottom ul li a{
+    display: block;
+    color: #666;
+    font-size: 14px;
+    overflow: hidden;
+}
+.startList_bottom ul li a:hover{
+    color: #379be9;
+}
+
+.startList_r{
+    width: 360px;
+    margin-top: -6px;
+}
+
+.startList_r ul li{
+    background: url("http://img.admin5.com/templates/default/a5start/images/list_style.png") no-repeat scroll 2px 12px transparent;
+    padding-left: 12px;
+    width: 348px;
+    height: 28px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+}
+
+.startList_r ul li a{
+    color: #666;
+}
+
+.startList_r ul li a:hover{
+    color: #379be9;
+}
+
+/*营销*/
+.marketing{
+    width: 750px;
+}
+
+.marketingLeft{
+    width: 410px;
+}
+
+.marketingLeft li{
+    background: url("http://img.admin5.com/templates/default/a5start/images/list_style.png") no-repeat scroll 2px 8px transparent;
+    padding-left: 12px;
+    width: 352px;
+    height: 31px;
+    overflow: hidden;
+}
+
+.marketingLeft ul{
+    margin-top: 10px;
+}
+
+.marketingLeft li a{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    color: #666;
+}
+
+.marketingLeft .bot{
+    background: url("http://img.admin5.com/templates/default/a5start/images/list_bot.png") no-repeat scroll 2px 8px transparent;
+    padding-left: 12px;
+    width: 352px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.marketingLeft li a:hover{
+    color: #379be9;
+}
+
+.marketingLeft .bot a{
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+}
+
+.marketingRight{
+    width: 330px;
+    margin-top: 35px;
+}
+
+.marketingRight a{
+    position: relative;
+    display: block;
+    width: 155px;
+    height: 179px;
+}
+
+.marketingRight p{
+    width: 131px;
+    position: absolute;
+    background: #eee;
+    text-align: left;
+    top: 110px;
+    left: 0;
+    height: 33px;
+    overflow: hidden;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+
+/*A5业务*/
+.Admin5{
+}
+
+.Admin5Box{
+    background: #f8f8f8;
+    padding-bottom: 15px;
+}
+
+.Admin5Box .mainTitle h1{
+    margin-top: 15px;
+    height: 40px;
+    border-top: 1px solid #379be9;
+    font-weight: bold;
+    color: #379be9;
+    font-size: 24px;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+
+.Admin5List{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.Admin5List ul{
+    margin-top: 10px;
+}
+
+.Admin5List h4{
+    font-weight: bold;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 22px;
+    width: 85px;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+
+.Admin5List .Admin5List_box{
+    border-bottom: 1px dotted #d5d5d5;
+}
+
+.Admin5List_box li{
+    width: 137px;
+    display: block;
+    float: left;
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+}
+
+.Admin5List_box li a{
+    padding-left: 6px;
+    text-decoration: none;
+    color: #666;
+}
+
+.Admin5List_box li:hover{
+    border-bottom: 1px solid #379be9;
+}
+
+.Admin5List_box i{
+    margin-top: 1px;
+    display: block;
+}
+
+/*A5交易*/
+.Admin5List_box .ym{
+    width: 18px;
+    height: 18px;
+    background-position: 0 -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .pm{
+    width: 18px;
+    height: 18px;
+    background-position: -18px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .zg{
+    width: 18px;
+    height: 18px;
+    background-position: -43px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .wz{
+    width: 18px;
+    height: 18px;
+    background-position: -65px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .ap{
+    width: 18px;
+    height: 18px;
+    background-position: -88px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .zh{
+    width: 18px;
+    height: 18px;
+    background-position: -107px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .gg{
+    width: 18px;
+    height: 18px;
+    background-position: -127px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .wd{
+    width: 18px;
+    height: 18px;
+    background-position: -148px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .tk{
+    width: 18px;
+    height: 18px;
+    background-position: -136px -76px;
+    margin-top: 3px;
+}
+
+/*A5营销*/
+.Admin5List_box .zd{
+    width: 18px;
+    height: 18px;
+    background-position: 0 -75px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .gw{
+    width: 18px;
+    height: 18px;
+    background-position: -22px -75px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .qy{
+    width: 18px;
+    height: 18px;
+    background-position: -41px -75px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .ft{
+    width: 18px;
+    height: 18px;
+    background-position: -65px -75px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .zt{
+    width: 18px;
+    height: 18px;
+    background-position: -87px -75px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .hd{
+    width: 18px;
+    height: 18px;
+    background-position: -110px -75px;
+    margin-top: 3px;
+}
+
+/*一团网*/
+.Admin5List_box .zztg{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -101px;
+}
+
+.Admin5List_box .xp{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -25px -101px;
+}
+
+.Admin5List_box .yzj{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -50px -101px;
+}
+
+.Admin5List_box .rj{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -76px -101px;
+}
+
+.Admin5List_box .ymtg{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -102px -101px;
+}
+
+.Admin5List_box .fw{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -127px -101px;
+}
+
+.Admin5List_box .ydb{
+    width: 18px;
+    height: 18px;
+    background-position: -150px -101px;
+    margin-top: 3px;
+}
+
+/*A5任务*/
+.Admin5List_box .rwdd{
+    width: 18px;
+    height: 18px;
+    background-position: -148px -47px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .mym{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: -102px -101px;
+}
+
+
+.Admin5List_box .zjs{
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -129px;
+}
+
+
+.Admin5List_box .wzkf{
+    width: 18px;
+    height: 18px;
+    background-position: -24px -129px;
+    margin-top: 3px;
+}
+
+
+.Admin5List_box .wzfz{
+    width: 18px;
+    height: 18px;
+    background-position: -49px -125px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .mgsj{
+    width: 18px;
+    height: 18px;
+    background-position: -79px -129px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .qt{
+    width: 18px;
+    height: 18px;
+    background-position: -105px -130px;
+    margin-top: 3px;
+}
+
+/*其它*/
+.Admin5List_box .ydlm{
+    width: 18px;
+    height: 18px;
+    background-position: 0 -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .mljr{
+    width: 18px;
+    height: 18px;
+    background-position: -25px -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .itpp{
+    width: 18px;
+    height: 18px;
+    background-position: -50px -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .ymxz{
+    width: 18px;
+    height: 18px;
+    background-position: -80px -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .gglm{
+    width: 18px;
+    height: 18px;
+    background-position: -105px -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .zjaq{
+    width: 18px;
+    height: 18px;
+    background-position: -132px -158px;
+    margin-top: 3px;
+}
+
+.Admin5List_box .zjtg{
+    width: 18px;
+    height: 18px;
+    background-position: -159px -158px;
+    margin-top: 3px;
+}
+
+
+
+/*友情链接*/
+#hide{
+    margin-top: 25px;
+}
+
+#hide .active{
+    background: #379be9;
+    color: #fff;
+}
+#hide div{
+    border-top: 1px solid #eee;
+    display: none;
+    padding: 15px 0;
+    height: 90px;
+}
+
+#hide ul{
+    border-top: 1px solid #379be9;
+    border-right: 1px solid #eee;
+}
+
+#hide li{
+    display: block;
+    float: left;
+    padding: 3px 8px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.linksA a{
+    display: block;
+    float: left;
+    padding: 0 15px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/*右侧*/
+.mainRight{
+    width: 310px;
+}
+
+.mainRight .rightTitle{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #eee;
+    background: #f8f8f8;margin-top: 20px;
+}
+
+.mainRight .rightTitle h1{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    color: #379be9;
+}
+.rightTitle span a{
+    display: block;
+    float: right;
+    color: #999;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*右侧广告*/
+
+.rightAd{
+    margin-top: 10px;
+}
+
+.mainRight .rightAd a{
+    display: block;
+    width: 310px;
+    height: 50px;
+    margin-top: 8px;
+}
+
+/*信息推荐*/
+.infoAd a{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    width: 285px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.infoBox{
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top: -1px;
+}
+
+/*创业公司*/
+.company li{
+    width: 285px;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.company li a{
+    height: 26px;
+    line-height: 26px;
+}
+
+.company li em{
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    font-style:italic;
+    font-size: 14px;
+    color: #999;
+}
+
+/*创业产品*/
+.product li{
+    margin-top: 15px;
+    height: 70px;
+    width: 285px;
+}
+
+.product .productImg{
+    width: 95px;
+    height: 70px;
+}
+
+.product .productText{
+    width: 175px;
+}
+
+.productText dt{
+    margin-bottom: 6px;
+    height: 61px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.productText dd{
+    height: 40px;
+    overflow: hidden;
+    color: #999;
+}
+
+/*专栏文章*/
+.column li{
+    margin-top: 10px;
+    border-bottom: 1px dotted #d5d5d5;
+    padding-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.column li:first-child{
+    margin-top: 0;
+}
+
+.column li a{
+    display: block;
+    height: 52px;
+    overflow: hidden;
+    line-height: 1.8em;
+}
+
+.column li span{
+    font-size: 12px;
+    display: block;
+    color: #999;
+    position: absolute;
+    top: 30px;
+    left: 177px;
+}
+
+.column li span em{
+    text-align: center;
+    background: #379be9;
+    color: #fff;
+    width: 55px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    float: right;
+}
+
+
+/*推荐阅读*/
+.readImg a{
+    display: block;
+    width: 95px;
+    height: 70px;
+}
+
+.hotRead li{
+    height: 70px;
+    margin-top: 10px;
+}
+
+.hotRead li:first-child{
+    margin-top: 0;
+}
+
+.product li:first-child{
+    margin-top: 0;
+}
+
+
+.readText dl{
+    height: 54px;
+    width: 167px;
+    background: #eee;
+    padding: 8px 8px;
+}
+
+.readText dt a{
+    display: block;
+    height: 51px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.readList li{
+    background: url("http://img.admin5.com/templates/default/a5start/images/list_style.png") no-repeat scroll 2px 8px transparent;
+    padding-left: 12px;
+    width: 266px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.rightBottomAd a{
+    margin-top: 20px;
+    width: 310px;
+    height: 120px;
+    display: block;
+}
+
+/*底部*/
+.footerAd a{
+    display: block;
+    width: 1100px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/**底部**/
+.footer{
+    height: 200px;
+    background: #f1f1f1;
+    position:relative;
+    z-index:30;
+    margin-top: 10px;
+}
+
+.footer .link {
+}
+
+.footer .link p {
+    width: 120px;
+    margin-top: 35px;
+
+}
+
+.footer .link p a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer .wx{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.footer .beian{
+    margin-top: 30px;
+}
+
+.footer .beian p{
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer .beian p span a ,.footer .beian p span{
+    background: #379be9;
+    color: #fff;
+    padding: 2px 10px;
+}
+
+.footer .benan_cion{
+    margin-top: 30px;
+}
+
+
+#elevator_item {
+    width: 60px;
+    height: 100px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    opacity: 1;
+    z-index: 100020;
+    display: none;
+}
+#elevator_item.off {
+    opacity: 0;
+    visibility: hidden
+}
+#elevator {
+    display: block;
+    width: 60px;
+    height: 50px;
+    background: url(http://img.admin5.com/templates/default/a5start/images/icon_top.png) center center no-repeat;
+    background-color: #444;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    cursor: pointer;
+    margin-bottom: 10px
+}
+#elevator:hover {
+    background-color: rgba(0,0,0,.7)
+}
+#elevator:active {
+    background-color: rgba(0,0,0,.75)
+}
+#elevator_item .qr {
+    display: block;
+    width: 60px;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    cursor: pointer;
+    background: url(http://img.admin5.com/templates/default/a5start/images/icon_code.png) center center no-repeat;
+    background-color: #444;
+    background-color: rgba(0,0,0,.6)
+}
+#elevator_item .qr:hover {
+    background-color: rgba(0,0,0,.7)
+}
+#elevator_item .qr:active {
+    background-color: rgba(0,0,0,.75)
+}
+#elevator_item .qr-popup {
+    width: 170px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+    position: absolute;
+    left: -180px;
+    bottom: 0;
+    border-radius: 2px;
+    display: none;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+#elevator_item .qr-popup .code-link {
+    display: block;
+    margin: 10px;
+    color: #777
+}
+#elevator_item .qr-popup .code {
+    display: block;
+    margin-bottom: 10px
+}
+#elevator_item .qr-popup .arr {
+    width: 6px;
+    height: 11px;
+    background: url(http://img.admin5.com/templates/default/a5start/images/code_arrow.png) 0 0 no-repeat;
+    position: absolute;
+    right: -6px;
+    bottom: 14px
+}
